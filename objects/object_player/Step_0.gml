@@ -142,7 +142,7 @@ if(bbox_right + 1  >= room_width)
 }
 
 
-camera_set_view_pos(view_camera[0], bbox_left - 200 , y - (view_hport[0] / 2));
+camera_set_view_pos(view_camera[0], bbox_left - 200 , y - ((view_hport[0] / 2)+ 100 ));
 
 //image_speed = 0.1;
 
