@@ -115,6 +115,17 @@ if (direction_x > 0) //right
 	{
 		player_dying = true;
 	}
+	
+	if(t1 = 1 || t2 = 1)
+	{
+		object_helptext.help_check = true;
+		object_helptext.help_chkpt = object_helptext.help_chkpt + 1;
+	}
+	else
+	{
+		object_helptext.help_check = false;
+	}
+	
 }
 else //left
 {

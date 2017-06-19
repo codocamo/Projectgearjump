@@ -24,3 +24,5 @@ tile_map = layer_tilemap_get_id(collision_layer);
 gear1 = true;
 gear2 = false;
 gear3 = false;
+
+
