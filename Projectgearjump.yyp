@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "60c3f149-55cf-4673-ba63-a1abc16badbc",
+            "Value": {
+                "id": "81da3e69-d91c-4c2f-8cc9-504e0fc551ef",
+                "resourcePath": "sprites\\spr_playerjump\\spr_playerjump.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "63ab197e-574e-465c-8b4f-6b94739b0d17",
             "Value": {
                 "id": "b2759a1f-20ae-446f-a18c-fd81f13eca7c",
@@ -242,7 +250,7 @@
             "Key": "be7dcce5-e4f7-4162-9dab-dee49b6f0e6c",
             "Value": {
                 "id": "c8185285-727d-4823-8aab-ac331437f4b2",
-                "resourcePath": "sprites\\spr_playerjump\\spr_playerjump.yy",
+                "resourcePath": "sprites\\spr_playerjump_1\\spr_playerjump_1.yy",
                 "resourceType": "GMSprite"
             }
         },
