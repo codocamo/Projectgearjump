@@ -50,7 +50,7 @@
             "Key": "2578985f-fe0e-4264-a31f-441b819706aa",
             "Value": {
                 "id": "1d36a66a-cedd-4d19-a217-5c4954298394",
-                "resourcePath": "sprites\\spr_playerrun_1\\spr_playerrun_1.yy",
+                "resourcePath": "sprites\\spr_playerrun\\spr_playerrun.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -202,7 +202,7 @@
             "Key": "a6e73d40-f97d-4f07-9569-4a09e270a223",
             "Value": {
                 "id": "1b10fb47-0c26-4466-9671-7f531340bc77",
-                "resourcePath": "sprites\\spr_playerrun\\spr_playerrun.yy",
+                "resourcePath": "sprites\\spr_playerrun_alt\\spr_playerrun_alt.yy",
                 "resourceType": "GMSprite"
             }
         },
