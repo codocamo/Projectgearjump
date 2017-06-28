@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="210mm"
@@ -17,7 +18,34 @@
    inkscape:version="0.91 r13725"
    sodipodi:docname="training advice.svg">
   <defs
-     id="defs4" />
+     id="defs4">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4383"
+       x="-0.31068123"
+       width="1.6213625"
+       y="-0.82379729"
+       height="2.6475946">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="10.371211"
+         id="feGaussianBlur4385" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4671"
+       x="-0.095860921"
+       width="1.1917218"
+       y="-0.81750638"
+       height="2.6350128">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="10.318623"
+         id="feGaussianBlur4673" />
+    </filter>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -26,17 +54,18 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="-989.629"
-     inkscape:cy="-625.86713"
+     inkscape:cx="-1426.5283"
+     inkscape:cy="-1713.01"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
      showborder="false"
-     inkscape:window-width="1858"
-     inkscape:window-height="1058"
-     inkscape:window-x="1974"
+     inkscape:window-width="1500"
+     inkscape:window-height="937"
+     inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1">
+     inkscape:window-maximized="1"
+     inkscape:snap-grids="false">
     <inkscape:grid
        type="xygrid"
        id="grid4445"
@@ -318,7 +347,7 @@
        width="1260"
        height="320"
        x="-1680"
-       y="1372.3622"
+       y="1052.3622"
        inkscape:export-xdpi="90.269203"
        inkscape:export-ydpi="90.269203" />
     <flowRoot
@@ -341,5 +370,211 @@
        height="320"
        x="-2100"
        y="1692.3622" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#flowRoot4216"
+       id="use4242"
+       transform="translate(0,640.00001)"
+       width="100%"
+       height="100%" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-1214.2858"
+       y="2475.2197"
+       id="text4244"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4246"
+         x="-1214.2858"
+         y="2475.2197">Neil cant actualy </tspan><tspan
+         sodipodi:role="line"
+         x="-1214.2858"
+         y="2525.2197"
+         id="tspan4262">answer back</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4254"
+       y="2509.5051"
+       x="-2002.8572"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="2509.5051"
+         x="-2002.8572"
+         id="tspan4256"
+         sodipodi:role="line">This, is Neil</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4258"
+       y="2506.6479"
+       x="-1637.1428"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="2506.6479"
+         x="-1637.1428"
+         id="tspan4260"
+         sodipodi:role="line">No, not me...him</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4264"
+       y="2485.2197"
+       x="-838.57147"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         id="tspan4268"
+         y="2485.2197"
+         x="-838.57147"
+         sodipodi:role="line">He was born without</tspan><tspan
+         y="2535.2197"
+         x="-838.57147"
+         sodipodi:role="line"
+         id="tspan4272">vocal cords</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-2077.1428"
+       y="2822.3625"
+       id="text4274"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="-2077.1428"
+         y="2822.3625"
+         id="tspan4282">So ill tell you some </tspan><tspan
+         sodipodi:role="line"
+         x="-2077.1428"
+         y="2872.3625"
+         id="tspan4286">facts about him</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4288"
+       y="2800.9338"
+       x="-1632.8571"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         id="tspan4292"
+         y="2800.9338"
+         x="-1632.8571"
+         sodipodi:role="line" /><tspan
+         y="2850.9338"
+         x="-1632.8571"
+         sodipodi:role="line"
+         id="tspan4296">Blood type: O+</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-1238.5713"
+       y="2778.0769"
+       id="text4298"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="-1238.5713"
+         y="2778.0769"
+         id="tspan4300" /><tspan
+         id="tspan4302"
+         sodipodi:role="line"
+         x="-1238.5713"
+         y="2828.0769">Weight: He has no </tspan><tspan
+         sodipodi:role="line"
+         x="-1238.5713"
+         y="2878.0769"
+         id="tspan4304">concept of weight</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4306"
+       y="3035.7913"
+       x="-1654.5713"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         id="tspan4308"
+         y="3035.7913"
+         x="-1654.5713"
+         sodipodi:role="line" /><tspan
+         id="tspan4312"
+         y="3085.7913"
+         x="-1654.5713"
+         sodipodi:role="line">Life Goal: To reach </tspan><tspan
+         y="3135.7913"
+         x="-1654.5713"
+         sodipodi:role="line"
+         id="tspan4387">the         and to</tspan><tspan
+         y="3185.7913"
+         x="-1654.5713"
+         sodipodi:role="line"
+         id="tspan4675" /><tspan
+         y="3235.7913"
+         x="-1654.5713"
+         sodipodi:role="line"
+         id="tspan4677">Permanently</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter4383)"
+       x="-1570.2855"
+       y="3090.0771"
+       id="text4353"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="-1570.2855"
+         y="3090.0771"
+         id="tspan4355" /><tspan
+         sodipodi:role="line"
+         x="-1570.2855"
+         y="3140.0771"
+         id="tspan4357">SUN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter4671)"
+       x="-1650.2855"
+       y="3147.22"
+       id="text4389"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="-1650.2855"
+         y="3147.22"
+         id="tspan4391" /><tspan
+         id="tspan4395"
+         sodipodi:role="line"
+         x="-1650.2855"
+         y="3197.22">TURN IT OFF</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4679"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion4681"><rect
+           id="rect4683"
+           width="198.57143"
+           height="52.857143"
+           x="-1431.4286"
+           y="3173.7908" /></flowRegion><flowPara
+         id="flowPara4685"></flowPara></flowRoot>    <text
+       sodipodi:linespacing="125%"
+       id="text4691"
+       y="2775.2197"
+       x="-819.99988"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         id="tspan4693"
+         y="2775.2197"
+         x="-819.99988"
+         sodipodi:role="line" /><tspan
+         id="tspan4697"
+         y="2825.2197"
+         x="-819.99988"
+         sodipodi:role="line">Likes: Just living</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-2068.5713"
+       y="3100.9341"
+       id="text4701"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="-2068.5713"
+         y="3100.9341"
+         id="tspan4703" /><tspan
+         sodipodi:role="line"
+         x="-2068.5713"
+         y="3150.9341"
+         id="tspan4705">Dislikes: </tspan></text>
   </g>
 </svg>
