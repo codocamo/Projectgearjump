@@ -22,7 +22,7 @@
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
-            "hierarchyVisible": true,
+            "hierarchyVisible": false,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
             "inheritSubLayers": false,
@@ -34,7 +34,7 @@
             "m_serialiseFrozen": false,
             "name": "layer_collision",
             "userdefined_depth": false,
-            "visible": true,
+            "visible": false,
             "prev_tileheight": 32,
             "prev_tilewidth": 32,
             "tiles": {
