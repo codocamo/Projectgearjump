@@ -11,6 +11,9 @@ draw_sprite(spr_playerrun, -1, x, y);
 sprite_index = spr_playerrun;
 }
 else if(mid_jump == true){
-draw_sprite(spr_playerjump, -1, x, y); 
+if(gear1){draw_sprite(spr_playerjump, 1, x, y); }
+else if(gear2){draw_sprite(spr_playerjump, 0, x, y); } 
+else if(gear3){draw_sprite(spr_playerjump, 2, x, y); }
+//draw_sprite(spr_playerjump, 2, x, y); 
 sprite_index = spr_playerjump;
 }
