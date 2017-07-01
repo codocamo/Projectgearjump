@@ -54,15 +54,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35355339"
-     inkscape:cx="677.42276"
-     inkscape:cy="-1144.1304"
+     inkscape:cx="-68.702345"
+     inkscape:cy="-1044.8978"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
      showborder="false"
-     inkscape:window-width="1858"
+     inkscape:window-width="1920"
      inkscape:window-height="1058"
-     inkscape:window-x="1974"
+     inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:snap-grids="true"
@@ -694,14 +694,14 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#643cff;fill-opacity:0.96862745;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="449.85718"
-       y="1850.6479"
+       y="1854.6479"
        id="text4354"
        sodipodi:linespacing="125%"><tspan
          style="fill:#643cff;fill-opacity:1"
          id="tspan4356"
          sodipodi:role="line"
          x="449.85718"
-         y="1850.6479">You can jump now</tspan></text>
+         y="1854.6479">You can jump now</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text4358"
@@ -716,42 +716,42 @@
     <text
        sodipodi:linespacing="125%"
        id="text4362"
-       y="1876.1038"
-       x="1394.509"
+       y="1856.1038"
+       x="1398.509"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#643cff;fill-opacity:0.96862745;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
-         y="1876.1038"
-         x="1394.509"
+         y="1856.1038"
+         x="1398.509"
          sodipodi:role="line"
          style="fill:#643cff;fill-opacity:1"
-         id="tspan4366">Is that</tspan></text>
+         id="tspan4366">Is that...</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#643cff;fill-opacity:0.96862745;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="433.08765"
-       y="2171.4763"
+       x="437.08765"
+       y="2139.4763"
        id="text4368"
        sodipodi:linespacing="125%"><tspan
          id="tspan4372"
          style="fill:#643cff;fill-opacity:1"
          sodipodi:role="line"
-         x="433.08765"
-         y="2171.4763">So you can answer </tspan><tspan
+         x="437.08765"
+         y="2139.4763">So you can answer </tspan><tspan
          style="fill:#643cff;fill-opacity:1"
          sodipodi:role="line"
-         x="433.08765"
-         y="2221.4763"
+         x="437.08765"
+         y="2189.4763"
          id="tspan4376">back!</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text4378"
-       y="2188.447"
-       x="925.23395"
+       y="2176.447"
+       x="943.23395"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#643cff;fill-opacity:0.96862745;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          id="tspan4382"
-         y="2188.447"
-         x="925.23395"
+         y="2176.447"
+         x="943.23395"
          sodipodi:role="line"
          style="fill:#643cff;fill-opacity:1">How clever</tspan></text>
     <text
@@ -829,5 +829,14 @@
          sodipodi:role="line"
          x="11.408116"
          y="2170.2603">Morse Code for 'hi'?</tspan></text>
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:0.00392157;stroke:none;stroke-width:2.82399988;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4433"
+       width="1680"
+       height="640"
+       x="0"
+       y="1692.3622"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
   </g>
 </svg>
