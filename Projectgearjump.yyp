@@ -327,19 +327,19 @@
             }
         },
         {
-            "Key": "dd1a6bb5-615a-43a3-b4c1-4975f98864f7",
-            "Value": {
-                "id": "3e7678df-6dc5-4ef6-8988-1ddc977c43af",
-                "resourcePath": "rooms\\giflevel\\giflevel.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "dd1e42b4-b008-476b-acae-712d31fa70f2",
             "Value": {
                 "id": "32f81fa2-45dd-4ca5-a328-f381d070574c",
                 "resourcePath": "objects\\object_giftext\\object_giftext.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "de5e412d-d6bc-45f8-a118-74fe207219e7",
+            "Value": {
+                "id": "4b2a7c7b-0625-4b88-9943-acbb2f636119",
+                "resourcePath": "rooms\\giflevel1\\giflevel1.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
