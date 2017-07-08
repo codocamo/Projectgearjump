@@ -47,10 +47,18 @@
             }
         },
         {
+            "Key": "1e9fedec-b472-4ff1-8ac9-f725b54f976e",
+            "Value": {
+                "id": "a0a45e06-9baf-4010-9095-42c4cbe3a792",
+                "resourcePath": "sprites\\spr_playerrun_gear2\\spr_playerrun_gear2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2578985f-fe0e-4264-a31f-441b819706aa",
             "Value": {
                 "id": "1d36a66a-cedd-4d19-a217-5c4954298394",
-                "resourcePath": "sprites\\spr_playerrun\\spr_playerrun.yy",
+                "resourcePath": "sprites\\spr_playerrun_gear1\\spr_playerrun_gear1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -147,6 +155,14 @@
             "Value": {
                 "id": "c381bb72-845e-4175-87b0-78124743e711",
                 "resourcePath": "sprites\\spr_kuplertraingbg\\spr_kuplertraingbg.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7839548a-998d-4d2b-a3fd-db67fa0eb9ca",
+            "Value": {
+                "id": "908c3808-434c-4ad5-8fbf-e712f19bc7d7",
+                "resourcePath": "sprites\\spr_playerrun_gear3\\spr_playerrun_gear3.yy",
                 "resourceType": "GMSprite"
             }
         },

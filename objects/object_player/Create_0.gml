@@ -25,4 +25,5 @@ gear1 = true;
 gear2 = false;
 gear3 = false;
 
-
+//for the camera shake
+shake = 0;

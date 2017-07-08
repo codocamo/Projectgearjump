@@ -14,18 +14,26 @@ if(keyboard_check(ord("I")))
 	gear1 = true;
 	gear2 = false;
 	gear3 = false;
+	
+	
+	shake = 10;
+	
 }
 else if(keyboard_check(ord("O")))
 {
 	gear2 = true;
 	gear1 = false;
 	gear3 = false;
+	
+	shake = 10;
 }
 else if(keyboard_check(ord("P")))
 {
 	gear3 = true;
 	gear2 = false;
 	gear1 = false;
+	
+	shake = 10;
 }
 
 if(gear1 == true)
@@ -156,7 +164,13 @@ if(bbox_right + 1  >= room_width)
 }
 
 
-camera_set_view_pos(view_camera[0], bbox_left - 200 , y - ((view_hport[0] / 2)+ 100 ));
+camera_set_view_pos(view_camera[0], (bbox_left - 200) + random_range(-shake, shake) , y - ((view_hport[0] / 2)+ 100 )+ random_range(-shake, shake));
+shake = shake * 0.12;
+
+//view_set_xport(view_xport[0], 0);
+//view_set_yport(view_yport[0], 0);
+	
+
 
 //image_speed = 0.1;
 
