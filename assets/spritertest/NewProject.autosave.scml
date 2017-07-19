@@ -2,36 +2,28 @@
 <spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
     <folder id="0">
         <file id="0" name="spritertest.png" width="2208" height="1002" pivot_x="0" pivot_y="1"/>
-        <file id="1" name="pop1.png" width="224" height="375" pivot_x="0" pivot_y="1"/>
-        <file id="2" name="pop2.png" width="204" height="354" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="pop1.png" width="198" height="347" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="pop2.png" width="225" height="354" pivot_x="0" pivot_y="1"/>
     </folder>
     <entity id="0" name="entity_000">
         <animation id="0" name="NewAnimation" length="50" interval="100">
             <mainline>
-                <key id="0" time="9">
+                <key id="0">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
-                    <object_ref id="1" timeline="2" key="0" z_index="1"/>
-                    <object_ref id="2" timeline="1" key="0" z_index="2"/>
                 </key>
-                <key id="1" time="39">
+                <key id="1" time="25">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
                     <object_ref id="1" timeline="1" key="0" z_index="1"/>
-                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
                 </key>
             </mainline>
-            <timeline id="0" name="spritertest">
-                <key id="0" time="39" spin="0">
-                    <object folder="0" file="0" x="-1117.420479" y="530.141612"/>
+            <timeline id="0" name="pop2">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="2068.729322" y="571.9652" angle="0"/>
                 </key>
             </timeline>
             <timeline id="1" name="pop1">
-                <key id="0" time="39" spin="0">
-                    <object folder="0" file="1" x="2082.010582" y="572.116402"/>
-                </key>
-            </timeline>
-            <timeline id="2" name="pop2">
-                <key id="0" time="39" spin="0">
-                    <object folder="0" file="2" x="2082.255892" y="572.448292"/>
+                <key id="0" time="25" spin="0">
+                    <object folder="0" file="1" x="2083.091787" y="573.429952"/>
                 </key>
             </timeline>
         </animation>
