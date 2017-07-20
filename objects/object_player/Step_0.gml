@@ -164,7 +164,7 @@ if(bbox_right + 1  >= room_width)
 }
 
 
-camera_set_view_pos(view_camera[0], (bbox_left - 200) + random_range(-shake, shake) , y - ((view_hport[0] / 2)+ 100 )+ random_range(-shake, shake));
+camera_set_view_pos(view_camera[0], (x - 200) + random_range(-shake, shake) , y - ((view_hport[0] / 2)+ 100 )+ random_range(-shake, shake));
 shake = shake * 0.12;
 
 //view_set_xport(view_xport[0], 0);

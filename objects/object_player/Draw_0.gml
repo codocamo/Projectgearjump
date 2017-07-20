@@ -1,16 +1,17 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+//TODO this int check is crap
 if(object_giftext.help_chkpt > 1)
 {
-	draw_sprite(spr_burnup, -1, x, y);
+	draw_sprite(spr_burnup, -1, x, y - 100);
 	//max_player_vertical_speed = 30
 	sprite_index = spr_burnup;
 	image_speed = 0.8
 	
 }
-else if(object_giftext.help_chkpt > 0)
+else 
+if(object_giftext.help_chkpt > 0)
 {
 	draw_sprite(spr_playerspin, -1, x, y);
 	//max_player_vertical_speed = 30
