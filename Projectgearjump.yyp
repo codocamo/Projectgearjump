@@ -223,10 +223,18 @@
             }
         },
         {
+            "Key": "93626664-6047-45b4-a85e-f862acc6de6b",
+            "Value": {
+                "id": "6d7cbd6c-1579-4926-ade8-cbb92f4ad126",
+                "resourcePath": "sprites\\spr_playerburn\\spr_playerburn.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9b2451e5-077e-4658-83a7-1a53342f0f37",
             "Value": {
                 "id": "c5acda9c-9ca3-46b4-8e6f-c7f56285562d",
-                "resourcePath": "sprites\\spr_burnup\\spr_burnup.yy",
+                "resourcePath": "sprites\\spr_playerfullburn\\spr_playerfullburn.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -418,7 +426,7 @@
             "Key": "e9eff7b2-0b62-4997-bc9a-62e95e5f4750",
             "Value": {
                 "id": "cceb5d6c-c135-41cb-a608-2b382582fe4b",
-                "resourcePath": "sprites\\spr_playerspin\\spr_playerspin.yy",
+                "resourcePath": "sprites\\spr_playertumble\\spr_playertumble.yy",
                 "resourceType": "GMSprite"
             }
         },

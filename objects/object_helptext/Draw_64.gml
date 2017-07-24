@@ -19,6 +19,6 @@ var aspect = display_get_width() / display_get_height();
 
 //display_set_gui_size(display_get_width()-1900,display_get_height()-1400)
 display_set_gui_size(base_height * aspect, base_height)
-draw_sprite(spr_helptext, help_chkpt, x, y);
+draw_sprite(spr_helptext, help_chkpt, x, y - 1500);
 
 //sprite

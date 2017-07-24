@@ -22,6 +22,22 @@
    inkscape:export-ydpi="100.987">
   <defs
      id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient6632">
+      <stop
+         style="stop-color:#ffffac;stop-opacity:1;"
+         offset="0"
+         id="stop6634" />
+      <stop
+         id="stop6636"
+         offset="0.19998595"
+         style="stop-color:#ff0000;stop-opacity:0.63921571" />
+      <stop
+         style="stop-color:#ffffac;stop-opacity:0;"
+         offset="1"
+         id="stop6638" />
+    </linearGradient>
     <pattern
        inkscape:isstock="true"
        inkscape:stockid="Polka dots, large white"
@@ -3110,6 +3126,25 @@
          stdDeviation="5.7234232"
          id="feGaussianBlur10530" />
     </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6632"
+       id="linearGradient6630"
+       x1="-730.38049"
+       y1="2415.1531"
+       x2="-751.51263"
+       y2="2357.1531"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6632"
+       id="linearGradient6658"
+       gradientUnits="userSpaceOnUse"
+       x1="-730.38049"
+       y1="2415.1531"
+       x2="-759"
+       y2="2326.8621"
+       gradientTransform="translate(256,0)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -3118,20 +3153,20 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="-267.44652"
-     inkscape:cy="-287.6256"
+     inkscape:zoom="1"
+     inkscape:cx="-598.74442"
+     inkscape:cy="-1265.1994"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="true"
      showborder="false"
-     inkscape:window-width="1858"
-     inkscape:window-height="1058"
-     inkscape:window-x="1974"
+     inkscape:window-width="1500"
+     inkscape:window-height="937"
+     inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      showguides="true"
-     inkscape:snap-grids="true"
+     inkscape:snap-grids="false"
      inkscape:snap-to-guides="true"
      inkscape:snap-page="false">
     <inkscape:grid
@@ -16069,7 +16104,7 @@
        id="path6931"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccssssc"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn9.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn9.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987" />
     <path
@@ -16078,7 +16113,7 @@
        id="path6933"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn9.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn9.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987" />
     <path
@@ -16087,7 +16122,7 @@
        id="path6935"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cscccsccc"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn9.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn9.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987" />
     <path
@@ -16103,7 +16138,7 @@
        id="path6937"
        style="opacity:1;fill:#a500ff;fill-opacity:1;stroke:#7c23ff;stroke-width:0.1146756;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        transform="matrix(-0.94443615,-0.32869494,0.32488181,-0.94575462,0,0)"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn9.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn9.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987" />
     <path
@@ -16119,7 +16154,7 @@
        sodipodi:open="true"
        d="m -116.64512,-2530.259 a 7.1674433,7.2171211 0 0 1 -9.19009,-4.2827 7.1674433,7.2171211 0 0 1 4.23566,-9.262 7.1674433,7.2171211 0 0 1 9.2063,4.2473 7.1674433,7.2171211 0 0 1 -4.20044,9.2782"
        transform="matrix(-0.94443615,-0.32869494,0.32488181,-0.94575462,0,0)"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn9.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn9.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987" />
     <path
@@ -16128,7 +16163,7 @@
        d="m -694.47291,2456.8544 c -1.5375,-3.1836 -3.7426,-6.3945 -6.9941,-8.7374 l -4.0453,2.9413 c 3.1685,2.3771 6.4226,4.4591 7.2328,7.7558 0.8587,-0.6229 2.2857,-0.3138 3.8066,-1.9597 z"
        style="fill:#ffaa00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.1117024px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        sodipodi:nodetypes="ccccc"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn9.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn9.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987" />
     <path
@@ -16139,7 +16174,7 @@
        id="path6943"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccc"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn9.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn9.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987" />
     <path
@@ -16148,7 +16183,7 @@
        d="m -684.84441,2426.0959 -25.559,-8.5562 c -10.5655,-1.9603 4.1028,-15.895 5.9676,-19.2924 l 10.2928,-17.4162 20.7842,7.1632 -3.6218,31.3406 c -0.2797,5.4334 -0.9882,10.2846 -7.8637,6.7609 z"
        style="fill:#41be41;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.09896242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        sodipodi:nodetypes="ccccccc"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn9.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn9.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987" />
     <rect
@@ -16161,7 +16196,7 @@
        ry="0"
        rx="0.069461256"
        transform="matrix(-0.86161453,-0.5075632,0.46728608,-0.88410617,0,0)"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn9.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn9.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987" />
     <path
@@ -16170,7 +16205,7 @@
        id="path6949"
        d="m -681.59481,2425.0515 c -9.6969,-3.1938 -18.1452,-7.5367 -32.4704,-10.3709 -2.0061,-0.3374 -4.378,4.8362 -0.1089,6.3689 9.2846,4.4858 20.0016,8.5177 31.0141,9.4763 2.7367,0.9342 5.361,-4.0561 1.5652,-5.4744 z"
        style="fill:#a500ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.10719225;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn9.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn9.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987" />
     <path
@@ -16179,7 +16214,7 @@
        id="path6951"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn9.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn9.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987" />
     <path
@@ -16188,7 +16223,7 @@
        id="path6953"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccsccssc"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn9.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn9.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987" />
     <path
@@ -16197,7 +16232,7 @@
        id="path6955"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn9.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn9.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987" />
     <rect
@@ -16210,7 +16245,7 @@
        width="0.87944138"
        id="rect6957"
        style="opacity:1;fill:#a500ff;fill-opacity:1;stroke:none;stroke-width:0.83833486;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn9.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn9.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987" />
     <path
@@ -16219,7 +16254,7 @@
        id="path6959"
        d="m -707.76791,2413.4715 c 4.2881,6.9398 7.3154,11.2576 29.7842,12.981 l 2.5179,-1.0481 c -7.1586,-0.3219 -9.6458,-3.0248 -13.7904,-3.9953 -1.9001,-0.4437 -3.3588,-1.0205 -4.8131,-1.955 -2.1575,-1.3877 -4.5089,-2.558 -5.7846,-4.2196 -0.3805,-0.496 -4.7429,-0.2558 -5.2394,-0.5183 -3.4376,-1.8344 -1.2203,-0.9301 -3.08,-2.7035 -0.468,0.3775 -0.7946,-0.6944 0.4052,1.4604 z"
        style="fill:#a500ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.94800001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn9.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn9.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987" />
     <path
@@ -16230,7 +16265,7 @@
        style="fill:#6cff6c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.1117024px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        inkscape:transform-center-x="-18.474424"
        inkscape:transform-center-y="3.095763"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn9.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn9.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987" />
     <path
@@ -16239,7 +16274,7 @@
        id="path6963"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccc"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn9.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn9.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987" />
     <path
@@ -16248,7 +16283,7 @@
        id="path6965"
        d="m -693.76561,2380.7573 20.7998,-22.9506 32.3256,12.0669 -7.372,14.2861 -18.8483,-8.5759 -6.5599,12.3423 z"
        style="fill:#ffd175;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.1117024px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn9.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn9.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987" />
     <path
@@ -16257,7 +16292,7 @@
        id="path6967"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccc"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn9.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn9.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987" />
     <path
@@ -16275,7 +16310,7 @@
        id="path6971"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccc"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn9.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn9.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987" />
     <path
@@ -16284,7 +16319,7 @@
        id="path6973"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccc"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn9.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn9.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987" />
     <path
@@ -17410,7 +17445,7 @@
     <path
        inkscape:export-ydpi="100.987"
        inkscape:export-xdpi="100.987"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn10.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn10.png"
        sodipodi:nodetypes="cccccssssc"
        inkscape:connector-curvature="0"
        id="path5729"
@@ -17419,7 +17454,7 @@
     <path
        inkscape:export-ydpi="100.987"
        inkscape:export-xdpi="100.987"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn10.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn10.png"
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path5731"
@@ -17428,7 +17463,7 @@
     <path
        inkscape:export-ydpi="100.987"
        inkscape:export-xdpi="100.987"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn10.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn10.png"
        sodipodi:nodetypes="cscccsccc"
        inkscape:connector-curvature="0"
        id="path5733"
@@ -17437,7 +17472,7 @@
     <path
        inkscape:export-ydpi="100.987"
        inkscape:export-xdpi="100.987"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn10.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn10.png"
        transform="matrix(-0.94443615,-0.32869494,0.32488181,-0.94575462,0,0)"
        style="opacity:1;fill:#a500ff;fill-opacity:1;stroke:#7c23ff;stroke-width:0.1146756;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path5735"
@@ -17453,7 +17488,7 @@
     <path
        inkscape:export-ydpi="100.987"
        inkscape:export-xdpi="100.987"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn10.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn10.png"
        transform="matrix(-0.94443615,-0.32869494,0.32488181,-0.94575462,0,0)"
        d="m -358.76026,-2446.1123 a 7.1674433,7.2171211 0 0 1 -9.19009,-4.2827 7.1674433,7.2171211 0 0 1 4.23566,-9.262 7.1674433,7.2171211 0 0 1 9.2063,4.2473 7.1674433,7.2171211 0 0 1 -4.20045,9.2782"
        sodipodi:open="true"
@@ -17469,7 +17504,7 @@
     <path
        inkscape:export-ydpi="100.987"
        inkscape:export-xdpi="100.987"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn10.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn10.png"
        sodipodi:nodetypes="ccccc"
        style="fill:#ffaa00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.1117024px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m -438.47291,2456.8544 c -1.5375,-3.1836 -3.7426,-6.3945 -6.9941,-8.7374 l -4.0453,2.9413 c 3.1685,2.3771 6.4226,4.4591 7.2328,7.7558 0.8587,-0.6229 2.2857,-0.3138 3.8066,-1.9597 z"
@@ -17478,7 +17513,7 @@
     <path
        inkscape:export-ydpi="100.987"
        inkscape:export-xdpi="100.987"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn10.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn10.png"
        sodipodi:nodetypes="ccccccc"
        inkscape:connector-curvature="0"
        id="path5741"
@@ -17489,7 +17524,7 @@
     <path
        inkscape:export-ydpi="100.987"
        inkscape:export-xdpi="100.987"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn10.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn10.png"
        sodipodi:nodetypes="ccccccc"
        style="fill:#41be41;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.09896242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m -428.84441,2426.0959 -25.559,-8.5562 c -10.5655,-1.9603 4.1028,-15.895 5.9676,-19.2924 l 10.2928,-17.4162 20.7842,7.1632 -3.6218,31.3406 c -0.2797,5.4334 -0.9882,10.2846 -7.8637,6.7609 z"
@@ -17498,7 +17533,7 @@
     <rect
        inkscape:export-ydpi="100.987"
        inkscape:export-xdpi="100.987"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn10.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn10.png"
        transform="matrix(-0.86161453,-0.5075632,0.46728608,-0.88410617,0,0)"
        rx="0.069461256"
        ry="0"
@@ -17511,7 +17546,7 @@
     <path
        inkscape:export-ydpi="100.987"
        inkscape:export-xdpi="100.987"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn10.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn10.png"
        style="fill:#a500ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.10719225;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m -425.59481,2425.0515 c -9.6969,-3.1938 -18.1452,-7.5367 -32.4704,-10.3709 -2.0061,-0.3374 -4.378,4.8362 -0.1089,6.3689 9.2846,4.4858 20.0016,8.5177 31.0141,9.4763 2.7367,0.9342 5.361,-4.0561 1.5652,-5.4744 z"
        id="path5747"
@@ -17520,7 +17555,7 @@
     <path
        inkscape:export-ydpi="100.987"
        inkscape:export-xdpi="100.987"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn10.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn10.png"
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path5749"
@@ -17529,7 +17564,7 @@
     <path
        inkscape:export-ydpi="100.987"
        inkscape:export-xdpi="100.987"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn10.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn10.png"
        sodipodi:nodetypes="cccsccssc"
        inkscape:connector-curvature="0"
        id="path5751"
@@ -17538,7 +17573,7 @@
     <path
        inkscape:export-ydpi="100.987"
        inkscape:export-xdpi="100.987"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn10.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn10.png"
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path5753"
@@ -17547,7 +17582,7 @@
     <rect
        inkscape:export-ydpi="100.987"
        inkscape:export-xdpi="100.987"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn10.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn10.png"
        style="opacity:1;fill:#a500ff;fill-opacity:1;stroke:none;stroke-width:0.83833486;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect5755"
        width="0.87944138"
@@ -17560,7 +17595,7 @@
     <path
        inkscape:export-ydpi="100.987"
        inkscape:export-xdpi="100.987"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn10.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn10.png"
        style="fill:#a500ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.94800001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m -451.76791,2413.4715 c 4.2881,6.9398 7.3154,11.2576 29.7842,12.981 l 2.5179,-1.0481 c -7.1586,-0.3219 -9.6458,-3.0248 -13.7904,-3.9953 -1.9001,-0.4437 -3.3588,-1.0205 -4.8131,-1.955 -2.1575,-1.3877 -4.5089,-2.558 -5.7846,-4.2196 -0.3805,-0.496 -4.7429,-0.2558 -5.2394,-0.5183 -3.4376,-1.8344 -1.2203,-0.9301 -3.08,-2.7035 -0.468,0.3775 -0.7946,-0.6944 0.4052,1.4604 z"
        id="path5757"
@@ -17569,7 +17604,7 @@
     <path
        inkscape:export-ydpi="100.987"
        inkscape:export-xdpi="100.987"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn10.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn10.png"
        inkscape:transform-center-y="3.095763"
        inkscape:transform-center-x="-18.474424"
        style="fill:#6cff6c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.1117024px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -17580,7 +17615,7 @@
     <path
        inkscape:export-ydpi="100.987"
        inkscape:export-xdpi="100.987"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn10.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn10.png"
        sodipodi:nodetypes="cccccccc"
        inkscape:connector-curvature="0"
        id="path5761"
@@ -17589,7 +17624,7 @@
     <path
        inkscape:export-ydpi="100.987"
        inkscape:export-xdpi="100.987"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn10.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn10.png"
        style="fill:#ffd175;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.1117024px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m -437.76561,2380.7573 20.7998,-22.9506 32.3256,12.0669 -7.372,14.2861 -18.8483,-8.5759 -6.5599,12.3423 z"
        id="path5763"
@@ -17598,7 +17633,7 @@
     <path
        inkscape:export-ydpi="100.987"
        inkscape:export-xdpi="100.987"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn10.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn10.png"
        sodipodi:nodetypes="cccccc"
        inkscape:connector-curvature="0"
        id="path5765"
@@ -17607,7 +17642,7 @@
     <path
        inkscape:export-ydpi="100.987"
        inkscape:export-xdpi="100.987"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn10.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn10.png"
        sodipodi:nodetypes="ccccccc"
        inkscape:connector-curvature="0"
        id="path5767"
@@ -17616,7 +17651,7 @@
     <path
        inkscape:export-ydpi="100.987"
        inkscape:export-xdpi="100.987"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn10.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn10.png"
        sodipodi:nodetypes="cccccccc"
        inkscape:connector-curvature="0"
        id="path5769"
@@ -17625,7 +17660,7 @@
     <path
        inkscape:export-ydpi="100.987"
        inkscape:export-xdpi="100.987"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn10.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn10.png"
        sodipodi:nodetypes="cccccc"
        inkscape:connector-curvature="0"
        id="path5771"
@@ -22793,7 +22828,7 @@
        id="path6603"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccc"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn9.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn9.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987" />
     <path
@@ -22802,7 +22837,7 @@
        id="path6617"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn9.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn9.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987" />
     <path
@@ -22811,7 +22846,7 @@
        id="path6687"
        d="m -463.69686,2450.9868 c 1.00214,8.9511 32.63135,20.6647 35.60788,-13.132 3.5704,-1.0829 6.4952,-2.518 2.77791,-7.5761 1.8388,0.5673 2.70683,-0.4833 2.52539,-3.283 l 5.80837,-39.6485 6.06092,-11.3642 19.1929,8.3337 7.07107,-13.6371"
        style="fill:none;fill-rule:evenodd;stroke:#fffffe;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter6613)"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn10.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn10.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987" />
     <path
@@ -22820,7 +22855,7 @@
        id="path6689"
        d="m -423.29076,2428.0058 3.16307,1.6325 19.06029,-20.3203"
        style="fill:none;fill-rule:evenodd;stroke:#fffffe;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter6679)"
-       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\fulburn\fulburn10.png"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn10.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987" />
     <path
@@ -23459,6 +23494,24 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
        inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\character tumble\burn\burn2.png"
+       inkscape:export-xdpi="100.987"
+       inkscape:export-ydpi="100.987" />
+    <path
+       style="fill:url(#linearGradient6630);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -726.88128,2419.8345 -11.61872,-68.2223 -13,2.25 16,57.25 z"
+       id="path6622"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn9.png"
+       inkscape:export-xdpi="100.987"
+       inkscape:export-ydpi="100.987" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path6656"
+       d="M -470.88128,2419.8345 -488,2318.1122 l -13,2.25 21.5,90.75 z"
+       style="fill:url(#linearGradient6658);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\characterframes\fulburn\fulburn10.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987" />
   </g>
