@@ -38,35 +38,35 @@
             </mainline>
             <timeline id="0" name="letterU">
                 <key id="0" spin="0">
-                    <object folder="0" file="11" x="132" y="-88" a="0"/>
+                    <object folder="0" file="11" x="132" y="-88" angle="0" a="0"/>
                 </key>
                 <key id="1" time="100" spin="0">
-                    <object folder="0" file="11" x="132" y="-61"/>
+                    <object folder="0" file="11" x="132" y="-61" angle="0"/>
                 </key>
                 <key id="2" time="200" spin="0">
-                    <object folder="0" file="11" x="132" y="-61"/>
+                    <object folder="0" file="11" x="132" y="-61" angle="0"/>
                 </key>
                 <key id="3" time="300" spin="0">
-                    <object folder="0" file="11" x="132" y="-61"/>
+                    <object folder="0" file="11" x="132" y="-61" angle="0"/>
                 </key>
             </timeline>
             <timeline id="1" name="letterI">
                 <key id="0" time="100" spin="0">
-                    <object folder="0" file="12" x="198" y="-93" a="0"/>
+                    <object folder="0" file="12" x="198" y="-93" angle="0" a="0"/>
                 </key>
                 <key id="1" time="200" spin="0">
-                    <object folder="0" file="12" x="198" y="-60"/>
+                    <object folder="0" file="12" x="198" y="-60" angle="0"/>
                 </key>
                 <key id="2" time="300" spin="0">
-                    <object folder="0" file="12" x="198" y="-60"/>
+                    <object folder="0" file="12" x="198" y="-60" angle="0"/>
                 </key>
             </timeline>
             <timeline id="2" name="letterT_001">
                 <key id="0" time="200" spin="0">
-                    <object folder="0" file="7" x="215" y="-93" a="0"/>
+                    <object folder="0" file="7" x="215" y="-93" angle="0" a="0"/>
                 </key>
                 <key id="1" time="300" spin="0">
-                    <object folder="0" file="7" x="215" y="-60"/>
+                    <object folder="0" file="7" x="215" y="-60" angle="0"/>
                 </key>
             </timeline>
         </animation>
@@ -116,35 +116,35 @@
             </timeline>
             <timeline id="1" name="letterA_000">
                 <key id="0" time="100" spin="0">
-                    <object folder="0" file="8" x="167" y="-89" a="0"/>
+                    <object folder="0" file="8" x="167" y="-89" angle="0" a="0"/>
                 </key>
                 <key id="1" time="200" spin="0">
-                    <object folder="0" file="8" x="166" y="-61"/>
+                    <object folder="0" file="8" x="166" y="-61" angle="0"/>
                 </key>
                 <key id="2" time="300" spin="0">
-                    <object folder="0" file="8" x="166" y="-61"/>
+                    <object folder="0" file="8" x="166" y="-61" angle="0"/>
                 </key>
                 <key id="3" time="400" spin="0">
-                    <object folder="0" file="8" x="166" y="-61"/>
+                    <object folder="0" file="8" x="166" y="-61" angle="0"/>
                 </key>
             </timeline>
             <timeline id="2" name="letterR">
                 <key id="0" time="200" spin="0">
-                    <object folder="0" file="9" x="235" y="-84" a="0"/>
+                    <object folder="0" file="9" x="235" y="-84" angle="0" a="0"/>
                 </key>
                 <key id="1" time="300" spin="0">
-                    <object folder="0" file="9" x="236" y="-60"/>
+                    <object folder="0" file="9" x="236" y="-60" angle="0"/>
                 </key>
                 <key id="2" time="400" spin="0">
-                    <object folder="0" file="9" x="236" y="-60"/>
+                    <object folder="0" file="9" x="236" y="-60" angle="0"/>
                 </key>
             </timeline>
             <timeline id="3" name="letterT_000">
                 <key id="0" time="300" spin="0">
-                    <object folder="0" file="7" x="292" y="-89" a="0"/>
+                    <object folder="0" file="7" x="292" y="-89" angle="0" a="0"/>
                 </key>
                 <key id="1" time="400" spin="0">
-                    <object folder="0" file="7" x="290" y="-60"/>
+                    <object folder="0" file="7" x="290" y="-60" angle="0"/>
                 </key>
             </timeline>
         </animation>
@@ -477,10 +477,10 @@
             </timeline>
             <timeline id="4" name="start button_001" object_type="entity">
                 <key id="0" spin="0">
-                    <object entity="0" animation="1" t="0"/>
+                    <object entity="0" animation="1" t="0" angle="0"/>
                 </key>
                 <key id="1" time="993" spin="0">
-                    <object entity="0" animation="1" t="1"/>
+                    <object entity="0" animation="1" t="1" angle="0"/>
                 </key>
             </timeline>
         </animation>
@@ -501,7 +501,7 @@
                 <key id="2" time="1000">
                     <object_ref id="0" timeline="1" key="0" z_index="0"/>
                     <object_ref id="1" timeline="0" key="1" z_index="1"/>
-                    <object_ref id="2" timeline="5" key="2" z_index="2"/>
+                    <object_ref id="2" timeline="5" key="0" z_index="2"/>
                 </key>
             </mainline>
             <timeline id="0" name="start button_000" object_type="entity">
@@ -532,18 +532,12 @@
             </timeline>
             <timeline id="4" name="start button_002" object_type="entity">
                 <key id="0" spin="0">
-                    <object entity="0" animation="1" t="1"/>
+                    <object entity="0" animation="1" t="1" angle="0"/>
                 </key>
             </timeline>
             <timeline id="5" name="start button_003" object_type="entity">
-                <key id="0" spin="0">
-                    <object entity="0" animation="1" t="1"/>
-                </key>
-                <key id="1" spin="0">
-                    <object entity="0" animation="1" t="0" x="903.896104" y="-136.363636"/>
-                </key>
-                <key id="2" time="1000" spin="0">
-                    <object entity="0" animation="1" t="1"/>
+                <key id="0" time="1000" spin="0">
+                    <object entity="0" animation="1" t="1" angle="0"/>
                 </key>
             </timeline>
         </animation>
@@ -606,14 +600,14 @@
             </timeline>
             <timeline id="4" name="start button_001" object_type="entity">
                 <key id="0" spin="0">
-                    <object entity="0" animation="0" t="0"/>
+                    <object entity="0" animation="0" t="0" angle="0"/>
                 </key>
                 <key id="1" time="994" spin="0">
-                    <object entity="0" animation="0" t="1"/>
+                    <object entity="0" animation="0" t="1" angle="0"/>
                 </key>
             </timeline>
         </animation>
-        <animation id="1" name="full quit active" length="1000" interval="100">
+        <animation id="1" name="full quit crawl_000" length="1000" interval="100">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="1" key="0" z_index="0"/>
@@ -621,7 +615,69 @@
                     <object_ref id="2" timeline="2" key="0" z_index="2"/>
                     <object_ref id="3" timeline="3" key="0" z_index="3"/>
                     <object_ref id="4" timeline="4" key="0" z_index="4"/>
-                    <object_ref id="5" timeline="6" key="0" z_index="5"/>
+                </key>
+                <key id="1" time="994">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="1" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="1" z_index="4"/>
+                </key>
+                <key id="2" time="997">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                </key>
+                <key id="3" time="1000">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="1" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="start button_000" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="0" animation="2" t="0" x="1" y="-2" angle="0"/>
+                </key>
+                <key id="1" time="1000" spin="0">
+                    <object entity="0" animation="2" t="1" x="1" y="-2" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="btn_templateOver">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="start button" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="0" animation="3" t="0" angle="0"/>
+                </key>
+                <key id="1" time="997" spin="0">
+                    <object entity="0" animation="3" t="1" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="letterQ">
+                <key id="0" spin="0">
+                    <object folder="0" file="6" x="70" y="-62" angle="0"/>
+                </key>
+                <key id="1" time="994" spin="0">
+                    <object folder="0" file="6" x="70" y="-62" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="start button_001" object_type="entity">
+                <key id="0" spin="0">
+                    <object entity="0" animation="0" t="1" angle="0"/>
+                </key>
+                <key id="1" time="994" spin="0">
+                    <object entity="0" animation="0" t="1" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="full quit active" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="0" z_index="3"/>
                 </key>
                 <key id="1" time="997">
                     <object_ref id="0" timeline="1" key="0" z_index="0"/>
@@ -631,7 +687,6 @@
                 <key id="2" time="1000">
                     <object_ref id="0" timeline="1" key="0" z_index="0"/>
                     <object_ref id="1" timeline="0" key="1" z_index="1"/>
-                    <object_ref id="2" timeline="5" key="2" z_index="2"/>
                 </key>
             </mainline>
             <timeline id="0" name="start button_000" object_type="entity">
@@ -662,23 +717,12 @@
             </timeline>
             <timeline id="4" name="start button_001" object_type="entity">
                 <key id="0" spin="0">
-                    <object entity="0" animation="0" t="0"/>
+                    <object entity="0" animation="0" t="0" angle="0"/>
                 </key>
             </timeline>
-            <timeline id="5" name="start button_002" object_type="entity">
+            <timeline id="5" object_type="entity">
                 <key id="0" spin="0">
-                    <object entity="0" animation="0" t="1"/>
-                </key>
-                <key id="1" spin="0">
-                    <object entity="0" animation="0" t="0" x="896.103896" y="-103.896104"/>
-                </key>
-                <key id="2" time="1000" spin="0">
-                    <object entity="0" animation="0" t="1"/>
-                </key>
-            </timeline>
-            <timeline id="6" name="start button_003" object_type="entity">
-                <key id="0" spin="0">
-                    <object entity="0" animation="0" t="1"/>
+                    <object entity="0" animation="0" t="1" angle="0"/>
                 </key>
             </timeline>
         </animation>
