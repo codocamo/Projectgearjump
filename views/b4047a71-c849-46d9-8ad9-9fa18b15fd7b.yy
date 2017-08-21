@@ -9,7 +9,7 @@
         "ac71306c-49e0-4fe9-8402-28e05863f8d8"
     ],
     "filterType": "GMSprite",
-    "folderName": "MenuButtons",
+    "folderName": "Menu",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
