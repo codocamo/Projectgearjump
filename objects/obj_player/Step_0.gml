@@ -48,7 +48,8 @@ if (gear2 == true)
 }
 if (gear3 == true)
 {
-	gear3jump();	
+	gear3jump();
+	
 }
 
 
@@ -65,10 +66,10 @@ var direction_y = player_vertical_speed;
 //{
 //	player_vertical_speed = player_vertical_speed + world_gravity;
 //}
-if(player_horizontal_speed > max_player_horizontal_speed)
-{
-	player_horizontal_speed = player_horizontal_speed;
-}
+//if(player_horizontal_speed > max_player_horizontal_speed)
+//{
+//	player_horizontal_speed = player_horizontal_speed;
+//}
 
 y = directionxy[1];
 //y = y + direction_y;
@@ -81,8 +82,8 @@ if (directionxy[1] > 0) //downwards
 	if(t1 = 3 || t2 = 3 || t3 = 3)
 	{
 		y = ((bbox_bottom & ~31) - 1) - player_bbox_bottom; //poop up
-		player_vertical_speed = 0;
-		player_horizontal_speed = 8;
+		velocity = [velocity[0], 0]
+		
 	}
 	
 	if(t1 = 2 || t2 = 2)
@@ -112,7 +113,7 @@ else //upwards
 	{
 		y = ((bbox_top + 32) & ~31) - player_bbox_top; //pop down
 		player_vertical_speed = 0;
-		world_gravity = 1.50;
+		//world_gravity = 1.50;
 	}
 	
 	if(t1 = 2 || t2 = 2)
@@ -132,7 +133,7 @@ if (direction_x > 0) //right
 	if(t1 = 3 || t2 = 3)
 	{
 		x = ((bbox_right & ~31) - 1) - player_bbox_right;
-		player_horizontal_speed = 8;
+		velocity = [0, velocity[1]]
 	}
 	
 	if(t1 = 2 || t2 = 2)

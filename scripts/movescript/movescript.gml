@@ -1,26 +1,24 @@
 //@description acceleration[] max velocity[]
-//@param acceleration
-//@param max_velocity
-//TODO take params as globl vars write velocity back out 
+//location - where the object is
+//velocity - the direction and speed the object is going
+//acceleration - the rate the velocity gets aplied to location
+//other forces  
 
 var location = [x, y];
-//var velocity = [0,0]; if(argument_count >= 1){velocity = argument[0]}
-//var acceleration = [0,0]; if(argument_count >= 2){acceleration = argument[1]};
-//var max_velocity = [0,0]; if(argument_count >= 3){max_velocity = argument[2]};
 
-show_debug_message("YOYOYOYOY " + string(velocity[0]) )
+acceleration[0] = world_gravity[0] + world_wind[0] + player_runspeed[0] //+ player_jumpspeed[0]
+acceleration[1] = world_gravity[1] + world_wind[1] + player_runspeed[1]	//+ player_jumpspeed[1]
 
-if((max_velocity[0] >= velocity[0]))
-{
-	velocity[0] = velocity[0] +  acceleration[0]
-	
-}
 
-if((max_velocity[1] >= velocity[1]))
-{
-	
-	velocity[1] = velocity[1] +  acceleration[1]
-	
-}
+if(velocity[0] >= max_velocity[0]){velocity[0] = max_velocity[0]}
+else if (velocity[0] <= min_velocity[0]){velocity[0] = min_velocity[0]}
+else {velocity[0] = velocity[0] +  acceleration[0]}
 
+if(velocity[1] >= max_velocity[1]){velocity[1] = max_velocity[1]}
+else if (velocity[1] <= min_velocity[1]){velocity[1] = min_velocity[1]}
+else {velocity[1] = velocity[1] +  acceleration[1]}
+
+
+show_debug_message(string(min_velocity[1])+ " " + string(velocity[1]) + " " + string(world_gravity[1]) + " " + string(acceleration[1]) )	
 	return [location[0] +  velocity[0],location[1] +  velocity[1]]
+	
