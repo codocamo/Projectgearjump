@@ -11,5 +11,8 @@ dialog_part[1] = dialog_continue
 dialog_part[2] = dialog_avatar
 dialog_part[3] = dialog_left_facing
 
-dialog[dialog_log] = dialog_part;
-dialog_log =+ 1;
+dialog[dialog_line] = dialog_part;
+dialog_line += 1;
+
+
+return dialog_line - 1;

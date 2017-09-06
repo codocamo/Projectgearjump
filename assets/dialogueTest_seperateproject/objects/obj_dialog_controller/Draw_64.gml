@@ -33,7 +33,8 @@ if(!fetch)
 		}
 		else
 		{
-			draw_sprite(spr_portrait_box, 0, x_pos , y_pos)
+			draw_sprite(spr_portrait_box, 0, x_pos + 186 , y_pos)
+			draw_sprite_ext(dialog_avatar, 0, x_pos + 248, y_pos + 4, -1, 1, 0, c_white, 1)
 		}
 	}
 	

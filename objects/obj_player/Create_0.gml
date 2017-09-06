@@ -18,8 +18,6 @@ var collision_layer = layer_get_id("layer_collision");
 tile_map = layer_tilemap_get_id(collision_layer);
 
 
-
-
 //gears
 gear1 = true;
 gear2 = false;
@@ -41,3 +39,26 @@ player_runspeed = [1, 0]
 player_jumpspeed = [0, 0]
 world_gravity = [0,0.75];
 world_wind = [0.0, 0.0];
+
+
+
+
+//dialog
+dialog = [];
+dialog_line = 0;
+
+add_dialog("So", true);
+add_dialog("You got issued a jump suit", true); 
+add_dialog("How lucky! lets make sure you know how to use it", true);
+add_dialog("Why, Why must you be here to!", true);
+add_dialog("must you butt in after everything i say", true);
+add_dialog("cant you do that with less noise", true);
+add_dialog("Thank you!", true);
+add_dialog("Now lets make sure everyone knows how to use the suit", true);
+add_dialog("Excellent! Lets begin", true);
+add_dialog("...okay", true);
+
+show_message(dialog)
+
+var instinct_text =[["blah", "Dont need to", "Sorry, im moving you along mostely", "........"],
+					["lol i said no", "fine"]]

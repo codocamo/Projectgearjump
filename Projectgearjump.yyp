@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "054a9ac3-9cae-4337-8596-bd21316fae8e",
+            "Value": {
+                "id": "9da865c9-826d-499b-b68c-b106bb949e54",
+                "resourcePath": "scripts\\start_dialog\\start_dialog.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "06b12e34-adb9-40c2-83c0-c3d786fcfe82",
             "Value": {
                 "id": "9a1610a1-22c5-4c18-9d7d-ab9d870f2952",
@@ -60,6 +68,14 @@
                 "id": "c68e2c70-ad15-4754-a26f-cf3e013355b8",
                 "resourcePath": "views\\087f3345-924d-47f3-b75b-878b796278ba.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "0a1ec8bc-e6fe-4ac0-ac4d-5a3d2b053305",
+            "Value": {
+                "id": "779da63b-d61f-441b-9c2c-f17ab59f27ea",
+                "resourcePath": "objects\\obj_dialogcontroller\\obj_dialogcontroller.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -303,6 +319,14 @@
             }
         },
         {
+            "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
+            "Value": {
+                "id": "c6f3c4be-dca4-4fee-ba86-06b0092de964",
+                "resourcePath": "options\\html5\\options_html5.yy",
+                "resourceType": "GMHtml5Options"
+            }
+        },
+        {
             "Key": "7839548a-998d-4d2b-a3fd-db67fa0eb9ca",
             "Value": {
                 "id": "908c3808-434c-4ad5-8fbf-e712f19bc7d7",
@@ -364,6 +388,14 @@
                 "id": "6d7cbd6c-1579-4926-ade8-cbb92f4ad126",
                 "resourcePath": "sprites\\spr_playerburn\\spr_playerburn.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "97ef6f45-9cf8-448f-acc5-45354d3c1c92",
+            "Value": {
+                "id": "388122c3-680d-470a-a833-b32cd0120a6d",
+                "resourcePath": "scripts\\add_dialog\\add_dialog.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -623,6 +655,14 @@
             }
         },
         {
+            "Key": "e7e1e4eb-a19b-484f-8cc8-7b276e1b4d62",
+            "Value": {
+                "id": "78299115-0dee-4eab-bc1a-2f013f46c447",
+                "resourcePath": "scripts\\get_dialog\\get_dialog.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e8b98804-de05-414b-a174-8c4b2bd56c69",
             "Value": {
                 "id": "bbf4f9cc-e386-4485-b962-145b2f7804e8",
@@ -707,7 +747,10 @@
         "63ab197e-574e-465c-8b4f-6b94739b0d17",
         "9cb9a794-1846-43a4-8bfd-aedd1ab44d57",
         "646a4cfd-9348-45b9-9fe2-49fb86fb598f",
-        "91a64c9c-9b8e-4e39-bf4b-ee01f904018a"
+        "91a64c9c-9b8e-4e39-bf4b-ee01f904018a",
+        "97ef6f45-9cf8-448f-acc5-45354d3c1c92",
+        "054a9ac3-9cae-4337-8596-bd21316fae8e",
+        "e7e1e4eb-a19b-484f-8cc8-7b276e1b4d62"
     ],
     "tutorial": ""
 }
