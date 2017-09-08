@@ -44,21 +44,26 @@ world_wind = [0.0, 0.0];
 
 
 //dialog
-dialog = [];
-dialog_line = 0;
+global.branch = 1; 
+global.dialog = [];
+global.dialog_line = 0;
 
-add_dialog("So", true);
-add_dialog("You got issued a jump suit", true); 
-add_dialog("How lucky! lets make sure you know how to use it", true);
-add_dialog("Why, Why must you be here to!", true);
-add_dialog("must you butt in after everything i say", true);
-add_dialog("cant you do that with less noise", true);
+//nononono =
+add_dialog("So","blah","",false,true);
+add_dialog("You got issued a jump suit","blah","",false, true); 
+add_dialog("How lucky! lets make sure you know how to use it","blah","",false, true);
+//add_dialog("Why, Why must you be here to!", true);
+//yo_lol =
+add_dialog("im trying to talk to Neil here, must you butt in after everything i say", "just trying to advance the conversation","",false,true);
+add_dialog("cant you do that with less noise", ".....","",false,true);
 add_dialog("Thank you!", true);
 add_dialog("Now lets make sure everyone knows how to use the suit", true);
 add_dialog("Excellent! Lets begin", true);
 add_dialog("...okay", true);
 
-show_message(dialog)
+show_message(global.dialog)
+
+start_dialog(self, 2)
 
 var instinct_text =[["blah", "Dont need to", "Sorry, im moving you along mostely", "........"],
 					["lol i said no", "fine"]]

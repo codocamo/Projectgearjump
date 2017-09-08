@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "81c94366-3cf2-4831-88fe-c1489e31e28a",
+            "Value": {
+                "id": "c89ee69a-6865-46f9-a674-61b6ff884f5f",
+                "resourcePath": "scripts\\dialog_adder\\dialog_adder.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "85fcac1c-201b-4a97-bce0-f0fab465e761",
             "Value": {
                 "id": "9105d11b-4e18-4459-9415-95fd0aaa9e75",
@@ -750,7 +758,8 @@
         "91a64c9c-9b8e-4e39-bf4b-ee01f904018a",
         "97ef6f45-9cf8-448f-acc5-45354d3c1c92",
         "054a9ac3-9cae-4337-8596-bd21316fae8e",
-        "e7e1e4eb-a19b-484f-8cc8-7b276e1b4d62"
+        "e7e1e4eb-a19b-484f-8cc8-7b276e1b4d62",
+        "81c94366-3cf2-4831-88fe-c1489e31e28a"
     ],
     "tutorial": ""
 }
