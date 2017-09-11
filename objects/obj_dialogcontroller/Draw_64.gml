@@ -14,7 +14,7 @@ if(!fetch)
 	
 	if(!instance_exists(obj_btnopt1))
 	{
-		instance_create_depth(0,0,0, obj_btnopt1);
+		instance_create_depth(200, 475,-1, obj_btnopt1);
 		
 	}
 	

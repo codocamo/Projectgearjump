@@ -8,9 +8,13 @@ switch(btn_pos)
 	case 2 : draw_sprite(spr_instinctbtn, 2, 600, 475); break;
 	//default : draw_sprite(spr_instinctbtn, 0, 600, 475); 
 }
-show_message(sprite_get_bbox_right(sprite_index));
+//object_set_mask(self, spr_instinctbtn)
+//show_message(object_get_mask(self));
 
 //sprite_get_bbox_left(sprite_index)
+
+object_get_mask(self)
+
 
 //sprite_collision_mask()
 //if(btn_pos = 0) draw_sprite(spr_instinctbtn, 0, x, y);
