@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "3828e190-6166-4f37-bde4-0c9ef153428a",
+            "Value": {
+                "id": "b0ec9856-6fa2-4c9b-90d9-e0bf4e2fab33",
+                "resourcePath": "objects\\obj_btnopt1\\obj_btnopt1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "46a39204-b242-436f-815c-55db693a1445",
             "Value": {
                 "id": "b3b8350c-3d60-4594-8494-0baf98f0502b",
@@ -515,6 +523,14 @@
             "Value": {
                 "id": "17713e94-67fc-43ee-bcd4-19176cfcbd60",
                 "resourcePath": "sprites\\spr_playerjump\\spr_playerjump.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bda8a0c1-7603-4ddd-bda7-c29df6cb97ec",
+            "Value": {
+                "id": "6d846323-5710-41a1-9861-a90dd9ce873f",
+                "resourcePath": "sprites\\spr_instinctbtn\\spr_instinctbtn.yy",
                 "resourceType": "GMSprite"
             }
         },
