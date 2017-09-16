@@ -3,7 +3,10 @@
 if(fetch)
 {
 	//grabs dialog
-	dialog_output = "";
+	dialog_output_1 = "";
+	dialog_output_2 = "";
+	dialog_output_3 = "";
+	dialog_branch = false;
 	var dialog_data = dialog_lines[dialog_line];
 	
 	dialog_text_1 = dialog_data[0];
@@ -16,5 +19,8 @@ if(fetch)
 }
 else
 {
-	dialog_output = dialog_text_1
+	dialog_output_1 = dialog_text_1;
+	dialog_output_2 = dialog_text_2;
+	dialog_output_3 = dialog_text_3;
+	dialog_branch = dialog_option;
 }
