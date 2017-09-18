@@ -19,6 +19,18 @@ if(fetch)
 }
 else
 {
+	if(argument[0])
+	{
+		if(dialog_continue)
+		{
+			dialog_line += 1
+			fetch = true;
+		}
+		else{instance_destroy()}
+		advance_dialog = false
+	}
+	
+	
 	dialog_output_1 = dialog_text_1;
 	dialog_output_2 = dialog_text_2;
 	dialog_output_3 = dialog_text_3;

@@ -47,8 +47,8 @@ if(argument[0])
 		default : draw_sprite(spr_instinctbtn, 0, 600, 475); 
 	}
 	
-	draw_text_ext_color(btn2pos[0], btn2pos[1], argument[1], 25, 200, c_purple, c_purple, c_purple, c_purple, 1)
-	//draw_text_ext_color(500, 100, dialog_output_1, 25, 200, c_purple, c_purple, c_purple, c_purple, 1)
+	draw_text_ext_color(btn1pos[0], btn1pos[1] - 20, argument[1], 25, 200, c_white, c_white, c_white, c_white, 1)
+	draw_text_ext_color(btn2pos[0], btn2pos[1] - 20, argument[2], 25, 200, c_white, c_white, c_white, c_white, 1)
 	
 	
 }
@@ -62,7 +62,7 @@ else
 
 	if((mousex > btn1coll[0] && mousex < (btn1coll[0] + btnsize[0])) && (mousey > btn1coll[1] && mousey < (btn1coll[1] + btnsize[1])))
 	{
-		if(mouse_check_button_pressed(mb_left)){btn1state = 2}
+		if(mouse_check_button_pressed(mb_left)){btn1state = 2; advance_dialog = true;}
 		else{btn1state = 1}
 	}
 	else{btn1state = 0};
@@ -75,7 +75,8 @@ else
 		default : draw_sprite(spr_instinctbtn, 0, 600, 475); 
 	}
 	
-	draw_text_ext_color(btn1pos[0], btn1pos[1], argument[1], 25, 200, c_purple, c_purple, c_purple, c_purple, 1)
+	draw_text_ext_color(btn1pos[0], btn1pos[1] - 20, argument[1], 25, 200, c_white, c_white, c_white, c_white, 1)
+	
 }
 
 //show_message("view mouse x: " + string(window_view_mouse_get_x(0)) + "mouse x: " + string(mouse_x))

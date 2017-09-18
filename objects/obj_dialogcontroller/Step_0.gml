@@ -5,4 +5,4 @@
 //var next = false;
 //if(keyboard_check_pressed(vk_anykey)) next = true;
 
-get_dialog();
+get_dialog(advance_dialog);
