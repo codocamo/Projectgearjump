@@ -19,14 +19,31 @@ if(argument[0])
 
 	if((mousex > btn1coll[0] && mousex < (btn1coll[0] + btnsize[0])) && (mousey > btn1coll[1] && mousey < (btn1coll[1] + btnsize[1])))
 	{
-		if(mouse_check_button_pressed(mb_left)){btn1state = 2}
+		if(mouse_check_button_pressed(mb_left))
+		{
+			btn1state = 2; 
+			global.branch += 1; 
+			advance_dialog = true;
+			dialog_adder(room_get_name(room) + "_branch_" + string(global.branch));
+			instance_destroy()
+			start_dialog(0);
+			
+		}
 		else{btn1state = 1}
 	}
 	else{btn1state = 0};
 	
 	if((mousex > btn2coll[0] && mousex < (btn2coll[0] + btnsize[0])) && (mousey > btn2coll[1] && mousey < (btn2coll[1] + btnsize[1])))
 	{
-		if(mouse_check_button_pressed(mb_left)){btn2state = 2}
+		if(mouse_check_button_pressed(mb_left))
+		{
+			btn2state = 2; 
+			global.branch *= 10; 
+			advance_dialog = true;
+			dialog_adder(room_get_name(room) + "_branch_" + string(global.branch));
+			instance_destroy()
+			start_dialog(0);
+		}
 		else{btn2state = 1}
 	}
 	else{btn2state = 0};
