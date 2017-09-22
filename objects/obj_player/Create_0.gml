@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+y = 368
+x = 13
+
 player_horizontal_speed = 8;
 max_player_horizontal_speed = 20;
 player_vertical_speed = 0;

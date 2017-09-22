@@ -178,6 +178,7 @@ else //left
 if(bbox_right + 1  >= room_width)
 {
 	x = 20
+	//show_message(y)
 	if(global.branch == -2)
 	{
 		room_goto(rm_tutorial)

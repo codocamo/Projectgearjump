@@ -146,7 +146,7 @@
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
-            "hierarchyVisible": true,
+            "hierarchyVisible": false,
             "hspeed": 0,
             "htiled": false,
             "inheritLayerDepth": false,
@@ -164,7 +164,7 @@
             "stretch": false,
             "userdefined_animFPS": false,
             "userdefined_depth": false,
-            "visible": true,
+            "visible": false,
             "vspeed": 0,
             "vtiled": false,
             "x": 0,
@@ -202,7 +202,7 @@
             "visible": true,
             "vspeed": 0,
             "vtiled": true,
-            "x": 0,
+            "x": 1300,
             "y": 416
         },
         {
