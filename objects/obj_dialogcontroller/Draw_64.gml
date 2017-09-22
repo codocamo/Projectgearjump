@@ -12,14 +12,16 @@ if(!fetch)
 	draw_set_halign(fa_center);
 	draw_text_ext_color(500, 100, dialog_output_1, 25, 200, c_purple, c_purple, c_purple, c_purple, 1)
 	
-	//if(!instance_exists(obj_btnopt1))
-	//{
-	//	instance_create_depth(200, 475,-1, obj_btnopt1);
-		
-	//}
 	
-	optn_btn_handler(dialog_branch, dialog_output_2, dialog_output_3);
-	//draw_sprite(spr_instinctbtn, 0, 200, 475)
-	//draw_sprite(spr_instinctbtn, 0, 600, 475)
+	if (alarmon = false)
+	{
+		alarmon = true
+		alarm[0] = 8
+	}
+	
+	if (drawbuttons)
+	{
+		optn_btn_handler(dialog_branch, dialog_output_2, dialog_output_3, dialog_done);
+	}
 
 }

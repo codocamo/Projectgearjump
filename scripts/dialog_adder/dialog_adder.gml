@@ -19,7 +19,7 @@ else if(argument[0] == "rm_pre_tutorial_branch_2")
 	add_dialog("Must you always butt in whe i speak","im just moving the convo along","",false, true);
 	add_dialog("could you do it quietly!?","....","",false, true);
 	add_dialog("Oh,Thank you!","....","",false, true);
-	add_dialog("Lets begin the refresher course on the suit","....","",false, false);
+	add_dialog("Lets begin the refresher course on the suit","....","",false, false, true);
 	//add_dialog("Why, Why must you be here to!", "", false, false);
 }
 else if(argument[0] == "rm_pre_tutorial_branch_10")
@@ -29,7 +29,7 @@ else if(argument[0] == "rm_pre_tutorial_branch_10")
 	add_dialog("could you do it quietly!?","....","",false, true);
 	add_dialog("...Thanks","....","",false, true);
 	add_dialog("Anyway, its about that time","....","",false, true);
-	add_dialog("I think the worm holes have connected","yep, prepare to fall in","",false, false);
+	add_dialog("I think the worm holes have connected","yep, prepare to fall in","",false, false, true);
 }
 else 
 {

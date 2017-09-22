@@ -1,4 +1,7 @@
 ////@param choice?
+var dialog_done = argument[3];
+
+var move_level = false;
 
 var mousex = mouse_x 
 var mousey = mouse_y
@@ -79,7 +82,18 @@ else
 
 	if((mousex > btn1coll[0] && mousex < (btn1coll[0] + btnsize[0])) && (mousey > btn1coll[1] && mousey < (btn1coll[1] + btnsize[1])))
 	{
-		if(mouse_check_button_pressed(mb_left)){btn1state = 2; advance_dialog = true;}
+		if(mouse_check_button_pressed(mb_left))
+		{
+			btn1state = 2; 
+			advance_dialog = true; 
+			alarmon = false; 
+			drawbuttons = false;
+			
+			if(dialog_done)
+			{
+				move_level = true
+			}
+		}
 		else{btn1state = 1}
 	}
 	else{btn1state = 0};
@@ -96,6 +110,10 @@ else
 	
 }
 
-//show_message("view mouse x: " + string(window_view_mouse_get_x(0)) + "mouse x: " + string(mouse_x))
-//show_message("view mouse x: " + string(window_view_mouse_get_x(0)) + "mouse x: " + string(mouse_x) + "camx: " + string(camera_get_view_y(view_camera[0])))
-//show_message(camera_get_view_x(view_camera[0]))
+
+
+if(move_level && room_get_name(room) == "rm_pre_tutorial" && global.branch == 2)
+{
+	global.branch *= -1
+	show_message("do the thing" + string(global.branch))
+}
