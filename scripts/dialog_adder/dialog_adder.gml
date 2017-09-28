@@ -31,9 +31,16 @@ else if(argument[0] == "rm_pre_tutorial_branch_10")
 	add_dialog("Anyway, its about that time","....","",false, true);
 	add_dialog("I think the worm holes have connected","yep, prepare to fall in","",false, false, true);
 }
+if(argument[0] == "rm_tutorial_branch_1")
+{
+	add_dialog("Test tutorial dialog","","",false, true); 
+	add_dialog("Such a wonderful test","","",false, true);
+	add_dialog("Test End! thank you","","",false, false);
+	//add_dialog("Why, Why must you be here to!", "", false, false);
+}
 else 
 {
-	add_dialog("correct dialog was not found", "dummy", "", false, false);
+	add_dialog("correct dialog was not found", "", "", false, false);
 }
 
 

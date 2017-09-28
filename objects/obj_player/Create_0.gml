@@ -3,6 +3,8 @@
 
 y = 368
 x = 13
+//x = 20
+playerout = false;
 
 player_horizontal_speed = 8;
 max_player_horizontal_speed = 20;

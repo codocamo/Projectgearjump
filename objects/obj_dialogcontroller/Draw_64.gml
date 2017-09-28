@@ -19,7 +19,7 @@ if(!fetch)
 		alarm[0] = 8
 	}
 	
-	if (drawbuttons)
+	if (drawbuttons && (dialog_output_2 != "" || dialog_output_3 != ""))
 	{
 		optn_btn_handler(dialog_branch, dialog_output_2, dialog_output_3, dialog_done);
 	}

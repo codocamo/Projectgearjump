@@ -1,9 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(instance_exists(obj_giftext))
+if(instance_exists(obj_chkpt)&& room_get_name(room) == "rm_tutorial")
 {
-	if(obj_giftext.help_chkpt_ftr > 6)
+
+}
+else if(instance_exists(obj_chkpt))
+{
+	if(obj_chkpt.chkpt == 3)
 	{
 		draw_sprite(spr_playerfullburn, -1, x - 50, y - 80);
 		//max_player_vertical_speed = 30
@@ -11,7 +15,7 @@ if(instance_exists(obj_giftext))
 		image_speed = 1.5
 	
 	}
-	else if(obj_giftext.help_chkpt_ftr > 5)
+	else if(obj_chkpt.chkpt == 2)
 	{
 		draw_sprite(spr_playerburn, -1, x - 100, y - 100);
 		//max_player_vertical_speed = 30
@@ -19,7 +23,7 @@ if(instance_exists(obj_giftext))
 		image_speed = 2
 	
 	}
-	else if(obj_giftext.help_chkpt_ftr > 4)
+	else if(obj_chkpt.chkpt == 1)
 	{
 		in_tubble = true
 		//draw_sprite(spr_playertumble, 0, x, y);

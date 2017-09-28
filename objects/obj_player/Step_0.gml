@@ -141,17 +141,20 @@ if (direction_x > 0) //right
 		player_dying = true;
 	}
 
-	if((instance_exists(obj_giftext)) && (t1 = 1 || t2 = 1))
+	if((instance_exists(obj_chkpt)) && (t1 = 1 || t2 = 1))
 	{
 		//object_helptext.help_check = true;
 		//object_helptext.help_chkpt = object_helptext.help_chkpt + 1;
-		obj_giftext.help_check = true;
-		obj_giftext.help_chkpt = obj_giftext.help_chkpt + 1;
+		obj_chkpt.check = true;
+		if(obj_chkpt.chkpt != obj_chkpt.chkpt) {obj_chkpt.chkpt = obj_chkpt.chkpt + 1;}
+		
+		show_message(string(obj_chkpt.chkpt) + string(obj_chkpt.chkpt_ftr));
+		
 	}
-	else if(instance_exists(obj_giftext))
+	else if(instance_exists(obj_chkpt))
 	{
 		//object_helptext.help_check = false;
-		obj_giftext.help_check = false;
+		obj_chkpt.check = false;
 	}
 	
 }
@@ -178,12 +181,9 @@ else //left
 if(bbox_right + 1  >= room_width)
 {
 	x = 20
-	//show_message(y)
-	if(global.branch == -2)
-	{
-		room_goto(rm_tutorial)
-	}
+	playerout = true 
 }
+else{playerout = false;}
 
 
 camera_set_view_pos(view_camera[0], (x - 200) + random_range(-shake, shake) , y - ((view_hport[0] / 2)+ 100 )+ random_range(-shake, shake));

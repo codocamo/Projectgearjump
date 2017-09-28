@@ -112,8 +112,8 @@ else
 
 
 
-if(move_level && room_get_name(room) == "rm_pre_tutorial" && global.branch == 2)
+if(move_level)
 {
 	global.branch *= -1
-	show_message("do the thing" + string(global.branch))
+	//show_message("do the thing" + string(global.branch))
 }

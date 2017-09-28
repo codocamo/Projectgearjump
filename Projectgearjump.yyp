@@ -167,10 +167,26 @@
             }
         },
         {
+            "Key": "373aff1e-2194-43c4-be48-d3fe884e71ac",
+            "Value": {
+                "id": "3c9b4afe-2985-4b3b-9fdf-2fea024489c5",
+                "resourcePath": "views\\373aff1e-2194-43c4-be48-d3fe884e71ac.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "3828e190-6166-4f37-bde4-0c9ef153428a",
             "Value": {
                 "id": "b0ec9856-6fa2-4c9b-90d9-e0bf4e2fab33",
                 "resourcePath": "objects\\obj_btnopt1\\obj_btnopt1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3a5eb603-332a-4f60-8ca7-d29a4b6567d4",
+            "Value": {
+                "id": "628e3a5e-af08-4a12-901a-317f15ce8e3e",
+                "resourcePath": "objects\\obj_levelswitcher\\obj_levelswitcher.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -187,6 +203,14 @@
             "Value": {
                 "id": "fb91a2d1-4076-40cc-99da-128b8b371184",
                 "resourcePath": "objects\\obj_player\\obj_player.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "49605646-50ed-4bb3-9d1b-ecfc7c16d86e",
+            "Value": {
+                "id": "2137330f-feb8-45d5-96a6-b8676b4b420c",
+                "resourcePath": "objects\\obj_chkpt\\obj_chkpt.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -391,6 +415,14 @@
             }
         },
         {
+            "Key": "8d2bbc42-634e-4057-81a1-fa9a503a950a",
+            "Value": {
+                "id": "8fdafa31-32d0-49ad-bf6b-06b121e1928e",
+                "resourcePath": "views\\8d2bbc42-634e-4057-81a1-fa9a503a950a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "90d2ebcc-1811-4fd3-a915-a3f3e44c9f2d",
             "Value": {
                 "id": "e1ea6c50-c548-45a9-9dc5-b167e3bc781f",
@@ -500,6 +532,14 @@
                 "id": "39b19f8d-71f0-46ab-a617-2d62d439faf2",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "a96bb9f9-ab9a-4a48-b4e6-92149a885593",
+            "Value": {
+                "id": "514a5d41-0ed9-4185-90f1-c77bff4da2cd",
+                "resourcePath": "rooms\\rm_fallinlvl1\\rm_fallinlvl1.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
