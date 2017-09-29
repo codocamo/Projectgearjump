@@ -146,9 +146,7 @@ if (direction_x > 0) //right
 		//object_helptext.help_check = true;
 		//object_helptext.help_chkpt = object_helptext.help_chkpt + 1;
 		obj_chkpt.check = true;
-		if(obj_chkpt.chkpt != obj_chkpt.chkpt) {obj_chkpt.chkpt = obj_chkpt.chkpt + 1;}
-		
-		show_message(string(obj_chkpt.chkpt) + string(obj_chkpt.chkpt_ftr));
+		//if(obj_chkpt.chkpt != obj_chkpt.chkpt) {obj_chkpt.chkpt = obj_chkpt.chkpt + 1;}
 		
 	}
 	else if(instance_exists(obj_chkpt))
