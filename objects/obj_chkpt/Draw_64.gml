@@ -5,8 +5,9 @@ if(room_get_name(room) == "rm_tutorial")
 {
 	switch(chkpt)
 	{
-		case 8: draw_sprite(spr_jumpdef, 0, 700,200)
-		case 12: draw_sprite(spr_jumpdef, 1, 700,200)
-		case 16: draw_sprite(spr_jumpdef, 2, 700,200)
+		case 8: draw_sprite(spr_jumpdef, 0, 700,200); obj_player.jumplimitunlock = true; gear1limitunlock = true; break;
+		case 11: draw_sprite(spr_jumpdef, 1, 700,200); break; 
+		case 14: draw_sprite(spr_jumpdef, 2, 700,200); break;
+		//default: draw_sprite(spr_jumpdef, 2, 700,200); break;
 	}
 } 

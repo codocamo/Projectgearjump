@@ -28,6 +28,11 @@ gear1 = true;
 gear2 = false;
 gear3 = false;
 
+gear1limitunlock = false;
+gear2limitunlock = false;
+gear3limitunlock = false;
+jumplimitunlock = false;
+
 //for the camera shake
 shake = 0;
 

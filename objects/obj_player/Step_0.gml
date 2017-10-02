@@ -9,8 +9,10 @@ player_bbox_top = sprite_get_bbox_top(sprite_index) - sprite_get_yoffset(sprite_
 player_bbox_width = sprite_get_bbox_left(sprite_index) + sprite_get_bbox_right(sprite_index);
 player_bbox_height = sprite_get_bbox_bottom(sprite_index) + sprite_get_bbox_top(sprite_index);
 
+
+
 ///Movement
-if(keyboard_check(ord("I")))
+if(keyboard_check(ord("I")) && gear1limitunlock)
 {
 	gear1 = true;
 	gear2 = false;
@@ -20,7 +22,7 @@ if(keyboard_check(ord("I")))
 	shake = 10;
 	
 }
-else if(keyboard_check(ord("O")))
+else if(keyboard_check(ord("O")) && gear2limitunlock)
 {
 	gear2 = true;
 	gear1 = false;
@@ -28,7 +30,7 @@ else if(keyboard_check(ord("O")))
 	
 	shake = 10;
 }
-else if(keyboard_check(ord("P")))
+else if(keyboard_check(ord("P")) && gear3limitunlock)
 {
 	gear3 = true;
 	gear2 = false;
@@ -37,20 +39,24 @@ else if(keyboard_check(ord("P")))
 	shake = 10;
 }
 
-if(gear1 == true)
+
+//TODO : should probably take keyboard check out of jump script and put it here
+if(gear1 == true && jumplimitunlock)
 {
 	gear1jump();
 	
 }
-if (gear2 == true)
+if (gear2 == true && jumplimitunlock)
 {
 	gear2jump();	
 }
-if (gear3 == true)
+if (gear3 == true && jumplimitunlock)
 {
 	gear3jump();
 	
 }
+
+
 
 
 
