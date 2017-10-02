@@ -31,10 +31,22 @@ else if(argument[0] == "rm_pre_tutorial_branch_10")
 	add_dialog("Anyway, its about that time","....","",false, true);
 	add_dialog("I think the worm holes have connected","yep, prepare to fall in","",false, false, true);
 }
+
+
 if(argument[0] == "rm_tutorial_branch_1")
 {
-	add_dialog("Test tutorial dialog","","",false, true); 
-	add_dialog("Such a wonderful test","","",false, true);
+	add_dialog("Your suit can do a couple things!","","",false, true); 
+	add_dialog("But mainly you will be using it to alter your jump arch","","",false, true);
+	add_dialog("This is achieved by changing your suits Jump Gear","","",false, true);
+	add_dialog("So listen up Neil","","",false, true);
+	add_dialog("I have a few definitions to teach you","","",false, true);
+	add_dialog("Now if you dont mind please press 'I'","","",false, true);
+	add_dialog("This activates Jump Gear 1","","",false, true);
+	add_dialog("","","",false, true);
+	add_dialog("","","",false, true);
+	add_dialog("Good here comes the next one","","",false, true);
+	add_dialog("","","",false, true);
+	add_dialog("","","",false, true);
 	add_dialog("Test End! thank you","","",false, false);
 	//add_dialog("Why, Why must you be here to!", "", false, false);
 }
