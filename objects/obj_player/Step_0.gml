@@ -182,12 +182,22 @@ else //left
 //ADHOC STUFFFFFF!!!!!!!----------------------------------------------------------------
 
 
-if(bbox_right + 1  >= room_width)
+
+
+if(global.branch != -10 && room_get_name(room) == "rm_pre_tutorial" )
+{
+	if(bbox_right + 1 >= 1074)
+	{
+		x = 20 
+		playerout = true 
+	}
+	else{playerout = false}
+}
+else if(bbox_right + 1  >= room_width)
 {
 	x = 20
-	playerout = true 
+	//playerout = true 
 }
-else{playerout = false;}
 
 
 camera_set_view_pos(view_camera[0], (x - 200) + random_range(-shake, shake) , y - ((view_hport[0] / 2)+ 100 )+ random_range(-shake, shake));

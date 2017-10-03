@@ -56,8 +56,8 @@ if(argument[0] == "rm_tutorial_branch_1")
 	add_dialog("'P' activates Jump Gear 3","","",false, true);
 	add_dialog("","","",false, true);
 	add_dialog("","","",false, true);
-	add_dialog("Test End! thank you","","",false, false);
-	//add_dialog("Why, Why must you be here to!", "", false, false);
+	add_dialog("Well Good bie","","",false, false, true);
+	//add_dialog("Why, Why must you be here to!", ,"", false, false);
 }
 else 
 {
