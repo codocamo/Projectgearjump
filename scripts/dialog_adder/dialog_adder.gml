@@ -42,15 +42,20 @@ if(argument[0] == "rm_tutorial_branch_1")
 	add_dialog("Just listen up Neil","","",false, true);
 	add_dialog("I have a few definitions to teach you","","",false, true);
 	add_dialog("But before we start be good and please press 'I'","","",false, true);
-	add_dialog("This activates Jump Gear 1","","",false, true);
+	add_dialog("'I' activates Jump Gear 1","","",false, true);
 	add_dialog("","","",false, true);
 	add_dialog("","","",false, true);
-	add_dialog("Good here comes the next one","","",false, true);
+	add_dialog("Good","","",false, true);
+	add_dialog("Here comes the next one","","",false, true);
 	add_dialog("But Be a darling and press 'O'","","",false, true);
+	add_dialog("'O' activates Jump Gear 2","","",false, true);
 	add_dialog("","","",false, true);
 	add_dialog("","","",false, true);
-	add_dialog("yes yes Verry Good!","","",false, true);
-	add_dialog("Last one press 'P'","","",false, true);
+	add_dialog("Excellent!","","",false, true);
+	add_dialog("Last one, press 'P'","","",false, true);
+	add_dialog("'P' activates Jump Gear 3","","",false, true);
+	add_dialog("","","",false, true);
+	add_dialog("","","",false, true);
 	add_dialog("Test End! thank you","","",false, false);
 	//add_dialog("Why, Why must you be here to!", "", false, false);
 }
