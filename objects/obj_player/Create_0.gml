@@ -16,7 +16,13 @@ max_jump_height = 50
 mid_jump = false;
 
 player_dying = false;
-in_tubble = false;
+in_tumble = false;
+
+tumble = false;
+burn = false;
+fullburn = false;
+
+
 
 //tiles
 var collision_layer = layer_get_id("layer_collision");
@@ -24,7 +30,7 @@ tile_map = layer_tilemap_get_id(collision_layer);
 
 
 //gears
-gear1 = true;
+gear1 = false;
 gear2 = false;
 gear3 = false;
 

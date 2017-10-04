@@ -7,7 +7,7 @@ if(instance_exists(obj_chkpt)&& room_get_name(room) == "rm_tutorial")
 }
 else if(instance_exists(obj_chkpt))
 {
-	if(obj_chkpt.chkpt == 3)
+	if(fullburn)
 	{
 		draw_sprite(spr_playerfullburn, -1, x - 50, y - 80);
 		//max_player_vertical_speed = 30
@@ -15,7 +15,7 @@ else if(instance_exists(obj_chkpt))
 		image_speed = 1.5
 	
 	}
-	else if(obj_chkpt.chkpt == 2)
+	else if(burn)
 	{
 		draw_sprite(spr_playerburn, -1, x - 100, y - 100);
 		//max_player_vertical_speed = 30
@@ -23,9 +23,9 @@ else if(instance_exists(obj_chkpt))
 		image_speed = 2
 	
 	}
-	else if(obj_chkpt.chkpt == 1)
+	else if(tumble)
 	{
-		in_tubble = true
+		in_tumble = true
 		//draw_sprite(spr_playertumble, 0, x, y);
 		if(sprite_get_name(sprite_index) != "spr_playertumble")
 		{
@@ -45,13 +45,14 @@ draw_sprite(spr_playerdeath, -1, x, y);
 sprite_index = spr_playerdeath;
 if(image_index > image_number - 1){ room_restart();};
 } 
-else if((mid_jump == false) && (in_tubble == false)){
+else if((mid_jump == false) && (in_tumble == false)){
 if(gear1){draw_sprite(spr_playerrun_gear1, -1, x, y); }
 else if (gear2){draw_sprite(spr_playerrun_gear2, -1, x, y);}
 else if (gear3){draw_sprite(spr_playerrun_gear3, -1, x, y); }
+else{draw_sprite(spr_playerrun_gear0, -1, x, y); }
 sprite_index = spr_playerrun_gear1;
 }
-else if((mid_jump == true) && (in_tubble == false)){
+else if((mid_jump == true) && (in_tumble == false)){
 if(gear1){draw_sprite(spr_playerjump, 1, x, y); }
 else if(gear2){draw_sprite(spr_playerjump, 0, x, y); } 
 else if(gear3){draw_sprite(spr_playerjump, 2, x, y); }

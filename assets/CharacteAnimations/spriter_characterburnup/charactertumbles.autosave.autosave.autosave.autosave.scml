@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0" name="tumble">
+        <file id="0" name="tumble/tumble1.png" width="85" height="84" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="tumble/tumble2.png" width="91" height="59" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="tumble/tumble3.png" width="89" height="82" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="tumble/tumble4.png" width="60" height="90" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="tumble/tumble5.png" width="76" height="93" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="tumble/tumble6.png" width="91" height="63" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="tumble/tumble7.png" width="93" height="77" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="tumble/tumble8.png" width="67" height="91" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="1" name="burn">
+        <file id="0" name="burn/burn1.png" width="115" height="139" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="burn/burn2.png" width="115" height="139" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="burn/burn3.png" width="135" height="116" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="burn/burn4.png" width="135" height="116" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="burn/burn5.png" width="119" height="133" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="burn/burn6.png" width="119" height="133" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="burn/burn7.png" width="87" height="144" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="burn/burn8.png" width="91" height="133" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="burn/burn9.png" width="99" height="131" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="burn/burn10.png" width="95" height="127" pivot_x="0" pivot_y="1"/>
+        <file id="10" name="burn/burn11.png" width="116" height="109" pivot_x="0" pivot_y="1"/>
+        <file id="11" name="burn/burn12.png" width="113" height="109" pivot_x="0" pivot_y="1"/>
+        <file id="12" name="burn/burn13.png" width="117" height="119" pivot_x="0" pivot_y="1"/>
+        <file id="13" name="burn/burn14.png" width="117" height="119" pivot_x="0" pivot_y="1"/>
+        <file id="14" name="burn/burn15.png" width="87" height="135" pivot_x="0" pivot_y="1"/>
+        <file id="15" name="burn/burn16.png" width="87" height="135" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="2" name="fulburn">
+        <file id="0" name="fulburn/fulburn1.png" width="143" height="257" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="fulburn/fulburn2.png" width="143" height="225" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="fulburn/fulburn3.png" width="154" height="251" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="fulburn/fulburn4.png" width="147" height="253" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="fulburn/fulburn5.png" width="154" height="220" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="fulburn/fulburn6.png" width="153" height="226" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="fulburn/fulburn7.png" width="112" height="220" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="fulburn/fulburn8.png" width="111" height="253" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="fulburn/fulburn9.png" width="109" height="247" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="fulburn/fulburn10.png" width="109" height="247" pivot_x="0" pivot_y="1"/>
+        <file id="10" name="fulburn/fulburn11.png" width="146" height="255" pivot_x="0" pivot_y="1"/>
+        <file id="11" name="fulburn/fulburn12.png" width="145" height="255" pivot_x="0" pivot_y="1"/>
+        <file id="12" name="fulburn/fulburn13.png" width="143" height="221" pivot_x="0" pivot_y="1"/>
+        <file id="13" name="fulburn/fulburn14.png" width="140" height="227" pivot_x="0" pivot_y="1"/>
+        <file id="14" name="fulburn/fulburn15.png" width="121" height="282" pivot_x="0" pivot_y="1"/>
+        <file id="15" name="fulburn/fulburn16.png" width="119" height="282" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="3">
+        <file id="0" name="playerburn.png" width="540" height="576" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="4" name="tumble_big">
+        <file id="0" name="tumble_big/tumble1.png" width="119" height="119" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="Neil">
+        <animation id="0" name="Tumble" length="800" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="3" time="300">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
+                </key>
+                <key id="4" time="400">
+                    <object_ref id="0" timeline="4" key="0" z_index="0"/>
+                </key>
+                <key id="5" time="500">
+                    <object_ref id="0" timeline="5" key="0" z_index="0"/>
+                </key>
+                <key id="6" time="600">
+                    <object_ref id="0" timeline="6" key="0" z_index="0"/>
+                </key>
+                <key id="7" time="700">
+                    <object_ref id="0" timeline="7" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="tumble1">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="tumble2">
+                <key id="0" time="100" spin="0">
+                    <object folder="0" file="1" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="tumble3">
+                <key id="0" time="200" spin="0">
+                    <object folder="0" file="2" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="tumble4">
+                <key id="0" time="300" spin="0">
+                    <object folder="0" file="3" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="tumble5">
+                <key id="0" time="400" spin="0">
+                    <object folder="0" file="4" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="tumble6">
+                <key id="0" time="500" spin="0">
+                    <object folder="0" file="5" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="6" name="tumble7">
+                <key id="0" time="600" spin="0">
+                    <object folder="0" file="6" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="7" name="tumble8">
+                <key id="0" time="700" spin="0">
+                    <object folder="0" file="7" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="Burn" length="800" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="50">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="2" time="100">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="3" time="150">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
+                </key>
+                <key id="4" time="200">
+                    <object_ref id="0" timeline="4" key="0" z_index="0"/>
+                </key>
+                <key id="5" time="250">
+                    <object_ref id="0" timeline="5" key="0" z_index="0"/>
+                </key>
+                <key id="6" time="300">
+                    <object_ref id="0" timeline="6" key="0" z_index="0"/>
+                </key>
+                <key id="7" time="350">
+                    <object_ref id="0" timeline="7" key="0" z_index="0"/>
+                </key>
+                <key id="8" time="400">
+                    <object_ref id="0" timeline="8" key="0" z_index="0"/>
+                </key>
+                <key id="9" time="450">
+                    <object_ref id="0" timeline="9" key="0" z_index="0"/>
+                </key>
+                <key id="10" time="500">
+                    <object_ref id="0" timeline="10" key="0" z_index="0"/>
+                </key>
+                <key id="11" time="550">
+                    <object_ref id="0" timeline="11" key="0" z_index="0"/>
+                </key>
+                <key id="12" time="600">
+                    <object_ref id="0" timeline="12" key="0" z_index="0"/>
+                </key>
+                <key id="13" time="650">
+                    <object_ref id="0" timeline="13" key="0" z_index="0"/>
+                </key>
+                <key id="14" time="700">
+                    <object_ref id="0" timeline="14" key="0" z_index="0"/>
+                </key>
+                <key id="15" time="750">
+                    <object_ref id="0" timeline="15" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="burn2">
+                <key id="0" time="50" spin="0">
+                    <object folder="1" file="1" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="burn1_000">
+                <key id="0" spin="0">
+                    <object folder="1" file="0" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="burn3">
+                <key id="0" time="100" spin="0">
+                    <object folder="1" file="2" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="burn4">
+                <key id="0" time="150" spin="0">
+                    <object folder="1" file="3" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="burn5">
+                <key id="0" time="200" spin="0">
+                    <object folder="1" file="4" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="burn6">
+                <key id="0" time="250" spin="0">
+                    <object folder="1" file="5" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="6" name="burn7">
+                <key id="0" time="300" spin="0">
+                    <object folder="1" file="6" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="7" name="burn8">
+                <key id="0" time="350" spin="0">
+                    <object folder="1" file="7" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="8" name="burn9">
+                <key id="0" time="400" spin="0">
+                    <object folder="1" file="8" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="9" name="burn10">
+                <key id="0" time="450" spin="0">
+                    <object folder="1" file="9" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="10" name="burn11">
+                <key id="0" time="500" spin="0">
+                    <object folder="1" file="10" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="11" name="burn12">
+                <key id="0" time="550" spin="0">
+                    <object folder="1" file="11" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="12" name="burn13">
+                <key id="0" time="600" spin="0">
+                    <object folder="1" file="12" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="13" name="burn14">
+                <key id="0" time="650" spin="0">
+                    <object folder="1" file="13" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="14" name="burn15">
+                <key id="0" time="700" spin="0">
+                    <object folder="1" file="14" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="15" name="burn16">
+                <key id="0" time="750" spin="0">
+                    <object folder="1" file="15" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="Fullburn" length="800" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="50">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="2" time="100">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="3" time="150">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
+                </key>
+                <key id="4" time="200">
+                    <object_ref id="0" timeline="4" key="0" z_index="0"/>
+                </key>
+                <key id="5" time="250">
+                    <object_ref id="0" timeline="5" key="0" z_index="0"/>
+                </key>
+                <key id="6" time="300">
+                    <object_ref id="0" timeline="6" key="0" z_index="0"/>
+                </key>
+                <key id="7" time="350">
+                    <object_ref id="0" timeline="7" key="0" z_index="0"/>
+                </key>
+                <key id="8" time="400">
+                    <object_ref id="0" timeline="8" key="0" z_index="0"/>
+                </key>
+                <key id="9" time="450">
+                    <object_ref id="0" timeline="9" key="0" z_index="0"/>
+                </key>
+                <key id="10" time="500">
+                    <object_ref id="0" timeline="10" key="0" z_index="0"/>
+                </key>
+                <key id="11" time="550">
+                    <object_ref id="0" timeline="11" key="0" z_index="0"/>
+                </key>
+                <key id="12" time="600">
+                    <object_ref id="0" timeline="12" key="0" z_index="0"/>
+                </key>
+                <key id="13" time="650">
+                    <object_ref id="0" timeline="13" key="0" z_index="0"/>
+                </key>
+                <key id="14" time="700">
+                    <object_ref id="0" timeline="14" key="0" z_index="0"/>
+                </key>
+                <key id="15" time="750">
+                    <object_ref id="0" timeline="15" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="fulburn1">
+                <key id="0" spin="0">
+                    <object folder="2" file="0" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="fulburn2">
+                <key id="0" time="50" spin="0">
+                    <object folder="2" file="1" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="fulburn3">
+                <key id="0" time="100" spin="0">
+                    <object folder="2" file="2" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="fulburn4">
+                <key id="0" time="150" spin="0">
+                    <object folder="2" file="3" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="fulburn5">
+                <key id="0" time="200" spin="0">
+                    <object folder="2" file="4" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="fulburn6">
+                <key id="0" time="250" spin="0">
+                    <object folder="2" file="5" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="6" name="fulburn7">
+                <key id="0" time="300" spin="0">
+                    <object folder="2" file="6" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="7" name="fulburn8">
+                <key id="0" time="350" spin="0">
+                    <object folder="2" file="7" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="8" name="fulburn9">
+                <key id="0" time="400" spin="0">
+                    <object folder="2" file="8" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="9" name="fulburn10">
+                <key id="0" time="450" spin="0">
+                    <object folder="2" file="9" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="10" name="fulburn11">
+                <key id="0" time="500" spin="0">
+                    <object folder="2" file="10" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="11" name="fulburn12">
+                <key id="0" time="550" spin="0">
+                    <object folder="2" file="11" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="12" name="fulburn13">
+                <key id="0" time="600" spin="0">
+                    <object folder="2" file="12" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="13" name="fulburn14">
+                <key id="0" time="650" spin="0">
+                    <object folder="2" file="13" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="14" name="fulburn15">
+                <key id="0" time="700" spin="0">
+                    <object folder="2" file="14" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="15" name="fulburn16">
+                <key id="0" time="750" spin="0">
+                    <object folder="2" file="15" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

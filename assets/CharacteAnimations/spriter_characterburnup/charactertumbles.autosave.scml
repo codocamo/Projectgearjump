@@ -46,6 +46,9 @@
         <file id="14" name="fulburn/fulburn15.png" width="160" height="371" pivot_x="0" pivot_y="1"/>
         <file id="15" name="fulburn/fulburn16.png" width="158" height="371" pivot_x="0" pivot_y="1"/>
     </folder>
+    <folder id="3">
+        <file id="0" name="playerburn.png" width="712" height="732" pivot_x="0" pivot_y="1"/>
+    </folder>
     <entity id="0" name="Neil">
         <animation id="0" name="Tumble" length="800" interval="100">
             <mainline>

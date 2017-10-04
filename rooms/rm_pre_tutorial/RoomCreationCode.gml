@@ -1,3 +1,7 @@
+instance_create_depth(0, 0, 0, obj_chkpt);
+
+
+
 global.branch = 1
 
 //show_message(room_get_name(room) + "_branch_" + string(global.branch))

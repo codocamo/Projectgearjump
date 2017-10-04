@@ -10,7 +10,8 @@
         "21c00567-6f04-4235-aec5-0f7aa97f45bf",
         "ca8a24f0-bccc-43a5-98e7-6f8f64a56e74",
         "e0e55b75-eb28-4525-83fd-68611ecd0653",
-        "f73f705b-be73-47e4-a56b-d30c30b3df89"
+        "f73f705b-be73-47e4-a56b-d30c30b3df89",
+        "1f404eac-9a99-43d3-b960-0b58488fd299"
     ],
     "filterType": "GMSprite",
     "folderName": "AllMovement",
