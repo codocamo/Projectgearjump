@@ -17,7 +17,7 @@ if(room_get_name(room) == "rm_pre_tutorial")
 {
 	switch(chkpt)
 	{
-		case 1: obj_player.tumble = true; obj_player.burn = false; obj_player.fullburn = false; break;
+		case 1: obj_player.cameramove = true;obj_player.tumble = false; obj_player.burn = false; obj_player.fullburn = false; break;
 		case 2: obj_player.tumble = false; obj_player.burn = true; obj_player.fullburn = false; break;
 		case 3: obj_player.tumble = false; obj_player.burn = false; obj_player.fullburn = true; break;
 		//default: draw_sprite(spr_jumpdef, 2, 700,200); break;

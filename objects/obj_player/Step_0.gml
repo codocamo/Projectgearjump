@@ -200,8 +200,25 @@ else if(bbox_right + 1  >= room_width)
 }
 
 
-camera_set_view_pos(view_camera[0], (x - 200) + random_range(-shake, shake) , y - ((view_hport[0] / 2)+ 100 )+ random_range(-shake, shake));
-shake = shake * 0.12;
+
+//camera_set_view_pos(view_camera[0], (x - 200) + random_range(-shake, shake) , y - ((view_hport[0] / 2)+ 100 )+ random_range(-shake, shake));
+
+
+
+if (cameramove)
+{
+	cameraposy += (y - ((view_hport[0] / 2) + 100)) * -1 
+	cameraposx = x - 200
+	shake = shake * 0;
+}
+else
+{
+	cameraposx = x - 200
+	cameraposy = y - ((view_hport[0] / 2) + 100)
+	shake = shake * 0.12;
+}
+
+camera_set_view_pos(view_camera[0], cameraposx + random_range(-shake, shake), cameraposy + random_range(-shake, shake));
 
 
 //view_set_xport(view_xport[0], 0);

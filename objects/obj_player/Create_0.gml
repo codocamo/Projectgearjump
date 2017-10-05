@@ -22,7 +22,9 @@ tumble = false;
 burn = false;
 fullburn = false;
 
-
+cameramove = false;
+cameraposx = 0;
+cameraposy = 0;
 
 //tiles
 var collision_layer = layer_get_id("layer_collision");
