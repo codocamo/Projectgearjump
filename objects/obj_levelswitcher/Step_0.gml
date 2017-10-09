@@ -10,3 +10,7 @@ else if(global.branch = -10 && room_get_name(room) == "rm_pre_tutorial" && obj_p
 {
 	room_goto(rm_fallinlvl1);
 }
+else if (gotolvl1)
+{
+		//room_goto();;
+}

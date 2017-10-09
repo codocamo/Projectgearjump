@@ -25,6 +25,7 @@ fullburn = false;
 cameramove = false;
 cameraposx = 0;
 cameraposy = 0;
+whiteflash = false;
 
 //tiles
 var collision_layer = layer_get_id("layer_collision");
