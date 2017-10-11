@@ -60,3 +60,9 @@ player_runspeed = [1, 0]
 player_jumpspeed = [0, 0]
 world_gravity = [0,0.75];
 world_wind = [0.0, 0.0];
+
+
+
+
+//stuff
+camera_offest_counter = 0;

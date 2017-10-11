@@ -1,9 +1,11 @@
-var characterclampy = 0;
-
+//var characterclampy = 2700;
+var characterclampy = 2200;
 
 if (cameramove)
 {
-	cameraposy += (y - ((view_hport[0] / 2) + 100)) * -1;
+	camera_offest_counter +=  5
+	
+	cameraposy = (y - ((view_hport[0] / 2) + 100)) + clamp(camera_offest_counter, 0 , 200); ;
 	cameraposx = x - 200;
 	shake = shake * 0;
 	
@@ -16,11 +18,22 @@ else
 }
 
 
-if(cameramove && y <= characterclampy)
+if(cameramove && y >= characterclampy)
 {
-	velocity = [velocity[0], 0];
-	alarm[1] = 10000;
+	player_runspeed = [0, 0];
+	world_gravity = [0,0];
+	velocity = [0, 0];
+	alarm[1] = 100;
 }
+else
+{
+	player_runspeed = [1, 0];
+	world_gravity = [0,1];
+}
+
+//defaults
+//player_runspeed = [1, 0];
+//world_gravity = [0,1];
 
 
 if(whiteflash)

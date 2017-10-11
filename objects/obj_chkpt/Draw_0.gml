@@ -1,11 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-x = 300
-y = 50
-
-chkpt = 0
-chkpt_ftr = 1
-check = false
+draw_sprite(spr_kupler, -1, obj_player.x, 2500);
 
 
-can_add = true;

@@ -97,18 +97,19 @@ if (directionxy[1] > 0) //downwards
 		player_dying = true;
 	}
 	
-	//if(t1 = 1 || t2 = 1)
-	//{
-	//	//object_helptext.help_check = true;
-	//	//object_helptext.help_chkpt = object_helptext.help_chkpt + 1;
-	//	object_giftext.help_check = true;
-	//	object_giftext.help_chkpt = object_giftext.help_chkpt + 1;
-	//}
-	//else
-	//{
-	//	//object_helptext.help_check = false;
-	//	object_giftext.help_check = false;
-	//}
+	if((instance_exists(obj_chkpt)) && (t1 = 1 || t2 = 1))
+	{
+		//object_helptext.help_check = true;
+		//object_helptext.help_chkpt = object_helptext.help_chkpt + 1;
+		obj_chkpt.check = true;
+		//if(obj_chkpt.chkpt != obj_chkpt.chkpt) {obj_chkpt.chkpt = obj_chkpt.chkpt + 1;}
+		
+	}
+	else if(instance_exists(obj_chkpt))
+	{
+		//object_helptext.help_check = false;
+		obj_chkpt.check = false;
+	}
 }
 else //upwards
 {
