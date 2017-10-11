@@ -66,3 +66,4 @@ world_wind = [0.0, 0.0];
 
 //stuff
 camera_offest_counter = 0;
+alarm1set = true;
