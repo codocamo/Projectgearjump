@@ -9,31 +9,43 @@ else if(instance_exists(obj_chkpt))
 {
 	if(fullburn)
 	{
-		draw_sprite(spr_playerfullburn, -1, x - 50, y - 80);
-		//max_player_vertical_speed = 30
-		sprite_index = spr_playerfullburn;
+		if(gear1){draw_sprite(spr_playerfullburn_gear1, -1, x - 50, y - 80); }
+		else if (gear2){draw_sprite(spr_playerfullburn_gear2, -1, x - 50, y - 80);}
+		else if (gear3){draw_sprite(spr_playerfullburn_gear3, -1, x - 50, y - 80); }
+		else{draw_sprite(spr_playerfullburn_gear0, -1, x - 50, y - 80); }
+		
+		sprite_index = spr_playerfullburn_gear1;
 		image_speed = 1.5
 	
 	}
 	else if(burn)
 	{
-		draw_sprite(spr_playerburn, -1, x - 100, y - 100);
-		//max_player_vertical_speed = 30
-		sprite_index = spr_playerburn;
+		if(gear1){draw_sprite(spr_playerburn_gear1, -1, x - 100, y - 100); }
+		else if (gear2){draw_sprite(spr_playerburn_gear2, -1, x - 100, y - 100);}
+		else if (gear3){draw_sprite(spr_playerburn_gear3, -1, x - 100, y - 100); }
+		else{draw_sprite(spr_playerburn_gear0, -1, x - 100, y - 100); }
+		
+		
+		sprite_index = spr_playerburn_gear1;
 		image_speed = 2
 	
 	}
 	else if(tumble)
 	{
 		in_tumble = true
-		//draw_sprite(spr_playertumble, 0, x, y);
-		if(sprite_get_name(sprite_index) != "spr_playertumble")
+		//makes sure animtion starts at frame 0
+		if(sprite_get_name(sprite_index) != "spr_playertumble_gear1" && sprite_get_name(sprite_index) != "spr_playertumble_gear2" && sprite_get_name(sprite_index) != "spr_playertumble_gear3" && sprite_get_name(sprite_index) != "spr_playertumble_gear0")
 		{
 		image_index = 0
 		}
-		draw_sprite(spr_playertumble, -1, x, y);
+		
+		//uses apropriate tumble animation
+		if(gear1){draw_sprite(spr_playertumble_gear1, -1, x, y); }
+		else if (gear2){draw_sprite(spr_playertumble_gear2, -1, x, y);}
+		else if (gear3){draw_sprite(spr_playertumble_gear3, -1, x, y); }
+		else{draw_sprite(spr_playertumble_gear0, -1, x, y); }
 	
-		sprite_index = spr_playertumble;
+		sprite_index = spr_playertumble_gear1;
 		image_speed = 1.5
 
 	}

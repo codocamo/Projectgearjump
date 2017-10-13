@@ -12,5 +12,6 @@ else if(global.branch = -10 && room_get_name(room) == "rm_pre_tutorial" && obj_p
 }
 else if (gotolvl1)
 {
-		//room_goto();;
+	whiteflash = true;
+	if(alarm0set){alarm[0] = 10; alarm0set = false;}
 }

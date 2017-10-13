@@ -30,20 +30,15 @@ if(cameramove && y >= characterclampy)
 		alarm1set = false;
 	}
 }
-else
+else if(advancetonextlvl && y >= characterclampy)
 {
-	player_runspeed = [1, 0];
-	world_gravity = [0,1];
+	player_runspeed = [max_velocity[0], 0];
+	world_gravity = [0,max_velocity[1]];
 }
 
-//defaults
-//player_runspeed = [1, 0];
-//world_gravity = [0,1];
 
 
-if(whiteflash)
+if(advancetonextlvl && y >= characterclampy + 100)
 {
-	draw_sprite(spr_flashwhite, -1, 0,0);
-	alarm[0] = 8;
-	
+	obj_levelswitcher.gotolvl1 = true;
 }

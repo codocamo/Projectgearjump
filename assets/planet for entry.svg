@@ -37,7 +37,7 @@
        xlink:href="#linearGradient4430"
        id="linearGradient9143"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.56804013,0.40802284,-0.40802284,0.56804013,575.08381,712.92518)"
+       gradientTransform="matrix(0.56804013,0.40802284,-0.40802284,0.56804013,932.67781,446.24491)"
        x1="-402.69"
        y1="368.24384"
        x2="-461.23666"
@@ -63,7 +63,7 @@
        xlink:href="#linearGradient4418"
        id="linearGradient9141"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.56804013,0.40802284,-0.40802284,0.56804013,565.63971,721.24958)"
+       gradientTransform="matrix(0.56804013,0.40802284,-0.40802284,0.56804013,923.23371,454.56931)"
        x1="-393.51788"
        y1="364.43256"
        x2="-444.57172"
@@ -89,7 +89,7 @@
        xlink:href="#linearGradient4438"
        id="linearGradient9139"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.56804013,0.40802284,-0.40802284,0.56804013,547.46041,705.09108)"
+       gradientTransform="matrix(0.56804013,0.40802284,-0.40802284,0.56804013,905.05441,438.41081)"
        x1="-409.27026"
        y1="369.12399"
        x2="-437.84915"
@@ -115,7 +115,7 @@
        xlink:href="#linearGradient4400"
        id="linearGradient9137"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.56804013,0.40802284,-0.40802284,0.56804013,526.21141,719.83838)"
+       gradientTransform="matrix(0.56804013,0.40802284,-0.40802284,0.56804013,883.80541,453.15811)"
        x1="-399.76788"
        y1="373.5397"
        x2="-468.26099"
@@ -144,18 +144,20 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="453.73659"
-     inkscape:cy="292.32062"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="989.75555"
+     inkscape:cy="-38.199326"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
-     inkscape:window-width="1800"
-     inkscape:window-height="1025"
-     inkscape:window-x="-8"
-     inkscape:window-y="24"
-     inkscape:window-maximized="1" />
+     inkscape:window-width="1858"
+     inkscape:window-height="1057"
+     inkscape:window-x="1916"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     showborder="true"
+     inkscape:showpageshadow="false" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -180,7 +182,7 @@
        sodipodi:nodetypes="cccccsssscc"
        inkscape:connector-curvature="0"
        id="path8289"
-       d="m 230.51411,747.65778 c -5.4009,-5.8949 -8.7562,-4.8447 -18.4297,-8.6935 l 0.018,-7.2384 c 0,0 -1.3035,-2.4614 0.4229,-3.138 l 4.5866,-0.2196 c 1.7743,-0.5966 4.0295,-1.0615 6.3521,0.1589 1.4995,0.7878 4.4084,0.4907 4.7432,2.2403 0,0 4.8787,3.2684 4.8437,5.8208 -0.037,2.7557 1.328,5.9446 -0.5747,8.6201 -0.533,0.7491 -1.3497,1.5851 -1.9627,2.4494 z"
+       d="m 588.10811,480.97751 c -5.4009,-5.8949 -8.7562,-4.8447 -18.4297,-8.6935 l 0.018,-7.2384 c 0,0 -1.3035,-2.4614 0.4229,-3.138 l 4.5866,-0.2196 c 1.7743,-0.5966 4.0295,-1.0615 6.3521,0.1589 1.4995,0.7878 4.4084,0.4907 4.7432,2.2403 0,0 4.8787,3.2684 4.8437,5.8208 -0.037,2.7557 1.328,5.9446 -0.5747,8.6201 -0.533,0.7491 -1.3497,1.5851 -1.9627,2.4494 z"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.07812401px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <path
        inkscape:export-ydpi="100.987"
@@ -189,7 +191,7 @@
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path8291"
-       d="m 216.58601,728.32188 c -0.7543,2.3173 -0.9386,7.3275 -0.4357,9.5876 l 4.0762,-0.1455 c -0.9698,-2.2128 -1.4106,-7.6483 -1.1184,-9.9185 z"
+       d="m 574.18001,461.64161 c -0.7543,2.3173 -0.9386,7.3275 -0.4357,9.5876 l 4.0762,-0.1455 c -0.9698,-2.2128 -1.4106,-7.6483 -1.1184,-9.9185 z"
        style="fill:#ffaa00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.07812401px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <path
        inkscape:export-ydpi="100.987"
@@ -198,7 +200,7 @@
        sodipodi:nodetypes="cscccscccc"
        inkscape:connector-curvature="0"
        id="path8293"
-       d="m 230.74831,747.61628 c -1.3224,-4.2609 -3.6665,-6.5838 -3.4773,-8.3321 0.1447,-1.3354 -1.7369,-1.62 -2.9309,-1.9043 -0.959,0.8325 -2.6504,1.1821 -4.2026,0.022 -1.2626,0.3323 -2.4053,-0.1348 -3.8757,0.2011 -0.5609,0.5154 -1.5533,0.9656 -2.4151,0.2024 -2.6297,-2.329 -6.4961,0.4566 -9.6089,0.6182 l 0.2308,15.0482 c 18.8249,-0.1045 21.4658,1.7374 26.2797,-5.8555 z"
+       d="m 588.34231,480.93601 c -1.3224,-4.2609 -3.6665,-6.5838 -3.4773,-8.3321 0.1447,-1.3354 -1.7369,-1.62 -2.9309,-1.9043 -0.959,0.8325 -2.6504,1.1821 -4.2026,0.022 -1.2626,0.3323 -2.4053,-0.1348 -3.8757,0.2011 -0.5609,0.5154 -1.5533,0.9656 -2.4151,0.2024 -2.6297,-2.329 -6.4961,0.4566 -9.6089,0.6182 l 0.2308,15.0482 c 18.8249,-0.1045 21.4658,1.7374 26.2797,-5.8555 z"
        style="fill:#ffaa00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.06585055px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <path
        inkscape:export-ydpi="100.987"
@@ -208,27 +210,27 @@
        style="opacity:1;fill:#a500ff;fill-opacity:1;stroke:#7c23ff;stroke-width:0.08020347;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path8295"
        sodipodi:type="arc"
-       sodipodi:cx="755.55096"
-       sodipodi:cy="-189.6624"
+       sodipodi:cx="505.34518"
+       sodipodi:cy="-557.96295"
        sodipodi:rx="6.3941531"
        sodipodi:ry="6.4384704"
        sodipodi:start="1.2198089"
        sodipodi:end="1.2121573"
        sodipodi:open="true"
-       d="m 757.74944,-183.61646 a 6.3941531,6.4384704 0 0 1 -8.19858,-3.82067 6.3941531,6.4384704 0 0 1 3.77868,-8.2627 6.3941531,6.4384704 0 0 1 8.21303,3.78906 6.3941531,6.4384704 0 0 1 -3.74726,8.2772" />
+       d="m 507.54366,-551.91701 a 6.3941531,6.4384704 0 0 1 -8.19858,-3.82067 6.3941531,6.4384704 0 0 1 3.77868,-8.2627 6.3941531,6.4384704 0 0 1 8.21303,3.78906 6.3941531,6.4384704 0 0 1 -3.74726,8.27719" />
     <path
        inkscape:export-ydpi="100.987"
        inkscape:export-xdpi="100.987"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\spriter_characterburnup\burn\burn3.png"
        transform="matrix(0.04127929,0.99914765,-0.99897297,0.04531014,0,0)"
-       d="m 757.44138,-184.97819 a 5.0128679,5.0476127 0 0 1 -6.42749,-2.99531 5.0128679,5.0476127 0 0 1 2.9624,-6.47777 5.0128679,5.0476127 0 0 1 6.43883,2.97054 5.0128679,5.0476127 0 0 1 -2.93777,6.48913"
+       d="m 507.2356,-553.27874 a 5.0128679,5.0476127 0 0 1 -6.42749,-2.99532 5.0128679,5.0476127 0 0 1 2.9624,-6.47776 5.0128679,5.0476127 0 0 1 6.43883,2.97054 5.0128679,5.0476127 0 0 1 -2.93777,6.48912"
        sodipodi:open="true"
        sodipodi:end="1.2121573"
        sodipodi:start="1.2198089"
        sodipodi:ry="5.0476127"
        sodipodi:rx="5.0128679"
-       sodipodi:cy="-189.71806"
-       sodipodi:cx="755.71783"
+       sodipodi:cy="-558.01862"
+       sodipodi:cx="505.51205"
        sodipodi:type="arc"
        id="path8297"
        style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:#7c23ff;stroke-width:0.06287764;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
@@ -238,7 +240,7 @@
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\spriter_characterburnup\burn\burn3.png"
        sodipodi:nodetypes="ccccc"
        style="fill:#ffaa00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.07812401px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 228.17771,730.54238 c -1.6756,1.8181 -3.1977,4.0776 -3.8864,6.7947 l 2.9528,1.8755 c 0.7322,-2.6718 1.2501,-5.3235 3.1864,-6.6976 -0.6257,-0.3985 -0.7914,-1.4062 -2.2528,-1.9726 z"
+       d="m 585.77171,463.86211 c -1.6756,1.8181 -3.1977,4.0776 -3.8864,6.7947 l 2.9528,1.8755 c 0.7322,-2.6718 1.2501,-5.3235 3.1864,-6.6976 -0.6257,-0.3985 -0.7914,-1.4062 -2.2528,-1.9726 z"
        id="path8299"
        inkscape:connector-curvature="0" />
     <path
@@ -248,7 +250,7 @@
        sodipodi:nodetypes="ccccccc"
        inkscape:connector-curvature="0"
        id="path8301"
-       d="m 195.18251,744.26588 c 1.4601,-4.828 9.7066,-2.9272 9.1955,1.9201 l -1.7595,8.9999 9.5772,6.1546 -3.3673,7.7381 -16.7097,-9.4424 z"
+       d="m 552.77651,477.58561 c 1.4601,-4.828 9.7066,-2.9272 9.1955,1.9201 l -1.7595,8.9999 9.5772,6.1546 -3.3673,7.7381 -16.7097,-9.4424 z"
        style="fill:#2ba22b;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.07812401px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        inkscape:transform-center-x="-2.7142616"
        inkscape:transform-center-y="12.227959" />
@@ -258,7 +260,7 @@
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\spriter_characterburnup\burn\burn3.png"
        sodipodi:nodetypes="cccccccc"
        style="fill:#41be41;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.06921372px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 205.69581,732.18288 1.002,18.8241 c 1.4396,7.3764 -11.3938,1.4156 -14.0827,1.0756 l -13.974,-2.2201 -0.6808,-15.3603 21.317,-5.6973 c 3.6061,-1.2142 6.9437,-1.9999 6.4185,3.3779 z"
+       d="m 563.28981,465.50261 1.002,18.8241 c 1.4396,7.3764 -11.3938,1.4156 -14.0827,1.0756 l -13.974,-2.2201 -0.6808,-15.3603 21.317,-5.6973 c 3.6061,-1.2142 6.9437,-1.9999 6.4185,3.3779 z"
        id="path8303"
        inkscape:connector-curvature="0" />
     <rect
@@ -268,8 +270,8 @@
        transform="matrix(-0.15550814,0.98783461,-0.99395542,-0.10978445,0,0)"
        rx="0.048580796"
        ry="0"
-       y="-320.22763"
-       x="727.55402"
+       y="-632.33252"
+       x="422.90329"
        height="4.7300239"
        width="1.5545855"
        id="rect8305"
@@ -279,7 +281,7 @@
        inkscape:export-xdpi="100.987"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\spriter_characterburnup\burn\burn3.png"
        style="fill:#a500ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.07496964;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 204.18141,730.33748 c 0.4141,7.1283 -0.24,13.7396 1.5974,23.7861 0.296,1.3917 4.271,1.6051 4.1709,-1.5656 0.5323,-7.1921 0.4009,-15.1994 -1.8051,-22.609 -0.095,-2.0203 -4.0159,-2.445 -3.9633,0.3885 z"
+       d="m 561.77541,463.65721 c 0.4141,7.1283 -0.24,13.7396 1.5974,23.7861 0.296,1.3917 4.271,1.6051 4.1709,-1.5656 0.5323,-7.1921 0.4009,-15.1994 -1.8051,-22.609 -0.095,-2.0203 -4.0159,-2.445 -3.9633,0.3885 z"
        id="path8307"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccc" />
@@ -290,7 +292,7 @@
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path8309"
-       d="m 207.63381,728.97528 c 0.1714,8.486 0.9091,16.9463 2.2412,25.3795 0.6415,2.2093 5.2393,1.3316 4.436,-1.2261 -2.2387,-8.7571 -2.549,-15.9182 -1.8407,-24.8088 -0.038,-1.957 -4.902,-2.4747 -4.8365,0.6554 z"
+       d="m 565.22781,462.29501 c 0.1714,8.486 0.9091,16.9463 2.2412,25.3795 0.6415,2.2093 5.2393,1.3316 4.436,-1.2261 -2.2387,-8.7571 -2.549,-15.9182 -1.8407,-24.8088 -0.038,-1.957 -4.902,-2.4747 -4.8365,0.6554 z"
        style="fill:#a500ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08099441;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        inkscape:export-ydpi="100.987"
@@ -299,7 +301,7 @@
        sodipodi:nodetypes="cccsccsscc"
        inkscape:connector-curvature="0"
        id="path8311"
-       d="m 204.56651,755.36748 -3.9005,-0.6253 c 0.1094,1.0195 -1.0391,0.471 -0.63,-0.031 l 0.2241,-0.4074 c 2.1607,-3.9306 11.1841,-7.2526 4.227,-26.5191 -1.9667,-3.5064 -5.2603,-1.3441 -4.6171,0.6092 8.7281,17.5071 -1.7457,20.7533 -3.0106,25.2603 -1.2369,4.4062 5.6072,5.7239 6.9829,3.1314 0,0 0.5664,-1.0249 0.7242,-1.4181 z"
+       d="m 562.16051,488.68721 -3.9005,-0.6253 c 0.1094,1.0195 -1.0391,0.471 -0.63,-0.031 l 0.2241,-0.4074 c 2.1607,-3.9306 11.1841,-7.2526 4.227,-26.5191 -1.9667,-3.5064 -5.2603,-1.3441 -4.6171,0.6092 8.7281,17.5071 -1.7457,20.7533 -3.0106,25.2603 -1.2369,4.4062 5.6072,5.7239 6.9829,3.1314 0,0 0.5664,-1.0249 0.7242,-1.4181 z"
        style="fill:#a500ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.07812401px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <path
        inkscape:export-ydpi="100.987"
@@ -308,7 +310,7 @@
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path8313"
-       d="m 204.47571,755.38828 -3.9001,-0.4632"
+       d="m 562.06971,488.70801 -3.9001,-0.4632"
        style="fill:#a500ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.07812401px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <rect
        inkscape:export-ydpi="100.987"
@@ -318,8 +320,8 @@
        id="rect8315"
        width="0.61507618"
        height="4.321209"
-       x="725.17834"
-       y="-311.78067"
+       x="417.67099"
+       y="-627.23096"
        ry="0"
        rx="0.046964794"
        transform="matrix(-0.14436496,0.98952451,-0.99286869,-0.11921307,0,0)" />
@@ -328,7 +330,7 @@
        inkscape:export-xdpi="100.987"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\spriter_characterburnup\burn\burn3.png"
        style="fill:#a500ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.94800001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 203.37441,750.33808 c 3.4122,-4.5725 5.443,-7.6512 0.7906,-22.7096 l -1.329,-1.3686 c 1.63,4.7393 0.5111,7.0518 0.9448,9.997 0.1995,1.35 0.1992,2.4471 -0.035,3.6332 -0.3482,1.7601 -0.5053,3.5903 -1.2583,4.8471 -0.225,0.375 1.0523,3.1509 1.0093,3.5413 -0.3102,2.7074 -0.2915,1.0327 -0.9672,2.6981 0.3658,0.2075 -0.2476,0.6953 0.8457,-0.6388 z"
+       d="m 560.96841,483.65781 c 3.4122,-4.5725 5.443,-7.6512 0.7906,-22.7096 l -1.329,-1.3686 c 1.63,4.7393 0.5111,7.0518 0.9448,9.997 0.1995,1.35 0.1992,2.4471 -0.035,3.6332 -0.3482,1.7601 -0.5053,3.5903 -1.2583,4.8471 -0.225,0.375 1.0523,3.1509 1.0093,3.5413 -0.3102,2.7074 -0.2915,1.0327 -0.9672,2.6981 0.3658,0.2075 -0.2476,0.6953 0.8457,-0.6388 z"
        id="path8317"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccssssccc" />
@@ -339,7 +341,7 @@
        inkscape:transform-center-y="-11.701982"
        inkscape:transform-center-x="4.4235046"
        style="fill:#6cff6c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.07812401px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 203.56391,741.40818 c -0.9775,4.9448 -9.3755,3.8567 -9.345,-1.0147 l 0.8641,-9.1238 -10.1423,-5.1899 2.5893,-8.0252 17.5681,7.7658 z"
+       d="m 561.15791,474.72791 c -0.9775,4.9448 -9.3755,3.8567 -9.345,-1.0147 l 0.8641,-9.1238 -10.1423,-5.1899 2.5893,-8.0252 17.5681,7.7658 z"
        id="path8319"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccc" />
@@ -350,14 +352,14 @@
        sodipodi:nodetypes="cccccccc"
        inkscape:connector-curvature="0"
        id="path8321"
-       d="m 177.94551,734.56448 0.6071,15.3362 -2.4658,10.1573 -18.3842,5.7763 -3.4992,-10.9365 13.0661,-3.7258 2.0332,-9.8596 z"
+       d="m 535.53951,467.88421 0.6071,15.3362 -2.4658,10.1573 -18.3842,5.7763 -3.4992,-10.9365 13.0661,-3.7258 2.0332,-9.8596 z"
        style="fill:#ffb930;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.07812401px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <path
        inkscape:export-ydpi="100.987"
        inkscape:export-xdpi="100.987"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\spriter_characterburnup\burn\burn3.png"
        style="fill:#ffd175;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.07812401px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 178.49621,749.63598 -20.2735,-7.6325 -0.457,-24.1278 11.187,1.1244 -0.7349,14.4641 9.7137,1.0956 z"
+       d="m 536.09021,482.95571 -20.2735,-7.6325 -0.457,-24.1278 11.187,1.1244 -0.7349,14.4641 9.7137,1.0956 z"
        id="path8323"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccc" />
@@ -366,7 +368,7 @@
        inkscape:export-xdpi="100.987"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\spriter_characterburnup\burn\burn3.png"
        style="fill:url(#linearGradient9137);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 157.70751,766.11248 18.4511,-6.0365 2.4933,-10.3542 -10.8305,-63.851 -41.9303,4.8672 z"
+       d="m 515.30151,499.43221 18.4511,-6.0365 2.4933,-10.3542 -10.8305,-63.851 -41.9303,4.8672 z"
        id="path8397"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccc" />
@@ -377,7 +379,7 @@
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path8399"
-       d="m 178.50951,749.99098 27.2438,4.3705 -9.7332,-79.9001 -30.0259,3.5393 z"
+       d="m 536.10351,483.31071 27.2438,4.3705 -9.7332,-79.9001 -30.0259,3.5393 z"
        style="fill:url(#linearGradient9139);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <path
        inkscape:export-ydpi="100.987"
@@ -386,7 +388,7 @@
        sodipodi:nodetypes="cccccccc"
        inkscape:connector-curvature="0"
        id="path8401"
-       d="m 191.94501,759.69168 17.0949,9.6145 3.2157,-8.0385 -0.8719,-4.2817 -0.1142,-1.8609 -12.1486,-1.8405 -5.507,-1.1431 z"
+       d="m 549.53901,493.01141 17.0949,9.6145 3.2157,-8.0385 -0.8719,-4.2817 -0.1142,-1.8609 -12.1486,-1.8405 -5.507,-1.1431 z"
        style="fill:url(#linearGradient9141);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <path
        inkscape:export-ydpi="100.987"
@@ -395,22 +397,18 @@
        sodipodi:nodetypes="csssscccc"
        inkscape:connector-curvature="0"
        id="path8403"
-       d="m 205.50651,757.12228 c 0.7381,1.5269 3.8399,1.2203 4.2584,-0.216 0.017,-0.064 0.1353,0.031 0.1353,0.031 -0.8855,1.0586 3.4671,3.6955 4.7176,-0.3107 0.097,-0.3124 -0.2382,-0.1206 0.2512,-0.083 8.3243,0.6394 13.4504,1.2713 18.7569,-10.1589 2.8452,-10.721 -8.3808,-54.0531 -7.1801,-65.8038 l -32.2538,-4.9498 z"
+       d="m 563.10051,490.44201 c 0.7381,1.5269 3.8399,1.2203 4.2584,-0.216 0.017,-0.064 0.1353,0.031 0.1353,0.031 -0.8855,1.0586 3.4671,3.6955 4.7176,-0.3107 0.097,-0.3124 -0.2382,-0.1206 0.2512,-0.083 8.3243,0.6394 13.4504,1.2713 18.7569,-10.1589 2.8452,-10.721 -8.3808,-54.0531 -7.1801,-65.8038 l -32.2538,-4.9498 z"
        style="fill:url(#linearGradient9143);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <path
-       style="opacity:0.40200004;fill:#e8e8e8;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#c1c1c1;fill-opacity:1;stroke:none;stroke-width:15.37199974;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 543.39062 234.69531 A 722.48114 707.03461 0 0 0 259.75391 278.01367 A 722.48114 707.03461 0 0 0 -107.82227 576 L 1128.9121 576 A 722.48114 707.03461 0 0 0 543.39062 234.69531 z "
+       transform="translate(0,476.36223)"
        id="path4258"
-       sodipodi:type="arc"
-       sodipodi:cx="510.57068"
-       sodipodi:cy="1393.3695"
-       sodipodi:rx="620.29645"
-       sodipodi:ry="607.03461"
-       sodipodi:start="1.2198089"
-       sodipodi:end="1.2121573"
-       sodipodi:open="true"
-       d="M 723.84423,1963.3954 A 620.29645,607.03461 0 0 1 -71.499534,1603.1733 620.29645,607.03461 0 0 1 295.07024,824.14624 620.29645,607.03461 0 0 1 1091.8164,1181.388 620.29645,607.03461 0 0 1 728.29484,1961.7818" />
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\planets\kuplerastroid.png"
+       inkscape:export-xdpi="100.987"
+       inkscape:export-ydpi="100.987" />
     <path
-       transform="matrix(0.69939419,0,0,0.69939419,3045.8265,762.70818)"
+       transform="matrix(0.69939419,0,0,0.69939419,3403.4205,496.02791)"
        sodipodi:nodetypes="ccccccc"
        inkscape:connector-curvature="0"
        id="path9045"
@@ -430,54 +428,126 @@
        sodipodi:start="1.2198089"
        sodipodi:end="1.2121573"
        sodipodi:open="true"
-       d="m 580.98236,1056.6043 a 2.8571429,0.71428573 0 0 1 -3.66343,-0.4238 2.8571429,0.71428573 0 0 1 1.68846,-0.9167 2.8571429,0.71428573 0 0 1 3.66988,0.4204 2.8571429,0.71428573 0 0 1 -1.67441,0.9182" />
+       d="m 580.98236,1056.6043 a 2.8571429,0.71428573 0 0 1 -3.66343,-0.4238 2.8571429,0.71428573 0 0 1 1.68846,-0.9167 2.8571429,0.71428573 0 0 1 3.66988,0.4204 2.8571429,0.71428573 0 0 1 -1.67441,0.9182"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\planets\kuplerastroid.png"
+       inkscape:export-xdpi="100.987"
+       inkscape:export-ydpi="100.987" />
     <path
        style="opacity:1;fill:#01ccef;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4242"
        sodipodi:type="arc"
-       sodipodi:cx="277.80847"
-       sodipodi:cy="913.75598"
-       sodipodi:rx="22.857143"
-       sodipodi:ry="22.857143"
+       sodipodi:cx="262.09418"
+       sodipodi:cy="840.18457"
+       sodipodi:rx="15.000001"
+       sodipodi:ry="15.000001"
        sodipodi:start="1.2198089"
        sodipodi:end="1.2121573"
        sodipodi:open="true"
-       d="m 285.66733,935.21961 a 22.857143,22.857143 0 0 1 -29.30741,-13.56372 22.857143,22.857143 0 0 1 13.50763,-29.33331 22.857143,22.857143 0 0 1 29.3591,13.4515 22.857143,22.857143 0 0 1 -13.39532,29.38477" />
+       d="m 267.25156,854.27008 a 15.000001,15.000001 0 0 1 -19.233,-8.9012 15.000001,15.000001 0 0 1 8.86439,-19.24998 15.000001,15.000001 0 0 1 19.2669,8.82754 15.000001,15.000001 0 0 1 -8.79067,19.28376"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\planets\kuplerastroid.png"
+       inkscape:export-xdpi="100.987"
+       inkscape:export-ydpi="100.987" />
     <path
-       d="m 674.09177,998.14454 a 28.57143,28.57143 0 0 1 -36.63428,-16.95466 28.57143,28.57143 0 0 1 16.88455,-36.66663 28.57143,28.57143 0 0 1 36.69887,16.81437 28.57143,28.57143 0 0 1 -16.74414,36.73097"
+       d="m 668.37741,960.28748 a 28.57143,28.57143 0 0 1 -36.63427,-16.95465 28.57143,28.57143 0 0 1 16.88454,-36.66664 28.57143,28.57143 0 0 1 36.69887,16.81437 28.57143,28.57143 0 0 1 -16.74414,36.73097"
        sodipodi:open="true"
        sodipodi:end="1.2121573"
        sodipodi:start="1.2198089"
        sodipodi:ry="28.57143"
        sodipodi:rx="28.57143"
-       sodipodi:cy="971.315"
-       sodipodi:cx="664.26819"
+       sodipodi:cy="933.45795"
+       sodipodi:cx="658.55383"
        sodipodi:type="arc"
        id="path4244"
-       style="opacity:1;fill:#01ccef;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="opacity:1;fill:#01ccef;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\planets\kuplerastroid.png"
+       inkscape:export-xdpi="100.987"
+       inkscape:export-ydpi="100.987" />
     <path
        style="opacity:1;fill:#01ccef;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4246"
        sodipodi:type="arc"
-       sodipodi:cx="98.76429"
-       sodipodi:cy="963.79083"
+       sodipodi:cx="176.62143"
+       sodipodi:cy="976.64801"
        sodipodi:rx="24.285715"
        sodipodi:ry="24.285715"
        sodipodi:start="1.2198089"
        sodipodi:end="1.2121573"
        sodipodi:open="true"
-       d="M 107.11433,986.59594 A 24.285715,24.285715 0 0 1 75.9752,972.18448 24.285715,24.285715 0 0 1 90.327063,941.01784 24.285715,24.285715 0 0 1 121.5211,955.31006 24.285715,24.285715 0 0 1 107.28858,986.53138" />
+       d="m 184.97147,999.45311 a 24.285715,24.285715 0 0 1 -31.13913,-14.41145 24.285715,24.285715 0 0 1 14.35186,-31.16664 24.285715,24.285715 0 0 1 31.19404,14.29222 24.285715,24.285715 0 0 1 -14.23252,31.22132"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\planets\kuplerastroid.png"
+       inkscape:export-xdpi="100.987"
+       inkscape:export-ydpi="100.987" />
     <path
-       d="m 479.3072,1017.1417 a 45.714287,45.714287 0 0 1 -58.61483,-27.12747 45.714287,45.714287 0 0 1 27.01527,-58.66662 45.714287,45.714287 0 0 1 58.71819,26.903 45.714287,45.714287 0 0 1 -26.79063,58.76949"
+       d="m 622.37454,865.83046 a 20.357143,20.357143 0 0 1 -26.10191,-12.08019 20.357143,20.357143 0 0 1 12.03023,-26.12498 20.357143,20.357143 0 0 1 26.14795,11.98024 20.357143,20.357143 0 0 1 -11.9302,26.17081"
        sodipodi:open="true"
        sodipodi:end="1.2121573"
        sodipodi:start="1.2198089"
-       sodipodi:ry="45.714287"
-       sodipodi:rx="45.714287"
-       sodipodi:cy="974.21442"
-       sodipodi:cx="463.58948"
+       sodipodi:ry="20.357143"
+       sodipodi:rx="20.357143"
+       sodipodi:cy="846.71442"
+       sodipodi:cx="615.37524"
        sodipodi:type="arc"
        id="path4248"
-       style="opacity:1;fill:#01ccef;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="opacity:1;fill:#01ccef;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\planets\kuplerastroid.png"
+       inkscape:export-xdpi="100.987"
+       inkscape:export-ydpi="100.987" />
+    <path
+       style="opacity:1;fill:#01ccef;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4184"
+       sodipodi:type="arc"
+       sodipodi:cx="509.26816"
+       sodipodi:cy="1002.0293"
+       sodipodi:rx="28.57143"
+       sodipodi:ry="28.57143"
+       sodipodi:start="1.2198089"
+       sodipodi:end="1.2121573"
+       sodipodi:open="true"
+       d="m 519.09174,1028.8588 a 28.57143,28.57143 0 0 1 -36.63428,-16.9546 28.57143,28.57143 0 0 1 16.88455,-36.66666 28.57143,28.57143 0 0 1 36.69887,16.81438 28.57143,28.57143 0 0 1 -16.74414,36.73098"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\planets\kuplerastroid.png"
+       inkscape:export-xdpi="100.987"
+       inkscape:export-ydpi="100.987" />
+    <path
+       d="m 879.74207,1004.3209 a 67.857147,67.857147 0 0 1 -87.0064,-40.26735 67.857147,67.857147 0 0 1 40.1008,-87.08326 67.857147,67.857147 0 0 1 87.15981,39.93414 67.857147,67.857147 0 0 1 -39.76734,87.23607"
+       sodipodi:open="true"
+       sodipodi:end="1.2121573"
+       sodipodi:start="1.2198089"
+       sodipodi:ry="67.857147"
+       sodipodi:rx="67.857147"
+       sodipodi:cy="940.60071"
+       sodipodi:cx="856.41107"
+       sodipodi:type="arc"
+       id="path4186"
+       style="opacity:1;fill:#01ccef;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\planets\kuplerastroid.png"
+       inkscape:export-xdpi="100.987"
+       inkscape:export-ydpi="100.987" />
+    <path
+       style="opacity:1;fill:#01ccef;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4188"
+       sodipodi:type="arc"
+       sodipodi:cx="397.12537"
+       sodipodi:cy="877.74353"
+       sodipodi:rx="67.857147"
+       sodipodi:ry="67.857147"
+       sodipodi:start="1.2198089"
+       sodipodi:end="1.2121573"
+       sodipodi:open="true"
+       d="m 420.45636,941.46368 a 67.857147,67.857147 0 0 1 -87.00639,-40.2673 67.857147,67.857147 0 0 1 40.10079,-87.08327 67.857147,67.857147 0 0 1 87.15981,39.93414 67.857147,67.857147 0 0 1 -39.76733,87.23604"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\planets\kuplerastroid.png"
+       inkscape:export-xdpi="100.987"
+       inkscape:export-ydpi="100.987" />
+    <path
+       d="m 2789.2728,1891.9669 a 620.29645,607.03461 0 0 1 -795.3437,-360.2222 620.29645,607.03461 0 0 1 366.5697,-779.02705 620.29645,607.03461 0 0 1 796.7462,357.24175 620.29645,607.03461 0 0 1 -363.5216,780.3938"
+       sodipodi:open="true"
+       sodipodi:end="1.2121573"
+       sodipodi:start="1.2198089"
+       sodipodi:ry="607.03461"
+       sodipodi:rx="620.29645"
+       sodipodi:cy="1321.9409"
+       sodipodi:cx="2575.9993"
+       sodipodi:type="arc"
+       id="path4194"
+       style="opacity:1;fill:#c1c1c1;fill-opacity:1;stroke:none;stroke-width:15.37199974;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
 </svg>

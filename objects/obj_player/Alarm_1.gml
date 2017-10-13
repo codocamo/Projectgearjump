@@ -3,3 +3,6 @@
 cameramove = false;
 
 alarm1set = true;
+
+
+advancetonextlvl = true;
