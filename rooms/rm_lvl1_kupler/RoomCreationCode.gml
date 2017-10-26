@@ -1,10 +1,13 @@
+//create the player
+instance_create_depth(200, 1327, 100, obj_player);
+
+//set branch
+global.branch = 0;
+
+//create the check point object
 instance_create_depth(0, 0, 0, obj_chkpt);
 
-
-
-
-
-//show_message(room_get_name(room) + "_branch_" + string(global.branch))
-
+//create the level switcher object
 instance_create_depth(0, 0, 0, obj_levelswitcher);
+
 

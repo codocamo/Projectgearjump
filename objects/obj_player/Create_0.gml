@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-y = 368
-x = 13
+//y = 368 if(room_get_name("rm_lvl1_kupler")){y = 1728}
+//x = 13 if(room_get_name("rm_lvl1_kupler")){x = 20}
 //x = 20
 playerout = false;
 
@@ -26,6 +26,8 @@ cameramove = false;
 cameraposx = 0;
 cameraposy = 0;
 
+
+stopjumping = false;
 
 //tiles
 var collision_layer = layer_get_id("layer_collision");

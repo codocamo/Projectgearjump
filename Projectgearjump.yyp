@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "04f06a2a-e2db-4c77-8b86-09cfdce9fb85",
+            "Value": {
+                "id": "6aaed7d0-bc64-4782-837f-99299fbb053a",
+                "resourcePath": "sprites\\spr_trainingtilest\\spr_trainingtilest.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "054a9ac3-9cae-4337-8596-bd21316fae8e",
             "Value": {
                 "id": "9da865c9-826d-499b-b68c-b106bb949e54",
@@ -740,6 +748,14 @@
                 "id": "9e816381-ce6c-474f-8be7-44aaf1745337",
                 "resourcePath": "sprites\\spr_playertumble_gear1\\spr_playertumble_gear1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cb5e08bf-d2a2-49ed-b78f-71d70364daf7",
+            "Value": {
+                "id": "791a8c1c-f4e8-4fc4-9f1d-ae3e4f92c38e",
+                "resourcePath": "tilesets\\ts_trainingtileset\\ts_trainingtileset.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {

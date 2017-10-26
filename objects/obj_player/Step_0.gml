@@ -78,6 +78,7 @@ var direction_y = player_vertical_speed;
 //}
 
 y = directionxy[1];
+show_message("velocity " + string(velocity[1]))
 //y = y + direction_y;
 if (directionxy[1] > 0) //downwards
 {
@@ -114,12 +115,16 @@ if (directionxy[1] > 0) //downwards
 else //upwards
 {
 	var t1 = tilemap_get_at_pixel(tile_map, bbox_left, bbox_top) & tile_index_mask; //will give you index of tile within tile sheet
-	var t2 = tilemap_get_at_pixel(tile_map, bbox_right, bbox_top) & tile_index_mask;
+	var t2 = tilemap_get_at_pixel(tile_map, bbox_left + (floor(player_bbox_width / 2)) , bbox_top) & tile_index_mask;
+	var t3 = tilemap_get_at_pixel(tile_map, bbox_right, bbox_top) & tile_index_mask;
 
-	if(t1 = 3 || t2 = 3)
+	if(t1 = 3 || t2 = 3 || t3 = 3)
 	{
 		y = ((bbox_top + 32) & ~31) - player_bbox_top; //pop down
-		player_vertical_speed = 0;
+		velocity = [velocity[0], 0];
+		player_jumpspeed = [0,0];
+		stopjumping = true;
+		
 		//world_gravity = 1.50;
 	}
 	
