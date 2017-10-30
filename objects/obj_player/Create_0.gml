@@ -17,6 +17,7 @@ mid_jump = false;
 
 player_dying = false;
 in_tumble = false;
+start_run_anim = true; 
 
 tumble = false;
 burn = false;

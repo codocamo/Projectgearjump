@@ -78,9 +78,8 @@ var direction_y = player_vertical_speed;
 //}
 
 y = directionxy[1];
-show_message("velocity " + string(velocity[1]))
 //y = y + direction_y;
-if (directionxy[1] > 0) //downwards
+if (velocity[1] > 0) //downwards
 {
 	var t1 = tilemap_get_at_pixel(tile_map, bbox_left, bbox_bottom) & tile_index_mask; //will give you index of tile within tile sheet
 	var t2 = tilemap_get_at_pixel(tile_map, bbox_left + (floor(player_bbox_width / 2)) , bbox_bottom) & tile_index_mask;
@@ -122,9 +121,6 @@ else //upwards
 	{
 		y = ((bbox_top + 32) & ~31) - player_bbox_top; //pop down
 		velocity = [velocity[0], 0];
-		player_jumpspeed = [0,0];
-		stopjumping = true;
-		
 		//world_gravity = 1.50;
 	}
 	
@@ -136,7 +132,7 @@ else //upwards
 
 //x = x + direction_x;
 x = directionxy[0]
-if (direction_x > 0) //right
+if (velocity[0] > 0) //right
 {
 	
 	var t1 = tilemap_get_at_pixel(tile_map, bbox_right, bbox_top) & tile_index_mask; //will give you index of tile within tile sheet
@@ -146,6 +142,7 @@ if (direction_x > 0) //right
 	{
 		x = ((bbox_right & ~31) - 1) - player_bbox_right;
 		velocity = [0, velocity[1]]
+		player_jumpspeed = [0,0];
 	}
 	
 	if(t1 = 2 || t2 = 2)
@@ -207,22 +204,20 @@ else if(bbox_right + 1  >= room_width)
 
 
 
-//camera_set_view_pos(view_camera[0], (x - 200) + random_range(-shake, shake) , y - ((view_hport[0] / 2)+ 100 )+ random_range(-shake, shake));
-
-
-
 level_entry()
 
 camera_set_view_pos(view_camera[0], cameraposx + random_range(-shake, shake), cameraposy + random_range(-shake, shake));
 
 
-//view_set_xport(view_xport[0], 0);
-//view_set_yport(view_yport[0], 0);
-	
 
 
-//image_speed = 0.1;
+//makes sure run animation plays between consecutive jumps
+var t1a = tilemap_get_at_pixel(tile_map, bbox_left, bbox_bottom + 10) & tile_index_mask; //will give you index of tile within tile sheet
+var t2a = tilemap_get_at_pixel(tile_map, bbox_left + (floor(player_bbox_width / 2)) , bbox_bottom + 10) & tile_index_mask;
+var t3a = tilemap_get_at_pixel(tile_map, bbox_right, bbox_bottom + 10) & tile_index_mask;
 
-//yo = sprite_index
-
-//sprite_collision_mask(sprite_index, true, 0,0,0,0,0,1,0)
+if((mid_jump) &&((t1a != 0 && t1a != 1) || (t2a != 0 && t2a != 1) || (t3a != 0 && t3a != 1)))
+{
+	start_run_anim = true;	
+}
+else if(mid_jump){start_run_anim = false;}

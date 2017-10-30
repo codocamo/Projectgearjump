@@ -57,7 +57,7 @@ draw_sprite(spr_playerdeath, -1, x, y);
 sprite_index = spr_playerdeath;
 if(image_index > image_number - 1){ room_restart();};
 } 
-else if((mid_jump == false) && (in_tumble == false)){
+else if((start_run_anim == true) && (in_tumble == false)){
 if(gear1){draw_sprite(spr_playerrun_gear1, -1, x, y); }
 else if (gear2){draw_sprite(spr_playerrun_gear2, -1, x, y);}
 else if (gear3){draw_sprite(spr_playerrun_gear3, -1, x, y); }
