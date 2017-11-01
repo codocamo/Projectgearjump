@@ -28,6 +28,7 @@ if(cameramove && y >= characterclampy)
 	{
 		alarm[1] = 50;
 		alarm1set = false;
+		obj_levelswitcher.drawleveldetails = true;
 	}
 }
 else if(advancetonextlvl && y >= characterclampy)

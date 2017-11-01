@@ -12,11 +12,12 @@ draw_set_halign(fa_center);
 
 if(argument[0])
 {
-	var btn1pos = [300, 500];
-	var btn1coll = [btn1pos[0] + (camera_get_view_x(view_camera[0]) - 135), btn1pos[1] + (camera_get_view_y(view_camera[0]) - 35.25)]
-	var btn2pos = [700, 500];
-	var btn2coll = [btn2pos[0] + (camera_get_view_x(view_camera[0]) - 135), btn2pos[1] + (camera_get_view_y(view_camera[0]) - 35.25)]
 	var btnsize = [sprite_get_width(spr_instinctbtn),sprite_get_height(spr_instinctbtn)]
+	var btn1pos = [260, 505];
+	//as the camera is moving but the button is not we have to pluss the camera movement to the buttons possition else the camera will leave the buttons hitbox behind (then you have to minus half the button size for some reason)
+	var btn1coll = [btn1pos[0] + (camera_get_view_x(view_camera[0]) - (btnsize[0]/2)), btn1pos[1] + (camera_get_view_y(view_camera[0]) - (btnsize[1]/2))]
+	var btn2pos = [750, 505];
+	var btn2coll = [btn2pos[0] + (camera_get_view_x(view_camera[0]) - (btnsize[0]/2)), btn2pos[1] + (camera_get_view_y(view_camera[0]) - (btnsize[1]/2))]
 	var btn1state = 0;
 	var btn2state = 0;
 
@@ -67,16 +68,17 @@ if(argument[0])
 		default : draw_sprite(spr_instinctbtn, 0, 600, 475); 
 	}
 	
-	draw_text_ext_color(btn1pos[0], btn1pos[1] - 20, argument[1], 25, 200, c_white, c_white, c_white, c_white, 1)
-	draw_text_ext_color(btn2pos[0], btn2pos[1] - 20, argument[2], 25, 200, c_white, c_white, c_white, c_white, 1)
+	draw_text_ext_color(btn1pos[0], btn1pos[1] - 20, argument[1], 25, btnsize[0], c_white, c_white, c_white, c_white, 1)
+	draw_text_ext_color(btn2pos[0], btn2pos[1] - 20, argument[2], 25, btnsize[0], c_white, c_white, c_white, c_white, 1)
 	
 	
 }
 else
 {
-	var btn1pos = [500, 500];
-	var btn1coll = [btn1pos[0] + (camera_get_view_x(view_camera[0]) - 135), btn1pos[1] + (camera_get_view_y(view_camera[0]) - 35.25)]
 	var btnsize = [sprite_get_width(spr_instinctbtn),sprite_get_height(spr_instinctbtn)]
+	var btn1pos = [500, 505];
+	//as the camera is moving but the button is not we have to pluss the camera movement to the buttons possition else the camera will leave the buttons hitbox behind (then you have to minus half the button size for some reason)
+	var btn1coll = [btn1pos[0] + (camera_get_view_x(view_camera[0]) - (btnsize[0] /2) ), btn1pos[1] + (camera_get_view_y(view_camera[0]) - (btnsize[1] /2))]
 	var btn1state = 0;
 	
 
@@ -106,7 +108,7 @@ else
 		default : draw_sprite(spr_instinctbtn, 0, 600, 475); 
 	}
 	
-	draw_text_ext_color(btn1pos[0], btn1pos[1] - 20, argument[1], 25, 200, c_white, c_white, c_white, c_white, 1)
+	draw_text_ext_color(btn1pos[0], btn1pos[1] - 20, argument[1], 25, btnsize[0], c_white, c_white, c_white, c_white, 1)
 	
 }
 

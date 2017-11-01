@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "34ad07d1-3a4d-41ad-9b37-1dc52c53dca7",
+            "Value": {
+                "id": "a0aa94b9-72f6-490c-b6c7-a315d0f13eec",
+                "resourcePath": "fonts\\fnt_avayx\\fnt_avayx.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "373aff1e-2194-43c4-be48-d3fe884e71ac",
             "Value": {
                 "id": "3c9b4afe-2985-4b3b-9fdf-2fea024489c5",
@@ -474,7 +482,7 @@
             "Key": "8b59378c-7158-4615-9704-e64b14384457",
             "Value": {
                 "id": "1c449825-57f8-4842-aac5-d545893b0f4f",
-                "resourcePath": "sprites\\spr_flashwhite\\spr_flashwhite.yy",
+                "resourcePath": "sprites\\spr_flashdarken\\spr_flashdarken.yy",
                 "resourceType": "GMSprite"
             }
         },

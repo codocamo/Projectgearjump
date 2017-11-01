@@ -3,3 +3,4 @@
 gotolvl1 = false;
 whiteflash = false;
 alarm0set = true;
+drawleveldetails = false;
