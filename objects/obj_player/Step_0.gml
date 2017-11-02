@@ -92,12 +92,12 @@ if (velocity[1] > 0) //downwards
 		
 	}
 	
-	if(t1 = 2 || t2 = 2)
+	if(t1 = 2 || t2 = 2 || t3 = 2)
 	{
 		player_dying = true;
 	}
 	
-	if((instance_exists(obj_chkpt)) && (t1 = 1 || t2 = 1))
+	if((instance_exists(obj_chkpt)) && (t1 = 1 || t2 = 1 || t3 = 1))
 	{
 		//object_helptext.help_check = true;
 		//object_helptext.help_chkpt = object_helptext.help_chkpt + 1;
@@ -121,10 +121,11 @@ else //upwards
 	{
 		y = ((bbox_top + 32) & ~31) - player_bbox_top; //pop down
 		velocity = [velocity[0], 0];
+		stopjumping = true;
 		//world_gravity = 1.50;
 	}
 	
-	if(t1 = 2 || t2 = 2)
+	if(t1 = 2 || t2 = 2 || t3 = 2)
 	{
 		player_dying = true;
 	}
@@ -136,21 +137,22 @@ if (velocity[0] > 0) //right
 {
 	
 	var t1 = tilemap_get_at_pixel(tile_map, bbox_right, bbox_top) & tile_index_mask; //will give you index of tile within tile sheet
-	var t2 = tilemap_get_at_pixel(tile_map, bbox_right, bbox_bottom) & tile_index_mask;
+	var t2 = tilemap_get_at_pixel(tile_map, bbox_right , bbox_top + (floor(player_bbox_height / 2))) & tile_index_mask;
+	var t3 = tilemap_get_at_pixel(tile_map, bbox_right, bbox_bottom) & tile_index_mask;
 
-	if(t1 = 3 || t2 = 3)
+	if(t1 = 3 || t2 = 3 || t3 = 3)
 	{
 		x = ((bbox_right & ~31) - 1) - player_bbox_right;
 		velocity = [0, velocity[1]]
 		player_jumpspeed = [0,0];
 	}
 	
-	if(t1 = 2 || t2 = 2)
+	if(t1 = 2 || t2 = 2 || t3 = 2)
 	{
 		player_dying = true;
 	}
 
-	if((instance_exists(obj_chkpt)) && (t1 = 1 || t2 = 1))
+	if((instance_exists(obj_chkpt)) && (t1 = 1 || t2 = 1 || t3 = 1))
 	{
 		//object_helptext.help_check = true;
 		//object_helptext.help_chkpt = object_helptext.help_chkpt + 1;

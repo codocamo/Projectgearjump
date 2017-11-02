@@ -10,6 +10,7 @@ if((t1 != 0 && t1 != 1) || (t2 != 0 && t2 != 1) || (t3 != 0 && t3 != 1)) //if gr
 	player_runspeed = [1, 0];
 	max_velocity = [8,max_velocity[1]];
 	world_gravity = [0,1];
+	stopjumping = false;
 	
 	if(keyboard_check(ord("W")))
 	{
@@ -28,7 +29,7 @@ if((t1 != 0 && t1 != 1) || (t2 != 0 && t2 != 1) || (t3 != 0 && t3 != 1)) //if gr
 }
 else //else not grounded
 {
-	if(mid_jump = true && y < (y_at_jump - max_jump_height)) //on the way down(y reaches max jump height)
+	if((mid_jump = true && y < (y_at_jump - max_jump_height)) || (stopjumping)) //on the way down(y reaches max jump height)
 	{
 	
 		player_jumpspeed = [0,0]

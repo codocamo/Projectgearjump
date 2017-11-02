@@ -10,7 +10,7 @@ if((t1 != 0 && t1 != 1) || (t2 != 0 && t2 != 1) || (t3 != 0 && t3 != 1))
 	world_gravity = [0,1];
 	player_runspeed = [1, 0];
 	max_velocity = [8,max_velocity[1]];
-	
+	stopjumping = false;
 	if(keyboard_check(ord("W")))
 	{
 		player_jumpspeed = [0,-13]
