@@ -9,7 +9,7 @@ if((t1 != 0 && t1 != 1) || (t2 != 0 && t2 != 1) || (t3 != 0 && t3 != 1)) //if gr
     mid_jump = false;
 	player_runspeed = [1, 0];
 	max_velocity = [8,max_velocity[1]];
-	world_gravity = [0,1];
+	world_gravity = [0,2.5];
 	stopjumping = false;
 	
 	if(keyboard_check(ord("W")))
@@ -18,21 +18,31 @@ if((t1 != 0 && t1 != 1) || (t2 != 0 && t2 != 1) || (t3 != 0 && t3 != 1)) //if gr
 
 		velocity[1] = player_jumpspeed[1]
 		world_gravity = [0,0];
-		max_jump_height = 50;
+		max_jump_height = 20;
 	
 		mid_jump = true;
 		y_at_jump = y;
 		max_velocity = [15,max_velocity[1]];
-		player_runspeed = [2, 0]
+		player_runspeed = [1, 0];
+		
+		alarm2set = true;
+		airtime = false;
 		
 	}
 }
 else //else not grounded
 {
-	if((mid_jump = true && y < (y_at_jump - max_jump_height)) || (stopjumping)) //on the way down(y reaches max jump height)
+	if(velocity[1] >= 0 && alarm2set)
 	{
-	
-		player_jumpspeed = [0,0]
+		alarm[0] = 3;
+		airtime = true
+		alarm2set = false;
+		player_jumpspeed = [0,0];
+		world_gravity = [0,0];
+	}
+	if(((mid_jump = true && y < (y_at_jump - max_jump_height)) && (!airtime)) || (stopjumping)) //on the way down(y reaches max jump height)
+	{
+		player_jumpspeed = [0,0];
 		world_gravity = [0,2];
 	}
 }

@@ -29,6 +29,7 @@ cameraposy = 0;
 
 
 stopjumping = false;
+airtime = false;
 
 //tiles
 var collision_layer = layer_get_id("layer_collision");
@@ -55,13 +56,14 @@ shake = 0;
 //new jump
 velocity = [0, 0];
 acceleration = [0,0]; 
-max_velocity = [8,20];
+//max_velocity = [8,20];
+max_velocity = [8,30];
 min_velocity = [-10,-2000];
 
 
 player_runspeed = [1, 0]
 player_jumpspeed = [0, 0]
-world_gravity = [0,0.75];
+world_gravity = [0,2];
 world_wind = [0.0, 0.0];
 
 
@@ -70,5 +72,6 @@ world_wind = [0.0, 0.0];
 //stuff
 camera_offest_counter = 0;
 alarm1set = true;
+alarm2set = true;
 
 advancetonextlvl = false;
