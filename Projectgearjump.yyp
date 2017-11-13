@@ -455,6 +455,14 @@
             }
         },
         {
+            "Key": "81b14fad-6ed8-43fd-8464-74e1f3c14f75",
+            "Value": {
+                "id": "17265245-3a27-484a-9b33-e0ee0d435d85",
+                "resourcePath": "sprites\\spr_stardust_lvl\\spr_stardust_lvl.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "81c94366-3cf2-4831-88fe-c1489e31e28a",
             "Value": {
                 "id": "c89ee69a-6865-46f9-a674-61b6ff884f5f",
