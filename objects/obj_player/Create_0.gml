@@ -31,6 +31,8 @@ cameraposy = 0;
 stopjumping = false;
 airtime = false;
 
+player_y_at_trigger = -100000;
+
 //tiles
 var collision_layer = layer_get_id("layer_collision");
 tile_map = layer_tilemap_get_id(collision_layer);

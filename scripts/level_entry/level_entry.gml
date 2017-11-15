@@ -1,5 +1,6 @@
 //var characterclampy = 2700;
-var characterclampy = 2200;
+//var characterclampy = 2200;
+var characterclampy = player_y_at_trigger + 1000;
 
 if (cameramove)
 {
@@ -26,7 +27,7 @@ if(cameramove && y >= characterclampy)
 	
 	if(alarm1set)
 	{
-		alarm[1] = 50;
+		alarm[1] = 100;
 		alarm1set = false;
 		obj_levelswitcher.drawleveldetails = true;
 	}
