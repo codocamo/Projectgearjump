@@ -3,7 +3,10 @@
 if(check && chkpt != chkpt_ftr && can_add)
 {
 	chkpt = chkpt_ftr;
-	if(room_get_name(room) == "rm_tutorial" ){obj_dialogcontroller.advance_dialog = true;}
+	if(instance_exists(obj_dialogcontroller))
+	{
+		if(room_get_name(room) == "rm_tutorial" ){obj_dialogcontroller.advance_dialog = true;}
+	}
 	alarm[0] = 10;
 }
 else if(!check && chkpt == chkpt_ftr)
