@@ -1,11 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(instance_exists(obj_chkpt)&& room_get_name(room) == "rm_tutorial")
-{
+//if(instance_exists(obj_chkpt)&& room_get_name(room) == "rm_tutorial")
+//{
 
-}
-else if(instance_exists(obj_chkpt))
+//}
+//else 
+if(instance_exists(obj_chkpt))
 {
 	if(fullburn)
 	{
@@ -32,7 +33,8 @@ else if(instance_exists(obj_chkpt))
 	}
 	else if(tumble)
 	{
-		in_tumble = true
+		in_tumble = true;
+		jumplimitunlock = false;
 		//makes sure animtion starts at frame 0
 		if(sprite_get_name(sprite_index) != "spr_playertumble_gear1" && sprite_get_name(sprite_index) != "spr_playertumble_gear2" && sprite_get_name(sprite_index) != "spr_playertumble_gear3" && sprite_get_name(sprite_index) != "spr_playertumble_gear0")
 		{
