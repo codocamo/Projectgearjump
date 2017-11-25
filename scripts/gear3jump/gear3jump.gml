@@ -11,6 +11,7 @@ var t3 = tilemap_get_at_pixel(tile_map, bbox_right, bbox_bottom + 1) & tile_inde
 
 if((t1 != 0 && t1 != 1) || (t2 != 0 && t2 != 1) || (t3 != 0 && t3 != 1))
 {
+	
     mid_jump = false;
 	world_gravity = [0,2.5];
 	player_runspeed = [1, 0];
@@ -35,7 +36,8 @@ if((t1 != 0 && t1 != 1) || (t2 != 0 && t2 != 1) || (t3 != 0 && t3 != 1))
 }
 else
 {
-	if((mid_jump = true && y < (y_at_jump - max_jump_height)) || (stopjumping))
+
+	if((mid_jump = true && y < (y_at_jump - max_jump_height)) || (stopjumping) || (mid_jump = false))
 	{
 		player_jumpspeed = [0,0];
 		world_gravity = [0,2.7];

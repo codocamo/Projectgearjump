@@ -19,6 +19,6 @@ else if (velocity[1] <= min_velocity[1]){velocity[1] = min_velocity[1]}
 else {velocity[1] = velocity[1] +  acceleration[1]}
 
 
-show_debug_message(string(min_velocity[1])+ " " + string(velocity[1]) + " " + string(world_gravity[1]) + " " + string(acceleration[1]) )	
+//show_debug_message(string(min_velocity[1])+ " " + string(velocity[1]) + " " + string(world_gravity[1]) + " " + string(acceleration[1]) )	
 	return [location[0] +  velocity[0],location[1] +  velocity[1]]
 	

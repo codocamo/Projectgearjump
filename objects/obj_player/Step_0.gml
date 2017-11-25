@@ -89,8 +89,8 @@ if (velocity[1] > 0) //downwards
 	{
 		y = ((bbox_bottom & ~31) - 1) - player_bbox_bottom; //poop up
 		velocity = [velocity[0], 0]
-		
 	}
+	
 	
 	if(t1 = 2 || t2 = 2 || t3 = 2)
 	{
