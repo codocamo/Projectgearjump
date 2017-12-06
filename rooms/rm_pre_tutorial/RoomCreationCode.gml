@@ -1,3 +1,5 @@
+
+
 //create the player
 instance_create_depth(13, 368, 100, obj_player);
 

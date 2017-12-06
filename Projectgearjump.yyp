@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "14683b27-ba44-4a93-8c8d-712a5d1c854b",
+            "Value": {
+                "id": "156c3f99-9d43-4b45-b92f-b677665d6884",
+                "resourcePath": "tilesets\\ts_kupler\\ts_kupler.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "1cc7a1d6-5b07-4754-ad75-d31f232d6c0b",
             "Value": {
                 "id": "cc1889c4-4c38-422e-957b-f7a1d728a830",
@@ -415,6 +423,14 @@
             }
         },
         {
+            "Key": "754de371-cf79-41ac-8956-3777292aae9a",
+            "Value": {
+                "id": "1cf9cb4c-98c9-440b-9cab-5f65963b5fd4",
+                "resourcePath": "objects\\obj_soundcontroller\\obj_soundcontroller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "756ab61e-63ed-4103-a9be-4834ae8bf326",
             "Value": {
                 "id": "809f83ab-a38b-4586-ac8f-3ab165cf6d6f",
@@ -436,6 +452,14 @@
                 "id": "908c3808-434c-4ad5-8fbf-e712f19bc7d7",
                 "resourcePath": "sprites\\spr_playerrun_gear3_big\\spr_playerrun_gear3_big.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7aef9dfe-d21c-4c4b-9c6a-f49c16a11b94",
+            "Value": {
+                "id": "69fca79f-2c50-449e-85aa-2252cff9fc79",
+                "resourcePath": "sounds\\sound0\\sound0.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -807,6 +831,14 @@
             }
         },
         {
+            "Key": "d5c1756f-0c2b-48a5-9f6b-a740240ee027",
+            "Value": {
+                "id": "75aeedad-ef5d-458f-a63d-ad457b704090",
+                "resourcePath": "sprites\\spr_kuplertileset\\spr_kuplertileset.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d99a269d-a56d-4d3f-b61e-bc265148c393",
             "Value": {
                 "id": "edb74b07-28cb-4f05-8626-85ef61144899",
@@ -876,6 +908,14 @@
                 "id": "78299115-0dee-4eab-bc1a-2f013f46c447",
                 "resourcePath": "scripts\\get_dialog\\get_dialog.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e808e2bc-e902-4e7b-8e0f-03c581dc0c7f",
+            "Value": {
+                "id": "7282cd2f-8ed2-48b2-a227-0edf54402519",
+                "resourcePath": "rooms\\rm_lvl1_kupler1\\rm_lvl1_kupler1.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
