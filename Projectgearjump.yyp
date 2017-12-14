@@ -455,6 +455,14 @@
             }
         },
         {
+            "Key": "79084269-2efb-493d-a95c-83ee94539af8",
+            "Value": {
+                "id": "227f2439-279a-4bb7-839a-8f82c579c2c1",
+                "resourcePath": "sprites\\spr_kuplerbg\\spr_kuplerbg.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7aef9dfe-d21c-4c4b-9c6a-f49c16a11b94",
             "Value": {
                 "id": "69fca79f-2c50-449e-85aa-2252cff9fc79",
