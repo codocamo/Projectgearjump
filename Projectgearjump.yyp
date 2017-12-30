@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "1047b376-1b6a-4599-828b-bf33443988a3",
+            "Value": {
+                "id": "839752f0-e802-4b52-88ed-3dcdbc03f008",
+                "resourcePath": "scripts\\background_movement\\background_movement.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "10818b37-861d-4f8d-a9f9-dac50a6a19d6",
             "Value": {
                 "id": "be8e021b-6945-421c-aa6a-b15b86e0a8b3",
@@ -540,6 +548,14 @@
                 "id": "8fdafa31-32d0-49ad-bf6b-06b121e1928e",
                 "resourcePath": "views\\8d2bbc42-634e-4057-81a1-fa9a503a950a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "90a91ea6-3edc-4047-aebc-36956aac4e41",
+            "Value": {
+                "id": "b13591c9-dc1d-4daa-a976-3b8795c81e1e",
+                "resourcePath": "objects\\obj_adhoc_scripts\\obj_adhoc_scripts.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1033,7 +1049,8 @@
         "e7e1e4eb-a19b-484f-8cc8-7b276e1b4d62",
         "81c94366-3cf2-4831-88fe-c1489e31e28a",
         "90d2ebcc-1811-4fd3-a915-a3f3e44c9f2d",
-        "a0a8bd53-a3e4-4896-a94a-aadd48414f42"
+        "a0a8bd53-a3e4-4896-a94a-aadd48414f42",
+        "1047b376-1b6a-4599-828b-bf33443988a3"
     ],
     "tutorial": ""
 }

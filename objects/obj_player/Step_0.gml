@@ -188,6 +188,7 @@ else //left
 
 
 
+
 //sets level boundrys
 if(global.branch != -10 && room_get_name(room) == "rm_pre_tutorial" )
 {
