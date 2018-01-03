@@ -201,7 +201,7 @@ if(global.branch != -10 && room_get_name(room) == "rm_pre_tutorial" )
 }
 else if(bbox_right + 1  >= room_width)
 {
-	x = 20
+	x = 200
 	//playerout = true 
 }
 
