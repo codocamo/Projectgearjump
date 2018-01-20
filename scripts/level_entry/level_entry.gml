@@ -2,6 +2,8 @@
 //var characterclampy = 2200;
 var characterclampy = player_y_at_trigger + 1000;
 
+
+//last chkpt sets cameramove top true. once true start the camera ofset
 if (cameramove)
 {
 	camera_offest_counter +=  5
@@ -18,7 +20,7 @@ else
 	shake = shake * 0.12;
 }
 
-
+//when clamp is reached kill movement and set alarm and draw level details
 if(cameramove && y >= characterclampy)
 {
 	player_runspeed = [0, 0];

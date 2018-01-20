@@ -21,7 +21,14 @@ if(keyboard_check(ord("I")) && gear1limitunlock)
 	
 	shake = 10;
 	
+	obj_soundcontroller.play_switch_snd_1 = true
+	
 }
+if(keyboard_check_released(ord("I")))
+{
+	obj_soundcontroller.play_switch_snd_1 = false
+}
+
 else if(keyboard_check(ord("O")) && gear2limitunlock)
 {
 	gear2 = true;
@@ -29,7 +36,15 @@ else if(keyboard_check(ord("O")) && gear2limitunlock)
 	gear3 = false;
 	
 	shake = 10;
+	
+	obj_soundcontroller.play_switch_snd_2 = true
 }
+if(keyboard_check_released(ord("O")))
+{
+	obj_soundcontroller.play_switch_snd_2 = false
+}
+
+
 else if(keyboard_check(ord("P")) && gear3limitunlock)
 {
 	gear3 = true;
@@ -37,6 +52,12 @@ else if(keyboard_check(ord("P")) && gear3limitunlock)
 	gear1 = false;
 	
 	shake = 10;
+	
+	obj_soundcontroller.play_switch_snd_3 = true
+}
+if(keyboard_check_released(ord("P")))
+{
+	obj_soundcontroller.play_switch_snd_3 = false
 }
 
 

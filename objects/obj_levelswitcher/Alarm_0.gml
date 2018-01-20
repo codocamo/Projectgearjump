@@ -4,3 +4,4 @@ whiteflash = false;
 gotolvl1 = false;
 
 room_goto(rm_lvl1_kupler);
+obj_soundcontroller.level_music_switch = true;
