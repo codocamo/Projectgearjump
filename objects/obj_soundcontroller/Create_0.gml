@@ -10,6 +10,7 @@ play_switch_snd_1 = false;
 play_switch_snd_2 = false;
 play_switch_snd_3 = false;
 play_burnup_snd = false;
+stop_jump_snd = false;
 
 block_snd = false;
 

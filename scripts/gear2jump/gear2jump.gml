@@ -7,7 +7,7 @@ if((t1 != 0 && t1 != 1) || (t2 != 0 && t2 != 1) || (t3 != 0 && t3 != 1)) //if gr
 {
 	
 //defaults go here
-    mid_jump = false;
+	mid_jump = false;
 	player_runspeed = [1, 0];
 	max_velocity = [8,max_velocity[1]];
 	world_gravity = [0,2.5];
@@ -15,6 +15,10 @@ if((t1 != 0 && t1 != 1) || (t2 != 0 && t2 != 1) || (t3 != 0 && t3 != 1)) //if gr
 	
 	if(keyboard_check(ord("W")))
 	{
+		//stop then start jup sound
+		obj_soundcontroller.stop_jump_snd = true;
+		obj_soundcontroller.play_jump_snd_2 = true;
+		
 		player_jumpspeed = [0,-14]
 
 		velocity[1] = player_jumpspeed[1]
