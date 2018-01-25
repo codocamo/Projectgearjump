@@ -991,7 +991,7 @@
         },
         {
             "__type": "GMRBackgroundLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Backgrounds_1",
+            "name": "Backgrounds_glow",
             "id": "05a740cc-7348-4b89-905f-15f985384194",
             "animationFPS": 15,
             "animationSpeedType": "0",
@@ -1022,7 +1022,7 @@
             "vspeed": 0,
             "vtiled": false,
             "x": 0,
-            "y": 1070
+            "y": 1030
         },
         {
             "__type": "GMRBackgroundLayer_Model:#YoYoStudio.MVCFormat",
