@@ -15,7 +15,7 @@
    viewBox="0 0 744.09448819 1052.3622047"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="kupler tileset.svg">
   <defs
      id="defs4">
@@ -78,7 +78,7 @@
        xlink:href="#linearGradient5897"
        id="linearGradient4724"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-1951.9661,-4568.8022)"
+       gradientTransform="translate(-1734.7472,-4910.89)"
        x1="6300"
        y1="4012.3621"
        x2="6307.1426"
@@ -155,6 +155,16 @@
        y1="-364.63779"
        x2="3381.5"
        y2="-365.63779" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5897"
+       id="linearGradient5200"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-1850.788,-4574.8893)"
+       x1="6300"
+       y1="4012.3621"
+       x2="6307.1426"
+       y2="3743.7908" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -163,18 +173,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.25"
-     inkscape:cx="3919.8833"
-     inkscape:cy="1955.7614"
+     inkscape:zoom="2"
+     inkscape:cx="4892.5195"
+     inkscape:cy="2055.0823"
      inkscape:document-units="px"
      inkscape:current-layer="layer3"
      showgrid="true"
      inkscape:showpageshadow="false"
      showborder="false"
-     inkscape:window-width="1800"
-     inkscape:window-height="1025"
-     inkscape:window-x="-8"
-     inkscape:window-y="24"
+     inkscape:window-width="3556"
+     inkscape:window-height="2444"
+     inkscape:window-x="-16"
+     inkscape:window-y="-16"
      inkscape:window-maximized="1"
      showguides="false"
      inkscape:snap-grids="true"
@@ -4215,8 +4225,8 @@
        sodipodi:nodetypes="ccccc" />
     <rect
        ry="1.44111e-005"
-       y="-867.63776"
-       x="2380.5073"
+       y="-865.56616"
+       x="2379.3472"
        height="880"
        width="4320"
        id="rect4585"
@@ -4264,16 +4274,14 @@
        id="rect4798"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccscccccccc" />
-    <rect
-       inkscape:export-ydpi="89.999947"
-       inkscape:export-xdpi="89.999947"
-       ry="1.4411058e-005"
-       y="-829.55078"
-       x="3752.7805"
-       height="288"
-       width="1024"
+    <path
+       style="opacity:1;fill:url(#linearGradient4724);fill-opacity:1;stroke:none;stroke-width:15.37199879;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.45253164"
+       d="m 4642,-1171.6378 v 287.99932 h 30 v -287.99932 z"
        id="rect4587"
-       style="opacity:1;fill:url(#linearGradient4724);fill-opacity:1;stroke:none;stroke-width:15.37199974;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.45253164" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\cbfra\OneDrive\Documents\GameMakerStudio2\Projectgearjump\assets\Backgrounds\kuplerglow.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        rx="0"
        y="-771.63782"
@@ -5745,16 +5753,11 @@
        id="path6852"
        d="m 5221.3655,-217.90291 c -2.497,0.042 -5.7767,1.3199 -8.8823,4.7614 l -15.2415,14.3155 7.0293,0 16.6394,-15.855 c 1.3882,-1.3882 4.16,-1.4707 5.7071,-0.095 0,0 -1.6181,-2.5457 -5.252,-3.1272 z"
        style="fill:#dbdbdb;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    <rect
-       style="opacity:1;fill:url(#linearGradient4724);fill-opacity:1;stroke:none;stroke-width:15.37199974;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.45253164"
-       id="rect6858"
-       width="1024"
-       height="288"
-       x="3752.7805"
-       y="-829.55078"
-       ry="1.4411058e-005"
-       inkscape:export-xdpi="89.999947"
-       inkscape:export-ydpi="89.999947" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5198"
+       d="m 4525.9592,-835.6371 v 287.99931 h 30 V -835.6371 Z"
+       style="opacity:1;fill:url(#linearGradient5200);fill-opacity:1;stroke:none;stroke-width:15.37199879;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.45253164" />
   </g>
   <g
      inkscape:groupmode="layer"
