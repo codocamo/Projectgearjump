@@ -1087,6 +1087,14 @@
             }
         },
         {
+            "Key": "f8f0d07e-aa62-4b7d-9794-5639bb6c5910",
+            "Value": {
+                "id": "cfeb6b60-3169-44bc-a84c-e147ae606e44",
+                "resourcePath": "rooms\\rm_lvl1_kupler2\\rm_lvl1_kupler2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "fc5f2bbd-6885-4fbf-a974-1f0486cec814",
             "Value": {
                 "id": "f61c0757-fbb0-4ba2-87b8-cfed3b9b0a15",

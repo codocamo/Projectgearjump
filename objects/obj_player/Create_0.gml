@@ -77,3 +77,6 @@ alarm1set = true;
 alarm2set = true;
 
 advancetonextlvl = false;
+
+
+loop_lvl = false;

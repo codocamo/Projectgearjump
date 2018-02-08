@@ -187,6 +187,11 @@ if (velocity[0] > 0) //right
 		obj_chkpt.check = false;
 	}
 	
+	if(t1 = 4 || t2 = 4 || t3 = 4)
+	{
+		loop_lvl = true;
+	}
+	
 }
 else //left
 {
@@ -220,9 +225,11 @@ if(global.branch != -10 && room_get_name(room) == "rm_pre_tutorial" )
 	}
 	else{playerout = false}
 }
-else if(bbox_right + 1  >= room_width)
+//else if(bbox_right + 1  >= room_width)
+else if(loop_lvl)
 {
-	x = 200
+	x = 192
+	loop_lvl = false
 	//playerout = true 
 }
 
