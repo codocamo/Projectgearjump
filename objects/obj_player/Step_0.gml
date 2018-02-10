@@ -79,7 +79,11 @@ if (gear3 == true && jumplimitunlock)
 
 
 
-
+if(keyboard_check_pressed(ord("S")) && pkupslidestate)
+{
+	inslide = true;
+	jumplimitunlock = false;
+}
 
 
 

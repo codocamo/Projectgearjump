@@ -57,8 +57,14 @@ if(instance_exists(obj_chkpt))
 if(player_dying == true){
 draw_sprite(spr_playerdeath, -1, x, y);
 sprite_index = spr_playerdeath;
-if(image_index > image_number - 1){ room_restart();};
-} 
+if(image_index > image_number - 1){ room_restart();}; //restart the level
+}
+else if(inslide == true){
+if(gear1){draw_sprite(spr_playerslide, 0, x, y); }
+else if (gear2){draw_sprite(spr_playerslide, 0, x, y);}
+else if (gear3){draw_sprite(spr_playerslide, 0, x, y); }
+else{draw_sprite(spr_playerslide, 0, x, y); }
+}
 else if((start_run_anim == true) && (in_tumble == false)){
 if(gear1){draw_sprite(spr_playerrun_gear1, -1, x, y); }
 else if (gear2){draw_sprite(spr_playerrun_gear2, -1, x, y);}
@@ -72,4 +78,14 @@ else if(gear2){draw_sprite(spr_playerjump, 0, x, y); }
 else if(gear3){draw_sprite(spr_playerjump, 2, x, y); }
 //draw_sprite(spr_playerjump, 2, x, y); 
 sprite_index = spr_playerjump;
+}
+
+
+
+
+draw_sprite(spr_pkupslideindicator, 0, x+15, y-60)
+
+if (pkupslidestate)
+{
+	draw_sprite(spr_pkupslideindicator, 1, x+15, y-60)
 }
