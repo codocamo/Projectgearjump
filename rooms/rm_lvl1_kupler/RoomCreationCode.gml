@@ -1,5 +1,5 @@
 //create the player
-instance_create_depth(200, 1327, 100, obj_player);
+instance_create_depth(200, 1327, 550, obj_player);
 
 //set branch
 global.branch = 0;

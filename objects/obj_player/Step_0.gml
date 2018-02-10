@@ -189,7 +189,13 @@ if (velocity[0] > 0) //right
 	
 	if(t1 = 4 || t2 = 4 || t3 = 4)
 	{
-		loop_lvl = true;
+		loop_lvl[0] = true;
+		room_loop();
+		tile_4_locked = true;
+	}
+	else
+	{
+		tile_4_locked = false;
 	}
 	
 }
@@ -226,12 +232,7 @@ if(global.branch != -10 && room_get_name(room) == "rm_pre_tutorial" )
 	else{playerout = false}
 }
 //else if(bbox_right + 1  >= room_width)
-else if(loop_lvl)
-{
-	x = 192
-	loop_lvl = false
-	//playerout = true 
-}
+
 
 
 

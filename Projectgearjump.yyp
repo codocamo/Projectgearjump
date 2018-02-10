@@ -767,6 +767,14 @@
             }
         },
         {
+            "Key": "af76db8e-2723-4141-904c-8e2f96dc8fe2",
+            "Value": {
+                "id": "4c1129c9-1f5c-4d3c-9bc5-f2b7676d59ec",
+                "resourcePath": "scripts\\room_loop\\room_loop.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "af96dbdd-da26-4edf-9666-e9f74688c059",
             "Value": {
                 "id": "93701197-c893-428b-927d-5cdc1218f77c",
@@ -1162,7 +1170,8 @@
         "81c94366-3cf2-4831-88fe-c1489e31e28a",
         "90d2ebcc-1811-4fd3-a915-a3f3e44c9f2d",
         "a0a8bd53-a3e4-4896-a94a-aadd48414f42",
-        "1047b376-1b6a-4599-828b-bf33443988a3"
+        "1047b376-1b6a-4599-828b-bf33443988a3",
+        "af76db8e-2723-4141-904c-8e2f96dc8fe2"
     ],
     "tutorial": ""
 }

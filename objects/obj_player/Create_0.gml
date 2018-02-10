@@ -79,4 +79,7 @@ alarm2set = true;
 advancetonextlvl = false;
 
 
-loop_lvl = false;
+loop_lvl = [false, -1];
+loop_xpos = [-1,-1]
+
+tile_4_locked = false
