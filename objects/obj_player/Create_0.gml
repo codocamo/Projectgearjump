@@ -86,3 +86,5 @@ tile_4_locked = false;
 
 pkupslidestate = false;
 inslide = false;
+canstand = true;
+slidehelp = true;

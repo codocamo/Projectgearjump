@@ -309,11 +309,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="108.988"
-     inkscape:cy="224.93525"
+     inkscape:zoom="2.8"
+     inkscape:cx="437.86934"
+     inkscape:cy="217.13209"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:window-width="1858"
      inkscape:window-height="1057"
@@ -328,7 +328,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -958,7 +958,7 @@
        sodipodi:nodetypes="cccccssssc"
        inkscape:connector-curvature="0"
        id="path6399"
-       d="m -11.581287,834.31897 c 4.9369427,7.02082 8.6508117,6.36468 18.4147127,11.79534 l -1.0136585,7.70501 c 0,0 1.0493212,2.80053 -0.880628,3.28313 l -4.90996653,-0.39792 c -1.96963687,0.39092 -4.43300687,0.57543 -6.73648897,-1.04394 -1.4872016,-1.04551 -4.6229347,-1.12972 -4.7390417,-3.0388 0,0 -4.741924,-4.15235 -4.354517,-6.8653 0.418265,-2.92912 -0.596808,-6.51283 1.795183,-9.09967 0.669715,-0.72422 1.653444,-1.50187 2.424399,-2.3378 z"
+       d="m -10.146032,829.34498 c 4.0179658,7.58428 7.7847886,7.39884 16.7909645,14.01054 l -1.9714634,7.51718 c 0,0 0.6900072,2.90997 -1.2852129,3.14685 l -4.8213634,-1.01023 c -2.0031029,0.14095 -4.470172,0.0152 -6.5525033,-1.8801 -1.3444205,-1.22368 -4.4448665,-1.70028 -4.3207605,-3.60886 0,0 -4.18404,-4.71399 -3.459628,-7.35698 0.782122,-2.85359 0.224263,-6.53627 2.92164,-8.80288 0.755212,-0.63456 1.828659,-1.28277 2.698314,-2.01547 z"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08384489px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide1.png" />
     <path
@@ -967,7 +967,7 @@
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path6401"
-       d="m 0.5827303,856.77059 c 1.1202092,-2.3636 2.0047091,-7.6172 1.7798287,-10.09318 l -4.356376,-0.40676 c 0.7277236,2.48982 0.504521,8.352 -0.1168061,10.72906 z"
+       d="m -0.89219592,853.14425 c 1.40764419,-2.20454 2.94369092,-7.30584 3.03094072,-9.79048 l -4.2710309,-0.94961 c 0.4098926,2.5614 -0.5463562,8.34937 -1.4607402,10.6298 z"
        style="fill:#ffaa00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08384489px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide1.png" />
     <path
@@ -976,37 +976,37 @@
        sodipodi:nodetypes="cscccsccc"
        inkscape:connector-curvature="0"
        id="path6403"
-       d="m -11.836276,834.33086 c 0.822217,4.71927 2.9971233,7.5156 2.5556717,9.35112 -0.3371557,1.40194 1.6256003,1.96427 2.856989,2.43146 1.1345064,-0.75438 2.9820834,-0.89371 4.4743927,0.55555 1.38871418,-0.18001 2.54045822,0.47469 4.1511544,0.31956 0.6675938,-0.47146 1.7851665,-0.81428 2.5973231,0.1171 2.4781512,2.84204 6.9742651,0.40852 10.3081181,0.66517 l 1.820289,-16.05547 c -20.0431418,-2.48143 -22.6000683,-4.80655 -28.763943,2.61555 z"
+       d="m -10.400501,829.32482 c 0.224186,4.78511 2.0314274,7.832 1.3633807,9.59771 -0.5102255,1.34862 1.3665638,2.15254 2.5296796,2.7704 1.2201178,-0.60622 3.0705875,-0.51287 4.3694665,1.11202 1.40032507,-0.005 2.4609206,0.78938 4.0783582,0.83737 0.7214246,-0.38406 1.8731544,-0.58409 2.5621598,0.44175 2.1023648,3.13025 6.8680522,1.2795 10.1434402,1.95201 l 3.818437,-15.70067 c -19.5740207,-4.97421 -21.8193339,-7.60149 -28.864932,-1.01055 z"
        style="fill:#ffaa00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.07067266px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide1.png" />
     <path
        inkscape:export-ydpi="90.269203"
        inkscape:export-xdpi="90.269203"
-       transform="matrix(0.08684216,-0.99622208,0.99652606,0.08328152,0,0)"
+       transform="matrix(0.21103066,-0.97747944,0.97822734,0.20753621,0,0)"
        style="opacity:1;fill:#a500ff;fill-opacity:1;stroke:#7c23ff;stroke-width:0.08607651;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path6405"
        sodipodi:type="arc"
-       sodipodi:cx="-834.31177"
-       sodipodi:cy="71.424507"
+       sodipodi:cx="-815.32013"
+       sodipodi:cy="175.60832"
        sodipodi:rx="6.8650875"
        sodipodi:ry="6.9072161"
        sodipodi:start="1.2198089"
        sodipodi:end="1.2121573"
        sodipodi:open="true"
-       d="m -831.95138,77.910616 a 6.8650875,6.9072161 0 0 1 -8.80241,-4.098831 6.8650875,6.9072161 0 0 1 4.05699,-8.864253 6.8650875,6.9072161 0 0 1 8.81793,4.064918 6.8650875,6.9072161 0 0 1 -4.02325,8.879804"
+       d="m -812.95974,182.09443 a 6.8650875,6.9072161 0 0 1 -8.80241,-4.09883 6.8650875,6.9072161 0 0 1 4.05698,-8.86425 6.8650875,6.9072161 0 0 1 8.81794,4.06491 6.8650875,6.9072161 0 0 1 -4.02325,8.87981"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide1.png" />
     <path
        inkscape:export-ydpi="90.269203"
        inkscape:export-xdpi="90.269203"
-       transform="matrix(0.08684216,-0.99622208,0.99652606,0.08328152,0,0)"
-       d="m -832.28214,76.449286 a 5.3820701,5.4150977 0 0 1 -6.90089,-3.213389 5.3820701,5.4150977 0 0 1 3.18059,-6.949369 5.3820701,5.4150977 0 0 1 6.91305,3.186801 5.3820701,5.4150977 0 0 1 -3.15413,6.961562"
+       transform="matrix(0.21103066,-0.97747944,0.97822734,0.20753621,0,0)"
+       d="m -813.2905,180.6331 a 5.3820701,5.4150977 0 0 1 -6.90089,-3.21339 5.3820701,5.4150977 0 0 1 3.18059,-6.94937 5.3820701,5.4150977 0 0 1 6.91305,3.1868 5.3820701,5.4150977 0 0 1 -3.15413,6.96157"
        sodipodi:open="true"
        sodipodi:end="1.2121573"
        sodipodi:start="1.2198089"
        sodipodi:ry="5.4150977"
        sodipodi:rx="5.3820701"
-       sodipodi:cy="71.364326"
-       sodipodi:cx="-834.13263"
+       sodipodi:cy="175.54814"
+       sodipodi:cx="-815.14099"
        sodipodi:type="arc"
        id="path6407"
        style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:#7c23ff;stroke-width:0.06748198;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -1016,7 +1016,7 @@
        inkscape:export-xdpi="90.269203"
        sodipodi:nodetypes="ccccc"
        style="fill:#ffaa00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08384489px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -11.359641,852.92609 c 2.0325098,-1.70514 3.8765428,-3.96202 4.9820319,-6.76036 l -2.8841663,-2.40384 c -1.1456226,2.74416 -2.0636766,5.51907 -4.3124596,6.71553 0.611196,0.51053 0.737374,1.6443 2.214594,2.44867 z"
+       d="m -12.258481,847.83313 c 2.230214,-1.43692 4.3425957,-3.44486 5.7901293,-6.08256 l -2.5601047,-2.7464 c -1.4805596,2.57892 -2.7391986,5.21687 -5.1202186,6.12201 0.542382,0.58312 0.52545,1.72376 1.890194,2.70695 z"
        id="path6409"
        inkscape:connector-curvature="0"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide1.png" />
@@ -1025,18 +1025,18 @@
        inkscape:export-xdpi="90.269203"
        sodipodi:nodetypes="ccccccc"
        style="fill:#41be41;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.07428214px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 12.699404,854.21526 1.518077,-20.18238 c -0.516302,-8.05296 12.316692,0.062 15.131285,0.79438 l 14.562465,4.28864 -1.384024,16.44978 -23.462406,3.13052 c -4.003503,0.79625 -7.6623,1.1731 -6.365257,-4.48095 z"
+       d="m 11.449216,852.12786 4.035904,-19.83291 c 0.497185,-8.05417 12.211779,1.60537 14.912371,2.68477 l 13.910042,6.08018 -3.435038,16.14656 -23.669758,0.16488 c -4.071735,0.28815 -7.7489121,0.20341 -5.753381,-5.24347 z"
        id="path6413"
        inkscape:connector-curvature="0"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide1.png" />
     <rect
        inkscape:export-ydpi="90.269203"
        inkscape:export-xdpi="90.269203"
-       transform="matrix(0.28043856,-0.95987198,0.97161781,0.23655618,0,0)"
+       transform="matrix(0.39854378,-0.91714931,0.93430303,0.35647981,0,0)"
        rx="0.052152578"
        ry="0"
-       y="248.96169"
-       x="-804.60303"
+       y="347.42947"
+       x="-769.66455"
        height="5.0748391"
        width="1.6688825"
        id="rect6415"
@@ -1046,7 +1046,7 @@
        inkscape:export-ydpi="90.269203"
        inkscape:export-xdpi="90.269203"
        style="fill:#a500ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08045952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 14.057379,856.38885 c 0.537794,-7.6474 2.141332,-14.59718 1.565628,-25.548 -0.123689,-1.5227 -4.32376,-2.29736 -4.652488,1.09274 -1.553709,7.58496 -2.5130817,16.12922 -1.1829055,24.32309 -0.1758133,2.16439 3.9369955,3.15661 4.2697655,0.13217 z"
+       d="m 12.524028,854.45453 c 1.492131,-7.51968 3.954155,-14.21365 4.755644,-25.15026 0.06815,-1.52619 -4.001691,-2.82121 -4.752765,0.50095 -2.492207,7.33038 -4.5150101,15.687 -4.2224019,23.98298 -0.4457264,2.12528 3.5102729,3.6252 4.2195229,0.66633 z"
        id="path6417"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc"
@@ -1057,17 +1057,17 @@
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path6419"
-       d="m 10.19743,857.36372 c 0.982228,-9.0596 1.358669,-18.16976 1.099148,-27.33313 -0.378955,-2.44086 -5.3912044,-2.13964 -4.8878479,0.69461 1.1798344,9.63299 0.5267928,17.30095 -1.4474003,26.67032 -0.22955,2.0889 4.8757459,3.31023 5.2361002,-0.0318 z"
+       d="M 8.5723252,854.93787 C 10.6824,846.07285 12.197803,837.08173 13.08893,827.9581 c -0.07001,-2.46911 -5.0804869,-2.79854 -4.936365,0.0765 -0.036937,9.7049 -1.6459839,17.23053 -4.7790287,26.27854 -0.4895768,2.04366 4.4223634,3.89529 5.1987889,0.62478 z"
        style="fill:#a500ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08692546;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide1.png" />
     <path
        inkscape:export-ydpi="90.269203"
        inkscape:export-xdpi="90.269203"
-       sodipodi:nodetypes="cccsccssc"
+       sodipodi:nodetypes="cccsccsscc"
        inkscape:connector-curvature="0"
        id="path6421"
-       d="m 17.083846,829.68334 4.064132,1.20298 c 0.02375,-1.10068 1.169989,-0.35831 0.665798,0.11971 l -0.294066,0.40296 c -2.838642,3.88787 -12.8952359,6.1823 -8.137987,27.65594 1.610707,4.0045 5.412297,2.15574 4.995996,-0.0129 -6.883138,-19.84396 4.706387,-21.85797 6.670822,-26.48291 1.920642,-4.52145 -5.180085,-6.86724 -6.999626,-4.29617 0,0 -0.743221,1.01336 -0.965071,1.41036 z"
-       style="fill:#a500ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08384489px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 18.874073,828.3155 3.881405,1.68366 c 0.161535,-1.0767 1.20571,-0.20647 0.645561,0.19993 l -0.342267,0.35882 c -3.303685,3.46179 -13.947679,4.5292 -11.919545,26.18207 0.878657,0.75747 5.366534,0.98894 5.337165,0.54337 -4.341601,-20.3178 7.409322,-20.85704 9.938061,-25.15016 2.472319,-4.19702 -4.27857,-7.37797 -6.406101,-5.08153 0,0 -0.864406,0.90189 -1.134277,1.26381 z"
+       style="fill:#a500ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08337063px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide1.png" />
     <path
        inkscape:export-ydpi="90.269203"
@@ -1075,7 +1075,7 @@
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path6423"
-       d="m 17.18295,829.6736 4.08592,1.03051"
+       d="m 18.973623,828.34176 3.924523,1.53454"
        style="fill:#a500ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08384489px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide1.png" />
     <rect
@@ -1085,20 +1085,20 @@
        id="rect6425"
        width="0.66030359"
        height="4.6362514"
-       x="-800.97583"
-       y="239.98969"
+       x="-765.11389"
+       y="338.82364"
        ry="0"
        rx="0.050418176"
-       transform="matrix(0.26960863,-0.96296998,0.96932749,0.24577269,0,0)"
+       transform="matrix(0.3881876,-0.92158038,0.93087551,0.36533655,0,0)"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide1.png" />
     <path
        inkscape:export-ydpi="90.269203"
        inkscape:export-xdpi="90.269203"
        style="fill:#a500ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.94800001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 17.661765,835.20302 c -4.258288,4.39892 -6.84128,7.39741 -3.958788,24.07268 l 1.226024,1.64024 c -1.083463,-5.27097 0.424303,-7.57911 0.36698,-10.77509 -0.02599,-1.46502 0.124233,-2.63313 0.53655,-3.86387 0.611979,-1.82609 1.030509,-3.75341 2.004157,-4.98782 0.290588,-0.36837 -0.688508,-3.49985 -0.58621,-3.91016 0.701461,-2.84029 0.452043,-1.05961 1.399624,-2.73987 -0.360888,-0.27128 0.358684,-0.70625 -0.987789,0.56378 z"
+       d="m 18.755566,833.88759 c -4.776094,3.83046 -7.777701,4.27182 -7.008138,21.17688 l 1.010755,1.78099 c -0.414217,-5.36521 1.43411,-5.25644 1.777846,-8.4344 0.157851,-1.45672 0.453308,-2.59679 1.016642,-3.76614 0.836048,-1.73498 1.49286,-3.59464 2.613559,-4.69727 0.33447,-0.32904 -0.244382,-3.55855 -0.09146,-3.9528 1.05195,-2.72996 0.581297,-0.99459 1.732019,-2.54282 -0.324037,-0.31438 0.444382,-0.65572 -1.050666,0.43552 z"
        id="path6427"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccsssscc"
+       sodipodi:nodetypes="cccssssccc"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide1.png" />
     <path
        inkscape:export-ydpi="90.269203"
@@ -1106,16 +1106,16 @@
        sodipodi:nodetypes="ccccccc"
        inkscape:connector-curvature="0"
        id="path6429"
-       d="m 19.96972,838.91341 c 5.006178,2.06185 2.111984,10.66888 -3.014172,9.61835 l -8.8971592,-3.70897 -16.6860185,8.15576 -3.9786603,-7.94195 18.4456187,-9.35779 z"
+       d="m 20.580231,837.85801 c 4.708248,2.6731 0.758015,10.84946 -4.19603,9.16467 l -8.3620786,-4.79495 -17.5767151,5.9999 -2.9517813,-8.37803 19.4731084,-6.97188 z"
        style="fill:#6cff6c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08384489px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       inkscape:transform-center-x="13.533876"
-       inkscape:transform-center-y="1.0806502"
+       inkscape:transform-center-x="13.501648"
+       inkscape:transform-center-y="-1.423486"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide1.png" />
     <path
        inkscape:export-ydpi="90.269203"
        inkscape:export-xdpi="90.269203"
        style="fill:#ffb930;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08378451px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 44.073319,839.23369 20.484988,-2.10573 8.571092,5.89341 -5.279591,7.19524 -9.484843,-4.40623 -5.286254,7.17211 -10.476236,2.36408 z"
+       d="m 44.453578,841.19708 20.587369,0.47861 7.764771,6.92129 -6.139852,6.47671 -8.857729,-5.56038 -6.143563,6.45293 -10.68994,1.03227 z"
        id="path6431"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccc"
@@ -1126,7 +1126,7 @@
        sodipodi:nodetypes="cccccccc"
        inkscape:connector-curvature="0"
        id="path6433"
-       d="m 42.527286,855.53493 1.461771,-16.39533 4.018274,-10.46461 20.347301,-3.61777 2.219077,12.11298 -14.409233,2.16764 -3.517287,10.20739 z"
+       d="m 40.876428,857.17596 3.505347,-16.08279 5.298289,-9.8784 20.640298,-1.03876 0.683249,12.2956 -14.567294,0.34439 -4.769011,9.686 z"
        style="fill:#ffd175;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08378451px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide1.png" />
   </g>
@@ -1232,5 +1232,33 @@
          cy="833.96936"
          r="30.892857" />
     </g>
+    <rect
+       style="opacity:1;fill:#939393;fill-opacity:1;stroke:#000000;stroke-width:2.8849287;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5000"
+       width="83.115074"
+       height="29.115072"
+       x="872.73816"
+       y="414.52036"
+       ry="14.557536"
+       transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,0,0)" />
+    <rect
+       ry="14.557536"
+       y="1000.8096"
+       x="-347.42117"
+       height="29.115072"
+       width="83.115074"
+       id="rect5002"
+       style="opacity:1;fill:#939393;fill-opacity:1;stroke:#000000;stroke-width:2.8849287;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" />
+    <rect
+       style="opacity:1;fill:#939393;fill-opacity:0.76162792;stroke:#000000;stroke-width:2.8849287;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5004"
+       width="83.115074"
+       height="29.115072"
+       x="392.93665"
+       y="860.12445"
+       ry="14.557536"
+       inkscape:export-xdpi="89.999901"
+       inkscape:export-ydpi="89.999901" />
   </g>
 </svg>

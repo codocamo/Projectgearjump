@@ -78,11 +78,34 @@ if (gear3 == true && jumplimitunlock)
 }
 
 
-
+//slide code
+var t1slide = tilemap_get_at_pixel(tile_map, bbox_left, bbox_top - 48) & tile_index_mask; //will give you index of tile within tile sheet
+var t2slide = tilemap_get_at_pixel(tile_map, bbox_left + (floor(player_bbox_width / 2)) , bbox_top - 48) & tile_index_mask;
+var t3slide = tilemap_get_at_pixel(tile_map, bbox_right, bbox_top - 48) & tile_index_mask;
 if(keyboard_check_pressed(ord("S")) && pkupslidestate)
 {
 	inslide = true;
 	jumplimitunlock = false;
+	player_runspeed = [20, 0];
+	max_velocity = [20,max_velocity[1]];
+	
+	velocity = [velocity[0], 0];
+	player_jumpspeed = [0,0];
+	world_gravity = [0,3];
+	stopjumping = true;
+	alarm[2] = 20
+	
+	canstand = false
+
+}
+if(inslide && canstand && (t1slide != 3 || t2slide != 3 || t3slide != 3))
+{
+	inslide = false;
+	jumplimitunlock = true;
+	max_velocity = [8,max_velocity[1]];
+	player_runspeed = [1, 0];
+	
+	slidehelp = false
 }
 
 

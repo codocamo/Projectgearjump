@@ -49,6 +49,7 @@ if(instance_exists(obj_chkpt))
 	
 		sprite_index = spr_playertumble_gear1;
 		image_speed = 1.5
+		
 
 	}
 }
@@ -64,6 +65,8 @@ if(gear1){draw_sprite(spr_playerslide, 0, x, y); }
 else if (gear2){draw_sprite(spr_playerslide, 0, x, y);}
 else if (gear3){draw_sprite(spr_playerslide, 0, x, y); }
 else{draw_sprite(spr_playerslide, 0, x, y); }
+sprite_index = spr_playerslide;
+
 }
 else if((start_run_anim == true) && (in_tumble == false)){
 if(gear1){draw_sprite(spr_playerrun_gear1, -1, x, y); }
@@ -88,4 +91,20 @@ draw_sprite(spr_pkupslideindicator, 0, x+15, y-60)
 if (pkupslidestate)
 {
 	draw_sprite(spr_pkupslideindicator, 1, x+15, y-60)
+}
+
+
+
+
+//slide help text
+if(pkupslidestate && !inslide && slidehelp)
+{
+	draw_set_font(fnt_gravity)
+	draw_text_ext_transformed_color(x - 55,y + 60, "Press S" ,20, 200, 1, 1, 0, c_yellow,c_yellow,c_yellow,c_yellow, 1 )
+}
+else if (inslide && slidehelp)
+{
+	
+	draw_set_font(fnt_gravity)
+	draw_text_ext_transformed_color(x - 60,y + 60, "Good!" ,20, 200, 1, 1, 0, c_yellow,c_yellow,c_yellow,c_yellow, 1 )
 }

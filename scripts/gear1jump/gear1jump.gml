@@ -4,7 +4,7 @@ var t3 = tilemap_get_at_pixel(tile_map, bbox_right, bbox_bottom + 1) & tile_inde
 
 
 
-if((t1 != 0 && t1 != 1) || (t2 != 0 && t2 != 1) || (t3 != 0 && t3 != 1))
+if((t1 = 3 || t1 = 5) || (t2 = 3 || t2 = 5) || (t3 = 3 ||t3 = 5))
 {
     mid_jump = false;
 	world_gravity = [0,2.5];
