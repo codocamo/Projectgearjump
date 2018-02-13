@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-gotolvl1 = false;
+goto = [false, "nothing"];
 whiteflash = false;
 alarm0set = true;
 drawleveldetails = false;

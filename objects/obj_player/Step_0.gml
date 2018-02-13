@@ -225,6 +225,22 @@ if (velocity[0] > 0) //right
 		tile_4_locked = false;
 	}
 	
+	if(t1 = 6 || t2 = 6 || t3 = 6)
+	{
+		x = ((bbox_right & ~31) - 1) - player_bbox_right;
+		velocity = [0, velocity[1]]
+		player_jumpspeed = [0,0];
+		gear1limitunlock = false;
+		gear2limitunlock = false;
+		gear3limitunlock = false;
+		jumplimitunlock = false;
+		
+		global.leveljustcompleted = room_get_name(room);
+		endoflevel = true;
+		if(alarm3set){alarm[3] = 50; alarm3set = false;}
+		audio_sound_gain(obj_soundcontroller.current_level_music,0,1500)
+	}
+	
 }
 else //left
 {

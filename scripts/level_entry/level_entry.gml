@@ -44,5 +44,6 @@ else if(advancetonextlvl && y >= characterclampy)
 
 if(advancetonextlvl && y >= characterclampy + 100)
 {
-	obj_levelswitcher.gotolvl1 = true;
+	obj_levelswitcher.goto[0] = true;
+	obj_levelswitcher.goto[1] = "lvl1";
 }

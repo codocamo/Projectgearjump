@@ -75,6 +75,7 @@ world_wind = [0.0, 0.0];
 camera_offest_counter = 0;
 alarm1set = true;
 alarm2set = true;
+alarm3set = true;
 
 advancetonextlvl = false;
 
@@ -88,3 +89,5 @@ pkupslidestate = false;
 inslide = false;
 canstand = true;
 slidehelp = true;
+
+endoflevel = false

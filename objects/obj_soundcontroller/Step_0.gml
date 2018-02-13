@@ -9,6 +9,7 @@ if(level_music_switch)
 		//case "rm_tutorial": current_level_music = msc_pretutorial; audio_play_sound(current_level_music, 1000, true); break;
 		case "rm_pre_tutorial": audio_stop_all(); current_level_music = msc_pretutorial; audio_play_sound(current_level_music, 1000, true); break;
 		case "rm_startmenu": audio_stop_all(); current_level_music = msc_pretutorial; audio_play_sound(current_level_music, 1000, true); break;
+		//case "rm_endoflevel": audio_stop_all(); break;
 	}
 	level_music_switch = false;
 }
