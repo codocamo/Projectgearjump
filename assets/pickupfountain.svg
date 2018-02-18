@@ -8,6 +8,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="210mm"
@@ -309,17 +310,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="437.86934"
-     inkscape:cy="217.13209"
+     inkscape:zoom="1.979899"
+     inkscape:cx="-90.168979"
+     inkscape:cy="304.19169"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1858"
-     inkscape:window-height="1057"
-     inkscape:window-x="1916"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-width="715"
+     inkscape:window-height="405"
+     inkscape:window-x="809"
+     inkscape:window-y="496"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -958,7 +959,7 @@
        sodipodi:nodetypes="cccccssssc"
        inkscape:connector-curvature="0"
        id="path6399"
-       d="m -10.146032,829.34498 c 4.0179658,7.58428 7.7847886,7.39884 16.7909645,14.01054 l -1.9714634,7.51718 c 0,0 0.6900072,2.90997 -1.2852129,3.14685 l -4.8213634,-1.01023 c -2.0031029,0.14095 -4.470172,0.0152 -6.5525033,-1.8801 -1.3444205,-1.22368 -4.4448665,-1.70028 -4.3207605,-3.60886 0,0 -4.18404,-4.71399 -3.459628,-7.35698 0.782122,-2.85359 0.224263,-6.53627 2.92164,-8.80288 0.755212,-0.63456 1.828659,-1.28277 2.698314,-2.01547 z"
+       d="m -18.003175,770.77355 c 4.017966,7.58428 7.784789,7.39884 16.7909646,14.01054 l -1.9714634,7.51718 c 0,0 0.6900072,2.90997 -1.2852129,3.14685 l -4.8213634,-1.01023 c -2.0031029,0.14095 -4.4701719,0.0152 -6.5525029,-1.8801 -1.344421,-1.22368 -4.444867,-1.70028 -4.320761,-3.60886 0,0 -4.18404,-4.71399 -3.459628,-7.35698 0.782122,-2.85359 0.224263,-6.53627 2.92164,-8.80288 0.755212,-0.63456 1.828659,-1.28277 2.698314,-2.01547 z"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08384489px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide1.png" />
     <path
@@ -967,7 +968,7 @@
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path6401"
-       d="m -0.89219592,853.14425 c 1.40764419,-2.20454 2.94369092,-7.30584 3.03094072,-9.79048 l -4.2710309,-0.94961 c 0.4098926,2.5614 -0.5463562,8.34937 -1.4607402,10.6298 z"
+       d="m -8.7493388,794.57282 c 1.4076442,-2.20454 2.9436909,-7.30584 3.0309407,-9.79048 l -4.2710309,-0.94961 c 0.4098926,2.5614 -0.546356,8.34937 -1.46074,10.6298 z"
        style="fill:#ffaa00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08384489px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide1.png" />
     <path
@@ -976,7 +977,7 @@
        sodipodi:nodetypes="cscccsccc"
        inkscape:connector-curvature="0"
        id="path6403"
-       d="m -10.400501,829.32482 c 0.224186,4.78511 2.0314274,7.832 1.3633807,9.59771 -0.5102255,1.34862 1.3665638,2.15254 2.5296796,2.7704 1.2201178,-0.60622 3.0705875,-0.51287 4.3694665,1.11202 1.40032507,-0.005 2.4609206,0.78938 4.0783582,0.83737 0.7214246,-0.38406 1.8731544,-0.58409 2.5621598,0.44175 2.1023648,3.13025 6.8680522,1.2795 10.1434402,1.95201 l 3.818437,-15.70067 c -19.5740207,-4.97421 -21.8193339,-7.60149 -28.864932,-1.01055 z"
+       d="m -18.257644,770.75339 c 0.224186,4.78511 2.031428,7.832 1.363381,9.59771 -0.510226,1.34862 1.366564,2.15254 2.529679,2.7704 1.220118,-0.60622 3.070588,-0.51287 4.3694669,1.11202 1.4003251,-0.005 2.4609206,0.78938 4.0783582,0.83737 0.7214246,-0.38406 1.8731544,-0.58409 2.5621598,0.44175 2.1023648,3.13025 6.8680522,1.2795 10.1434402,1.95201 l 3.8184369,-15.70067 c -19.5740206,-4.97421 -21.819334,-7.60149 -28.864932,-1.01055 z"
        style="fill:#ffaa00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.07067266px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide1.png" />
     <path
@@ -986,27 +987,27 @@
        style="opacity:1;fill:#a500ff;fill-opacity:1;stroke:#7c23ff;stroke-width:0.08607651;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path6405"
        sodipodi:type="arc"
-       sodipodi:cx="-815.32013"
-       sodipodi:cy="175.60832"
+       sodipodi:cx="-759.65424"
+       sodipodi:cy="155.56763"
        sodipodi:rx="6.8650875"
        sodipodi:ry="6.9072161"
        sodipodi:start="1.2198089"
        sodipodi:end="1.2121573"
        sodipodi:open="true"
-       d="m -812.95974,182.09443 a 6.8650875,6.9072161 0 0 1 -8.80241,-4.09883 6.8650875,6.9072161 0 0 1 4.05698,-8.86425 6.8650875,6.9072161 0 0 1 8.81794,4.06491 6.8650875,6.9072161 0 0 1 -4.02325,8.87981"
+       d="m -757.29385,162.05374 a 6.8650875,6.9072161 0 0 1 -8.80241,-4.09884 6.8650875,6.9072161 0 0 1 4.05699,-8.86425 6.8650875,6.9072161 0 0 1 8.81793,4.06492 6.8650875,6.9072161 0 0 1 -4.02325,8.8798"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide1.png" />
     <path
        inkscape:export-ydpi="90.269203"
        inkscape:export-xdpi="90.269203"
        transform="matrix(0.21103066,-0.97747944,0.97822734,0.20753621,0,0)"
-       d="m -813.2905,180.6331 a 5.3820701,5.4150977 0 0 1 -6.90089,-3.21339 5.3820701,5.4150977 0 0 1 3.18059,-6.94937 5.3820701,5.4150977 0 0 1 6.91305,3.1868 5.3820701,5.4150977 0 0 1 -3.15413,6.96157"
+       d="m -757.62461,160.59241 a 5.3820701,5.4150977 0 0 1 -6.90088,-3.21339 5.3820701,5.4150977 0 0 1 3.18058,-6.94937 5.3820701,5.4150977 0 0 1 6.91305,3.1868 5.3820701,5.4150977 0 0 1 -3.15413,6.96156"
        sodipodi:open="true"
        sodipodi:end="1.2121573"
        sodipodi:start="1.2198089"
        sodipodi:ry="5.4150977"
        sodipodi:rx="5.3820701"
-       sodipodi:cy="175.54814"
-       sodipodi:cx="-815.14099"
+       sodipodi:cy="155.50745"
+       sodipodi:cx="-759.4751"
        sodipodi:type="arc"
        id="path6407"
        style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:#7c23ff;stroke-width:0.06748198;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -1016,7 +1017,7 @@
        inkscape:export-xdpi="90.269203"
        sodipodi:nodetypes="ccccc"
        style="fill:#ffaa00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08384489px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -12.258481,847.83313 c 2.230214,-1.43692 4.3425957,-3.44486 5.7901293,-6.08256 l -2.5601047,-2.7464 c -1.4805596,2.57892 -2.7391986,5.21687 -5.1202186,6.12201 0.542382,0.58312 0.52545,1.72376 1.890194,2.70695 z"
+       d="m -20.115624,789.2617 c 2.230214,-1.43692 4.342596,-3.44486 5.790129,-6.08256 l -2.560104,-2.7464 c -1.48056,2.57892 -2.739199,5.21687 -5.120219,6.12201 0.542382,0.58312 0.52545,1.72376 1.890194,2.70695 z"
        id="path6409"
        inkscape:connector-curvature="0"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide1.png" />
@@ -1025,7 +1026,7 @@
        inkscape:export-xdpi="90.269203"
        sodipodi:nodetypes="ccccccc"
        style="fill:#41be41;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.07428214px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 11.449216,852.12786 4.035904,-19.83291 c 0.497185,-8.05417 12.211779,1.60537 14.912371,2.68477 l 13.910042,6.08018 -3.435038,16.14656 -23.669758,0.16488 c -4.071735,0.28815 -7.7489121,0.20341 -5.753381,-5.24347 z"
+       d="m 3.5920731,793.55643 4.035904,-19.83291 c 0.497185,-8.05417 12.2117789,1.60537 14.9123709,2.68477 l 13.910042,6.08018 -3.435038,16.14656 -23.6697579,0.16488 c -4.071735,0.28815 -7.7489121,0.20341 -5.753381,-5.24347 z"
        id="path6413"
        inkscape:connector-curvature="0"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide1.png" />
@@ -1035,8 +1036,8 @@
        transform="matrix(0.39854378,-0.91714931,0.93430303,0.35647981,0,0)"
        rx="0.052152578"
        ry="0"
-       y="347.42947"
-       x="-769.66455"
+       y="316.84848"
+       x="-717.68835"
        height="5.0748391"
        width="1.6688825"
        id="rect6415"
@@ -1046,7 +1047,7 @@
        inkscape:export-ydpi="90.269203"
        inkscape:export-xdpi="90.269203"
        style="fill:#a500ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08045952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 12.524028,854.45453 c 1.492131,-7.51968 3.954155,-14.21365 4.755644,-25.15026 0.06815,-1.52619 -4.001691,-2.82121 -4.752765,0.50095 -2.492207,7.33038 -4.5150101,15.687 -4.2224019,23.98298 -0.4457264,2.12528 3.5102729,3.6252 4.2195229,0.66633 z"
+       d="m 4.6668851,795.8831 c 1.492131,-7.51968 3.954155,-14.21365 4.755644,-25.15026 0.06815,-1.52619 -4.001691,-2.82121 -4.752765,0.50095 -2.492207,7.33038 -4.51501006,15.687 -4.22240186,23.98298 -0.4457264,2.12528 3.51027286,3.6252 4.21952286,0.66633 z"
        id="path6417"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc"
@@ -1057,7 +1058,7 @@
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path6419"
-       d="M 8.5723252,854.93787 C 10.6824,846.07285 12.197803,837.08173 13.08893,827.9581 c -0.07001,-2.46911 -5.0804869,-2.79854 -4.936365,0.0765 -0.036937,9.7049 -1.6459839,17.23053 -4.7790287,26.27854 -0.4895768,2.04366 4.4223634,3.89529 5.1987889,0.62478 z"
+       d="M 0.71518234,796.36644 C 2.8252571,787.50142 4.3406601,778.5103 5.2317871,769.38667 c -0.07001,-2.46911 -5.08048686,-2.79854 -4.93636496,0.0765 -0.036937,9.7049 -1.64598394,17.23053 -4.77902874,26.27854 -0.4895768,2.04366 4.42236344,3.89529 5.19878894,0.62478 z"
        style="fill:#a500ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08692546;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide1.png" />
     <path
@@ -1066,7 +1067,7 @@
        sodipodi:nodetypes="cccsccsscc"
        inkscape:connector-curvature="0"
        id="path6421"
-       d="m 18.874073,828.3155 3.881405,1.68366 c 0.161535,-1.0767 1.20571,-0.20647 0.645561,0.19993 l -0.342267,0.35882 c -3.303685,3.46179 -13.947679,4.5292 -11.919545,26.18207 0.878657,0.75747 5.366534,0.98894 5.337165,0.54337 -4.341601,-20.3178 7.409322,-20.85704 9.938061,-25.15016 2.472319,-4.19702 -4.27857,-7.37797 -6.406101,-5.08153 0,0 -0.864406,0.90189 -1.134277,1.26381 z"
+       d="m 11.01693,769.74407 3.881405,1.68366 c 0.161535,-1.0767 1.20571,-0.20647 0.645561,0.19993 l -0.342267,0.35882 c -3.303685,3.46179 -13.9476789,4.5292 -11.9195449,26.18207 0.878657,0.75747 5.366534,0.98894 5.337165,0.54337 -4.341601,-20.3178 7.4093219,-20.85704 9.9380609,-25.15016 2.472319,-4.19702 -4.27857,-7.37797 -6.406101,-5.08153 0,0 -0.864406,0.90189 -1.134277,1.26381 z"
        style="fill:#a500ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08337063px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide1.png" />
     <path
@@ -1075,7 +1076,7 @@
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path6423"
-       d="m 18.973623,828.34176 3.924523,1.53454"
+       d="m 11.11648,769.77033 3.924523,1.53454"
        style="fill:#a500ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08384489px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide1.png" />
     <rect
@@ -1085,8 +1086,8 @@
        id="rect6425"
        width="0.66030359"
        height="4.6362514"
-       x="-765.11389"
-       y="338.82364"
+       x="-713.44598"
+       y="308.83682"
        ry="0"
        rx="0.050418176"
        transform="matrix(0.3881876,-0.92158038,0.93087551,0.36533655,0,0)"
@@ -1095,7 +1096,7 @@
        inkscape:export-ydpi="90.269203"
        inkscape:export-xdpi="90.269203"
        style="fill:#a500ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.94800001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 18.755566,833.88759 c -4.776094,3.83046 -7.777701,4.27182 -7.008138,21.17688 l 1.010755,1.78099 c -0.414217,-5.36521 1.43411,-5.25644 1.777846,-8.4344 0.157851,-1.45672 0.453308,-2.59679 1.016642,-3.76614 0.836048,-1.73498 1.49286,-3.59464 2.613559,-4.69727 0.33447,-0.32904 -0.244382,-3.55855 -0.09146,-3.9528 1.05195,-2.72996 0.581297,-0.99459 1.732019,-2.54282 -0.324037,-0.31438 0.444382,-0.65572 -1.050666,0.43552 z"
+       d="m 10.898423,775.31616 c -4.7760939,3.83046 -7.7777009,4.27182 -7.0081379,21.17688 l 1.010755,1.78099 c -0.414217,-5.36521 1.43411,-5.25644 1.777846,-8.4344 0.157851,-1.45672 0.453308,-2.59679 1.016642,-3.76614 0.836048,-1.73498 1.49286,-3.59464 2.6135589,-4.69727 0.33447,-0.32904 -0.244382,-3.55855 -0.09146,-3.9528 1.05195,-2.72996 0.581297,-0.99459 1.732019,-2.54282 -0.324037,-0.31438 0.444382,-0.65572 -1.050666,0.43552 z"
        id="path6427"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccssssccc"
@@ -1106,7 +1107,7 @@
        sodipodi:nodetypes="ccccccc"
        inkscape:connector-curvature="0"
        id="path6429"
-       d="m 20.580231,837.85801 c 4.708248,2.6731 0.758015,10.84946 -4.19603,9.16467 l -8.3620786,-4.79495 -17.5767151,5.9999 -2.9517813,-8.37803 19.4731084,-6.97188 z"
+       d="m 12.723088,779.28658 c 4.708248,2.6731 0.758015,10.84946 -4.1960299,9.16467 l -8.36207856,-4.79495 -17.57671554,5.9999 -2.951781,-8.37803 19.47310854,-6.97188 z"
        style="fill:#6cff6c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08384489px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        inkscape:transform-center-x="13.501648"
        inkscape:transform-center-y="-1.423486"
@@ -1115,7 +1116,7 @@
        inkscape:export-ydpi="90.269203"
        inkscape:export-xdpi="90.269203"
        style="fill:#ffb930;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08378451px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 44.453578,841.19708 20.587369,0.47861 7.764771,6.92129 -6.139852,6.47671 -8.857729,-5.56038 -6.143563,6.45293 -10.68994,1.03227 z"
+       d="m 36.596435,782.62565 20.587369,0.47861 7.764771,6.92129 -6.139852,6.47671 -8.857729,-5.56038 -6.143563,6.45293 -10.68994,1.03227 z"
        id="path6431"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccc"
@@ -1126,9 +1127,363 @@
        sodipodi:nodetypes="cccccccc"
        inkscape:connector-curvature="0"
        id="path6433"
-       d="m 40.876428,857.17596 3.505347,-16.08279 5.298289,-9.8784 20.640298,-1.03876 0.683249,12.2956 -14.567294,0.34439 -4.769011,9.686 z"
+       d="m 33.019285,798.60453 3.505347,-16.08279 5.298289,-9.8784 20.640298,-1.03876 0.683249,12.2956 -14.567294,0.34439 -4.769011,9.686 z"
        style="fill:#ffd175;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08378451px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide1.png" />
+    <path
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide3.png"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08384489px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -16.206947,717.72312 c 4.017966,7.58428 7.7847883,7.39884 16.79096422,14.01054 l -1.97146342,7.51718 c 0,0 0.69000722,2.90997 -1.2852129,3.14685 l -4.8213634,-1.01023 c -2.0031029,0.14095 -4.4701715,0.0152 -6.5525035,-1.8801 -1.34442,-1.22368 -4.444866,-1.70028 -4.32076,-3.60886 0,0 -4.18404,-4.71399 -3.459628,-7.35698 0.782122,-2.85359 0.224263,-6.53627 2.92164,-8.80288 0.755212,-0.63456 1.828659,-1.28277 2.698314,-2.01547 z"
+       id="path4296"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccssssc"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide3.png"
+       style="fill:#513b98;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08384489px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -6.9531112,741.52239 c 1.4076442,-2.20454 2.9436909,-7.30584 3.0309407,-9.79048 l -4.2710309,-0.94961 c 0.4098926,2.5614 -0.5463562,8.34937 -1.4607402,10.6298 z"
+       id="path4298"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide3.png"
+       style="fill:#513b98;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.07067266px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -16.461416,717.70296 c 0.224186,4.78511 2.031427,7.832 1.36338,9.59771 -0.510225,1.34862 1.366564,2.15254 2.52968,2.7704 1.220118,-0.60622 3.0705875,-0.51287 4.3694665,1.11202 1.4003251,-0.005 2.4609206,0.78938 4.0783582,0.83737 0.7214246,-0.38406 1.8731544,-0.58409 2.5621598,0.44175 2.10236482,3.13025 6.8680524,1.2795 10.1434404,1.95201 L 12.403506,718.71355 C -7.170515,713.73934 -9.4158282,711.11206 -16.461426,717.703 Z"
+       id="path4300"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cscccsccc"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide3.png"
+       d="m -705.02535,152.61419 a 6.8650875,6.9072161 0 0 1 -8.80241,-4.09883 6.8650875,6.9072161 0 0 1 4.05698,-8.86425 6.8650875,6.9072161 0 0 1 8.81793,4.06491 6.8650875,6.9072161 0 0 1 -4.02325,8.87981"
+       sodipodi:open="true"
+       sodipodi:end="1.2121573"
+       sodipodi:start="1.2198089"
+       sodipodi:ry="6.9072161"
+       sodipodi:rx="6.8650875"
+       sodipodi:cy="146.12808"
+       sodipodi:cx="-707.38574"
+       sodipodi:type="arc"
+       id="path4302"
+       style="opacity:1;fill:#f8494e;fill-opacity:1;stroke:#7c23ff;stroke-width:0.08607651;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(0.21103066,-0.97747944,0.97822734,0.20753621,0,0)"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide3.png"
+       style="opacity:1;fill:#01efe4;fill-opacity:1;stroke:#7c23ff;stroke-width:0.06748198;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4304"
+       sodipodi:type="arc"
+       sodipodi:cx="-707.2066"
+       sodipodi:cy="146.0679"
+       sodipodi:rx="5.3820701"
+       sodipodi:ry="5.4150977"
+       sodipodi:start="1.2198089"
+       sodipodi:end="1.2121573"
+       sodipodi:open="true"
+       d="m -705.35611,151.15286 a 5.3820701,5.4150977 0 0 1 -6.90089,-3.21339 5.3820701,5.4150977 0 0 1 3.18058,-6.94937 5.3820701,5.4150977 0 0 1 6.91306,3.1868 5.3820701,5.4150977 0 0 1 -3.15414,6.96157"
+       transform="matrix(0.21103066,-0.97747944,0.97822734,0.20753621,0,0)"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide3.png"
+       inkscape:connector-curvature="0"
+       id="path4306"
+       d="m -18.319396,736.21127 c 2.230214,-1.43692 4.342595,-3.44486 5.790129,-6.08256 l -2.560105,-2.7464 c -1.480559,2.57892 -2.739198,5.21687 -5.120218,6.12201 0.542382,0.58312 0.52545,1.72376 1.890194,2.70695 z"
+       style="fill:#513b98;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08384489px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide3.png"
+       inkscape:connector-curvature="0"
+       id="path4308"
+       d="m 5.3883009,740.506 4.035904,-19.83291 c 0.497185,-8.05417 12.2117791,1.60537 14.9123711,2.68477 l 13.910042,6.08018 -3.435038,16.14656 -23.669758,0.16488 c -4.0717351,0.28815 -7.7489121,0.20341 -5.7533811,-5.24347 z"
+       style="fill:#2bc5bd;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.07428214px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <rect
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide3.png"
+       style="opacity:1;fill:#f8494e;fill-opacity:1;stroke:#000000;stroke-width:0.07030562;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4310"
+       width="1.6688825"
+       height="5.0748391"
+       x="-667.43103"
+       y="297.33282"
+       ry="0"
+       rx="0.052152578"
+       transform="matrix(0.39854378,-0.91714931,0.93430303,0.35647981,0,0)"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide3.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4312"
+       d="m 6.4631129,742.83267 c 1.492131,-7.51968 3.9541551,-14.21365 4.7556441,-25.15026 0.06815,-1.52619 -4.0016911,-2.82121 -4.7527651,0.50095 -2.492207,7.33038 -4.5150103,15.687 -4.2224021,23.98298 -0.4457264,2.12528 3.5102731,3.6252 4.2195231,0.66633 z"
+       style="fill:#f8494e;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08045952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide3.png"
+       style="fill:#f8494e;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08692546;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 2.5114099,743.31601 c 2.110075,-8.86502 3.625478,-17.85614 4.516605,-26.97977 -0.07001,-2.46911 -5.0804871,-2.79854 -4.9363652,0.0765 -0.036937,9.7049 -1.64598388,17.23053 -4.7790287,26.27854 -0.4895768,2.04366 4.4223634,3.89529 5.1987889,0.62478 z"
+       id="path4314"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide3.png"
+       style="fill:#f8494e;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08337063px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 12.813158,716.69364 3.881405,1.68366 c 0.161535,-1.0767 1.20571,-0.20647 0.645561,0.19993 l -0.342267,0.35882 c -3.303685,3.46179 -13.9476791,4.5292 -11.9195451,26.18207 0.878657,0.75747 5.3665341,0.98894 5.3371651,0.54337 -4.3416011,-20.3178 7.409322,-20.85704 9.938061,-25.15016 2.472319,-4.19702 -4.27857,-7.37797 -6.406101,-5.08153 0,0 -0.864406,0.90189 -1.134277,1.26381 z"
+       id="path4316"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccsccsscc"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide3.png"
+       style="fill:#f8494e;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08384489px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 12.912708,716.7199 3.924523,1.53454"
+       id="path4318"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <rect
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide3.png"
+       transform="matrix(0.3881876,-0.92158038,0.93087551,0.36533655,0,0)"
+       rx="0.050418176"
+       ry="0"
+       y="289.89291"
+       x="-663.39117"
+       height="4.6362514"
+       width="0.66030359"
+       id="rect4320"
+       style="opacity:1;fill:#f8494e;fill-opacity:1;stroke:none;stroke-width:0.83833486;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide3.png"
+       sodipodi:nodetypes="cccssssccc"
+       inkscape:connector-curvature="0"
+       id="path4322"
+       d="m 12.694651,722.26573 c -4.7760941,3.83046 -7.7777011,4.27182 -7.0081381,21.17688 l 1.010755,1.78099 c -0.414217,-5.36521 1.43411,-5.25644 1.777846,-8.4344 0.157851,-1.45672 0.453308,-2.59679 1.016642,-3.76614 0.8360481,-1.73498 1.4928601,-3.59464 2.6135591,-4.69727 0.33447,-0.32904 -0.244382,-3.55855 -0.09146,-3.9528 1.05195,-2.72996 0.581297,-0.99459 1.732019,-2.54282 -0.324037,-0.31438 0.444382,-0.65572 -1.050666,0.43552 z"
+       style="fill:#f8494e;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.94800001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide3.png"
+       inkscape:transform-center-y="-1.423486"
+       inkscape:transform-center-x="13.501648"
+       style="fill:#74fff7;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08384489px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 14.519316,726.23615 c 4.708248,2.6731 0.758015,10.84946 -4.19603,9.16467 l -8.3620789,-4.79495 -17.5767151,5.9999 -2.951781,-8.37803 19.47310812,-6.97188 z"
+       id="path4324"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide3.png"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:connector-curvature="0"
+       id="path4326"
+       d="m 38.392663,729.57522 20.587369,0.47861 7.764771,6.92129 -6.139852,6.47671 -8.857729,-5.56038 -6.143563,6.45293 -10.68994,1.03227 z"
+       style="fill:#4728ab;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08378451px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide3.png"
+       style="fill:#6e56be;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08378451px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 34.815513,745.5541 3.505347,-16.08279 5.298289,-9.8784 20.640298,-1.03876 0.683249,12.2956 -14.567294,0.34439 -4.769011,9.686 z"
+       id="path4328"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       sodipodi:nodetypes="cccccssssc"
+       inkscape:connector-curvature="0"
+       id="path4330"
+       d="m -20.088806,833.90373 c 4.01797,7.58428 7.78479,7.39884 16.7909703,14.01054 l -1.97146,7.51718 c 0,0 0.69,2.90997 -1.28522,3.14685 l -4.8213603,-1.01023 c -2.0031,0.14095 -4.47017,0.0152 -6.5525,-1.8801 -1.34442,-1.22368 -4.44487,-1.70028 -4.32076,-3.60886 0,0 -4.18404,-4.71399 -3.45963,-7.35698 0.78212,-2.85359 0.22426,-6.53627 2.92164,-8.80288 0.75521,-0.63456 1.82866,-1.28277 2.69831,-2.01547 z"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08384489px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide2.png" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4332"
+       d="m -10.834966,857.703 c 1.4076403,-2.20454 2.9436903,-7.30584 3.0309403,-9.79048 l -4.2710303,-0.94961 c 0.40989,2.5614 -0.54636,8.34937 -1.46074,10.6298 z"
+       style="fill:#eb0249;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08384489px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide2.png" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       sodipodi:nodetypes="cscccsccc"
+       inkscape:connector-curvature="0"
+       id="path4334"
+       d="m -20.343266,833.88357 c 0.22418,4.78511 2.03142,7.832 1.36338,9.59771 -0.51023,1.34862 1.36656,2.15254 2.52968,2.7704 1.22011,-0.60622 3.07058,-0.51287 4.36946,1.11202 1.40033,-0.005 2.4609203,0.78938 4.0783603,0.83737 0.72143,-0.38406 1.87315,-0.58409 2.56216,0.44175 2.10237,3.13025 6.86805,1.2795 10.14344,1.95201 l 3.81844,-15.70067 c -19.5740203,-4.97421 -21.8193403,-7.60149 -28.8649303,-1.01055 z"
+       style="fill:#eb0249;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.07067266px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide2.png" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       transform="matrix(0.21103066,-0.97747944,0.97822734,0.20753621,0,0)"
+       style="opacity:1;fill:#fdfd71;fill-opacity:1;stroke:#7c23ff;stroke-width:0.08607651;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4336"
+       sodipodi:type="arc"
+       sodipodi:cx="-821.84314"
+       sodipodi:cy="166.85146"
+       sodipodi:rx="6.8650875"
+       sodipodi:ry="6.9072161"
+       sodipodi:start="1.2198089"
+       sodipodi:end="1.2121573"
+       sodipodi:open="true"
+       d="m -819.48275,173.33756 a 6.8650875,6.9072161 0 0 1 -8.80241,-4.09883 6.8650875,6.9072161 0 0 1 4.05698,-8.86425 6.8650875,6.9072161 0 0 1 8.81794,4.06492 6.8650875,6.9072161 0 0 1 -4.02325,8.8798"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide2.png" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       transform="matrix(0.21103066,-0.97747944,0.97822734,0.20753621,0,0)"
+       d="m -819.81351,171.87623 a 5.3820701,5.4150977 0 0 1 -6.90089,-3.21338 5.3820701,5.4150977 0 0 1 3.18059,-6.94937 5.3820701,5.4150977 0 0 1 6.91305,3.1868 5.3820701,5.4150977 0 0 1 -3.15413,6.96156"
+       sodipodi:open="true"
+       sodipodi:end="1.2121573"
+       sodipodi:start="1.2198089"
+       sodipodi:ry="5.4150977"
+       sodipodi:rx="5.3820701"
+       sodipodi:cy="166.79128"
+       sodipodi:cx="-821.664"
+       sodipodi:type="arc"
+       id="path4338"
+       style="opacity:1;fill:#0290ff;fill-opacity:1;stroke:#7c23ff;stroke-width:0.06748198;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide2.png" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       sodipodi:nodetypes="ccccc"
+       style="fill:#eb0249;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08384489px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -22.201246,852.39188 c 2.23021,-1.43692 4.34259,-3.44486 5.79012,-6.08256 l -2.5601,-2.7464 c -1.48056,2.57892 -2.7392,5.21687 -5.12022,6.12201 0.54238,0.58312 0.52545,1.72376 1.8902,2.70695 z"
+       id="path4340"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide2.png" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       sodipodi:nodetypes="ccccccc"
+       style="fill:#416c8b;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.07428214px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1.5064443,856.68661 4.03591,-19.83291 c 0.49718,-8.05417 12.2117797,1.60537 14.9123697,2.68477 l 13.91004,6.08018 -3.43504,16.14656 -23.6697597,0.16488 c -4.07173,0.28815 -7.74891001,0.20341 -5.75338,-5.24347 z"
+       id="path4342"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide2.png" />
+    <rect
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       transform="matrix(0.39854378,-0.91714931,0.93430303,0.35647981,0,0)"
+       rx="0.052152578"
+       ry="0"
+       y="340.11978"
+       x="-777.47632"
+       height="5.0748391"
+       width="1.6688825"
+       id="rect4344"
+       style="opacity:1;fill:#e6e666;fill-opacity:1;stroke:#000000;stroke-width:0.07030562;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide2.png" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       style="fill:#e6e666;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08045952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 2.5812543,859.01328 c 1.49214,-7.51968 3.95416,-14.21365 4.75565,-25.15026 0.0682,-1.52619 -4.00169,-2.82121 -4.75277,0.50095 -2.49220001,7.33038 -4.51501,15.687 -4.2224,23.98298 -0.44572,2.12528 3.51027,3.6252 4.21952,0.66633 z"
+       id="path4346"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide2.png" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4348"
+       d="m -1.3704457,859.49662 c 2.11007999,-8.86502 3.62548,-17.85614 4.51661,-26.97977 -0.07,-2.46911 -5.08049,-2.79854 -4.93637,0.0765 -0.0369,9.7049 -1.64598,17.23053 -4.77903,26.27854 -0.48957,2.04366 4.42237,3.89529 5.19879,0.62478 z"
+       style="fill:#e6e666;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08692546;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide2.png" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       sodipodi:nodetypes="cccsccsscc"
+       inkscape:connector-curvature="0"
+       id="path4350"
+       d="m 8.9313043,832.87425 3.8813997,1.68366 c 0.16154,-1.0767 1.20571,-0.20647 0.64557,0.19993 l -0.34227,0.35882 c -3.3036897,3.46179 -13.94767971,4.5292 -11.9195497,26.18207 0.87866,0.75747 5.36654,0.98894 5.33717,0.54337 -4.3416,-20.3178 7.4093197,-20.85704 9.9380597,-25.15016 2.47232,-4.19702 -4.27857,-7.37797 -6.4061,-5.08153 0,0 -0.8644097,0.90189 -1.1342797,1.26381 z"
+       style="fill:#e6e666;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08337063px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide2.png" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path4352"
+       d="m 9.0308543,832.90051 3.9245197,1.53454"
+       style="fill:#e6e666;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08384489px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide2.png" />
+    <rect
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       style="opacity:1;fill:#e6e666;fill-opacity:1;stroke:none;stroke-width:0.83833486;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4354"
+       width="0.66030359"
+       height="4.6362514"
+       x="-772.99243"
+       y="331.42798"
+       ry="0"
+       rx="0.050418176"
+       transform="matrix(0.3881876,-0.92158038,0.93087551,0.36533655,0,0)"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide2.png" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       style="fill:#e6e666;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.94800001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 8.8127943,838.44634 c -4.77609,3.83046 -7.7777,4.27182 -7.00814,21.17688 l 1.01076,1.78099 c -0.41422,-5.36521 1.43411,-5.25644 1.77785,-8.4344 0.15785,-1.45672 0.4533,-2.59679 1.01664,-3.76614 0.83605,-1.73498 1.49286,-3.59464 2.61356,-4.69727 0.33447,-0.32904 -0.24439,-3.55855 -0.0915,-3.9528 1.05195,-2.72996 0.58129,-0.99459 1.73202,-2.54282 -0.32404,-0.31438 0.4443797,-0.65572 -1.05067,0.43552 z"
+       id="path4356"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccssssccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide2.png" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:connector-curvature="0"
+       id="path4358"
+       d="m 10.637464,842.41676 c 4.70825,2.6731 0.75801,10.84946 -4.1960297,9.16467 l -8.36208,-4.79495 -17.5767203,5.9999 -2.95178,-8.37803 19.4731103,-6.97188 z"
+       style="fill:#88cbff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08384489px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:transform-center-x="13.501648"
+       inkscape:transform-center-y="-1.423486"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide2.png" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       style="fill:#ff2969;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08378451px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 34.510804,845.75583 20.58737,0.47861 7.76477,6.92129 -6.13985,6.47671 -8.85773,-5.56038 -6.14356,6.45293 -10.68994,1.03227 z"
+       id="path4360"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide2.png" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:connector-curvature="0"
+       id="path4362"
+       d="m 30.933654,861.73471 3.50535,-16.08279 5.29829,-9.8784 20.6403,-1.03876 0.68325,12.2956 -14.5673,0.34439 -4.76901,9.686 z"
+       style="fill:#ff618f;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.08378451px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\CharacteAnimations\character_movement\charslide2.png" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1260,5 +1615,356 @@
        ry="14.557536"
        inkscape:export-xdpi="89.999901"
        inkscape:export-ydpi="89.999901" />
+    <image
+       y="632.99609"
+       x="-322.56369"
+       id="image4293"
+       xlink:href="data:image/png;base64,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
+"
+       preserveAspectRatio="none"
+       height="127.57475"
+       width="288.03986" />
   </g>
 </svg>

@@ -15,3 +15,6 @@ stop_jump_snd = false;
 block_snd = false;
 
 level_music_switch = true;
+
+
+msc_default_gain = 0.25

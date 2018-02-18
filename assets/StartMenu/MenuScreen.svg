@@ -126,15 +126,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="835.4446"
-     inkscape:cy="-313.25288"
+     inkscape:cx="942.02953"
+     inkscape:cy="-616.92061"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1800"
-     inkscape:window-height="1025"
-     inkscape:window-x="-8"
-     inkscape:window-y="24"
+     inkscape:window-width="1858"
+     inkscape:window-height="1057"
+     inkscape:window-x="1916"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
@@ -292,7 +292,7 @@
        cx="925.73883"
        id="ellipse4222"
        style="opacity:1;fill-opacity:1;stroke:#ffffff;stroke-width:5.02806711;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\spriter_menubutton\btn_quitUp.png"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\StartMenu\spriter_menubutton\btn_continueUp.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987" />
     <ellipse
@@ -302,7 +302,7 @@
        cy="1204.8734"
        rx="58.581394"
        ry="57.628853"
-       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\spriter_menubutton\btn_quitUp.png"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\StartMenu\spriter_menubutton\btn_continueUp.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987" />
     <ellipse
@@ -312,7 +312,7 @@
        cx="926.00592"
        id="ellipse4226"
        style="opacity:1;fill-opacity:1;stroke:#ffffff;stroke-width:2.35244775;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\spriter_menubutton\btn_quitUp.png"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\StartMenu\spriter_menubutton\btn_continueUp.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987" />
     <circle
@@ -321,7 +321,7 @@
        cx="1001.9789"
        id="circle4228"
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:5.69999981;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\spriter_menubutton\btn_quitUp.png"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\StartMenu\spriter_menubutton\btn_continueUp.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987" />
     <circle
@@ -330,7 +330,7 @@
        cx="874.70184"
        cy="1231.0293"
        r="10.081336"
-       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\spriter_menubutton\btn_quitUp.png"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\StartMenu\spriter_menubutton\btn_continueUp.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987" />
     <ellipse
@@ -652,5 +652,214 @@
        d="m 692.96464,1543.2963 44.44671,66.6701 -103.03556,72.731 92.93404,14.1421 42.4264,-84.8528 76.7716,86.8731 62.62945,-42.4264 -94.95433,-107.0761 92.93403,-22.2234 -40.4061,-36.3655 -84.85282,24.2437 -54.54823,-62.6295 z"
        id="path5014"
        inkscape:connector-curvature="0" />
+    <rect
+       inkscape:export-ydpi="100.987"
+       inkscape:export-xdpi="100.987"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\StartMenu\spriter_menubutton\letterE.png"
+       transform="matrix(0.73225762,0,0,0.87946037,839.35864,359.92005)"
+       style="opacity:1;fill:#000000;fill-opacity:0.56470588;stroke:none;stroke-width:1.79299998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter7897)"
+       id="rect4210"
+       width="64.285713"
+       height="68.571426"
+       x="1105.6547"
+       y="1428.7072" />
+    <text
+       inkscape:export-ydpi="100.987"
+       inkscape:export-xdpi="100.987"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\StartMenu\spriter_menubutton\letterE.png"
+       sodipodi:linespacing="125%"
+       id="text4212"
+       y="1671.6478"
+       x="1648.2611"
+       style="font-style:normal;font-weight:normal;font-size:71.71005249px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:71.71005249px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         y="1671.6478"
+         x="1648.2611"
+         id="tspan4214"
+         sodipodi:role="line">E</tspan></text>
+    <rect
+       y="1428.7072"
+       x="1105.6547"
+       height="68.571426"
+       width="64.285713"
+       id="rect4216"
+       style="opacity:1;fill:#000000;fill-opacity:0.56470588;stroke:none;stroke-width:1.79299998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter7897)"
+       transform="matrix(0.95406853,0,0,0.85589799,542.79112,478.67737)"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\StartMenu\spriter_menubutton\letterO.png"
+       inkscape:export-xdpi="100.987"
+       inkscape:export-ydpi="100.987" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:71.71005249px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="1598.2611"
+       y="1755.9336"
+       id="text4218"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\StartMenu\spriter_menubutton\letterO.png"
+       inkscape:export-xdpi="100.987"
+       inkscape:export-ydpi="100.987"><tspan
+         sodipodi:role="line"
+         id="tspan4220"
+         x="1598.2611"
+         y="1755.9336"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:71.71005249px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">O</tspan></text>
+    <rect
+       y="1428.7072"
+       x="1105.6547"
+       height="68.571426"
+       width="64.285713"
+       id="rect4228"
+       style="opacity:1;fill:#000000;fill-opacity:0.56470588;stroke:none;stroke-width:1.79299998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter7897)"
+       transform="matrix(0.88464976,0,0,0.86296526,704.65941,467.89493)"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\StartMenu\spriter_menubutton\letterN.png"
+       inkscape:export-xdpi="100.987"
+       inkscape:export-ydpi="100.987" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:71.71005249px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="1681.5962"
+       y="1755.4905"
+       id="text4230"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\StartMenu\spriter_menubutton\letterN.png"
+       inkscape:export-xdpi="100.987"
+       inkscape:export-ydpi="100.987"><tspan
+         sodipodi:role="line"
+         id="tspan4232"
+         x="1681.5962"
+         y="1755.4905"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:71.71005249px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">N</tspan></text>
+    <ellipse
+       inkscape:export-ydpi="100.987"
+       inkscape:export-xdpi="100.987"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\spriter_menubutton\btn_quitOver.png"
+       style="opacity:1;fill-opacity:1;stroke:#ffffff;stroke-width:5.69999981;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse4235"
+       cx="190.85606"
+       cy="1747.4492"
+       rx="87.85714"
+       ry="86.428574" />
+    <ellipse
+       inkscape:export-ydpi="100.987"
+       inkscape:export-xdpi="100.987"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\spriter_menubutton\btn_quitOver.png"
+       ry="65.33017"
+       rx="66.410004"
+       cy="1748.5123"
+       cx="190.14183"
+       id="ellipse4237"
+       style="opacity:1;fill-opacity:1;stroke:#ffffff;stroke-width:4.30855179;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <ellipse
+       inkscape:export-ydpi="100.987"
+       inkscape:export-xdpi="100.987"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\spriter_menubutton\btn_quitOver.png"
+       style="opacity:1;fill-opacity:1;stroke:#ffffff;stroke-width:2.66682053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse4239"
+       cx="191.15892"
+       cy="1745.6553"
+       rx="41.105122"
+       ry="40.436749" />
+    <text
+       inkscape:export-ydpi="100.987"
+       inkscape:export-xdpi="100.987"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\spriter_menubutton\btn_quitOver.png"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:71.71005249px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="164.98184"
+       y="1769.3875"
+       id="text4241"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4243"
+         x="164.98184"
+         y="1769.3875"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:71.71005249px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">R</tspan></text>
+    <ellipse
+       ry="86.428574"
+       rx="87.85714"
+       cy="1941.735"
+       cx="192.28464"
+       id="ellipse4245"
+       style="opacity:1;fill-opacity:1;stroke:#ffffff;stroke-width:5.69999981;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\spriter_menubutton\btn_quitOver.png"
+       inkscape:export-xdpi="100.987"
+       inkscape:export-ydpi="100.987" />
+    <ellipse
+       style="opacity:1;fill-opacity:1;stroke:#ffffff;stroke-width:4.30855179;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse4247"
+       cx="191.5704"
+       cy="1942.7981"
+       rx="66.410004"
+       ry="65.33017"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\spriter_menubutton\btn_quitOver.png"
+       inkscape:export-xdpi="100.987"
+       inkscape:export-ydpi="100.987" />
+    <ellipse
+       ry="40.436749"
+       rx="41.105122"
+       cy="1939.941"
+       cx="192.58749"
+       id="ellipse4249"
+       style="opacity:1;fill-opacity:1;stroke:#ffffff;stroke-width:2.66682053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\spriter_menubutton\btn_quitOver.png"
+       inkscape:export-xdpi="100.987"
+       inkscape:export-ydpi="100.987" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4251"
+       y="1966.2448"
+       x="163.69614"
+       style="font-style:normal;font-weight:normal;font-size:71.71005249px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\spriter_menubutton\btn_quitOver.png"
+       inkscape:export-xdpi="100.987"
+       inkscape:export-ydpi="100.987"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:71.71005249px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         y="1966.2448"
+         x="163.69614"
+         id="tspan4253"
+         sodipodi:role="line">C</tspan></text>
+    <text
+       inkscape:export-ydpi="100.987"
+       inkscape:export-xdpi="100.987"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\StartMenu\spriter_menubutton\btn_continueUp.png"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:71.71005249px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="489.41043"
+       y="1960.5305"
+       id="text4259"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4261"
+         x="489.41043"
+         y="1960.5305"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:71.71005249px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">C</tspan></text>
+    <rect
+       inkscape:export-ydpi="100.987"
+       inkscape:export-xdpi="100.987"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\StartMenu\spriter_menubutton\letterSf.png"
+       transform="matrix(0.7162157,0,0,0.88170614,981.14556,446.53808)"
+       style="opacity:1;fill:#000000;fill-opacity:0.56470588;stroke:none;stroke-width:1.79299998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter7897)"
+       id="rect4263"
+       width="64.285713"
+       height="68.571426"
+       x="1105.6547"
+       y="1428.7072" />
+    <text
+       inkscape:export-ydpi="100.987"
+       inkscape:export-xdpi="100.987"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\StartMenu\spriter_menubutton\letterSf.png"
+       sodipodi:linespacing="125%"
+       id="text4265"
+       y="1761.5514"
+       x="1772.5099"
+       style="font-style:normal;font-weight:normal;font-size:71.71005249px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:71.71005249px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         y="1761.5514"
+         x="1772.5099"
+         id="tspan4267"
+         sodipodi:role="line">S</tspan></text>
   </g>
 </svg>

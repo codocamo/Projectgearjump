@@ -1,21 +1,18 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(check && chkpt != chkpt_ftr && can_add)
+if(check && chkpt != chkpt_ftr )
 {
 	chkpt = chkpt_ftr;
 	if(instance_exists(obj_dialogcontroller))
 	{
 		if(room_get_name(room) == "rm_tutorial" ){obj_dialogcontroller.advance_dialog = true;}
 	}
-	alarm[0] = 5;
 }
 else if(!check && chkpt == chkpt_ftr)
 {
 	chkpt_ftr = chkpt_ftr + 1;
-	can_add = false;
 	
 }
-
 
 
 if(room_get_name(room) == "rm_pre_tutorial")

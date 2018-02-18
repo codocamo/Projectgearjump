@@ -143,6 +143,7 @@ if (velocity[1] > 0) //downwards
 	if(t1 = 2 || t2 = 2 || t3 = 2)
 	{
 		player_dying = true;
+		
 	}
 	
 	if((instance_exists(obj_chkpt)) && (t1 = 1 || t2 = 1 || t3 = 1))

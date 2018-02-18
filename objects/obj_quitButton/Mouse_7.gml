@@ -1,4 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
 obj_soundcontroller.level_music_switch = true;
-room_goto(rm_lvl1_kupler)
+
+
+if(room_get_name(room) = "rm_startmenu")
+{
+	//room_goto(rm_lvl1_kupler)
+	game_end()
+}
+else 
+{
+	room_goto(rm_startmenu)
+}

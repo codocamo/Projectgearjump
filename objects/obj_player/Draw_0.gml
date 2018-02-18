@@ -61,11 +61,11 @@ sprite_index = spr_playerdeath;
 if(image_index > image_number - 1){ room_restart();}; //restart the level
 }
 else if(inslide == true){
-if(gear1){draw_sprite(spr_playerslide, 0, x, y); }
-else if (gear2){draw_sprite(spr_playerslide, 0, x, y);}
-else if (gear3){draw_sprite(spr_playerslide, 0, x, y); }
-else{draw_sprite(spr_playerslide, 0, x, y); }
-sprite_index = spr_playerslide;
+if(gear1){draw_sprite(spr_playerslide_gear1, 0, x, y); }
+else if (gear2){draw_sprite(spr_playerslide_gear2, 0, x, y);}
+else if (gear3){draw_sprite(spr_playerslide_gear3, 0, x, y); }
+//else{draw_sprite(spr_playerslide, 0, x, y); }
+sprite_index = spr_playerslide_gear1;
 
 }
 else if((start_run_anim == true) && (in_tumble == false)){
@@ -99,12 +99,12 @@ if (pkupslidestate)
 //slide help text
 if(pkupslidestate && !inslide && slidehelp)
 {
-	draw_set_font(fnt_gravity)
-	draw_text_ext_transformed_color(x - 55,y + 60, "Press S" ,20, 200, 1, 1, 0, c_yellow,c_yellow,c_yellow,c_yellow, 1 )
+	draw_set_font(fnt_rubik_ingametxt)
+	draw_text_ext_transformed_color(x - 10,y + 60, "Press S" ,20, 200, 1, 1, 0, c_yellow,c_yellow,c_yellow,c_yellow, 1 )
 }
 else if (inslide && slidehelp)
 {
 	
-	draw_set_font(fnt_gravity)
+	draw_set_font(fnt_rubik_ingametxt)
 	draw_text_ext_transformed_color(x - 60,y + 60, "Good!" ,20, 200, 1, 1, 0, c_yellow,c_yellow,c_yellow,c_yellow, 1 )
 }

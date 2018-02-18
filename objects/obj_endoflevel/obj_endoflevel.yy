@@ -5,12 +5,12 @@
     "name": "obj_endoflevel",
     "eventList": [
         {
-            "id": "784e0923-b484-452e-9604-ee544bd07798",
+            "id": "24384581-1f9d-41cf-8a63-e6cd6095586f",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 64,
+            "enumb": 0,
             "eventtype": 8,
             "m_owner": "a9279d1f-d47c-4096-901d-1151b7273772"
         }
