@@ -91,3 +91,6 @@ canstand = true;
 slidehelp = true;
 
 endoflevel = false
+
+
+lvlhelptxt = true;

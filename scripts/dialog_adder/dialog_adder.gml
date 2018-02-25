@@ -6,6 +6,8 @@ global.dialog_line = 0;
 
 //room_get_name(room) + "branch_" + string(global.branch)
 
+
+//**************************PRE TUTORIAL DIALOG********************* 
 if(argument[0] == "rm_pre_tutorial_branch_1")
 {
 	add_dialog("So Niel, You got issued a jump suit","Continue..","",false, true); 
@@ -35,7 +37,8 @@ else if(argument[0] == "rm_pre_tutorial_branch_10")
 }
 
 
-if(argument[0] == "rm_tutorial_branch_1")
+//**************************TUTORIAL DIALOG*********************
+else if(argument[0] == "rm_tutorial_branch_1")
 {
 	add_dialog("So! back to you Neil","","",false, true); 
 	add_dialog("Your suit can do a couple things!","","",false, true);
@@ -62,6 +65,13 @@ if(argument[0] == "rm_tutorial_branch_1")
 	add_dialog("Well thats that!","","",false, true);
 	add_dialog("....Goodbye","","",false, false, true);
 	//add_dialog("Why, Why must you be here to!", ,"", false, false);
+}
+
+
+//**************************LVL1 DIALOG*********************
+else if(argument[0] == "rm_lvl1_kupler_branch_1")
+{
+	add_dialog("Explore and find the warp point","","",false, false, true);
 }
 else 
 {

@@ -5,8 +5,8 @@ obj_soundcontroller.level_music_switch = true;
 
 if(room_get_name(room) = "rm_startmenu")
 {
-	//room_goto(rm_lvl1_kupler)
-	game_end()
+	room_goto(rm_lvl1_kupler)
+	//game_end()
 }
 else 
 {

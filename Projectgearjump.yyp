@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "0cd06123-4ea8-49d8-8bfb-ee3a396b4b79",
+            "Value": {
+                "id": "1a9970da-b7a5-47c2-8ed7-8beb14852d9e",
+                "resourcePath": "fonts\\fnt_gnomon_oottitle_big\\fnt_gnomon_oottitle_big.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "0dcd75c3-881b-4a6f-8450-da2891fb6057",
             "Value": {
                 "id": "0354f4fd-a444-4ad6-b675-21c9ec203ea8",
@@ -132,6 +140,14 @@
                 "id": "be8e021b-6945-421c-aa6a-b15b86e0a8b3",
                 "resourcePath": "rooms\\rm_lvl1_kupler\\rm_lvl1_kupler.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "135f14c8-f2cf-4f83-9bc4-b9e2329fe3b7",
+            "Value": {
+                "id": "82c97eb2-3e83-4482-b69d-19d82bb3d138",
+                "resourcePath": "fonts\\fnt_renner_ingametext\\fnt_renner_ingametext.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -367,6 +383,14 @@
             }
         },
         {
+            "Key": "5721f6de-33f9-467f-8e9b-e70af68b318f",
+            "Value": {
+                "id": "d0cf032f-053b-41c1-8220-61ba530cc5fd",
+                "resourcePath": "objects\\obj_minerals\\obj_minerals.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "57499ba4-464e-418a-a994-f9d647092f18",
             "Value": {
                 "id": "31d80d49-0ea2-484b-8f05-b3c67cea9304",
@@ -540,6 +564,14 @@
                 "id": "908c3808-434c-4ad5-8fbf-e712f19bc7d7",
                 "resourcePath": "sprites\\spr_playerrun_gear3_big\\spr_playerrun_gear3_big.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "78f0f2e9-9db5-439f-9bd0-e632694f2983",
+            "Value": {
+                "id": "75f5cd38-cf48-4550-b058-ed142835491c",
+                "resourcePath": "objects\\obj_mineralmanager\\obj_mineralmanager.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -751,6 +783,14 @@
             }
         },
         {
+            "Key": "9fcec2c4-a436-4c02-aef0-706d2fab5a7e",
+            "Value": {
+                "id": "fd25f426-a9f2-43a5-8e61-93fccf9d7878",
+                "resourcePath": "fonts\\fnt_renner_ingametext_big\\fnt_renner_ingametext_big.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "a0a8bd53-a3e4-4896-a94a-aadd48414f42",
             "Value": {
                 "id": "c40394c1-734b-4b2b-a8ee-420f6737d306",
@@ -860,6 +900,14 @@
                 "id": "514a5d41-0ed9-4185-90f1-c77bff4da2cd",
                 "resourcePath": "rooms\\rm_fallinlvl1\\rm_fallinlvl1.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "aa8b640e-74b0-4e78-9389-31f4b9324450",
+            "Value": {
+                "id": "14ede3a4-24cf-48f8-a769-83e777a40a9c",
+                "resourcePath": "scripts\\timer\\timer.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1347,7 +1395,8 @@
         "90d2ebcc-1811-4fd3-a915-a3f3e44c9f2d",
         "a0a8bd53-a3e4-4896-a94a-aadd48414f42",
         "1047b376-1b6a-4599-828b-bf33443988a3",
-        "af76db8e-2723-4141-904c-8e2f96dc8fe2"
+        "af76db8e-2723-4141-904c-8e2f96dc8fe2",
+        "aa8b640e-74b0-4e78-9389-31f4b9324450"
     ],
     "tutorial": ""
 }

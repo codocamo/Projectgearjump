@@ -96,15 +96,21 @@ if (pkupslidestate)
 
 
 
-//slide help text
+//slide and general help text
+
+if(lvlhelptxt)
+{
+	draw_set_font(fnt_renner_ingametext)
+	draw_text_ext_transformed_color(x + 10,y - 100, "Explore and find the warp point" ,30, 200, 1, 1, 0, c_yellow,c_yellow,c_yellow,c_yellow, 1 )
+}
 if(pkupslidestate && !inslide && slidehelp)
 {
-	draw_set_font(fnt_rubik_ingametxt)
+	draw_set_font(fnt_renner_ingametext_big)
 	draw_text_ext_transformed_color(x - 10,y + 60, "Press S" ,20, 200, 1, 1, 0, c_yellow,c_yellow,c_yellow,c_yellow, 1 )
 }
 else if (inslide && slidehelp)
 {
 	
-	draw_set_font(fnt_rubik_ingametxt)
-	draw_text_ext_transformed_color(x - 60,y + 60, "Good!" ,20, 200, 1, 1, 0, c_yellow,c_yellow,c_yellow,c_yellow, 1 )
+	draw_set_font(fnt_renner_ingametext_big)
+	draw_text_ext_transformed_color(x - 50,y + 60, "Good!" ,20, 200, 1, 1, 0, c_yellow,c_yellow,c_yellow,c_yellow, 1 )
 }

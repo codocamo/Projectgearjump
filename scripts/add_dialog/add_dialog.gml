@@ -5,6 +5,7 @@
 //// @param dialog_text_3
 //// @param dialog_option?
 //// @param dialog_continues?
+//// @param dialog_for_level_done?
 
 var dialog_part = [];
 var dialog_text_1 = "";		if(argument_count >= 1) dialog_text_1 = argument[0];

@@ -27,3 +27,13 @@ if(room_get_name(room) == "rm_pre_tutorial")
 		//default: draw_sprite(spr_jumpdef, 2, 700,200); break;
 	}
 } 
+
+
+if(room_get_name(room) == "rm_lvl1_kupler")
+{
+
+	switch(chkpt)
+	{
+		case 1: obj_player.lvlhelptxt = false; break;
+	}
+} 

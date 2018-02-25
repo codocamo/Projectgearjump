@@ -13,3 +13,5 @@ instance_create_depth(0, 0, 0, obj_levelswitcher);
 
 //create the adhoc script object to run all adhoc scripts
 instance_create_depth(0, 0, 0, obj_adhoc_scripts);
+
+

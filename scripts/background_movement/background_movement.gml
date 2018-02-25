@@ -16,13 +16,13 @@ var layerid_spacex = layer_get_x(layerid_space)
 
 var pvelocity = obj_player.velocity[1]
 
-if (once)
+if (bg_move_once)
 {
 	startdiff_lvlbgy = obj_player.y - layerid_lvlbgy
 	startdiff_glowy = obj_player.y - layerid_glowy
 	startdiff_stardusty = obj_player.y - layerid_stardusty
 	startdiff_spacey = obj_player.y - layerid_spacey
-	once = false
+	bg_move_once = false
 	//show_debug_message(string(startdiff))
 }
 layer_y(layerid_lvlbg, obj_player.y - startdiff_lvlbgy);
