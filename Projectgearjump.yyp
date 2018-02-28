@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "41d69b88-d95e-430c-9b34-98a7fe617e85",
+            "Value": {
+                "id": "c29036b8-c2f4-4a2e-9ca4-44b8d874a054",
+                "resourcePath": "sprites\\spr_mineral3\\spr_mineral3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "46a39204-b242-436f-815c-55db693a1445",
             "Value": {
                 "id": "b3b8350c-3d60-4594-8494-0baf98f0502b",
@@ -487,6 +495,14 @@
             }
         },
         {
+            "Key": "70202735-efba-4518-b98c-2d59275038db",
+            "Value": {
+                "id": "df136e8b-685b-4c47-97bf-5f70b7c79a48",
+                "resourcePath": "sprites\\spr_mineral\\spr_mineral.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "72a7a28d-e574-4856-81b7-e7b1df5ea90b",
             "Value": {
                 "id": "f6a62113-f327-4051-87ba-b07213280d55",
@@ -588,6 +604,14 @@
                 "id": "69fca79f-2c50-449e-85aa-2252cff9fc79",
                 "resourcePath": "sounds\\msc_pretutorial\\msc_pretutorial.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "7b3e3cfa-7568-4680-8656-b16c8527fc72",
+            "Value": {
+                "id": "81a38a54-40b6-4428-96f7-67bca86fed5a",
+                "resourcePath": "sprites\\spr_mineral1\\spr_mineral1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1063,6 +1087,14 @@
             }
         },
         {
+            "Key": "ca061aa4-185f-4a99-bbd4-e61e1c6b2234",
+            "Value": {
+                "id": "aa23aa36-4d34-42e5-a60a-9d768c066b64",
+                "resourcePath": "sprites\\spr_mineral2\\spr_mineral2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ca8a24f0-bccc-43a5-98e7-6f8f64a56e74",
             "Value": {
                 "id": "9e816381-ce6c-474f-8be7-44aaf1745337",
@@ -1332,6 +1364,14 @@
                 "id": "cfeb6b60-3169-44bc-a84c-e147ae606e44",
                 "resourcePath": "rooms\\rm_lvl1_kupler2\\rm_lvl1_kupler2.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "f9736155-0c66-4ea5-bb4a-53b6426053c8",
+            "Value": {
+                "id": "a6d0ead4-1f5f-4429-a3a2-375b35c3883e",
+                "resourcePath": "sprites\\spr_mineral21\\spr_mineral21.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

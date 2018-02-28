@@ -57,48 +57,6 @@
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
-       id="linearGradient4182">
-      <stop
-         style="stop-color:#b6fef6;stop-opacity:1"
-         offset="0"
-         id="stop4184" />
-      <stop
-         style="stop-color:#16f7d8;stop-opacity:1"
-         offset="1"
-         id="stop4186" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4182"
-       id="linearGradient4188"
-       x1="406.94455"
-       y1="507.6351"
-       x2="415.55087"
-       y2="489.95737"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.99105795,0.13343219,-0.13343219,0.99105795,214.67058,-59.23455)" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4208"
-       id="linearGradient4214"
-       x1="401.54858"
-       y1="631.20886"
-       x2="395.88089"
-       y2="531.4563"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.99105795,0.13343219,-0.13343219,0.99105795,214.67058,-59.23455)" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4224"
-       id="linearGradient4230"
-       x1="431.01709"
-       y1="567.59937"
-       x2="425.55505"
-       y2="640.27795"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.99105795,0.13343219,-0.13343219,0.99105795,214.67058,-59.23455)" />
-    <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient4240"
        id="linearGradient4238"
        x1="442.07446"
@@ -106,7 +64,7 @@
        x2="450.63541"
        y2="519.88586"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.99105795,0.13343219,-0.13343219,0.99105795,214.67058,-59.23455)" />
+       gradientTransform="matrix(0.33472667,0.04506631,-0.04506631,0.33472667,313.80347,98.549163)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4240"
@@ -116,7 +74,7 @@
        x2="394.18726"
        y2="570.1485"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.99105795,0.13343219,-0.13343219,0.99105795,214.67058,-59.23455)" />
+       gradientTransform="matrix(0.33472667,0.04506631,-0.04506631,0.33472667,313.80347,98.549163)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4208"
@@ -126,7 +84,7 @@
        x2="405.8754"
        y2="599.21466"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.99105795,0.13343219,-0.13343219,0.99105795,215.32033,-58.38262)" />
+       gradientTransform="matrix(0.33472667,0.04506631,-0.04506631,0.33472667,314.02291,98.83687)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4224"
@@ -136,7 +94,7 @@
        x2="414.71982"
        y2="596.50708"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.99105795,0.13343219,-0.13343219,0.99105795,214.75907,-59.222636)" />
+       gradientTransform="matrix(0.33472667,0.04506631,-0.04506631,0.33472667,313.83335,98.553168)" />
     <filter
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
@@ -158,9 +116,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="507.92881"
-     inkscape:cy="562.89444"
+     inkscape:zoom="3.959798"
+     inkscape:cx="565.44496"
+     inkscape:cy="778.46878"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -168,7 +126,8 @@
      inkscape:window-height="1057"
      inkscape:window-x="1916"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     showguides="false" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -245,60 +204,7 @@
        sodipodi:end="1.2121573"
        sodipodi:open="true"
        d="m 571.58119,672.74914 a 112.63201,112.63201 0 0 1 -144.4167,-66.83728 112.63201,112.63201 0 0 1 66.5609,-144.54429 112.63201,112.63201 0 0 1 144.67135,66.28428 112.63201,112.63201 0 0 1 -66.00742,144.79788"
-       transform="matrix(0.67253514,0,0,0.70192128,188.12851,149.81293)" />
-    <path
-       sodipodi:nodetypes="cccc"
-       inkscape:connector-curvature="0"
-       id="path4164"
-       d="m 524.51226,499.29183 34.92101,11.44117 15.60577,-20.54104 z"
-       style="fill:url(#linearGradient4188);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       style="fill:url(#linearGradient4276);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 508.55177,565.42778 17.77213,-10.01332 17.44451,45.58758 -11.61912,16.27282 z"
-       id="path4250"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
-    <path
-       style="fill:url(#linearGradient4268);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 509.11303,566.26779 -10.38064,-11.41274 12.37719,55.25521 21.63467,7.75433 z"
-       id="path4252"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
-    <path
-       style="fill:url(#linearGradient4260);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 511.86809,547.04522 17.01883,7.58651 -20.30918,11.05924 -9.91544,-10.82109 z"
-       id="path4168"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
-    <path
-       style="fill:#83fceb;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 559.44021,510.28242 15.69505,-20.21672 8.45483,124.56343 -37.37604,12.62573 z"
-       id="path4204"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
-    <path
-       style="fill:url(#linearGradient4214);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 559.6158,510.41161 -35.24536,-11.32461 -0.5605,115.24141 22.5096,13.4812 z"
-       id="path4206"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path4178"
-       d="m 571.8365,533.72777 -20.31152,14.59287 29.56183,7.54752 10.23294,-15.44018 z"
-       style="fill:url(#linearGradient4238);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       style="fill:#67ffee;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 591.16919,540.60349 -10.22998,15.42469 -18.58646,74.48063 27.13879,-16.88696 z"
-       id="path4220"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
-    <path
-       style="fill:url(#linearGradient4230);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 581.09577,555.86908 -29.4592,-7.64268 -9.1115,66.27937 19.84143,16.08726 z"
-       id="path4222"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       transform="matrix(0.44880777,0,0,0.65362491,615.32999,113.17044)" />
     <path
        transform="matrix(0.74439303,0,0,0.74439303,-540.83975,452.73141)"
        d="m 571.58119,672.74914 a 112.63201,112.63201 0 0 1 -144.4167,-66.83728 112.63201,112.63201 0 0 1 66.5609,-144.54429 112.63201,112.63201 0 0 1 144.67135,66.28428 112.63201,112.63201 0 0 1 -66.00742,144.79788"
@@ -364,5 +270,1104 @@
        sodipodi:type="arc"
        id="path4334"
        style="opacity:0.07;fill:#0fffe4;fill-opacity:0.78823531;stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4322)" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:0.7745098;stroke:#009e8b;stroke-width:0.03658213;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745098"
+       id="rect4338"
+       width="31.963419"
+       height="31.963417"
+       x="445.07187"
+       y="385.65143"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral_glow.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="opacity:0.93699999;fill:#a0fff4;fill-opacity:1;stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4322)"
+       id="path4336"
+       sodipodi:type="arc"
+       sodipodi:cx="532.85547"
+       sodipodi:cy="566.98389"
+       sodipodi:rx="112.63201"
+       sodipodi:ry="112.63201"
+       sodipodi:start="1.2198089"
+       sodipodi:end="1.2121573"
+       sodipodi:open="true"
+       d="m 571.58119,672.74914 a 112.63201,112.63201 0 0 1 -144.4167,-66.83728 112.63201,112.63201 0 0 1 66.5609,-144.54429 112.63201,112.63201 0 0 1 144.67135,66.28428 112.63201,112.63201 0 0 1 -66.00742,144.79788"
+       transform="matrix(0.07861505,0,0,0.07861505,353.2094,357.94895)"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral_glow.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path4164"
+       d="m 418.45148,287.18965 11.79446,3.86423 5.27078,-6.9377 z"
+       style="fill:#93fdee;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:url(#linearGradient4276);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 413.06088,309.52687 6.00247,-3.38198 5.89185,15.39708 -3.92435,5.49609 z"
+       id="path4250"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:url(#linearGradient4268);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 413.25043,309.81056 -3.50601,-3.85459 4.18033,18.66226 7.30706,2.61899 z"
+       id="path4252"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:url(#linearGradient4260);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 414.18096,303.31822 5.74803,2.5623 -6.85934,3.73523 -3.3489,-3.65479 z"
+       id="path4168"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#03ffe3;fill-opacity:0.77647059;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 430.24828,290.9017 5.30096,-6.82814 2.85559,42.07091 -12.62364,4.26429 z"
+       id="path4204"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#a4f5eb;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 430.30757,290.94533 -11.90398,-3.82486 -0.18908,38.92241 7.60251,4.55323 z"
+       id="path4206"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4178"
+       d="m 434.43508,298.82029 -6.86013,4.92869 9.98442,2.54913 3.45613,-5.21486 z"
+       style="fill:url(#linearGradient4238);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#67ffee;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 440.96467,301.14253 -3.45519,5.20963 -6.27749,25.1556 9.16604,-5.7035 z"
+       id="path4220"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#93fdee;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.234;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 437.56238,306.29845 -9.94976,-2.58131 -3.07738,22.38566 6.70139,5.4334 z"
+       id="path4222"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <image
+       y="358.98804"
+       x="326.78363"
+       id="image4348"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAABBCAYAAAApKn++AAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
+AAAN4gAADeIBtK7P0AAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAs2SURB
+VFiFrZl5dFTVHce/9703b96bNy/LZLJC9kjIwhJJICAom1BaFFOqYt0PtD3VaqvWU63HShcrHjxH
+7BGlLtjCkdrihpUCxQUUZd+TkISQQCaQZCbJLJn1zVv6R8zIMDNvBk9/58w5c+/vd3+fu7z7fr97
+H4GujOdrq0qe43luKc/z2YqicF6vj1ZVTTYaWY/ZzH3m7rv40PHO4w59P/GFJFIsWbik7lJ/4D+9
+tr48PQfFJeMCS5be8JNnn33m7auFU/Eq71z26O2Sd8KhZGAA6Llwid+zo33z049teutq4fSVFTd/
+f0W9GXN3jc+qpznWDKenB7IixTQ0smZUFS/AzEn3ojhnNgm6xanz5zRNZ8SBf50/f169argg5OQG
+fNSpTKHMkCbkIiu9BBWFNyDDXABCCAKSG6IpB9VlizGr+h7kZ9eCZUzftCYIB7hrLEJNxZHWre+n
+Ao9a88aGBa+f7ehdRVEG1JYtQU3pIhAy2j9J9kNTFRhZEQBgoRXUicPI53yQFArn/Gk46c+ArAEu
+T+9PN++65/WrGnlZac1Gh33YpGkqBobb0Ws/AYZhIZpyMeLrhyjkjnZSdGJVWQvOTBOwrXEcuitN
+qE8bwFL5Ijq8mQjT3GQ/FX7F4WhVUhr59Lq59Rd6Bg7LcuxycUYBN9Y/BlHIRy03gnsrWrD0loX4
+pKggym5lSwf++PFpvHiuFuftp2Zt3fvIfj145Gk38vzT8cAAEAz5cGmoDdAIluTYsGb65BgwALxZ
+MwHvTx+PmemD4HnrZD1wFNzpGpmiZ2jiMmGlZRSKLmypLEtot7mqDBMEFyiayUkGZ8b+KIpiilHS
+Rpj5LORn1aAwZwpM9OiWO5chJnQ4xHEw0zIIodiU4dWFy8wzyosQVkJgGA4G2gjemAEAkMJ+AARO
+mYWiEtQOOXHSaonrcJp9EE7ZCFUNJ4VHpl0UzSFRyIMlrRhpptwI+HIZ0Qja3Nl44vDpuM5YRcWv
+jzXjpCcLiqZ4k8EjI4fYbtu9d3tGhlgIgbOAN4pgaCMAQFHDKM5rACEU/u0oxMOtp7CR+QoPz50O
+r8EAALAEQ3j18/3g22gc92WAqG5/ynCahupwdcHh6oprKJpykJVeikthI17pnoQVUifs7e/gYH42
+iKahrn8Yzf25+JujHCo0yGoo9ZETEC2RUYY4DpliYaTcI3F4oXsSSo1+5J/3Iagw2Bsqgl0CjEEb
+LGE7Sp0HGyorKv6xurPTowt/u2bqfVxXS+HE4gyEeR5Ueho8KsGIJMMdkmDhp0HwtkKmDKA0DawS
+AKsGIGsBDCgBCLIbE8MOzFKGYPp2DCv7hTQFwM/04CTLYFgj+nxZeSwBlCAwHIy28u4Bkk4iYrID
+jlDX6plT0wCGoZCWguurFrcsf66np/sA9XuWbDNPU9MZQsXE9zEJqioCqoKwpkL65hfS1Kjy2G9Y
+JbCFpJ33tpy4Xw8emah3aut2ZxjohWNlhlCgAbgVBSpU8IQGRQACAoFO2Mco+do91Pj42bMHE+kj
+T7uZZaoYAIqmgQIBRTQABFaDISbRUzVAgQZZU8EQCgYSmwqqmqYSjR3R6xyzpKLCeGdO5hugqQLO
+DxAqYU4ZEYoAFAgMhIYKoNekorechSeTgSeTgstCQe7xf7T5+ZZWPT/ko7pr38ui2R8mMvDyPDru
+Xg5/w3RQhEA41YrCre/B0mePsrPlUXjqr+MQyKIBDXhjQZc86A7utPlHVj3V3T0QF75zasOwyNCZ
+YxUyAVrLaRxr5NFRbcSkSb9FSV5DVCMp6IX08u/QsP0oMrzfvpt68mg8sz4XRNKw8Y4+DEghp8Aw
+9h3DjsZ158+7roTTy7JzqkSGmWqzAB82CXj1N1b89z4LztabwGZMwJzcu2J6TDMs/JOn4LnlR+Aw
+yJjYGgKrEKR7NVQd9KMvm8K0L7waRzG8QNFWhlBHtzkGYpaA3mrv31bEi+/+eWvJvI756dnBjG9j
+TU14NopMtXGXg2PN6PG14MTMAA7Vc6g55Ee6D7C6NVxzOoC+sNxv1WiGJsTglqVtHzjsMaGQAqCt
+PnemWaUQsyVKqElxwWMiaSEAQF8Njz+sz0dz+WjH890ENZoxn6UoXta08MVw6EC89pF4rvjkI5cr
+zK40FGRWJQSP+AZh522RsjufxXMv5eHTmSwuj1B9odC6Jzs64obKyByrPe7DKDNHFCXUJJA4+3dM
+Ov2HoaVFJ5xSBoMNawvQ9nzv+qatXodbVVpXtZ5+N5GPCHxozZfH8uqXuymzIX0UHn+tx6RbPR63
+XpPU0G5r6E9bmk/06zrA5QfFPZAhqccAgPHTKBYSZ76BgAs2rjM+3C196njwcFJwNByAGlSOAMD4
+cCWMXOIMtdN3DAonx9WpHumjVMAxcMoz+tAle8q7lRMJdfIZ977vBA/t9RwgYU0rYROfH8JSAD2G
+M3F1qltxD++vUzBzJp8KPOZxntL5y767y9cmvBQ4M7gPO8TX4uoCF/PgHGwCQiEFkuSAqvRDQz9k
+xQ5N64MUsiMgX8LZrk+wevUgc6WDicxMF4CE8ItyW8KRhAPW0T9GIw2jMS+hH4b6OYANMdciRdxk
+3ZTqessduMZVF1cn+616Tb8V0bQAuOJ8vnzjxrIJjbOfIlTioE7TLCYIjWBdBtjoNmjUN+8zDXDb
+ZkCjU1huDbnwS+uiRl46Y9pSimGSZhOEENRbb8JN0i9gCgoAAHmIhcrGP7/FiGDKwuzG66LWnKKp
+ytRaj0p5Zj3SR3Kw3bMeNn9qeV1EigrmR7X46uVXd1QvW9pOBGqx0WhOesoEAJMxHVV0Ixxdg7hE
+ZaUOl+X4U1xxdMWDVUWLXp6VvhwGQ0pbFpqm4Xhb27mt7R37wgbKCTkcBqF9kKQwCHwISyFQVABB
+KQhKDWHI5YsLz/lgfjk1xfx0nq/YOsdyV0NxQV3SW4Yx8dnt+w9t3PyD7U8+6UxmG7PPAcDe9Nm5
+Ax/cQJeWOasxtCHYMVLtOJp3W6acnh/XPsohx5f4du3STZnHJO71JwAEfP1fWS1iaU4WXzRb7M5e
+6XqBqbW9C0gBXYeBEc/OPXv2xI86qcLn3dW+YdBhj+THZoOCxfQ+3Na7Btn9hxI6HOm370gFrAsH
+ALtTXXtlXSHnxt3KFszreglGz8UonRQIeE9+vGN3qnDdzVmcL7TU1WY/xLJM1LYjBMhnXKj0HMBQ
+bx+caRUaMbDENzS06+83LUv59ll35E88f9Q97JY3J9Kncyp+lHUCi5ofk/pON38RcjpTnvKkcABo
+63S+qapawisTACg1jxiXHr32meMbN2+6GnjyUyGAgZP378+x8o2J9B6PFyO9m9aNvxGPXA086cgB
+EJutX3c6BUEAIVQTUhxMxPHlhU1rIdSVYZEooIo3YgLNoNJAoxKEzTSPXwmdSAuP7S2c7AjMvf4e
+7E0VHvXG6roIw+3z8U/WAMPl9e6AqAsOhiRwbBBl+bgFSB0eNe2r18HlC6D9SiPC6GcoUnAILKNB
+FNB066362zchHADCMmLzYiZJqJRHj95GFvkrroPu9ZcuPBCMA6f14Z4R9etDzWj6/V9QsPxXOJwq
+PCZKOYZwsviyjwiKCjC8PtynjXtlxo/xYarQMYkZ+ZdHcCwsQw6E4LMP4WBbT84WkynmO0CUXLjg
+TpxPXw380RcxvPMA5jzwOKy589BoyFy4U89BSFKk9/b2xz/CJJG4ycHNDyBykyDyBt1vL/6gfPa1
+144mvVuPJ0nfcCxH654aZVmN2Zr/N3hY1qr19FL4u8OT5mQPP3uo6o7F40pKi6xFaSZSxJnoYoah
+ixiaKqIIKRoYDOjeMurJ/wBz1UxK3lfwMQAAAABJRU5ErkJggg==
+"
+       preserveAspectRatio="none"
+       height="64.78405"
+       width="30.897011" />
+    <image
+       y="373.21936"
+       x="460.21429"
+       id="image4359"
+       xlink:href="data:image/png;base64,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
+QmCC
+"
+       preserveAspectRatio="none"
+       height="64"
+       width="96" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       style="fill:#2cffe5;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 429.31062,347.04118 11.79446,3.86423 5.27078,-6.9377 z"
+       id="path4362"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4364"
+       d="m 423.92002,369.3784 6.00247,-3.38198 5.89185,15.39708 -3.92435,5.49609 z"
+       style="fill:#2cffe5;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4366"
+       d="m 424.10957,369.66209 -3.50601,-3.85459 4.18033,18.66226 7.30706,2.61899 z"
+       style="fill:#2cffe5;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4368"
+       d="m 425.0401,363.16975 5.74803,2.5623 -6.85934,3.73523 -3.3489,-3.65479 z"
+       style="fill:#2cffe5;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4370"
+       d="m 441.10742,350.75323 5.30096,-6.82814 2.85559,42.07091 -12.62364,4.26429 z"
+       style="fill:#03ffe3;fill-opacity:0.77647059;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4372"
+       d="m 441.16671,350.79686 -11.90398,-3.82486 -0.18908,38.92241 7.60251,4.55323 z"
+       style="fill:#2cffe5;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       style="fill:#2cffe5;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 445.29422,358.67182 -6.86013,4.92869 9.98442,2.54913 3.45613,-5.21486 z"
+       id="path4374"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4376"
+       d="m 451.82381,360.99406 -3.45519,5.20963 -6.27749,25.1556 9.16604,-5.7035 z"
+       style="fill:#2cffe5;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4378"
+       d="m 448.42152,366.14998 -9.94976,-2.58131 -3.07738,22.38566 6.70139,5.4334 z"
+       style="fill:#2cffe5;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path4388"
+       d="m 622.86288,258.07751 11.79446,3.86423 5.27078,-6.9377 z"
+       style="fill:#9eefe6;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#22d2bf;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 617.47228,280.41473 6.00247,-3.38198 5.89185,15.39708 -3.92435,5.49609 z"
+       id="path4390"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#5ee5d6;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 617.66183,280.69842 -3.50601,-3.85459 4.18033,18.66226 7.30706,2.61899 z"
+       id="path4392"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#9eefe6;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 618.59236,274.20608 5.74803,2.5623 -6.85934,3.73523 -3.3489,-3.65479 z"
+       id="path4394"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#22d2bf;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 634.65968,261.78956 5.30096,-6.82814 2.85559,42.07091 -12.62364,4.26429 z"
+       id="path4396"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#5ee5d6;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 634.71897,261.83319 -11.90398,-3.82486 -0.18908,38.92241 7.60251,4.55323 z"
+       id="path4398"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4400"
+       d="m 638.84648,269.70815 -6.86013,4.92869 9.98442,2.54913 3.45613,-5.21486 z"
+       style="fill:#9eefe6;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#22d2bf;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 645.37607,272.03039 -3.45519,5.20963 -6.27749,25.1556 9.16604,-5.7035 z"
+       id="path4402"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#5ee5d6;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 641.97378,277.18631 -9.94976,-2.58131 -3.07738,22.38566 6.70139,5.4334 z"
+       id="path4404"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral1.png"
+       style="fill:#d9fefa;fill-opacity:0.97647053;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 498.3817,259.61595 11.79446,3.86423 5.27078,-6.9377 z"
+       id="path4406"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral1.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4408"
+       d="m 492.9911,281.95317 6.00247,-3.38198 5.89185,15.39708 -3.92435,5.49609 z"
+       style="fill:#a2fdf1;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral1.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4410"
+       d="m 493.18065,282.23686 -3.50601,-3.85459 4.18033,18.66226 7.30706,2.61899 z"
+       style="fill:#bbfdf5;fill-opacity:0.97647059;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral1.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4412"
+       d="m 494.11118,275.74452 5.74803,2.5623 -6.85934,3.73523 -3.3489,-3.65479 z"
+       style="fill:#d9fefa;fill-opacity:0.97647053;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral1.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4414"
+       d="m 510.1785,263.328 5.30096,-6.82814 2.85559,42.07091 -12.62364,4.26429 z"
+       style="fill:#a2fdf1;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral1.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4416"
+       d="m 510.23779,263.37163 -11.90398,-3.82486 -0.18908,38.92241 7.60251,4.55323 z"
+       style="fill:#bbfdf5;fill-opacity:0.97647059;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral1.png"
+       style="fill:#d9fefa;fill-opacity:0.97647053;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 514.3653,271.24659 -6.86013,4.92869 9.98442,2.54913 3.45613,-5.21486 z"
+       id="path4418"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral1.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4420"
+       d="m 520.89489,273.56883 -3.45519,5.20963 -6.27749,25.1556 9.16604,-5.7035 z"
+       style="fill:#a2fdf1;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral1.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4422"
+       d="m 517.4926,278.72475 -9.94976,-2.58131 -3.07738,22.38566 6.70139,5.4334 z"
+       style="fill:#bbfdf5;fill-opacity:0.97647059;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path4424"
+       d="m 429.31062,347.04118 11.79446,3.86423 5.27078,-6.9377 z"
+       style="fill:#94fff2;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#00eace;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 423.92002,369.3784 6.00247,-3.38198 5.89185,15.39708 -3.92435,5.49609 z"
+       id="path4426"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#2cffe5;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 424.10957,369.66209 -3.50601,-3.85459 4.18033,18.66226 7.30706,2.61899 z"
+       id="path4428"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#56ffea;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 425.0401,363.16975 5.74803,2.5623 -6.85934,3.73523 -3.3489,-3.65479 z"
+       id="path4430"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#00dbc4;fill-opacity:0.77647059;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 441.10742,350.75323 5.30096,-6.82814 2.85559,42.07091 -12.62364,4.26429 z"
+       id="path4432"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#2cffe5;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 441.16671,350.79686 -11.90398,-3.82486 -0.18908,38.92241 7.60251,4.55323 z"
+       id="path4434"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4436"
+       d="m 445.29422,358.67182 -6.86013,4.92869 9.98442,2.54913 3.45613,-5.21486 z"
+       style="fill:#59ffea;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#00eacd;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 451.82381,360.99406 -3.45519,5.20963 -6.27749,25.1556 9.16604,-5.7035 z"
+       id="path4438"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#2cffe5;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 448.42152,366.14998 -9.94976,-2.58131 -3.07738,22.38566 6.70139,5.4334 z"
+       id="path4440"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral3.png"
+       style="fill:#117e6f;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 648.66064,351.65023 11.79446,3.86423 5.27078,-6.9377 z"
+       id="path4442"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral3.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4444"
+       d="m 643.27004,373.98745 6.00247,-3.38198 5.89185,15.39708 -3.92435,5.49609 z"
+       style="fill:#09443c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral3.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4446"
+       d="m 643.45959,374.27114 -3.50601,-3.85459 4.18033,18.66226 7.30706,2.61899 z"
+       style="fill:#0d6156;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral3.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4448"
+       d="m 644.39012,367.7788 5.74803,2.5623 -6.85934,3.73523 -3.3489,-3.65479 z"
+       style="fill:#117e6f;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral3.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4450"
+       d="m 660.45744,355.36228 5.30096,-6.82814 2.85559,42.07091 -12.62364,4.26429 z"
+       style="fill:#09443c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral3.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4452"
+       d="m 660.51673,355.40591 -11.90398,-3.82486 -0.18908,38.92241 7.60251,4.55323 z"
+       style="fill:#0d6156;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral3.png"
+       style="fill:#117e6f;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 664.64424,363.28087 -6.86013,4.92869 9.98442,2.54913 3.45613,-5.21486 z"
+       id="path4454"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral3.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4456"
+       d="m 671.17383,365.60311 -3.45519,5.20963 -6.27749,25.1556 9.16604,-5.7035 z"
+       style="fill:#09443c;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral3.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4458"
+       d="m 667.77154,370.75903 -9.94976,-2.58131 -3.07738,22.38566 6.70139,5.4334 z"
+       style="fill:#0d6156;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#169f8f;fill-opacity:0.97516336;stroke:#000000;stroke-width:0.15700001;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       id="path4478"
+       sodipodi:sides="5"
+       sodipodi:cx="441.94174"
+       sodipodi:cy="193.98508"
+       sodipodi:r1="69.551224"
+       sodipodi:r2="70.422226"
+       sodipodi:arg1="0.58900965"
+       sodipodi:arg2="1.147024"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 499.77298,232.62341 -28.87348,25.55464 -47.83416,2.7477 -33.2263,-19.56349 -17.39479,-44.64391 8.33849,-37.64554 37.08359,-30.33915 38.37977,-3.70274 40.31372,25.89329 15.38151,35.35712 z"
+       inkscape:transform-center-x="5.8331303"
+       inkscape:transform-center-y="0.84462888" />
+    <path
+       style="fill:#1ec1ae;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 292.70233,301.60831 -8.03088,10.99613 3.0888,7.16602 10.99614,7.90734 14.45559,-2.3475 7.04247,-12.60231 0.61777,-9.0193 -11.49035,-8.03088 c 0,0 -17.2973,5.9305 -16.67954,5.9305 z"
+       id="path4488"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral3v3.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4490"
+       d="m 295.67075,304.57801 -5.66124,7.75155 2.1774,5.05156 7.75154,5.57415 10.19023,-1.65482 4.96447,-8.8838 0.43549,-6.35801 -8.09993,-5.66124 c 0,0 -12.19344,4.18061 -11.75796,4.18061 z"
+       style="fill:#0d6156;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral3v3.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#bbfcf4;fill-opacity:0.97647059;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 298.52228,307.43079 -3.3849,4.6347 1.30189,3.02037 4.63471,3.33283 6.09282,-0.98944 2.96829,-5.31168 0.26037,-3.80151 -4.84301,-3.38489 c 0,0 -7.29054,2.49962 -7.03017,2.49962 z"
+       id="path4492"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral3v3.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4496"
+       d="m 332.59129,243.09236 -9.88413,13.53367 3.80159,8.81969 13.53367,9.73208 17.79145,-2.88922 8.66763,-15.51049 0.76032,-11.10065 -14.14192,-9.88413 c 0,0 -21.28892,7.29905 -20.52861,7.29905 z"
+       style="fill:#bbfcf4;fill-opacity:0.97516336;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="fill:#1bc0ac;fill-opacity:0.97516336;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 336.24472,246.74737 -6.96766,9.54034 2.67987,6.21729 9.54033,6.86047 12.54179,-2.0367 6.1101,-10.93387 0.53598,-7.82522 -9.96912,-6.96766 c 0,0 -15.00726,5.14535 -14.47129,5.14535 z"
+       id="path4498"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4500"
+       d="m 339.75429,250.25847 -4.16602,5.70424 1.60232,3.71736 5.70424,4.10193 7.49883,-1.21776 3.65327,-6.53744 0.32046,-4.67876 -5.96061,-4.16601 c 0,0 -8.97295,3.07644 -8.65249,3.07644 z"
+       style="fill:#0d5e54;fill-opacity:0.97516336;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="fill:#106258;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 243.77375,302.85831 -8.03088,10.99613 3.0888,7.16602 10.99614,7.90734 14.45559,-2.3475 7.04247,-12.60231 0.61777,-9.0193 -11.49035,-8.03088 c 0,0 -17.2973,5.9305 -16.67954,5.9305 z"
+       id="path4502"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral2v2.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4504"
+       d="m 246.74217,305.82801 -5.66124,7.75155 2.1774,5.05156 7.75154,5.57415 10.19023,-1.65482 4.96447,-8.8838 0.43549,-6.35801 -8.09993,-5.66124 c 0,0 -12.19344,4.18061 -11.75796,4.18061 z"
+       style="fill:#bbfcf4;fill-opacity:0.97647059;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral2v2.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#1ec1ae;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 249.5937,308.68079 -3.3849,4.6347 1.30189,3.02037 4.63471,3.33283 6.09282,-0.98944 2.96829,-5.31168 0.26037,-3.80151 -4.84301,-3.38489 c 0,0 -7.29054,2.49962 -7.03017,2.49962 z"
+       id="path4506"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral2v2.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4508"
+       d="m 193.95232,304.76043 -8.03088,10.99614 3.0888,7.16601 10.99614,7.90734 14.4556,-2.3475 7.04246,-12.60231 0.61776,-9.0193 -11.49034,-8.03088 c 0,0 -17.29729,5.9305 -16.67954,5.9305 z"
+       style="fill:#bbfcf4;fill-opacity:0.97516336;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral1v2.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#1bc0ac;fill-opacity:0.97516336;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 196.92074,307.73013 -5.66125,7.75155 2.1774,5.05156 7.75155,5.57415 10.19024,-1.65483 4.96446,-8.88379 0.43549,-6.35801 -8.09994,-5.66124 c 0,0 -12.19343,4.18061 -11.75795,4.18061 z"
+       id="path4510"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral1v2.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4512"
+       d="m 199.77227,310.5829 -3.3849,4.63471 1.30189,3.02037 4.63471,3.33283 6.09281,-0.98943 2.96829,-5.31169 0.26038,-3.8015 -4.84301,-3.3849 c 0,0 -7.29054,2.49961 -7.03017,2.49961 z"
+       style="fill:#0d5e54;fill-opacity:0.97516336;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral1v2.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#bbfcf4;fill-opacity:0.97516336;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 346.51986,297.1995 -9.88413,13.53367 3.80159,8.81969 13.53367,9.73208 17.79145,-2.88922 8.66763,-15.51049 0.76032,-11.10065 -14.14192,-9.88413 c 0,0 -21.28892,7.29905 -20.52861,7.29905 z"
+       id="path4514"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4516"
+       d="m 350.17329,300.85451 -6.96766,9.54034 2.67987,6.21729 9.54033,6.86047 12.54179,-2.0367 6.1101,-10.93387 0.53598,-7.82522 -9.96912,-6.96766 c 0,0 -15.00726,5.14535 -14.47129,5.14535 z"
+       style="fill:#1bc0ac;fill-opacity:0.97516336;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="fill:#0d5e54;fill-opacity:0.97516336;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 353.68286,304.36561 -4.16602,5.70424 1.60232,3.71736 5.70424,4.10193 7.49883,-1.21776 3.65327,-6.53744 0.32046,-4.67876 -5.96061,-4.16601 c 0,0 -8.97295,3.07644 -8.65249,3.07644 z"
+       id="path4518"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       style="fill:#22dac4;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 696.39035,352.40784 11.79446,3.86423 5.27078,-6.9377 z"
+       id="path4574"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4576"
+       d="m 690.99975,374.74506 6.00247,-3.38198 5.89185,15.39708 -3.92435,5.49609 z"
+       style="fill:#1aaa99;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4578"
+       d="m 691.1893,375.02875 -3.50601,-3.85459 4.18033,18.66226 7.30706,2.61899 z"
+       style="fill:#1ec1ae;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4580"
+       d="m 692.11983,368.53641 5.74803,2.5623 -6.85934,3.73523 -3.3489,-3.65479 z"
+       style="fill:#22dac4;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4582"
+       d="m 708.18715,356.11989 5.30096,-6.82814 2.85559,42.07091 -12.62364,4.26429 z"
+       style="fill:#1aaa99;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4584"
+       d="m 708.24644,356.16352 -11.90398,-3.82486 -0.18908,38.92241 7.60251,4.55323 z"
+       style="fill:#1ec1ae;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       style="fill:#22dac4;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 712.37395,364.03848 -6.86013,4.92869 9.98442,2.54913 3.45613,-5.21486 z"
+       id="path4586"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4588"
+       d="m 718.90354,366.36072 -3.45519,5.20963 -6.27749,25.1556 9.16604,-5.7035 z"
+       style="fill:#1aaa99;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral4.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4590"
+       d="m 715.50125,371.51664 -9.94976,-2.58131 -3.07738,22.38566 6.70139,5.4334 z"
+       style="fill:#1ec1ae;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral3.png"
+       style="fill:#a5f7ef;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 579.192,257.26388 11.79446,3.86423 5.27078,-6.9377 z"
+       id="path4592"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral3.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4594"
+       d="m 573.8014,279.6011 6.00247,-3.38198 5.89185,15.39708 -3.92435,5.49609 z"
+       style="fill:#11e7cf;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral3.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4596"
+       d="m 573.99095,279.88479 -3.50601,-3.85459 4.18033,18.66226 7.30706,2.61899 z"
+       style="fill:#5bf2e1;fill-opacity:0.97647059;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral3.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4598"
+       d="m 574.92148,273.39245 5.74803,2.5623 -6.85934,3.73523 -3.3489,-3.65479 z"
+       style="fill:#a5f7ef;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral3.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4600"
+       d="m 590.9888,260.97593 5.30096,-6.82814 2.85559,42.07091 -12.62364,4.26429 z"
+       style="fill:#12e7cf;fill-opacity:0.97647053;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral3.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4602"
+       d="m 591.04809,261.01956 -11.90398,-3.82486 -0.18908,38.92241 7.60251,4.55323 z"
+       style="fill:#5bf1e1;fill-opacity:0.97647053;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral3.png"
+       style="fill:#a5f7ef;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 595.1756,268.89452 -6.86013,4.92869 9.98442,2.54913 3.45613,-5.21486 z"
+       id="path4604"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral3.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4606"
+       d="m 601.70519,271.21676 -3.45519,5.20963 -6.27749,25.1556 9.16604,-5.7035 z"
+       style="fill:#12e7cf;fill-opacity:0.97647053;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       inkscape:export-ydpi="90.269203"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral3.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4608"
+       d="m 598.3029,276.37268 -9.94976,-2.58131 -3.07738,22.38566 6.70139,5.4334 z"
+       style="fill:#5bf1e1;fill-opacity:0.97647053;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path4610"
+       d="m 703.80767,285.92325 11.79446,3.86423 5.27078,-6.9377 z"
+       style="fill:#a5f7ef;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral2.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#11e7cf;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 698.41707,308.26047 6.00247,-3.38198 5.89185,15.39708 -3.92435,5.49609 z"
+       id="path4612"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral2.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#5bf2e1;fill-opacity:0.97647059;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 698.60662,308.54416 -3.50601,-3.85459 4.18033,18.66226 7.30706,2.61899 z"
+       id="path4614"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral2.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#a5f7ef;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 699.53715,302.05182 5.74803,2.5623 -6.85934,3.73523 -3.3489,-3.65479 z"
+       id="path4616"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral2.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#12e7cf;fill-opacity:0.97647053;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 715.60447,289.6353 5.30096,-6.82814 2.85559,42.07091 -12.62364,4.26429 z"
+       id="path4618"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral2.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#5bf1e1;fill-opacity:0.97647053;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 715.66376,289.67893 -11.90398,-3.82486 -0.18908,38.92241 7.60251,4.55323 z"
+       id="path4620"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral2.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4622"
+       d="m 719.79127,297.55389 -6.86013,4.92869 9.98442,2.54913 3.45613,-5.21486 z"
+       style="fill:#a5f7ef;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral2.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#12e7cf;fill-opacity:0.97647053;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 726.32086,299.87613 -3.45519,5.20963 -6.27749,25.1556 9.16604,-5.7035 z"
+       id="path4624"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral2.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#5bf1e1;fill-opacity:0.97647053;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 722.91857,305.03205 -9.94976,-2.58131 -3.07738,22.38566 6.70139,5.4334 z"
+       id="path4626"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral2.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path4628"
+       d="m 542.40629,259.40674 11.79446,3.86423 5.27078,-6.9377 z"
+       style="fill:#bbfff6;fill-opacity:0.97647053;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral2.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#54fee8;fill-opacity:0.97647053;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 537.01569,281.74396 6.00247,-3.38198 5.89185,15.39708 -3.92435,5.49609 z"
+       id="path4630"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral2.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#8efdef;fill-opacity:0.97647053;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 537.20524,282.02765 -3.50601,-3.85459 4.18033,18.66226 7.30706,2.61899 z"
+       id="path4632"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral2.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#bbfff6;fill-opacity:0.97647053;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 538.13577,275.53531 5.74803,2.5623 -6.85934,3.73523 -3.3489,-3.65479 z"
+       id="path4634"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral2.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#54fee8;fill-opacity:0.97647053;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 554.20309,263.11879 5.30096,-6.82814 2.85559,42.07091 -12.62364,4.26429 z"
+       id="path4636"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral2.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#8efdef;fill-opacity:0.97647053;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 554.26238,263.16242 -11.90398,-3.82486 -0.18908,38.92241 7.60251,4.55323 z"
+       id="path4638"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral2.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4640"
+       d="m 558.38989,271.03738 -6.86013,4.92869 9.98442,2.54913 3.45613,-5.21486 z"
+       style="fill:#bbfff6;fill-opacity:0.97647053;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral2.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#54fee8;fill-opacity:0.97647053;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 564.91948,273.35962 -3.45519,5.20963 -6.27749,25.1556 9.16604,-5.7035 z"
+       id="path4642"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral2.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
+    <path
+       style="fill:#8efdef;fill-opacity:0.97647053;fill-rule:evenodd;stroke:#000000;stroke-width:0.23378564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.57745092"
+       d="m 561.51719,278.51554 -9.94976,-2.58131 -3.07738,22.38566 6.70139,5.4334 z"
+       id="path4644"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\allPickups\mineral_animation\mineral2.png"
+       inkscape:export-xdpi="90.269203"
+       inkscape:export-ydpi="90.269203" />
   </g>
 </svg>

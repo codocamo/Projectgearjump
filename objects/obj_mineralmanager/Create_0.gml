@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//file_delete("savedata.ini")
+file_delete("savedata.ini")
 
 instance_counter = instance_number(obj_minerals); 
 
