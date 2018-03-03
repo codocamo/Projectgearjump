@@ -44,11 +44,17 @@ gear2 = false;
 gear3 = false;
 
 
+gear1switchrequest = false;
+gear2switchrequest = false;
+gear3switchrequest = false;
+
 
 gear1limitunlock = true; if(room_get_name(room) == "rm_tutorial" || room_get_name(room) == "rm_pre_tutorial"){gear1limitunlock = false;}
 gear2limitunlock = true; if(room_get_name(room) == "rm_tutorial" || room_get_name(room) == "rm_pre_tutorial"){gear2limitunlock = false;}
 gear3limitunlock = true; if(room_get_name(room) == "rm_tutorial" || room_get_name(room) == "rm_pre_tutorial"){gear3limitunlock = false;}
 jumplimitunlock = true; if(room_get_name(room) == "rm_tutorial" || room_get_name(room) == "rm_pre_tutorial"){jumplimitunlock = false;}
+
+goodtoswitch = true
 
 //for the camera shake
 shake = 0;

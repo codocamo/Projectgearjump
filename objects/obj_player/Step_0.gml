@@ -12,11 +12,12 @@ player_bbox_height = sprite_get_bbox_bottom(sprite_index) + sprite_get_bbox_top(
 
 
 ///Movement
+//make switch request
 if(keyboard_check(ord("I")) && gear1limitunlock)
 {
-	gear1 = true;
-	gear2 = false;
-	gear3 = false;
+	gear1switchrequest = true;
+	gear2switchrequest = false;
+	gear3switchrequest = false;
 	
 	
 	shake = 10;
@@ -31,9 +32,9 @@ if(keyboard_check_released(ord("I")))
 
 else if(keyboard_check(ord("O")) && gear2limitunlock)
 {
-	gear2 = true;
-	gear1 = false;
-	gear3 = false;
+	gear2switchrequest = true;
+	gear1switchrequest = false;
+	gear3switchrequest = false;
 	
 	shake = 10;
 	
@@ -47,9 +48,9 @@ if(keyboard_check_released(ord("O")))
 
 else if(keyboard_check(ord("P")) && gear3limitunlock)
 {
-	gear3 = true;
-	gear2 = false;
-	gear1 = false;
+	gear3switchrequest = true;
+	gear2switchrequest = false;
+	gear1switchrequest = false;
 	
 	shake = 10;
 	
@@ -59,6 +60,11 @@ if(keyboard_check_released(ord("P")))
 {
 	obj_soundcontroller.play_switch_snd_3 = false
 }
+
+//fulfil switch request
+if(gear1switchrequest && goodtoswitch){gear1 = true; gear2 = false; gear3 = false}
+else if(gear2switchrequest && goodtoswitch){gear2 = true; gear3 = false;gear1 = false}
+else if(gear3switchrequest && goodtoswitch){gear3 = true; gear1 = false; gear2 = false}
 
 
 //TODO : should probably take keyboard check out of jump script and put it here
@@ -295,5 +301,6 @@ var t3a = tilemap_get_at_pixel(tile_map, bbox_right, bbox_bottom + 10) & tile_in
 if((mid_jump) &&((t1a != 0 && t1a != 1) || (t2a != 0 && t2a != 1) || (t3a != 0 && t3a != 1)))
 {
 	start_run_anim = true;	
+	goodtoswitch = true
 }
-else if(mid_jump){start_run_anim = false;}
+else if(mid_jump){start_run_anim = false;goodtoswitch = false}

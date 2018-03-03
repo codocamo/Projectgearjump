@@ -61,24 +61,24 @@ sprite_index = spr_playerdeath;
 if(image_index > image_number - 1){ room_restart();}; //restart the level
 }
 else if(inslide == true){
-if(gear1){draw_sprite(spr_playerslide_gear1, 0, x, y); }
-else if (gear2){draw_sprite(spr_playerslide_gear2, 0, x, y);}
-else if (gear3){draw_sprite(spr_playerslide_gear3, 0, x, y); }
+if(gear1switchrequest){draw_sprite(spr_playerslide_gear1, 0, x, y); }
+else if (gear2switchrequest){draw_sprite(spr_playerslide_gear2, 0, x, y);}
+else if (gear3switchrequest){draw_sprite(spr_playerslide_gear3, 0, x, y); }
 //else{draw_sprite(spr_playerslide, 0, x, y); }
 sprite_index = spr_playerslide_gear1;
 
 }
 else if((start_run_anim == true) && (in_tumble == false)){
-if(gear1){draw_sprite(spr_playerrun_gear1, -1, x, y); }
-else if (gear2){draw_sprite(spr_playerrun_gear2, -1, x, y);}
-else if (gear3){draw_sprite(spr_playerrun_gear3, -1, x, y); }
+if(gear1switchrequest){draw_sprite(spr_playerrun_gear1, -1, x, y); }
+else if (gear2switchrequest){draw_sprite(spr_playerrun_gear2, -1, x, y);}
+else if (gear3switchrequest){draw_sprite(spr_playerrun_gear3, -1, x, y); }
 else{draw_sprite(spr_playerrun_gear0, -1, x, y); }
 sprite_index = spr_playerrun_gear1;
 }
 else if((mid_jump == true) && (in_tumble == false)){
-if(gear1){draw_sprite(spr_playerjump, 1, x, y); }
-else if(gear2){draw_sprite(spr_playerjump, 0, x, y); } 
-else if(gear3){draw_sprite(spr_playerjump, 2, x, y); }
+if(gear1switchrequest){draw_sprite(spr_playerjump, 1, x, y); }
+else if(gear2switchrequest){draw_sprite(spr_playerjump, 0, x, y); } 
+else if(gear3switchrequest){draw_sprite(spr_playerjump, 2, x, y); }
 //draw_sprite(spr_playerjump, 2, x, y); 
 sprite_index = spr_playerjump;
 }
@@ -98,7 +98,7 @@ if (pkupslidestate)
 
 //slide and general help text
 
-if(lvlhelptxt)
+if(lvlhelptxt && room_get_name(room) == "rm_lvl1_kupler") 
 {
 	draw_set_font(fnt_renner_ingametext)
 	draw_text_ext_transformed_color(x + 10,y - 100, "Explore and find the warp point" ,30, 200, 1, 1, 0, c_yellow,c_yellow,c_yellow,c_yellow, 1 )
