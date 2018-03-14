@@ -16,6 +16,7 @@ var layerid_spacex = layer_get_x(layerid_space)
 
 var pvelocity = obj_player.velocity[1]
 
+
 if (bg_move_once)
 {
 	startdiff_lvlbgy = obj_player.y - layerid_lvlbgy
@@ -44,10 +45,10 @@ if(obj_player.loop_lvl[1] > 0)
 	var xdivide_space = obj_player.loop_lvl[1] / sprite_get_width(spr_space)
 	
 	
-	layer_x(layerid_lvlbg, (obj_player.x - xmodulo_lvlbg) + xdivide_lvlbg);
+	layer_x(layerid_lvlbg, ((obj_player.x - xmodulo_lvlbg) + xdivide_lvlbg) + layerid_lvlbgx);
 	//layer_x(layerid_glow, (obj_player.x - xmodulo) + xdiff );
 	//layer_x(layerid_stardust, (obj_player.x - xmodulo) + xdiff);
-	layer_x(layerid_space, (obj_player.x - xmodulo_space) + xdivide_space);
+	layer_x(layerid_space, ((obj_player.x - xmodulo_space) + xdivide_space) + layerid_spacex);
 	
 	
 	obj_player.loop_lvl[1] = -1

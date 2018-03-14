@@ -20,9 +20,16 @@ switch(global.leveljustcompleted)
 
 
 //Time information
-var time = "Time: "+ string(global.secondsminuteshours[2]) + ":" + string(global.secondsminuteshours[1]) + ":" + string(global.secondsminuteshours[0]) 
+var hours
+var minutes 
+var seconds 
+if (global.secondsminuteshours[2] < 10){hours = "0" + string(global.secondsminuteshours[2])} else {hours = string(global.secondsminuteshours[2])}
+if (global.secondsminuteshours[1] < 10){minutes = "0" + string(global.secondsminuteshours[1])} else {minutes = string(global.secondsminuteshours[1])}
+if (global.secondsminuteshours[0] < 10){seconds = "0" + string(global.secondsminuteshours[0])}else {seconds = string(global.secondsminuteshours[0])}
+
+var time = "Time: "+ hours + ":" + seconds + ":" + minutes 
 if (global.secondsminuteshours[2] <= 0){
-	var time = "Time: "+ string(global.secondsminuteshours[1]) + ":" + string(global.secondsminuteshours[0]) 
+	var time = "Time: "+ minutes + ":" + seconds 
 }
 draw_set_font(fnt_renner_ingametext_big); 
 draw_set_halign(fa_left); 
