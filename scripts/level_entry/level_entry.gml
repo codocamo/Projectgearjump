@@ -29,7 +29,7 @@ if(cameramove && y >= characterclampy)
 	
 	if(alarm1set)
 	{
-		alarm[1] = 100;
+		alarm[1] = 250;
 		alarm1set = false;
 		obj_levelswitcher.drawleveldetails = true;
 	}
