@@ -42,9 +42,11 @@ draw_set_halign(fa_left);
 draw_text_ext_transformed_color(info_row_x_start + 250,info_row, mineralcount ,100, 300, 1, 1, 0, c_red,c_red,c_red,c_red, 1 );
 
 //rank information
+levelranker();
+var rank = "Rank: " + global.rank 
 draw_set_font(fnt_renner_ingametext_big); 
 draw_set_halign(fa_left); 
-draw_text_ext_transformed_color(info_row_x_start + 550,info_row, "Rank:" ,100, 300, 1, 1, 0, c_red,c_red,c_red,c_red, 1 );
+draw_text_ext_transformed_color(info_row_x_start + 550,info_row, rank ,100, 300, 1, 1, 0, c_red,c_red,c_red,c_red, 1 );
 
 
 
