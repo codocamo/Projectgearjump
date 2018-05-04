@@ -35,7 +35,8 @@ draw_set_font(fnt_renner_ingametext_big);
 draw_set_halign(fa_left); 
 draw_text_ext_transformed_color(info_row_x_start,info_row, time ,100, 300, 1, 1, 0, c_red,c_red,c_red,c_red, 1 );
 		
-//Mineralk information
+//Mineral information
+var totalminerals
 var mineralcount = "Minerals: " + string(global.mineralcount[0]) + "/" + string(global.mineralcount[1])
 draw_set_font(fnt_renner_ingametext_big); 
 draw_set_halign(fa_left); 
@@ -43,11 +44,23 @@ draw_text_ext_transformed_color(info_row_x_start + 250,info_row, mineralcount ,1
 
 //rank information
 levelranker();
-var rank = "Rank: " + global.rank 
+
+
+var rankletter = global.rank[0]
+var rankword = global.rank[1]
+var rankcolour = global.rank[2]
+var rank = "Rank:"
 draw_set_font(fnt_renner_ingametext_big); 
 draw_set_halign(fa_left); 
 draw_text_ext_transformed_color(info_row_x_start + 550,info_row, rank ,100, 300, 1, 1, 0, c_red,c_red,c_red,c_red, 1 );
 
+draw_set_halign(fa_center); 
+draw_text_ext_transformed_color(info_row_x_start + 770,info_row + 20, rankword ,100, 300, 1, 1, 270, c_red,c_red,c_red,c_red, 1 );
+
+
+draw_set_font(fnt_dearest_rankfirstletter); 
+draw_set_halign(fa_left); 
+draw_text_ext_transformed_color(info_row_x_start + 630,info_row-50, rankletter ,100, 300, 1, 1, 0, rankcolour,rankcolour,rankcolour,rankcolour, 1 );
 
 
 draw_sprite_ext(spr_btnbar,0, 0,button_bar,1,1,0,c_white,1)

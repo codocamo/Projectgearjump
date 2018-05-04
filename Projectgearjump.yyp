@@ -1383,6 +1383,14 @@
             }
         },
         {
+            "Key": "fbe1b5e0-f560-43d5-a443-c02eb7168248",
+            "Value": {
+                "id": "02a07244-804d-43aa-8e89-7a4464cb8374",
+                "resourcePath": "fonts\\fnt_dearest_rankfirstletter\\fnt_dearest_rankfirstletter.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "fc5f2bbd-6885-4fbf-a974-1f0486cec814",
             "Value": {
                 "id": "f61c0757-fbb0-4ba2-87b8-cfed3b9b0a15",
