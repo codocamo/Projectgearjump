@@ -99,3 +99,66 @@ if(instance_exists(obj_player))
 	}
 
 }
+
+
+if(instance_exists(obj_startButton))
+{
+	if(obj_startButton.btn_pos == 1)
+	{
+		play_spinbtn_snd[0] = true;
+	}
+	else
+	{
+		play_spinbtn_snd[0] = false;
+	}
+
+	
+}
+if(instance_exists(obj_quitButton))
+{
+	if(obj_quitButton.btn_pos == 1)
+	{
+		play_spinbtn_snd[1] = true;
+	}
+	else
+	{
+		play_spinbtn_snd[1] = false;
+	}
+
+	
+}
+if(instance_exists(obj_continueButton))
+{
+	if(obj_continueButton.btn_pos == 1)
+	{
+		play_spinbtn_snd[2] = true;
+	}
+	else
+	{
+		play_spinbtn_snd[2] = false;
+	}
+
+	
+}
+if(instance_exists(obj_restartButton))
+{
+	if(obj_restartButton.btn_pos == 1)
+	{
+		play_spinbtn_snd[3] = true;
+	}
+	else
+	{
+		play_spinbtn_snd[3] = false;
+	}
+}
+
+if(play_spinbtn_snd[0] == true || play_spinbtn_snd[1] == true ||play_spinbtn_snd[2] == true ||play_spinbtn_snd[3] == true)
+{
+	audio_play_sound(snd_spinningbtn, 10, true);
+	audio_pause_sound(current_level_music);
+}
+else
+{
+	audio_stop_sound(snd_spinningbtn);
+	audio_resume_sound(current_level_music);
+}

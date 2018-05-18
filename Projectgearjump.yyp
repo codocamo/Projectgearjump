@@ -943,6 +943,14 @@
             }
         },
         {
+            "Key": "ab0a6817-ee69-4fe3-90ef-92aa9bd67b5d",
+            "Value": {
+                "id": "e0bd6b5a-cf0a-4221-ba5e-045aaac2281c",
+                "resourcePath": "sounds\\snd_spinningbtn\\snd_spinningbtn.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "ac71306c-49e0-4fe9-8402-28e05863f8d8",
             "Value": {
                 "id": "e9c76f52-9246-453a-bb23-8bbf176613c0",
