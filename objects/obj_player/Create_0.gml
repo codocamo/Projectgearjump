@@ -90,6 +90,7 @@ loop_lvl = [false, -1];
 loop_xpos = [-1,-1]
 
 tile_4_locked = false;
+tile_7_locked = false;
 
 pkupslidestate = false;
 inslide = false;
@@ -97,6 +98,10 @@ canstand = true;
 slidehelp = true;
 
 endoflevel = false
+prelimendoflevel = false
 
+
+
+endingcounter = 0;
 
 lvlhelptxt = true;

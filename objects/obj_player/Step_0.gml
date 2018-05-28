@@ -247,6 +247,27 @@ if (velocity[0] > 0) //right
 		if(alarm3set){alarm[3] = 50; alarm3set = false;}
 		audio_sound_gain(obj_soundcontroller.current_level_music,0,1500)
 	}
+	if(t1 = 7 || t2 = 7 || t3 = 7)
+	{	
+		prelimendoflevel = true;
+		
+		
+		if( tile_7_locked = false)
+		{
+			endingcounter +=1;
+			
+			if(endingcounter < 3)
+			{
+				currentx = x
+				currenty = y
+			}
+		}
+		tile_7_locked = true;
+	}
+	else
+	{
+		tile_7_locked = false;
+	}
 	
 }
 else //left
@@ -287,6 +308,7 @@ if(global.branch != -10 && room_get_name(room) == "rm_pre_tutorial" )
 
 
 level_entry()
+level_exit()
 
 camera_set_view_pos(view_camera[0], cameraposx + random_range(-shake, shake), cameraposy + random_range(-shake, shake));
 
