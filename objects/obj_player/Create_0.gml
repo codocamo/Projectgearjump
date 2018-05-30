@@ -92,7 +92,7 @@ loop_xpos = [-1,-1]
 tile_4_locked = false;
 tile_7_locked = false;
 
-pkupslidestate = false;
+pkupslidestate = [false,0];
 inslide = false;
 canstand = true;
 slidehelp = true;

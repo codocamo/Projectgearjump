@@ -88,9 +88,9 @@ sprite_index = spr_playerjump;
 
 draw_sprite(spr_pkupslideindicator, 0, x+15, y-60)
 
-if (pkupslidestate)
+if (pkupslidestate[0])
 {
-	draw_sprite(spr_pkupslideindicator, 1, x+15, y-60)
+	draw_sprite(spr_pkupslideindicator, pkupslidestate[1], x+15, y-60)
 }
 
 
@@ -103,7 +103,7 @@ if(lvlhelptxt && room_get_name(room) == "rm_lvl1_kupler")
 	draw_set_font(fnt_renner_ingametext)
 	draw_text_ext_transformed_color(x + 10,y - 100, "Explore and find the warp point" ,30, 200, 1, 1, 0, c_yellow,c_yellow,c_yellow,c_yellow, 1 )
 }
-if(pkupslidestate && !inslide && slidehelp)
+if(pkupslidestate[0] && !inslide && slidehelp)
 {
 	draw_set_font(fnt_renner_ingametext_big)
 	draw_text_ext_transformed_color(x - 10,y + 60, "Press S" ,20, 200, 1, 1, 0, c_yellow,c_yellow,c_yellow,c_yellow, 1 )

@@ -16,7 +16,7 @@ part_type_size(global.pt_Effect1, 0.25, 0.25, 0, 0);
 part_type_scale(global.pt_Effect1, 1, 1);
 part_type_orientation(global.pt_Effect1, 0, 0, 0, 0, 0);
 part_type_color3(global.pt_Effect1, 16777215, 16777215, 16777215);
-part_type_alpha3(global.pt_Effect1, 1, 0.50, 0);
+part_type_alpha3(global.pt_Effect1, 0, 1, 0);
 part_type_blend(global.pt_Effect1, 0);
 part_type_life(global.pt_Effect1, 200,200);
 part_type_speed(global.pt_Effect1, 0.50, 0.50, 0, 0);
