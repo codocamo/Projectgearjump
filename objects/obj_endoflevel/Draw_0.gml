@@ -27,7 +27,7 @@ if (global.secondsminuteshours[2] < 10){hours = "0" + string(global.secondsminut
 if (global.secondsminuteshours[1] < 10){minutes = "0" + string(global.secondsminuteshours[1])} else {minutes = string(global.secondsminuteshours[1])}
 if (global.secondsminuteshours[0] < 10){seconds = "0" + string(global.secondsminuteshours[0])}else {seconds = string(global.secondsminuteshours[0])}
 
-var time = "Time: "+ hours + ":" + seconds + ":" + minutes 
+var time = "Time: "+ hours + ":" + minutes + ":" + seconds 
 if (global.secondsminuteshours[2] <= 0){
 	var time = "Time: "+ minutes + ":" + seconds 
 }
@@ -63,3 +63,11 @@ draw_text_ext_transformed_color(info_row_x_start + 630,info_row, rankword ,100, 
 
 //btnbar
 draw_sprite_ext(spr_btnbar,0, 0,button_bar,1,1,0,c_white,1)
+
+
+//save out info
+ini_open("savedata.ini")
+ini_write_string(global.leveljustcompleted, "time", time)
+ini_write_string(global.leveljustcompleted, "count", mineralcount)
+ini_write_string(global.leveljustcompleted, "rank", rankletter)
+ini_close()

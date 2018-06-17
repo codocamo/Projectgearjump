@@ -3,8 +3,5 @@
 
 obj_levelswitcher.drawleveldetails = false;
 cameramove = false;
-
-alarm1set = true;
-
-
+doonce = true;
 advancetonextlvl = true;

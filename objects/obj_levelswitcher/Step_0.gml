@@ -15,3 +15,27 @@ else if (goto[0])
 	whiteflash = true;
 	if(alarm0set){alarm[0] = 10; alarm0set = false;}
 }
+
+
+
+//Grab all the unlocked levels
+if(grablevels)
+{
+	ini_open("levelmanager.ini")
+	while(ini_section_exists("level_" + string(leveliterator)))
+	{
+		var unlocked = ini_read_string("level_" + string(leveliterator),"unlocked","ini_level_error");
+		if(unlocked)
+		{
+			unlockedlevellist[leveliterator] = ini_read_string("level_" + string(leveliterator),"name","ini_level_error");
+		}
+		
+		leveliterator++;	
+	}
+	ini_close();
+	
+	grablevels = false;
+	leveliterator = 1;
+	
+	//show_message(unlockedlevellist[1])
+}

@@ -1,6 +1,10 @@
 //var characterclampy = 2700;
 //var characterclampy = 2200;
-var characterclampy = player_y_at_trigger + 1000;
+
+//first camera move happens then we hit the character clamp point
+//once both are met we show level details and start alarm
+//alarmsets startnextlvl to true
+var characterclampy = player_y_at_trigger + 2500;
 
 
 //last chkpt sets cameramove top true. once true start the camera ofset
@@ -27,12 +31,15 @@ if(cameramove && y >= characterclampy)
 	world_gravity = [0,0];
 	velocity = [0, 0];
 	
-	if(alarm1set)
+	if(doonce)
 	{
-		alarm[1] = 250;
-		alarm1set = false;
+		//alarm[1] = 250;
+		doonce = false;
+		obj_levelswitcher.grablevels = true;
 		obj_levelswitcher.drawleveldetails = true;
+		obj_levelswitcher.waitforinput = true;
 	}
+	
 }
 else if(advancetonextlvl && y >= characterclampy)
 {
@@ -45,5 +52,5 @@ else if(advancetonextlvl && y >= characterclampy)
 if(advancetonextlvl && y >= characterclampy + 100)
 {
 	obj_levelswitcher.goto[0] = true;
-	obj_levelswitcher.goto[1] = rm_lvl1_kupler;
+	//obj_levelswitcher.goto[1] = rm_lvl1_kupler;
 }
