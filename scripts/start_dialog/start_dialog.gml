@@ -10,5 +10,9 @@ if(!instance_exists(obj_dialogcontroller))
 }
 else
 {
-	show_message("instance of obj_dialogcontroller still exists")
+	//show_message("instance of obj_dialogcontroller still exists")
+
+	obj_dialogcontroller.dialog_lines = global.dialog;
+	obj_dialogcontroller.dialog_line = argument[0];
+	obj_dialogcontroller.fetch = true;
 }

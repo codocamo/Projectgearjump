@@ -866,7 +866,7 @@
             "Key": "9fcec2c4-a436-4c02-aef0-706d2fab5a7e",
             "Value": {
                 "id": "fd25f426-a9f2-43a5-8e61-93fccf9d7878",
-                "resourcePath": "fonts\\fnt_renner_ingametext_big\\fnt_renner_ingametext_big.yy",
+                "resourcePath": "fonts\\fnt_renner_ingametext_med\\fnt_renner_ingametext_med.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -1204,6 +1204,14 @@
                 "id": "5a2ae5b1-94b0-4cec-ac62-55c4744dd5e1",
                 "resourcePath": "views\\d26ee4bb-a914-48ec-84ce-22f9ec1c560f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d434d653-8dff-4337-8953-1f225e5ce0d3",
+            "Value": {
+                "id": "8d3633a0-fe3c-4363-8817-c5142e478bc4",
+                "resourcePath": "fonts\\fnt_renner_ingametext_big\\fnt_renner_ingametext_big.yy",
+                "resourceType": "GMFont"
             }
         },
         {

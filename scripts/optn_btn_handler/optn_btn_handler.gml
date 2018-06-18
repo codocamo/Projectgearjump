@@ -29,7 +29,7 @@ if(argument[0])
 			global.branch += 1; 
 			advance_dialog = true;
 			dialog_adder(room_get_name(room) + "_branch_" + string(global.branch));
-			instance_destroy()
+			//instance_destroy()
 			start_dialog(0);
 			
 		}
@@ -45,7 +45,7 @@ if(argument[0])
 			global.branch *= 10; 
 			advance_dialog = true;
 			dialog_adder(room_get_name(room) + "_branch_" + string(global.branch));
-			instance_destroy()
+			//instance_destroy()
 			start_dialog(0);
 		}
 		else{btn2state = 1}

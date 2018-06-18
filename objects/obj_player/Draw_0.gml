@@ -105,12 +105,12 @@ if(lvlhelptxt && room_get_name(room) == "rm_lvl1_kupler")
 }
 if(pkupslidestate[0] && !inslide && slidehelp)
 {
-	draw_set_font(fnt_renner_ingametext_big)
+	draw_set_font(fnt_renner_ingametext_med)
 	draw_text_ext_transformed_color(x - 10,y + 60, "Press S" ,20, 200, 1, 1, 0, c_yellow,c_yellow,c_yellow,c_yellow, 1 )
 }
 else if (inslide && slidehelp)
 {
 	
-	draw_set_font(fnt_renner_ingametext_big)
+	draw_set_font(fnt_renner_ingametext_med)
 	draw_text_ext_transformed_color(x - 50,y + 60, "Good!" ,20, 200, 1, 1, 0, c_yellow,c_yellow,c_yellow,c_yellow, 1 )
 }

@@ -47,7 +47,7 @@ if(waitforinput)
 		firstphase= true;
 		waitforinput = false;
 	}
-	else if(keyboard_check_pressed(vk_space))
+	else if(keyboard_check_pressed(ord("W")))
 	{
 		obj_levelswitcher.drawleveldetails = false;
 		obj_levelswitcher.waitforinput = false;
@@ -58,14 +58,20 @@ if(waitforinput)
 }
 
 
+
+
+var bkg_spaceid = layer_get_id("Background_space")
+var bkg_stardustid = layer_get_id("Backgrounds_stardust")
 if(animatedown)
 {
-	var animspeed = 20;
+	var animspeed = 25;
 	var toplimit = 700;
 	var bottomlimit = 300;
 	
 	if (layer_sprite_get_y(planetlayerspriteid) > planetspr_y - toplimit && firstphase)
 	{
+		layer_vspeed(bkg_spaceid, (animspeed - 3 )*-1)
+		layer_vspeed(bkg_stardustid, (animspeed - 10 )*-1)
 		drawleveldetails = false;
 		layer_sprite_y(planetlayerspriteid,layer_sprite_get_y(planetlayerspriteid) - animspeed)
 	}
@@ -82,21 +88,28 @@ if(animatedown)
 	}
 	else
 	{
+		
 		drawleveldetails = true;
 		secondphase = false;
 		waitforinput = true;
-		animatedown = false
+		animatedown = false;
+		layer_vspeed(bkg_spaceid, 0)
+		layer_vspeed(bkg_stardustid, 0)
 	}
+	
+	
 	
 }
 else if(animateup)
 {
-	var animspeed = 20;
+	var animspeed = 25;
 	var toplimit = 700;
 	var bottomlimit = 300;
 	
 	if (layer_sprite_get_y(planetlayerspriteid) < planetspr_y + bottomlimit && firstphase)
 	{
+		layer_vspeed(bkg_spaceid, animspeed - 3)
+		layer_vspeed(bkg_stardustid, animspeed - 10)
 		drawleveldetails = false;
 		layer_sprite_y(planetlayerspriteid,layer_sprite_get_y(planetlayerspriteid) + animspeed)
 	}
@@ -117,6 +130,8 @@ else if(animateup)
 		secondphase = false;
 		waitforinput = true;
 		animateup = false;
+		layer_vspeed(bkg_spaceid, 0)
+		layer_vspeed(bkg_stardustid, 0)
 	}
 	
 }
