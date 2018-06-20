@@ -24,13 +24,12 @@ if (bg_move_once)
 	startdiff_stardusty = obj_player.y - layerid_stardusty
 	startdiff_spacey = obj_player.y - layerid_spacey
 	bg_move_once = false
-	//show_debug_message(string(startdiff))
+	
 }
 layer_y(layerid_lvlbg, obj_player.y - startdiff_lvlbgy);
 layer_y(layerid_glow, obj_player.y - startdiff_glowy);
 layer_y(layerid_stardust, obj_player.y - startdiff_stardusty);
 layer_y(layerid_space, obj_player.y - startdiff_spacey);
-
 
 
 

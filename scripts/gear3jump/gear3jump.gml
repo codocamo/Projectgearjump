@@ -13,6 +13,7 @@ if((t1 = 3 || t1 = 5) || (t2 = 3 || t2 = 5) || (t3 = 3 ||t3 = 5))
 {
     mid_jump = false;
 	world_gravity = [0,2.5];
+	//world_gravity = [0,3];
 	player_runspeed = [1, 0];
 	max_velocity = [8,max_velocity[1]];
 	stopjumping = false;
@@ -43,6 +44,7 @@ else
 	{
 		player_jumpspeed = [0,0];
 		world_gravity = [0,2.7];
+		//world_gravity = [0,3];
 		//show_message("jump stopped apparently in norm")
 	}
 	

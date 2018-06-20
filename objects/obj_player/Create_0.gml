@@ -72,7 +72,7 @@ min_velocity = [-10,-2000];
 player_runspeed = [1, 0]
 player_jumpspeed = [0, 0]
 world_gravity = [0,2];
-world_wind = [0.0, 0.0];
+world_wind = [0, 0];
 
 
 
@@ -105,3 +105,6 @@ prelimendoflevel = false
 endingcounter = 0;
 
 lvlhelptxt = true;
+
+
+bg_move_once = true; 

@@ -4,5 +4,6 @@
 
 
 //run the background movement script in a loop
-background_movement();
+
+//background_movement();
 timer();

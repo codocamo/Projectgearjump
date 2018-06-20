@@ -301,6 +301,11 @@ else //left
 
 
 
+//show_message("player: "+ string(obj_player.y))
+if(room_get_name(room) != "rm_pre_tutorial" )
+{
+	background_movement();
+}
 
 //sets level boundrys
 if(global.branch != -10 && room_get_name(room) == "rm_pre_tutorial" )

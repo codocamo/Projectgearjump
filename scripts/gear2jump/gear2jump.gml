@@ -11,6 +11,7 @@ if((t1 = 3 || t1 = 5) || (t2 = 3 || t2 = 5) || (t3 = 3 ||t3 = 5)) //if grounded
 	player_runspeed = [1, 0];
 	max_velocity = [8,max_velocity[1]];
 	world_gravity = [0,2.5];
+	//world_gravity = [0,3];
 	stopjumping = false;
 	
 	if(keyboard_check(ord("W")))

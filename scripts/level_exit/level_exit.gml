@@ -1,7 +1,6 @@
 if ( instance_exists(obj_endcard)&& instance_exists(obj_endparticles))
 {
 
-
 	if(endingcounter >= 1)
 	{
 		obj_endcard.visible=true
@@ -10,7 +9,7 @@ if ( instance_exists(obj_endcard)&& instance_exists(obj_endparticles))
 	}
 	else
 	{
-		obj_endcard.visible=false
+		obj_endcard.visible = false
 		obj_endparticles.startstreaming = false;
 	}
 
