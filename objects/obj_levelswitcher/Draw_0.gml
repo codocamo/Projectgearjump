@@ -5,8 +5,9 @@
 if(drawplanet)
 {//create planet sprite layer(set default sprite)
 	//call script that changes the sprite depending on goto[1]
-	obj_levelswitcher.planetspr_x = obj_player.x + 400
-	obj_levelswitcher.planetspr_y = (obj_player.player_y_at_trigger + 2500) + 280
+	obj_levelswitcher.planetspr_x = obj_player.x + 500
+	obj_levelswitcher.planetspr_y = (obj_player.player_y_at_trigger + 2500) + 700
+
 	
 	planetlayerid = layer_create(1);
 	planetlayerspriteid = layer_sprite_create(planetlayerid, planetspr_x, planetspr_y, spr_jumpdef);
@@ -62,11 +63,11 @@ if(waitforinput)
 
 var bkg_spaceid = layer_get_id("Background_space")
 var bkg_stardustid = layer_get_id("Backgrounds_stardust")
+var animspeed = 25;
+var toplimit = 1500;
+var bottomlimit = 550;
 if(animatedown)
 {
-	var animspeed = 25;
-	var toplimit = 700;
-	var bottomlimit = 300;
 	
 	if (layer_sprite_get_y(planetlayerspriteid) > planetspr_y - toplimit && firstphase)
 	{
@@ -102,10 +103,7 @@ if(animatedown)
 }
 else if(animateup)
 {
-	var animspeed = 25;
-	var toplimit = 700;
-	var bottomlimit = 300;
-	
+
 	if (layer_sprite_get_y(planetlayerspriteid) < planetspr_y + bottomlimit && firstphase)
 	{
 		layer_vspeed(bkg_spaceid, animspeed - 3)
