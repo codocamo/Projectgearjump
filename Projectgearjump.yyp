@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "22c36471-8266-4248-87c3-fc56496f8b21",
+            "Value": {
+                "id": "e1304cf4-6735-46fd-9487-811114b67efd",
+                "resourcePath": "tilesets\\ts_kupler2\\ts_kupler2.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "2578985f-fe0e-4264-a31f-441b819706aa",
             "Value": {
                 "id": "1d36a66a-cedd-4d19-a217-5c4954298394",
@@ -308,6 +316,14 @@
                 "id": "06e37557-6ad2-42b0-a3ab-bcfe67167753",
                 "resourcePath": "views\\2f8d85fa-4e9b-4134-b28d-c8d89a7928b3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "312da10e-48e1-42c6-a512-f2d5bef89d03",
+            "Value": {
+                "id": "7b2cdd39-00e7-4e8a-bc68-6414073d3662",
+                "resourcePath": "rooms\\rm_lvl1_kupler3\\rm_lvl1_kupler3.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -812,6 +828,14 @@
                 "id": "f245fcca-0c8a-47de-ba23-6b829dbf0a8c",
                 "resourcePath": "sounds\\snd_jchange1\\snd_jchange1.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "96947fc5-bd44-4a6f-92e4-37ced03f99fd",
+            "Value": {
+                "id": "be6c9df5-c37a-4b98-a946-9e7754e84a55",
+                "resourcePath": "sprites\\spr_kuplertileset2\\spr_kuplertileset2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
