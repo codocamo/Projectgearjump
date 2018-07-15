@@ -18,6 +18,7 @@ if(argument[0])
 	var btn1coll = [btn1pos[0] + (camera_get_view_x(view_camera[0]) - (btnsize[0]/2)), btn1pos[1] + (camera_get_view_y(view_camera[0]) - (btnsize[1]/2))]
 	var btn2pos = [750, 505];
 	var btn2coll = [btn2pos[0] + (camera_get_view_x(view_camera[0]) - (btnsize[0]/2)), btn2pos[1] + (camera_get_view_y(view_camera[0]) - (btnsize[1]/2))]
+	
 	var btn1state = 0;
 	var btn2state = 0;
 
@@ -31,6 +32,7 @@ if(argument[0])
 			dialog_adder(room_get_name(room) + "_branch_" + string(global.branch));
 			//instance_destroy()
 			start_dialog(0);
+			obj_soundcontroller.play_instinctbtn_click_snd = true
 			
 		}
 		else{btn1state = 1}
@@ -47,6 +49,7 @@ if(argument[0])
 			dialog_adder(room_get_name(room) + "_branch_" + string(global.branch));
 			//instance_destroy()
 			start_dialog(0);
+			obj_soundcontroller.play_instinctbtn_click_snd = true
 		}
 		else{btn2state = 1}
 	}
@@ -95,6 +98,8 @@ else
 			{
 				move_level = true
 			}
+			obj_soundcontroller.play_instinctbtn_click_snd = true
+			
 		}
 		else{btn1state = 1}
 	}

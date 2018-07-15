@@ -3,13 +3,14 @@
 
 if(level_music_switch)
 {
+	
 	audio_master_gain(1)
 	switch(room_get_name(room))
 	{
 		case "rm_lvl1_kupler": audio_stop_sound(current_level_music); current_level_music = msc_lvl1kupler; audio_sound_gain(current_level_music,msc_default_gain,1); audio_play_sound(current_level_music, 1000, true); break;
 		//case "rm_tutorial": current_level_music = msc_pretutorial; audio_play_sound(current_level_music, 1000, true); break;
 		case "rm_pre_tutorial": audio_stop_sound(current_level_music); current_level_music = msc_pretutorial; audio_sound_gain(current_level_music,msc_default_gain,1); audio_play_sound(current_level_music, 1000, true); break;
-		case "rm_startmenu": audio_stop_all(); current_level_music = msc_pretutorial; audio_sound_gain(current_level_music,msc_default_gain,1); audio_play_sound(current_level_music, 1000, true); break;
+		case "rm_startmenu": audio_stop_all(); current_level_music = msc_lvl1kupler;// audio_sound_gain(current_level_music,msc_default_gain,1); audio_play_sound(current_level_music, 1000, true); break;
 		//case "rm_endoflevel": audio_stop_all(); break;
 	}
 	level_music_switch = false;
@@ -100,6 +101,8 @@ if(instance_exists(obj_player))
 
 }
 
+//-------------------button SOUND-------------------------------------
+
 
 if(instance_exists(obj_startButton))
 {
@@ -114,11 +117,11 @@ if(instance_exists(obj_startButton))
 	
 	if(obj_startButton.btn_pos == 2)
 	{
-		fadeout_spinbtn_snd[0] = true;
+		play_spinbtn_click_snd[0] = true;
 	}
 	else
 	{
-		fadeout_spinbtn_snd[0] = false;
+		play_spinbtn_click_snd[0] = false;
 	}
 
 	
@@ -136,11 +139,11 @@ if(instance_exists(obj_quitButton))
 	
 	if(obj_quitButton.btn_pos == 2)
 	{
-		fadeout_spinbtn_snd[1] = true;
+		play_spinbtn_click_snd[1] = true;
 	}
 	else
 	{
-		fadeout_spinbtn_snd[1] = false;
+		play_spinbtn_click_snd[1] = false;
 	}
 
 	
@@ -159,11 +162,11 @@ if(instance_exists(obj_continueButton))
 	
 	if(obj_continueButton.btn_pos == 2)
 	{
-		fadeout_spinbtn_snd[2] = true;
+		play_spinbtn_click_snd[2] = true;
 	}
 	else
 	{
-		fadeout_spinbtn_snd[2] = false;
+		play_spinbtn_click_snd[2] = false;
 	}
 
 }
@@ -181,30 +184,63 @@ if(instance_exists(obj_restartButton))
 	
 	if(obj_restartButton.btn_pos == 2)
 	{
-		fadeout_spinbtn_snd[3] = true;
+		play_spinbtn_click_snd[3] = true;
 	}
 	else
 	{
-		fadeout_spinbtn_snd[3] = false;
+		play_spinbtn_click_snd[3] = false;
 	}
 }
 
-if(play_spinbtn_snd[0] == true || play_spinbtn_snd[1] == true ||play_spinbtn_snd[2] == true ||play_spinbtn_snd[3] == true)
+if((play_spinbtn_snd[0] == true || play_spinbtn_snd[1] == true ||play_spinbtn_snd[2] == true ||play_spinbtn_snd[3] == true) && (doonce))
 {
-	audio_play_sound(snd_spinningbtn, 10, true);
-	audio_pause_sound(current_level_music);
+	if(audio_is_playing(snd_spinningbtn) == false)
+	{
+		audio_play_sound(snd_spinningbtn, 10, true);
+		audio_pause_sound(current_level_music);
+		//doonce = false
+	}
 }
-else
+else if(!block_snd)
 {
 	audio_stop_sound(snd_spinningbtn);
 	audio_resume_sound(current_level_music);
 }
 
 
-if(fadeout_spinbtn_snd[0] == true || fadeout_spinbtn_snd[1] == true ||fadeout_spinbtn_snd[2] == true ||fadeout_spinbtn_snd[3] == true)
-{audio_play_sound(snd_spinningbtn, 10, true);
-	if (audio_is_playing(snd_spinningbtn))
+if((play_spinbtn_click_snd[0] == true || play_spinbtn_click_snd[1] == true ||play_spinbtn_click_snd[2] == true ||play_spinbtn_click_snd[3] == true) && (doonce))
+{
+	if(audio_is_playing(snd_spinbtnclick) == false)
 	{
-		audio_sound_gain(snd_spinningbtn, 0, 3000)
+		audio_play_sound(snd_spinbtnclick, 10, false);
+		audio_pause_sound(current_level_music);
 	}
+	play_spinbtn_click_snd[0] = false
+	play_spinbtn_click_snd[1] = false
+	play_spinbtn_click_snd[2] = false
+	play_spinbtn_click_snd[3] = false
+	block_snd = true
 }
+
+
+
+
+
+
+
+
+if(play_instinctbtn_click_snd)
+{
+	audio_play_sound(snd_btnclick, 10, false);
+	play_instinctbtn_click_snd = false
+	
+}
+
+
+//if(fadeout_spinbtn_snd[0] == true || fadeout_spinbtn_snd[1] == true ||fadeout_spinbtn_snd[2] == true ||fadeout_spinbtn_snd[3] == true)
+//{audio_play_sound(snd_spinningbtn, 10, true);
+//	if (audio_is_playing(snd_spinningbtn))
+//	{
+//		audio_sound_gain(snd_spinningbtn, 0, 3000)
+//	}
+//}

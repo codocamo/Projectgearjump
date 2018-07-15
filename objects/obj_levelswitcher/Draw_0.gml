@@ -1,23 +1,24 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+obj_levelswitcher.planetspr_x = obj_player.x - 250
 if(drawplanet)
 {//create planet sprite layer(set default sprite)
 	//call script that changes the sprite depending on goto[1]
-	obj_levelswitcher.planetspr_x = obj_player.x + 500
+	
 	obj_levelswitcher.planetspr_y = (obj_player.player_y_at_trigger + 2500) + 700
 
-	
+	//just makes the layer
 	planetlayerid = layer_create(1);
 	planetlayerspriteid = layer_sprite_create(planetlayerid, planetspr_x, planetspr_y, spr_jumpdef);
 	
+
 	planet_spr_switcher();
 	drawplanet = false;
 }
 
 
-
+layer_sprite_x(planetlayerspriteid,planetspr_x)
 
 
 

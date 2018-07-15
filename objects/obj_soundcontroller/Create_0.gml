@@ -12,11 +12,14 @@ play_switch_snd_3 = false;
 play_burnup_snd = false;
 stop_jump_snd = false;
 play_spinbtn_snd = [false,false, false, false];
-fadeout_spinbtn_snd = [false,false,false,false];
-
+play_spinbtn_click_snd = [false,false,false,false];
+play_instinctbtn_click_snd  = false
 block_snd = false;
 
 level_music_switch = true;
 
 
 msc_default_gain = 0.25
+
+
+doonce = true

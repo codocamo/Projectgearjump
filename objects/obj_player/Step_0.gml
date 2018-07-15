@@ -302,7 +302,7 @@ else //left
 
 
 //show_message("player: "+ string(obj_player.y))
-if(room_get_name(room) != "rm_pre_tutorial" )
+if((room_get_name(room) != "rm_pre_tutorial") && (room_get_name(room) !="rm_tutorial") )
 {
 	background_movement();
 }
