@@ -17,5 +17,15 @@ draw_sprite(spr_pkupslideindicator, 0, 215, 325)
 
 if (pkupslidestate[0])
 {
-	draw_sprite(spr_pkupslideindicator, pkupslidestate[1], 215, 325)
+	
+	if(endingcounter == 2)
+	{
+		slideiconx += obj_player.velocity[0]
+		
+		draw_sprite(spr_pkupslideindicator, pkupslidestate[1], slideiconx, 325)
+	}
+	else if(endingcounter != 3)
+	{
+		draw_sprite(spr_pkupslideindicator, pkupslidestate[1], 215, 325)
+	}
 }

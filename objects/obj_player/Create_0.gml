@@ -108,3 +108,8 @@ lvlhelptxt = true;
 
 
 bg_move_once = true; 
+
+
+
+slideiconx = 215
+slideicony = 325

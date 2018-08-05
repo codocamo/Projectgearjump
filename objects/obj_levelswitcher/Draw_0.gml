@@ -1,7 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-obj_levelswitcher.planetspr_x = obj_player.x - 250
+if(instance_exists(obj_player))
+{
+	obj_levelswitcher.planetspr_x = obj_player.x - 250
+}
 if(drawplanet)
 {//create planet sprite layer(set default sprite)
 	//call script that changes the sprite depending on goto[1]
