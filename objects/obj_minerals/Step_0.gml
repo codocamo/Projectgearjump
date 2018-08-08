@@ -13,6 +13,11 @@ else if(!safetyboolean)
 	speed = 0;
 	instance_destroy(id)
 	collided = false; 
+	
+	ini_open("savedata.ini")
 	global.mineralcount[0] += 1
+	ini_write_real(room_get_name(room), global.mineralcount[0], id)
+	ini_close()
+	
 }
 

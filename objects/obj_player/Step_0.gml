@@ -245,7 +245,8 @@ if (velocity[0] > 0) //right
 	if(t1 = 6 || t2 = 6 || t3 = 6)
 	{
 		x = ((bbox_right & ~31) - 1) - player_bbox_right;
-		velocity = [0, velocity[1]]
+		velocity = [0, 0]
+		world_gravity = [0,0]
 		player_jumpspeed = [0,0];
 		gear1limitunlock = false;
 		gear2limitunlock = false;

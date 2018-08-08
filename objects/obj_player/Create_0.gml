@@ -113,3 +113,6 @@ bg_move_once = true;
 
 slideiconx = 215
 slideicony = 325
+
+pickuphelptxtx = 190
+pickuphelptxty = 450

@@ -3,6 +3,15 @@
 
 //file_delete("savedata.ini")
 
+//for (var i = 0; i < instance_count; i ++;)
+//{
+//   show_debug_message("instance" + string(i)+" "+string(instance_id[i]))
+//}
+//show_debug_message(instance_count)
+//  show_debug_message(instance_number(obj_minerals))
+
+
+
 instance_counter = instance_number(obj_minerals); 
 
 global.mineralcount = [0,instance_counter]
@@ -22,3 +31,4 @@ if(ini_section_exists(room_get_name(room)))
 	}
 }
 ini_close()
+

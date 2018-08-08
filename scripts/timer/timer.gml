@@ -25,4 +25,3 @@ if(global.secondsminuteshours[1] == 60)
 	global.secondsminuteshours[2] += 1; 
 }
 
-show_debug_message(global.secondsminuteshours)
