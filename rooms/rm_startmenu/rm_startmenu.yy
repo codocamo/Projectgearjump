@@ -14,7 +14,7 @@
     "layers": [
         {
             "__type": "GMRBackgroundLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Backgrounds_1",
+            "name": "bkg_logo",
             "id": "4d19d59c-e2df-4b95-b094-369bee65a9ed",
             "animationFPS": 15,
             "animationSpeedType": "0",
@@ -45,7 +45,7 @@
             "vspeed": 0,
             "vtiled": false,
             "x": 50,
-            "y": 75
+            "y": 30
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",

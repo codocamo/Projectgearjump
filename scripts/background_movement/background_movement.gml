@@ -15,6 +15,8 @@ var layerid_stardustx = layer_get_x(layerid_stardust)
 var layerid_spacex = layer_get_x(layerid_space)
 
 var pvelocity = obj_player.velocity[1]
+var player_velocitx = obj_player.velocity[0]
+
 
 
 if (bg_move_once)
@@ -32,6 +34,15 @@ layer_y(layerid_stardust, obj_player.y - startdiff_stardusty);
 layer_y(layerid_space, obj_player.y - startdiff_spacey);
 
 
+//paralax scrolling
+obj_adhoc_scripts.xspeed_lvlbg = -0.5
+obj_adhoc_scripts.incrementor_lvlbg += obj_adhoc_scripts.xspeed_lvlbg * player_velocitx
+layer_x(layerid_lvlbg, obj_adhoc_scripts.incrementor_lvlbg);
+
+obj_adhoc_scripts.xspeed_stars = -0.1
+obj_adhoc_scripts.incrementor_stars += obj_adhoc_scripts.xspeed_stars * player_velocitx
+layer_x(layerid_space, obj_adhoc_scripts.incrementor_stars);
+
 
 //loop the backgrounds by figuring out the modulo and the dif between player.x at point of loop and asset size
 if(obj_player.loop_lvl[1] > 0)
@@ -44,10 +55,12 @@ if(obj_player.loop_lvl[1] > 0)
 	var xdivide_space = obj_player.loop_lvl[1] / sprite_get_width(spr_space)
 	
 	
-	layer_x(layerid_lvlbg, ((obj_player.x - xmodulo_lvlbg) + xdivide_lvlbg) + layerid_lvlbgx);
+	obj_adhoc_scripts.incrementor_lvlbg = ((obj_player.x - xmodulo_lvlbg) + xdivide_lvlbg) + layerid_lvlbgx;
+	layer_x(layerid_lvlbg, obj_adhoc_scripts.incrementor_lvlbg);
 	//layer_x(layerid_glow, (obj_player.x - xmodulo) + xdiff );
 	//layer_x(layerid_stardust, (obj_player.x - xmodulo) + xdiff);
-	layer_x(layerid_space, ((obj_player.x - xmodulo_space) + xdivide_space) + layerid_spacex);
+	obj_adhoc_scripts.incrementor_stars = ((obj_player.x - xmodulo_space) + xdivide_space) + layerid_spacex
+	layer_x(layerid_space, obj_adhoc_scripts.incrementor_stars);
 	
 	
 	obj_player.loop_lvl[1] = -1

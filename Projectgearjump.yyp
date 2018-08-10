@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "0cb09e09-9a6d-412b-9aa0-f757c15cb19b",
+            "Value": {
+                "id": "c4b8d50a-2681-4a46-8455-687d9e056515",
+                "resourcePath": "sounds\\msc_titletheme\\msc_titletheme.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0cd06123-4ea8-49d8-8bfb-ee3a396b4b79",
             "Value": {
                 "id": "1a9970da-b7a5-47c2-8ed7-8beb14852d9e",
@@ -516,6 +524,14 @@
                 "id": "281edeb3-2f9a-42dc-8e7d-95566ec59e08",
                 "resourcePath": "scripts\\gear2jump\\gear2jump.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "658bb9a1-93d9-44b9-9296-b6dceecbb9ee",
+            "Value": {
+                "id": "8c980ae3-2ba4-44d3-bff8-36e64de80285",
+                "resourcePath": "objects\\obj_logomove\\obj_logomove.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1359,6 +1375,14 @@
             }
         },
         {
+            "Key": "e59b0716-81f1-4ff2-a567-2232b33e27bd",
+            "Value": {
+                "id": "841e99e2-b3fd-4af1-935f-ed04a7443a75",
+                "resourcePath": "scripts\\lvl_music_looper\\lvl_music_looper.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e67d577a-6faa-40ed-9223-a7d1969ea279",
             "Value": {
                 "id": "2668b822-ed26-4d1f-808b-28de4c9525c4",
@@ -1592,7 +1616,8 @@
         "2739bea7-af97-49d8-96c4-3cf381997e38",
         "2f85f921-f460-4aa3-b819-bb369622523f",
         "01ac4f30-726c-4dd9-8846-303ac207234f",
-        "454b6a89-5a22-4d7c-b7d9-faf6d4699fd2"
+        "454b6a89-5a22-4d7c-b7d9-faf6d4699fd2",
+        "e59b0716-81f1-4ff2-a567-2232b33e27bd"
     ],
     "tutorial": ""
 }
