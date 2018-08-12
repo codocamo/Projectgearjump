@@ -4,9 +4,15 @@ bg_move_once = true;
 timer_once = true;
 
 
-incrementor_stars = [0,0,0,0]
+xincrementor_stars = [0,0,0,0]
+yincrementor_stars = [0,0,0,0]
 xspeed_stars = [0,0,0,0]
+yspeed_stars = [0,0,0,0]
 
 
-incrementor_lvlbg= 0
+xincrementor_lvlbg= 0
+yincrementor_lvlbg= 0
 xspeed_lvlbg = 0
+yspeed_lvlbg = 0
+
+stopparalax = false

@@ -7,11 +7,11 @@ if(level_music_switch)
 	audio_master_gain(1)
 	switch(room_get_name(room))
 	{
-		case "rm_lvl1_kupler": audio_stop_sound(current_level_music); current_level_music = msc_lvl1kupler; audio_sound_gain(current_level_music,msc_default_gain,1); audio_play_sound(current_level_music, 1000, true); break;
+		case "rm_lvl1_kupler": audio_stop_all(); current_level_music = msc_lvl1kupler; audio_sound_gain(current_level_music,msc_default_gain,1); audio_play_sound(current_level_music, 1000, true); break;
 		//case "rm_tutorial": current_level_music = msc_pretutorial; audio_play_sound(current_level_music, 1000, true); break;
-		case "rm_pre_tutorial": audio_stop_sound(current_level_music); current_level_music = msc_pretutorial; audio_sound_gain(current_level_music,msc_default_gain,1); audio_play_sound(current_level_music, 1000, true); break;
+		case "rm_pre_tutorial": audio_stop_all(); current_level_music = msc_pretutorial; audio_sound_gain(current_level_music,msc_default_gain,1); audio_play_sound(current_level_music, 1000, true); break;
 		case "rm_startmenu": audio_stop_all(); current_level_music = msc_titletheme; audio_sound_gain(current_level_music,msc_default_gain,1); music_playing = audio_play_sound(current_level_music, 1000, false); break;
-		//case "rm_endoflevel": audio_stop_all(); break;
+		//case "rm_endoflevel": audio_stop_sound(current_level_music); break;
 	}
 	level_music_switch = false;
 }

@@ -27,7 +27,7 @@ var layerid_spacex_layer2 = layer_get_x(layerid_space_layer2)
 var layerid_spacex_layer3 = layer_get_x(layerid_space_layer3)
 
 
-var pvelocity = obj_player.velocity[1]
+var player_velocity = obj_player.velocity[1]
 var player_velocitx = obj_player.velocity[0]
 
 
@@ -45,19 +45,36 @@ if (bg_move_once)
 	bg_move_once = false
 	
 }
-layer_y(layerid_lvlbg, obj_player.y - startdiff_lvlbgy);
-layer_y(layerid_glow, obj_player.y - startdiff_glowy);
-layer_y(layerid_stardust, obj_player.y - startdiff_stardusty);
-layer_y(layerid_space_layer0, obj_player.y - startdiff_spacey);
-layer_y(layerid_space_layer1, obj_player.y - startdiff_spacey);
-layer_y(layerid_space_layer2, obj_player.y - startdiff_spacey);
-layer_y(layerid_space_layer3, obj_player.y - startdiff_spacey);
 
 
-//paralax scrolling
-parallax_scrolling()
+//parralax stuf (sort this out)
+
+if (obj_adhoc_scripts.stopparalax = false)
+{
+	obj_adhoc_scripts.yspeed_lvlbg = 0.1
+	obj_adhoc_scripts.yincrementor_lvlbg += obj_adhoc_scripts.yspeed_lvlbg * player_velocity
+	layer_y(layerid_lvlbg, (obj_player.y - startdiff_lvlbgy) + obj_adhoc_scripts.yincrementor_lvlbg);
+
+	obj_adhoc_scripts.yspeed_stars = [0.06,0.04,0.02,0.00]
+	obj_adhoc_scripts.yincrementor_stars[0] += obj_adhoc_scripts.yspeed_stars[0] * player_velocity
+	layer_y(layerid_space_layer0, (obj_player.y - startdiff_spacey) + obj_adhoc_scripts.yincrementor_stars[0]);
+	obj_adhoc_scripts.yincrementor_stars[1] += obj_adhoc_scripts.yspeed_stars[1] * player_velocity
+	layer_y(layerid_space_layer1, (obj_player.y - startdiff_spacey) + obj_adhoc_scripts.yincrementor_stars[1]);
+	obj_adhoc_scripts.yincrementor_stars[2] += obj_adhoc_scripts.yspeed_stars[2] * player_velocity
+	layer_y(layerid_space_layer2, (obj_player.y - startdiff_spacey) + obj_adhoc_scripts.yincrementor_stars[2]);
+	obj_adhoc_scripts.yincrementor_stars[3] += obj_adhoc_scripts.yspeed_stars[3] * player_velocity
+	layer_y(layerid_space_layer3, (obj_player.y - startdiff_spacey) + obj_adhoc_scripts.yincrementor_stars[3]);
 
 
+	layer_y(layerid_glow, obj_player.y - startdiff_glowy);
+	layer_y(layerid_stardust, obj_player.y - startdiff_stardusty);
+
+
+
+	//paralax scrolling
+	parallax_scrolling()
+
+}
 
 
 ///////////////////////////LOOP THE BACKGROUND//////////////////////////////////////////
@@ -68,8 +85,8 @@ if(obj_player.loop_lvl[1] > 0)
 	var xmodulo_lvlbg = obj_player.loop_lvl[1] % sprite_get_width(spr_kuplerbg)
 	var xdivide_lvlbg = obj_player.loop_lvl[1] / sprite_get_width(spr_kuplerbg)
 	
-	obj_adhoc_scripts.incrementor_lvlbg = ((obj_player.x - xmodulo_lvlbg) + xdivide_lvlbg) + layerid_lvlbgx;
-	layer_x(layerid_lvlbg, obj_adhoc_scripts.incrementor_lvlbg);
+	obj_adhoc_scripts.xincrementor_lvlbg = ((obj_player.x - xmodulo_lvlbg) + xdivide_lvlbg) + layerid_lvlbgx;
+	layer_x(layerid_lvlbg, obj_adhoc_scripts.xincrementor_lvlbg);
 	
 	
 	
@@ -92,17 +109,17 @@ if(obj_player.loop_lvl[1] > 0)
 	
 
 
-	obj_adhoc_scripts.incrementor_stars[0] = ((obj_player.x - xmodulo_space_layer0) + xdivide_space_layer0) + layerid_spacex_layer0
-	layer_x(layerid_space_layer0, obj_adhoc_scripts.incrementor_stars[0]);
+	obj_adhoc_scripts.xincrementor_stars[0] = ((obj_player.x - xmodulo_space_layer0) + xdivide_space_layer0) + layerid_spacex_layer0
+	layer_x(layerid_space_layer0, obj_adhoc_scripts.xincrementor_stars[0]);
 
-	obj_adhoc_scripts.incrementor_stars[1] = ((obj_player.x - xmodulo_space_layer1) + xdivide_space_layer1) + layerid_spacex_layer1
-	layer_x(layerid_space_layer1, obj_adhoc_scripts.incrementor_stars[1]);
+	obj_adhoc_scripts.xincrementor_stars[1] = ((obj_player.x - xmodulo_space_layer1) + xdivide_space_layer1) + layerid_spacex_layer1
+	layer_x(layerid_space_layer1, obj_adhoc_scripts.xincrementor_stars[1]);
 	
-	obj_adhoc_scripts.incrementor_stars[2] = ((obj_player.x - xmodulo_space_layer2) + xdivide_space_layer2) + layerid_spacex_layer2
-	layer_x(layerid_space_layer2, obj_adhoc_scripts.incrementor_stars[2]);
+	obj_adhoc_scripts.xincrementor_stars[2] = ((obj_player.x - xmodulo_space_layer2) + xdivide_space_layer2) + layerid_spacex_layer2
+	layer_x(layerid_space_layer2, obj_adhoc_scripts.xincrementor_stars[2]);
 	
-	obj_adhoc_scripts.incrementor_stars[3] = ((obj_player.x - xmodulo_space_layer3) + xdivide_space_layer3) + layerid_spacex_layer3
-	layer_x(layerid_space_layer3, obj_adhoc_scripts.incrementor_stars[3]);
+	obj_adhoc_scripts.xincrementor_stars[3] = ((obj_player.x - xmodulo_space_layer3) + xdivide_space_layer3) + layerid_spacex_layer3
+	layer_x(layerid_space_layer3, obj_adhoc_scripts.xincrementor_stars[3]);
 	
 	obj_player.loop_lvl[1] = -1
 }

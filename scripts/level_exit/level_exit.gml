@@ -18,6 +18,9 @@ if ( instance_exists(obj_endcard)&& instance_exists(obj_endparticles))
 		cameraposx = currentx - 200;
 		cameraposy = y - ((view_hport[0] / 2) + 100) + clamp(camera_offest_counter, 0 , 200);
 		shake = shake * 0;
+		obj_adhoc_scripts.stopparalax = true
+		
+		
 		
 	}
 	if (endingcounter = 3)

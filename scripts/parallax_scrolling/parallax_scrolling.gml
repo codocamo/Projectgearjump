@@ -18,32 +18,35 @@ var layerid_glowx = layer_get_x(layerid_glow)
 var layerid_stardustx = layer_get_x(layerid_stardust)
 var layerid_spacex = layer_get_x(layerid_space)
 
-var pvelocity = obj_player.velocity[1]
-var player_velocitx = obj_player.velocity[0]
 
+var player_velocitx = obj_player.velocity[0]
+var player_velocity = obj_player.velocity[1]
 
 //paralax scrolling
 
 /////////////////////////////////////LVL BG//////////////////////////////////////////////
 obj_adhoc_scripts.xspeed_lvlbg = -0.5
-obj_adhoc_scripts.incrementor_lvlbg += obj_adhoc_scripts.xspeed_lvlbg * player_velocitx
-layer_x(layerid_lvlbg, obj_adhoc_scripts.incrementor_lvlbg);
-
+obj_adhoc_scripts.xincrementor_lvlbg += obj_adhoc_scripts.xspeed_lvlbg * player_velocitx
+layer_x(layerid_lvlbg, obj_adhoc_scripts.xincrementor_lvlbg);
 
 
 /////////////////////////////////////////STARS//////////////////////////////////////////
 obj_adhoc_scripts.xspeed_stars = [-0.4,-0.3,-0.2,-0.1]
-obj_adhoc_scripts.incrementor_stars[0] += obj_adhoc_scripts.xspeed_stars[0] * player_velocitx
-layer_x(layerid_space_layer0, obj_adhoc_scripts.incrementor_stars[0]);
+
+/////////x///////
+obj_adhoc_scripts.xincrementor_stars[0] += obj_adhoc_scripts.xspeed_stars[0] * player_velocitx
+layer_x(layerid_space_layer0, obj_adhoc_scripts.xincrementor_stars[0]);
 
 
-obj_adhoc_scripts.incrementor_stars[1] += obj_adhoc_scripts.xspeed_stars[1] * player_velocitx
-layer_x(layerid_space_layer1, obj_adhoc_scripts.incrementor_stars[1]);
+obj_adhoc_scripts.xincrementor_stars[1] += obj_adhoc_scripts.xspeed_stars[1] * player_velocitx
+layer_x(layerid_space_layer1, obj_adhoc_scripts.xincrementor_stars[1]);
 
 
-obj_adhoc_scripts.incrementor_stars[2] += obj_adhoc_scripts.xspeed_stars[2] * player_velocitx
-layer_x(layerid_space_layer2, obj_adhoc_scripts.incrementor_stars[2]);
+obj_adhoc_scripts.xincrementor_stars[2] += obj_adhoc_scripts.xspeed_stars[2] * player_velocitx
+layer_x(layerid_space_layer2, obj_adhoc_scripts.xincrementor_stars[2]);
 
 
-obj_adhoc_scripts.incrementor_stars[3] += obj_adhoc_scripts.xspeed_stars[3] * player_velocitx
-layer_x(layerid_space_layer3, obj_adhoc_scripts.incrementor_stars[3]);
+obj_adhoc_scripts.xincrementor_stars[3] += obj_adhoc_scripts.xspeed_stars[3] * player_velocitx
+layer_x(layerid_space_layer3, obj_adhoc_scripts.xincrementor_stars[3]);
+
+
