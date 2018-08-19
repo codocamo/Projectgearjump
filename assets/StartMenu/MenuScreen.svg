@@ -15,7 +15,7 @@
    viewBox="0 0 744.09448819 1052.3622047"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="MenuScreen.svg">
   <defs
      id="defs4">
@@ -125,16 +125,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="942.02953"
-     inkscape:cy="-616.92061"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="1098.3674"
+     inkscape:cy="332.91467"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1858"
-     inkscape:window-height="1057"
-     inkscape:window-x="1916"
-     inkscape:window-y="-8"
+     inkscape:window-width="2816"
+     inkscape:window-height="1955"
+     inkscape:window-x="-13"
+     inkscape:window-y="-13"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
@@ -171,11 +171,10 @@
     <text
        inkscape:export-ydpi="100.987"
        inkscape:export-xdpi="100.987"
-       sodipodi:linespacing="125%"
        id="text4940"
        y="1054.8381"
        x="755.82788"
-       style="font-style:normal;font-weight:normal;font-size:142.0934906px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#bcbcbc;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#bcbcbc;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:142.0934906px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#bcbcbc;fill-opacity:1"
          y="1054.8381"
@@ -185,16 +184,16 @@
     <text
        inkscape:export-ydpi="100.987"
        inkscape:export-xdpi="100.987"
-       sodipodi:linespacing="125%"
        id="text4946"
        y="900.47137"
        x="1044.777"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48.29483795px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#949494;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#949494;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          y="900.47137"
          x="1044.777"
          id="tspan4948"
-         sodipodi:role="line">PROJECT</tspan></text>
+         sodipodi:role="line"
+         style="font-size:48.29483795px;line-height:1.25">PROJECT</tspan></text>
     <ellipse
        style="opacity:1;fill-opacity:1;stroke:#ffffff;stroke-width:5.69999981;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path5625"
@@ -394,11 +393,10 @@
        inkscape:export-ydpi="100.987" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:71.71005249px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        x="902.0686"
        y="1227.4413"
        id="text4242"
-       sodipodi:linespacing="125%"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\spriter_menubutton\start.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987"><tspan
@@ -409,11 +407,10 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:71.71005249px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">S</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:71.71005249px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        x="985.57764"
        y="1488.0626"
        id="text5679"
-       sodipodi:linespacing="125%"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\spriter_menubutton\letterT.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987"><tspan
@@ -434,11 +431,10 @@
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987" />
     <text
-       sodipodi:linespacing="125%"
        id="text5683"
        y="1589.6311"
        x="1049.1489"
-       style="font-style:normal;font-weight:normal;font-size:71.71005249px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        xml:space="preserve"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\spriter_menubutton\letterA.png"
        inkscape:export-xdpi="100.987"
@@ -461,11 +457,10 @@
        inkscape:export-ydpi="100.987" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:71.71005249px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        x="1262.5469"
        y="1567.3621"
        id="text5687"
-       sodipodi:linespacing="125%"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\spriter_menubutton\letterR.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987"><tspan
@@ -483,11 +478,10 @@
        y="1425.85"
        transform="matrix(0.76568781,0,0,0.88744025,280.21178,163.99531)" />
     <text
-       sodipodi:linespacing="125%"
        id="text5691"
        y="1484.4504"
        x="1180.4548"
-       style="font-style:normal;font-weight:normal;font-size:71.71005249px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:71.71005249px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          y="1484.4504"
@@ -506,11 +500,10 @@
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987" />
     <text
-       sodipodi:linespacing="125%"
        id="text4246"
        y="1229.4672"
        x="1305.2362"
-       style="font-style:normal;font-weight:normal;font-size:68.08423615px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        xml:space="preserve"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\spriter_menubutton\btn_quitUp.png"
        inkscape:export-xdpi="100.987"
@@ -521,11 +514,10 @@
          id="tspan4248"
          sodipodi:role="line">Q</tspan></text>
     <text
-       sodipodi:linespacing="125%"
        id="text4190"
        y="1585.7234"
        x="1416.4144"
-       style="font-style:normal;font-weight:normal;font-size:71.71005249px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        xml:space="preserve"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\spriter_menubutton\letterU.png"
        inkscape:export-xdpi="100.987"
@@ -548,11 +540,10 @@
        inkscape:export-ydpi="100.987" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:71.71005249px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        x="1432.1287"
        y="1476.5776"
        id="text4196"
-       sodipodi:linespacing="125%"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\spriter_menubutton\letterI.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987"><tspan
@@ -571,11 +562,10 @@
        transform="matrix(0.7505305,0,0,0.83624694,296.9031,140.07514)" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:71.71005249px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        x="1461.2919"
        y="1475.6826"
-       id="text4208"
-       sodipodi:linespacing="125%"><tspan
+       id="text4208"><tspan
          sodipodi:role="line"
          id="tspan4210"
          x="1461.2919"
@@ -583,11 +573,10 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:71.71005249px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">T</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:71.71005249px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        x="363.99222"
        y="1253.3411"
        id="text4250"
-       sodipodi:linespacing="125%"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\spriter_menubutton\btn_startOver.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987"><tspan
@@ -597,11 +586,10 @@
          y="1253.3411"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:71.71005249px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">S</tspan></text>
     <text
-       sodipodi:linespacing="125%"
        id="text4254"
        y="1520.8162"
        x="180.26756"
-       style="font-style:normal;font-weight:normal;font-size:71.71005249px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        xml:space="preserve"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\spriter_menubutton\btn_quitOver.png"
        inkscape:export-xdpi="100.987"
@@ -613,11 +601,10 @@
          sodipodi:role="line">Q</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:142.0934906px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#bcbcbc;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#bcbcbc;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="739.66547"
        y="1943.7723"
        id="text5004"
-       sodipodi:linespacing="125%"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987"><tspan
          sodipodi:role="line"
@@ -627,17 +614,17 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:142.0934906px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#bcbcbc;fill-opacity:1">GEARJUMP</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48.29483795px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#949494;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#949494;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="1028.6145"
        y="1789.4056"
        id="text5008"
-       sodipodi:linespacing="125%"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987"><tspan
          sodipodi:role="line"
          id="tspan5010"
          x="1028.6145"
-         y="1789.4056">PROJECT</tspan></text>
+         y="1789.4056"
+         style="font-size:48.29483795px;line-height:1.25">PROJECT</tspan></text>
     <path
        style="fill:#51ff29;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 371.06838,1731.2458 44.9518,27.7792 90.9137,-100.0051 -16.16242,-13.6371 -77.27668,83.8427 -28.78933,-17.6777 z"
@@ -667,11 +654,10 @@
        inkscape:export-ydpi="100.987"
        inkscape:export-xdpi="100.987"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\StartMenu\spriter_menubutton\letterE.png"
-       sodipodi:linespacing="125%"
        id="text4212"
        y="1671.6478"
        x="1648.2611"
-       style="font-style:normal;font-weight:normal;font-size:71.71005249px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:71.71005249px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          y="1671.6478"
@@ -691,11 +677,10 @@
        inkscape:export-ydpi="100.987" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:71.71005249px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        x="1598.2611"
        y="1755.9336"
        id="text4218"
-       sodipodi:linespacing="125%"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\StartMenu\spriter_menubutton\letterO.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987"><tspan
@@ -717,11 +702,10 @@
        inkscape:export-ydpi="100.987" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:71.71005249px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        x="1681.5962"
        y="1755.4905"
        id="text4230"
-       sodipodi:linespacing="125%"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\StartMenu\spriter_menubutton\letterN.png"
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987"><tspan
@@ -765,11 +749,10 @@
        inkscape:export-xdpi="100.987"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\spriter_menubutton\btn_quitOver.png"
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:71.71005249px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        x="164.98184"
        y="1769.3875"
-       id="text4241"
-       sodipodi:linespacing="125%"><tspan
+       id="text4241"><tspan
          sodipodi:role="line"
          id="tspan4243"
          x="164.98184"
@@ -806,11 +789,10 @@
        inkscape:export-xdpi="100.987"
        inkscape:export-ydpi="100.987" />
     <text
-       sodipodi:linespacing="125%"
        id="text4251"
        y="1966.2448"
        x="163.69614"
-       style="font-style:normal;font-weight:normal;font-size:71.71005249px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        xml:space="preserve"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\spriter_menubutton\btn_quitOver.png"
        inkscape:export-xdpi="100.987"
@@ -825,11 +807,10 @@
        inkscape:export-xdpi="100.987"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\StartMenu\spriter_menubutton\btn_continueUp.png"
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:71.71005249px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        x="489.41043"
        y="1960.5305"
-       id="text4259"
-       sodipodi:linespacing="125%"><tspan
+       id="text4259"><tspan
          sodipodi:role="line"
          id="tspan4261"
          x="489.41043"
@@ -850,16 +831,48 @@
        inkscape:export-ydpi="100.987"
        inkscape:export-xdpi="100.987"
        inkscape:export-filename="M:\Users\codoc\Documents\GameMakerStudio2\Projectgearjump\assets\StartMenu\spriter_menubutton\letterSf.png"
-       sodipodi:linespacing="125%"
        id="text4265"
        y="1761.5514"
        x="1772.5099"
-       style="font-style:normal;font-weight:normal;font-size:71.71005249px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:71.71005249px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.79299998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          y="1761.5514"
          x="1772.5099"
          id="tspan4267"
          sodipodi:role="line">S</tspan></text>
+    <rect
+       style="opacity:1;fill:#722a2a;fill-opacity:1;stroke:#1b1b1b;stroke-width:0.95157248;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect913"
+       width="956.23596"
+       height="318.73727"
+       x="706.39392"
+       y="294.30072" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#bcbcbc;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="788.97351"
+       y="533.03119"
+       id="text917"
+       inkscape:export-xdpi="100.987"
+       inkscape:export-ydpi="100.987"><tspan
+         sodipodi:role="line"
+         id="tspan915"
+         x="788.97351"
+         y="533.03119"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:142.0934906px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#bcbcbc;fill-opacity:1">GEARJUMP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#949494;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1077.9226"
+       y="378.66446"
+       id="text921"
+       inkscape:export-xdpi="100.987"
+       inkscape:export-ydpi="100.987"><tspan
+         style="font-size:48.29483795px;line-height:1.25"
+         sodipodi:role="line"
+         id="tspan919"
+         x="1077.9226"
+         y="378.66446">PROJECT</tspan></text>
   </g>
 </svg>

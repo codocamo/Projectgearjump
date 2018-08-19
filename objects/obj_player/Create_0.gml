@@ -5,6 +5,7 @@
 //x = 13 if(room_get_name("rm_lvl1_kupler")){x = 20}
 //x = 20
 playerout = false;
+playerlooped = false;
 
 player_horizontal_speed = 8;
 max_player_horizontal_speed = 20;

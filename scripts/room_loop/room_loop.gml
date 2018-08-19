@@ -15,7 +15,8 @@ if(obj_player.loop_lvl[0] && !obj_player.tile_4_locked)
 
 		obj_player.loop_lvl[0] = false
 		obj_player.loop_xpos[1] = -1
-		obj_player.loop_xpos[0] = -1		
+		obj_player.loop_xpos[0] = -1
+		obj_player.playerlooped = true;
 	}
 	
 }

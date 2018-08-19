@@ -7,6 +7,9 @@ instance_create_depth(0, 0, 0, obj_chkpt);
 //create level switcher object
 instance_create_depth(0, 0, 0, obj_levelswitcher);
 
+//create the adhoc script object to run all adhoc scripts
+instance_create_depth(0, 0, 0, obj_adhoc_scripts);
+
 
 //show_message(room_get_name(room) + "_branch_" + string(global.branch))
 //set branch

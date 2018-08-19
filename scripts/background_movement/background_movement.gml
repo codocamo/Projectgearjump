@@ -12,10 +12,10 @@ var layerid_lvlbgy = layer_get_y(layerid_lvlbg)
 var layerid_glowy = layer_get_y(layerid_glow)
 var layerid_stardusty = layer_get_y(layerid_stardust)
 var layerid_spacey = layer_get_y(layerid_space)
-var layerid_spacey_layer0 = layer_get_x(layerid_space_layer0)
-var layerid_spacey_layer1 = layer_get_x(layerid_space_layer1)
-var layerid_spacey_layer2 = layer_get_x(layerid_space_layer2)
-var layerid_spacey_layer3 = layer_get_x(layerid_space_layer3)
+var layerid_spacey_layer0 = layer_get_y(layerid_space_layer0)
+var layerid_spacey_layer1 = layer_get_y(layerid_space_layer1)
+var layerid_spacey_layer2 = layer_get_y(layerid_space_layer2)
+var layerid_spacey_layer3 = layer_get_y(layerid_space_layer3)
 ///////////////////////LAYER X///////////////////
 var layerid_lvlbgx = layer_get_x(layerid_lvlbg)
 var layerid_glowx = layer_get_x(layerid_glow)
@@ -26,8 +26,9 @@ var layerid_spacex_layer1 = layer_get_x(layerid_space_layer1)
 var layerid_spacex_layer2 = layer_get_x(layerid_space_layer2)
 var layerid_spacex_layer3 = layer_get_x(layerid_space_layer3)
 
-
-var player_velocity = obj_player.velocity[1]
+if (obj_levelswitcher.animatedown){var player_velocity = obj_player.max_velocity[1]}
+else if (obj_levelswitcher.animateup){var player_velocity = obj_player.max_velocity[1] * -1}
+else{var player_velocity = obj_player.velocity[1]}
 var player_velocitx = obj_player.velocity[0]
 
 
@@ -54,8 +55,11 @@ if (obj_adhoc_scripts.stopparalax = false)
 	obj_adhoc_scripts.yspeed_lvlbg = 0.1
 	obj_adhoc_scripts.yincrementor_lvlbg += obj_adhoc_scripts.yspeed_lvlbg * player_velocity
 	layer_y(layerid_lvlbg, (obj_player.y - startdiff_lvlbgy) + obj_adhoc_scripts.yincrementor_lvlbg);
-
-	obj_adhoc_scripts.yspeed_stars = [0.06,0.04,0.02,0.00]
+    
+	//set the background speed of y 
+	if((room_get_name(room) != "rm_pre_tutorial") && (room_get_name(room) !="rm_tutorial") ){obj_adhoc_scripts.yspeed_stars = [-0.06,-0.04,-0.02,-0.00]}
+	else{obj_adhoc_scripts.yspeed_stars = [-0.4,-0.3,-0.2,-0.1]}
+	
 	obj_adhoc_scripts.yincrementor_stars[0] += obj_adhoc_scripts.yspeed_stars[0] * player_velocity
 	layer_y(layerid_space_layer0, (obj_player.y - startdiff_spacey) + obj_adhoc_scripts.yincrementor_stars[0]);
 	obj_adhoc_scripts.yincrementor_stars[1] += obj_adhoc_scripts.yspeed_stars[1] * player_velocity

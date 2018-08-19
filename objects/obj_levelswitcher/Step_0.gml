@@ -2,9 +2,14 @@
 // You can write your code in this editor
 
 
-if(global.branch = -2 && room_get_name(room) == "rm_pre_tutorial" && obj_player.playerout)
+if(global.branch = -2 && room_get_name(room) == "rm_pre_tutorial" && obj_player.playerlooped)
 {
+	
+	global.spacelay_x = [layer_get_x(layer_get_id("Background_space_1")),layer_get_x(layer_get_id("Background_space_2")),layer_get_x(layer_get_id("Background_space_3")),layer_get_x(layer_get_id("Background_space_4"))]
+	global.spacelay_y = [layer_get_y(layer_get_id("Background_space_1")),layer_get_y(layer_get_id("Background_space_2")),layer_get_y(layer_get_id("Background_space_3")),layer_get_y(layer_get_id("Background_space_4"))]
+	obj_player.playerlooped = false;
 	room_goto(rm_tutorial);
+	
 }
 else if(global.branch = -10 && room_get_name(room) == "rm_pre_tutorial" && obj_player.playerout)
 {

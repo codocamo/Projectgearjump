@@ -39,6 +39,7 @@ else if(keyboard_check(ord("O")) && gear2limitunlock)
 	shake = 10;
 	
 	obj_soundcontroller.play_switch_snd_2 = true
+
 }
 if(keyboard_check_released(ord("O")))
 {
@@ -233,7 +234,10 @@ if (velocity[0] > 0) //right
 	
 	if(t1 = 4 || t2 = 4 || t3 = 4)
 	{
-		loop_lvl[0] = true;
+		if(global.branch = -10 && room_get_name(room) == "rm_pre_tutorial")
+		{loop_lvl[0] = false;}
+		else {loop_lvl[0] = true;}
+		
 		room_loop();
 		tile_4_locked = true;
 	}
@@ -303,10 +307,10 @@ else //left
 
 
 //show_message("player: "+ string(obj_player.y))
-if((room_get_name(room) != "rm_pre_tutorial") && (room_get_name(room) !="rm_tutorial") )
-{
-	background_movement();
-}
+
+
+background_movement();
+
 
 //sets level boundrys
 if(global.branch != -10 && room_get_name(room) == "rm_pre_tutorial" )
