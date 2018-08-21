@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "16031566-df4d-468c-9af1-4f93e1928d35",
+            "Value": {
+                "id": "e27e7173-45cf-4a69-805c-55c7b8c26a34",
+                "resourcePath": "sprites\\spr_kuplerbg\\spr_kuplerbg.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "16526e8e-6d59-45d5-9917-94cd4ee01354",
             "Value": {
                 "id": "70fc5e6f-3d44-448d-baaa-8918ff6bca66",
@@ -722,7 +730,7 @@
             "Key": "79084269-2efb-493d-a95c-83ee94539af8",
             "Value": {
                 "id": "227f2439-279a-4bb7-839a-8f82c579c2c1",
-                "resourcePath": "sprites\\spr_kuplerbg\\spr_kuplerbg.yy",
+                "resourcePath": "sprites\\spr_kuplerbg2\\spr_kuplerbg2.yy",
                 "resourceType": "GMSprite"
             }
         },
