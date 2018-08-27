@@ -7,3 +7,8 @@ start_img_number = 20
 start_img_index = 0
 
 doonce = true;
+
+
+bar_show = false
+alpha = 0;
+rotate = 0;

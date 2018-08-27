@@ -13,7 +13,8 @@ instance_create_depth(0, 0, 0, obj_levelswitcher);
 //create the adhoc script object to run all adhoc scripts
 instance_create_depth(0, 0, 0, obj_adhoc_scripts);
 
-
+//create the adhoc script object to run all adhoc scripts
+instance_create_depth(0, 0, 850, obj_ornamentmanager);
 
 
 //show_message(room_get_name(room) + "_branch_" + string(global.branch))

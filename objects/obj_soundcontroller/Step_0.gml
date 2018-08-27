@@ -4,13 +4,13 @@
 if(level_music_switch)
 {
 	
-	audio_master_gain(1)
+	//audio_master_gain(1)
 	switch(room_get_name(room))
 	{
-		case "rm_lvl1_kupler": audio_stop_all(); current_level_music = msc_lvl1kupler; audio_sound_gain(current_level_music,msc_default_gain,1); audio_play_sound(current_level_music, 1000, true); break;
+		case "rm_lvl1_kupler": audio_stop_all(); current_level_music = msc_lvl1kupler; /*audio_sound_gain(current_level_music,msc_default_gain,1);*/ music_playing = audio_play_sound(current_level_music, 1000, true); break;
 		//case "rm_tutorial": current_level_music = msc_pretutorial; audio_play_sound(current_level_music, 1000, true); break;
-		case "rm_pre_tutorial": audio_stop_all(); current_level_music = msc_pretutorial; audio_sound_gain(current_level_music,msc_default_gain,1); audio_play_sound(current_level_music, 1000, true); break;
-		case "rm_startmenu": audio_stop_all(); current_level_music = msc_titletheme; audio_sound_gain(current_level_music,msc_default_gain,1); music_playing = audio_play_sound(current_level_music, 1000, false); break;
+		case "rm_pre_tutorial": audio_stop_all(); current_level_music = msc_pretutorial; /*audio_sound_gain(current_level_music,msc_default_gain,1);*/ music_playing = audio_play_sound(current_level_music, 1000, true); break;
+		case "rm_startmenu": audio_stop_all(); current_level_music = msc_titletheme; /*audio_sound_gain(current_level_music,msc_default_gain,1);*/ music_playing = audio_play_sound(current_level_music, 1000, false); break;
 		//case "rm_endoflevel": audio_stop_sound(current_level_music); break;
 	}
 	level_music_switch = false;
@@ -244,3 +244,19 @@ if(play_instinctbtn_click_snd)
 //		audio_sound_gain(snd_spinningbtn, 0, 3000)
 //	}
 //}
+
+
+
+
+
+if (mute)
+{
+	audio_master_gain(0)
+	msc_default_gain = 0
+}
+else
+{
+	audio_master_gain(1)
+	//msc_default_gain = 0.25
+	//audio_sound_gain(current_level_music,msc_default_gain,1)
+}

@@ -52,7 +52,7 @@ if (bg_move_once)
 
 if (obj_adhoc_scripts.stopparalax = false)
 {
-	obj_adhoc_scripts.yspeed_lvlbg = 0.1
+	obj_adhoc_scripts.yspeed_lvlbg = 0.01
 	obj_adhoc_scripts.yincrementor_lvlbg += obj_adhoc_scripts.yspeed_lvlbg * player_velocity
 	layer_y(layerid_lvlbg, (obj_player.y - startdiff_lvlbgy) + obj_adhoc_scripts.yincrementor_lvlbg);
     

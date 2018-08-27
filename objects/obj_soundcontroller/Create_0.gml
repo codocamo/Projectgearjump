@@ -23,3 +23,6 @@ msc_default_gain = 0.25
 
 
 doonce = true
+
+
+mute = false
