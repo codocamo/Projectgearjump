@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-obj_soundcontroller.level_music_switch = true;
+
 
 
 if(room_get_name(room) = "rm_startmenu")

@@ -260,7 +260,7 @@ if (velocity[0] > 0) //right
 		global.leveljustcompleted = room_get_name(room);
 		endoflevel = true;
 		if(alarm3set){alarm[3] = 50; alarm3set = false;}
-		audio_sound_gain(obj_soundcontroller.current_level_music,0,1500)
+		obj_soundcontroller.fade_music = true;
 	}
 	if(t1 = 7 || t2 = 7 || t3 = 7)
 	{	

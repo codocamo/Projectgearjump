@@ -14,7 +14,7 @@ instance_create_depth(0, 0, 0, obj_levelswitcher);
 instance_create_depth(0, 0, 0, obj_adhoc_scripts);
 
 //create the adhoc script object to run all adhoc scripts
-instance_create_depth(0, 0, 850, obj_ornamentmanager);
+//instance_create_depth(0, 0, 850, obj_ornamentmanager);
 
 
 //show_message(room_get_name(room) + "_branch_" + string(global.branch))
@@ -25,4 +25,5 @@ dialog_adder(room_get_name(room) + "_branch_" + string(global.branch));
 //start the dialog
 start_dialog(0)
 
-
+//sets the level song
+obj_soundcontroller.level_music_switch = true

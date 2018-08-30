@@ -4,13 +4,13 @@ if ( instance_exists(obj_endcard)&& instance_exists(obj_endparticles))
 	if(endingcounter >= 1)
 	{
 		obj_endcard.visible=true
-		obj_endparticles.startstreaming = true;
+		with(obj_endparticles){startstreaming = true;}
 	
 	}
 	else
 	{
 		obj_endcard.visible = false
-		obj_endparticles.startstreaming = false;
+		with(obj_endparticles){startstreaming = false;}
 	}
 
 	if(endingcounter >= 2)
@@ -27,7 +27,7 @@ if ( instance_exists(obj_endcard)&& instance_exists(obj_endparticles))
 	{
 		part_type_speed(global.pt_Effect1, 1.50, 1.50, 0, 0);
 	    part_type_direction(global.pt_Effect1, 0, 360, 0, 0);
-		obj_endparticles.startstreaming = true;
+		with(obj_endparticles){startstreaming = true;}
 	}
 
 }

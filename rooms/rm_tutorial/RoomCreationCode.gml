@@ -18,3 +18,7 @@ global.branch = 1
 dialog_adder(room_get_name(room) + "_branch_" + string(global.branch));
 //start the dialog
 start_dialog(0)
+
+
+//sets the level song
+obj_soundcontroller.level_music_switch = true
