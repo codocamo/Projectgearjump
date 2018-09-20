@@ -68,6 +68,14 @@ else if (gear3switchrequest){draw_sprite(spr_playerslide_gear3, 0, x, y); }
 sprite_index = spr_playerslide_gear1;
 
 }
+else if(start_squat)
+{
+if(gear1switchrequest){draw_sprite(spr_player_squat, 0, x, y); }
+else if (gear2switchrequest){draw_sprite(spr_player_squat, 1, x, y);}
+else if (gear3switchrequest){draw_sprite(spr_player_squat, 2, x, y); }
+//else{draw_sprite(spr_playerrun_gear0, -1, x, y); }
+sprite_index = spr_player_squat;
+}
 else if((start_run_anim == true) && (in_tumble == false)){
 if(gear1switchrequest){draw_sprite(spr_playerrun_gear1, -1, x, y); }
 else if (gear2switchrequest){draw_sprite(spr_playerrun_gear2, -1, x, y);}

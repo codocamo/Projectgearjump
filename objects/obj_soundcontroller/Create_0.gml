@@ -19,10 +19,10 @@ block_snd = false;
 level_music_switch = true;
 
 //HTML target
-msc_default_gain = 1
+//msc_default_gain = 1
 
 //desktop target
-//msc_default_gain = 0.25
+msc_default_gain = 0.25
 
 
 master_gain = 1

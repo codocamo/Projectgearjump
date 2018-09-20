@@ -25,13 +25,13 @@ var player_velocity = obj_player.velocity[1]
 //paralax scrolling
 
 /////////////////////////////////////LVL BG//////////////////////////////////////////////
-obj_adhoc_scripts.xspeed_lvlbg = -0.5
+obj_adhoc_scripts.xspeed_lvlbg = -0.2
 obj_adhoc_scripts.xincrementor_lvlbg += obj_adhoc_scripts.xspeed_lvlbg * player_velocitx
 layer_x(layerid_lvlbg, obj_adhoc_scripts.xincrementor_lvlbg);
 
 
 /////////////////////////////////////////STARS//////////////////////////////////////////
-obj_adhoc_scripts.xspeed_stars = [-0.4,-0.3,-0.2,-0.1]
+obj_adhoc_scripts.xspeed_stars = [-0.1,-0.05,-0.03,-0.0]
 
 /////////x///////
 obj_adhoc_scripts.xincrementor_stars[0] += obj_adhoc_scripts.xspeed_stars[0] * player_velocitx

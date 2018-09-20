@@ -13,32 +13,44 @@ player_bbox_height = sprite_get_bbox_bottom(sprite_index) + sprite_get_bbox_top(
 
 ///Movement
 //make switch request
-if(keyboard_check(ord("I")) && gear1limitunlock)
+if(keyboard_check_pressed(ord("I")) && gear1limitunlock)
 {
 	gear1switchrequest = true;
 	gear2switchrequest = false;
 	gear3switchrequest = false;
 	
 	
-	shake = 10;
+	shake = 20;
+	
 	
 	obj_soundcontroller.play_switch_snd_1 = true
 	
+	jumplimitunlock = false
+	obj_adhoc_scripts.stopparalax = true
+	alarm[4] = 1
+	max_velocity = [0, 0];
+	
 }
+
 if(keyboard_check_released(ord("I")))
 {
 	obj_soundcontroller.play_switch_snd_1 = false
 }
 
-else if(keyboard_check(ord("O")) && gear2limitunlock)
+else if(keyboard_check_pressed(ord("O")) && gear2limitunlock)
 {
 	gear2switchrequest = true;
 	gear1switchrequest = false;
 	gear3switchrequest = false;
 	
-	shake = 10;
+	shake = 20;
 	
 	obj_soundcontroller.play_switch_snd_2 = true
+	
+	jumplimitunlock = false
+	obj_adhoc_scripts.stopparalax = true
+	alarm[4] = 1
+	max_velocity = [0, 0];
 
 }
 if(keyboard_check_released(ord("O")))
@@ -47,15 +59,21 @@ if(keyboard_check_released(ord("O")))
 }
 
 
-else if(keyboard_check(ord("P")) && gear3limitunlock)
+else if(keyboard_check_pressed(ord("P")) && gear3limitunlock)
 {
 	gear3switchrequest = true;
 	gear2switchrequest = false;
 	gear1switchrequest = false;
 	
-	shake = 10;
+	shake = 20;
 	
 	obj_soundcontroller.play_switch_snd_3 = true
+	
+	
+	jumplimitunlock = false
+	obj_adhoc_scripts.stopparalax = true
+	alarm[4] = 1
+	max_velocity = [0, 0];
 }
 if(keyboard_check_released(ord("P")))
 {
@@ -309,7 +327,7 @@ else //left
 //show_message("player: "+ string(obj_player.y))
 
 
-background_movement();
+
 
 
 //sets level boundrys
@@ -328,7 +346,9 @@ if(global.branch != -10 && room_get_name(room) == "rm_pre_tutorial" )
 
 
 level_entry()
+background_movement();
 level_exit()
+
 
 camera_set_view_pos(view_camera[0], cameraposx + random_range(-shake, shake), cameraposy + random_range(-shake, shake));
 
@@ -342,7 +362,25 @@ var t3a = tilemap_get_at_pixel(tile_map, bbox_right, bbox_bottom + 10) & tile_in
 
 if((mid_jump) &&((t1a != 0 && t1a != 1) || (t2a != 0 && t2a != 1) || (t3a != 0 && t3a != 1)))
 {
+	//stuff for adding in the squat after jump
+	/*if(keyboard_check(ord("W")))
+	{
+		start_run_anim = true;	
+		goodtoswitch = true
+		mid_jump = false
+	}
+	else
+	{
+		goodtoswitch = true
+		start_squat = true
+		stopparalax = true
+		alarm[4] = 20
+		mid_jump = false
+		max_velocity = [0,max_velocity[1]];
+	}*/
+	
 	start_run_anim = true;	
 	goodtoswitch = true
+	
 }
 else if(mid_jump){start_run_anim = false;goodtoswitch = false}

@@ -359,6 +359,14 @@
             }
         },
         {
+            "Key": "320bdc1e-285f-4176-82b2-7d3b17d79b00",
+            "Value": {
+                "id": "86495e92-d57f-4775-8e3f-e00c2d9bdd50",
+                "resourcePath": "sprites\\spr_player_squat\\spr_player_squat.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "34ad07d1-3a4d-41ad-9b37-1dc52c53dca7",
             "Value": {
                 "id": "a0aa94b9-72f6-490c-b6c7-a315d0f13eec",

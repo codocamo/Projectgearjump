@@ -52,22 +52,26 @@ if (bg_move_once)
 
 if (obj_adhoc_scripts.stopparalax = false)
 {
-	obj_adhoc_scripts.yspeed_lvlbg = 0.01
+	obj_adhoc_scripts.yspeed_lvlbg = -0.0
 	obj_adhoc_scripts.yincrementor_lvlbg += obj_adhoc_scripts.yspeed_lvlbg * player_velocity
-	layer_y(layerid_lvlbg, (obj_player.y - startdiff_lvlbgy) + obj_adhoc_scripts.yincrementor_lvlbg);
+	//layer_y(layerid_lvlbg, (obj_player.y - startdiff_lvlbgy) + obj_adhoc_scripts.yincrementor_lvlbg);
     
+	var horrizon = (view_hport[0] - 250) - 200
+	layer_y(layerid_lvlbg, (cameraposy + horrizon) + obj_adhoc_scripts.yincrementor_lvlbg);
+    
+	
 	//set the background speed of y 
-	if((room_get_name(room) != "rm_pre_tutorial") && (room_get_name(room) !="rm_tutorial") ){obj_adhoc_scripts.yspeed_stars = [-0.06,-0.04,-0.02,-0.00]}
+	if((room_get_name(room) != "rm_pre_tutorial") && (room_get_name(room) !="rm_tutorial") ){obj_adhoc_scripts.yspeed_stars = [-0.0,-0.0,-0.0,-0.00]}
 	else{obj_adhoc_scripts.yspeed_stars = [-0.4,-0.3,-0.2,-0.1]}
 	
 	obj_adhoc_scripts.yincrementor_stars[0] += obj_adhoc_scripts.yspeed_stars[0] * player_velocity
-	layer_y(layerid_space_layer0, (obj_player.y - startdiff_spacey) + obj_adhoc_scripts.yincrementor_stars[0]);
+	layer_y(layerid_space_layer0, (cameraposy) + obj_adhoc_scripts.yincrementor_stars[0]);
 	obj_adhoc_scripts.yincrementor_stars[1] += obj_adhoc_scripts.yspeed_stars[1] * player_velocity
-	layer_y(layerid_space_layer1, (obj_player.y - startdiff_spacey) + obj_adhoc_scripts.yincrementor_stars[1]);
+	layer_y(layerid_space_layer1, (cameraposy) + obj_adhoc_scripts.yincrementor_stars[1]);
 	obj_adhoc_scripts.yincrementor_stars[2] += obj_adhoc_scripts.yspeed_stars[2] * player_velocity
-	layer_y(layerid_space_layer2, (obj_player.y - startdiff_spacey) + obj_adhoc_scripts.yincrementor_stars[2]);
+	layer_y(layerid_space_layer2, (cameraposy) + obj_adhoc_scripts.yincrementor_stars[2]);
 	obj_adhoc_scripts.yincrementor_stars[3] += obj_adhoc_scripts.yspeed_stars[3] * player_velocity
-	layer_y(layerid_space_layer3, (obj_player.y - startdiff_spacey) + obj_adhoc_scripts.yincrementor_stars[3]);
+	layer_y(layerid_space_layer3, (cameraposy) + obj_adhoc_scripts.yincrementor_stars[3]);
 
 
 	layer_y(layerid_glow, obj_player.y - startdiff_glowy);

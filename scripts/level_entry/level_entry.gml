@@ -17,11 +17,26 @@ if (cameramove)
 	shake = shake * 0;
 	
 }
-else
+else ///normal camera val
 {
-	cameraposx = x - 200;
-	cameraposy = y - ((view_hport[0] / 2) + 100) + clamp(camera_offest_counter, 0 , 200);
-	shake = shake * 0.12;
+
+	if(obj_player.velocity[0] < 1)
+	{
+		cameraposx = lerp(cameraposx, x-190 , 0.1)
+		cam_cock = true
+	}
+	else if(cam_cock)
+	{
+		
+			cameraposx = clamp(cameraposx, x - 200, x+20) - 1 ;
+	
+	}
+	else 
+	{cameraposx = x-200}
+	cameraposy = lerp(cameraposy, y - ((view_hport[0] / 2) + 100) + clamp(camera_offest_counter, 0 , 200), 0.2);
+
+	//shake = shake * 0.12;
+	shake = shake * 0.4;
 }
 
 //when clamp is reached kill movement and set alarm and draw level details
