@@ -118,5 +118,8 @@ slideicony = 325
 pickuphelptxtx = 190
 pickuphelptxty = 450
 
-cam_cock = true;
+cam_cock = false;
 start_squat = false;
+start_idle = false;
+on_the_come_down = false;
+wall_touched = false;

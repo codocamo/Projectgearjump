@@ -252,14 +252,14 @@ if (mute)
 	
 		master_gain = clamp(master_gain, 0.05,0.95 ) - 0.05
 		audio_master_gain(master_gain)
-		show_debug_message(master_gain)
+		//show_debug_message(master_gain)
 	
 }
 else
 {
 	master_gain = clamp(master_gain, 0.05,0.95 ) + 0.05
 	audio_master_gain(master_gain)
-	show_debug_message(master_gain)
+	//show_debug_message(master_gain)
 }
 
 

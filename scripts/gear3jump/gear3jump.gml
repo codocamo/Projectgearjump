@@ -11,6 +11,8 @@ var t3 = tilemap_get_at_pixel(tile_map, bbox_right, bbox_bottom + 1) & tile_inde
 
 if((t1 = 3 || t1 = 5) || (t2 = 3 || t2 = 5) || (t3 = 3 ||t3 = 5))
 {
+	on_the_come_down = false;
+	wall_touched = false;
     mid_jump = false;
 	world_gravity = [0,2.5];
 	//world_gravity = [0,3];
@@ -22,6 +24,7 @@ if((t1 = 3 || t1 = 5) || (t2 = 3 || t2 = 5) || (t3 = 3 ||t3 = 5))
 	
 	if(keyboard_check(ord("W")))
 	{
+		
 		obj_soundcontroller.stop_jump_snd = true;
 		obj_soundcontroller.play_jump_snd_3 = true;
 		

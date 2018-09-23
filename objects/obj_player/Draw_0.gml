@@ -6,6 +6,9 @@
 
 //}
 //else 
+
+draw_circle_color(x,y,100,c_black,c_black, false)
+
 if(instance_exists(obj_chkpt))
 {
 	if(fullburn)
@@ -67,6 +70,14 @@ else if (gear3switchrequest){draw_sprite(spr_playerslide_gear3, 0, x, y); }
 //else{draw_sprite(spr_playerslide, 0, x, y); }
 sprite_index = spr_playerslide_gear1;
 
+}
+else if(start_idle)
+{
+if(gear1switchrequest){draw_sprite(spr_playeridle1_gear1, -1, x, y); }
+else if (gear2switchrequest){draw_sprite(spr_playeridle1_gear2, -1, x, y);}
+else if (gear3switchrequest){draw_sprite(spr_playeridle1_gear3, -1, x, y); }
+else{draw_sprite(spr_playeridle1_gear0, -1, x, y); }
+sprite_index = spr_playeridle1_gear1;
 }
 else if(start_squat)
 {

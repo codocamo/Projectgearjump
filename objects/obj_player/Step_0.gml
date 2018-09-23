@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
 player_bbox_left = sprite_get_bbox_left(sprite_index) - sprite_get_xoffset(sprite_index);
 player_bbox_right = sprite_get_bbox_right(sprite_index) - sprite_get_xoffset(sprite_index);
 player_bbox_bottom = sprite_get_bbox_bottom(sprite_index) - sprite_get_yoffset(sprite_index);
@@ -28,7 +29,7 @@ if(keyboard_check_pressed(ord("I")) && gear1limitunlock)
 	jumplimitunlock = false
 	obj_adhoc_scripts.stopparalax = true
 	alarm[4] = 1
-	max_velocity = [0, 0];
+	//max_velocity = [0, 0];
 	
 }
 
@@ -50,7 +51,7 @@ else if(keyboard_check_pressed(ord("O")) && gear2limitunlock)
 	jumplimitunlock = false
 	obj_adhoc_scripts.stopparalax = true
 	alarm[4] = 1
-	max_velocity = [0, 0];
+	//max_velocity = [0, 0];
 
 }
 if(keyboard_check_released(ord("O")))
@@ -73,7 +74,7 @@ else if(keyboard_check_pressed(ord("P")) && gear3limitunlock)
 	jumplimitunlock = false
 	obj_adhoc_scripts.stopparalax = true
 	alarm[4] = 1
-	max_velocity = [0, 0];
+	//max_velocity = [0, 0];
 }
 if(keyboard_check_released(ord("P")))
 {
@@ -172,13 +173,16 @@ if (velocity[1] > 0) //downwards
 	{
 		y = ((bbox_bottom & ~31) - 1) - player_bbox_bottom; //poop up
 		velocity = [velocity[0], 0]
+		
 	}
-	
-	
-	if(t1 = 2 || t2 = 2 || t3 = 2)
+	else if(t1 = 2 || t2 = 2 || t3 = 2)
 	{
 		player_dying = true;
 		
+	}
+	else
+	{
+		on_the_come_down = true
 	}
 	
 	if((instance_exists(obj_chkpt)) && (t1 = 1 || t2 = 1 || t3 = 1))
@@ -194,6 +198,8 @@ if (velocity[1] > 0) //downwards
 		//object_helptext.help_check = false;
 		obj_chkpt.check = false;
 	}
+	
+	
 }
 else //upwards
 {
@@ -215,6 +221,8 @@ else //upwards
 	}
 }
 
+
+
 //x = x + direction_x;
 x = directionxy[0]
 if (velocity[0] > 0) //right
@@ -229,7 +237,11 @@ if (velocity[0] > 0) //right
 		x = ((bbox_right & ~31) - 1) - player_bbox_right;
 		velocity = [0, velocity[1]]
 		player_jumpspeed = [0,0];
+		if(!mid_jump && !inslide){start_idle = true} else{start_idle = false}
+		if(on_the_come_down){wall_touched = true}
 	}
+	else{start_idle = false}
+	
 	
 	if(t1 = 2 || t2 = 2 || t3 = 2)
 	{
@@ -380,7 +392,16 @@ if((mid_jump) &&((t1a != 0 && t1a != 1) || (t2a != 0 && t2a != 1) || (t3a != 0 &
 	}*/
 	
 	start_run_anim = true;	
-	goodtoswitch = true
+	goodtoswitch = true;
+	
 	
 }
 else if(mid_jump){start_run_anim = false;goodtoswitch = false}
+
+
+//show_debug_message("comedown " + string(velocity[1]) +" wall touched "+ string(wall_touched))
+
+if (on_the_come_down && wall_touched)
+{
+	velocity[0] = 0
+}

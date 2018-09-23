@@ -503,6 +503,14 @@
             }
         },
         {
+            "Key": "5433574e-ac8a-4175-b446-cf1537acad72",
+            "Value": {
+                "id": "01189ef7-b470-4cf4-a92c-5d2bd650121d",
+                "resourcePath": "sprites\\spr_playeridle1_gear1\\spr_playeridle1_gear1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5721f6de-33f9-467f-8e9b-e70af68b318f",
             "Value": {
                 "id": "d0cf032f-053b-41c1-8220-61ba530cc5fd",
@@ -1007,6 +1015,14 @@
             }
         },
         {
+            "Key": "a278388e-89f6-4ade-9c6d-f26c8863d189",
+            "Value": {
+                "id": "4c0d010b-6ec7-4417-bc1a-da93b04f4c9b",
+                "resourcePath": "sprites\\spr_playeridle1_gear3\\spr_playeridle1_gear3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a30e4939-8d32-429a-a136-fc25e684d853",
             "Value": {
                 "id": "02a55ee5-ae00-4605-ab0b-97174446d12b",
@@ -1140,6 +1156,14 @@
                 "id": "8de0a2b7-7a31-4a0a-9811-18bf5533ddc9",
                 "resourcePath": "rooms\\rm_quitButton\\rm_quitButton.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "ae0a98c7-40ba-4e89-b76c-417a59cfe590",
+            "Value": {
+                "id": "2106c739-7660-4bbd-9375-768b95c1c801",
+                "resourcePath": "sprites\\spr_playeridle1_gear0\\spr_playeridle1_gear0.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1627,6 +1651,14 @@
             "Value": {
                 "id": "a6d0ead4-1f5f-4429-a3a2-375b35c3883e",
                 "resourcePath": "sprites\\spr_mineral21\\spr_mineral21.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fa2f60d6-939a-4f71-a56c-a233df8943b5",
+            "Value": {
+                "id": "f4618dff-f0bc-46db-88ac-be784e3db3e6",
+                "resourcePath": "sprites\\spr_playeridle1_gear2\\spr_playeridle1_gear2.yy",
                 "resourceType": "GMSprite"
             }
         },
