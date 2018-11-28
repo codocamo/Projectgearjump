@@ -7,3 +7,7 @@ start_img_number = 20
 start_img_index = 0
 
 doonce = true
+
+alpha = 0
+
+active = false

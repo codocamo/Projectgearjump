@@ -1,4 +1,4 @@
-if ( instance_exists(obj_endcard)&& instance_exists(obj_endparticles))
+if ( instance_exists(obj_endcard)&& instance_exists(obj_endparticles) && instance_exists(obj_vfxmanager))
 {
 
 	if(endingcounter >= 1)
@@ -23,7 +23,13 @@ if ( instance_exists(obj_endcard)&& instance_exists(obj_endparticles))
 		
 		
 	}
-	if (endingcounter = 3)
+	
+	if(endingcounter >= 3)
+	{
+		obj_vfxmanager.stop_all_text = true
+	}
+	
+	if (endingcounter = 4)
 	{
 		part_type_speed(global.pt_Effect1, 1.50, 1.50, 0, 0);
 	    part_type_direction(global.pt_Effect1, 0, 360, 0, 0);

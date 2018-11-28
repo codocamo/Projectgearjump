@@ -16,7 +16,7 @@ play_spinbtn_click_snd = [false,false,false,false];
 play_instinctbtn_click_snd  = false
 block_snd = false;
 
-level_music_switch = true;
+level_music_switch = false;
 
 //HTML target
 //msc_default_gain = 1
@@ -34,3 +34,14 @@ doonce = true
 mute = false
 
 fade_music = false
+
+play_pickup = false
+play_slidepowerup = false
+play_slide = false
+
+
+
+
+current_level_music = "none"
+
+startpausemusic = false;

@@ -10,7 +10,7 @@ draw_set_font(fnt_gravity);
 draw_set_halign(fa_center);
 
 
-if(argument[0])
+if(argument[0]) //double button
 {
 	var btnsize = [sprite_get_width(spr_instinctbtn),sprite_get_height(spr_instinctbtn)]
 	var btn1pos = [260, 505];
@@ -21,10 +21,21 @@ if(argument[0])
 	
 	var btn1state = 0;
 	var btn2state = 0;
-
-	if((mousex > btn1coll[0] && mousex < (btn1coll[0] + btnsize[0])) && (mousey > btn1coll[1] && mousey < (btn1coll[1] + btnsize[1])))
+	
+	var bypass1 = false
+	var bypass2 = false
+	if(keyboard_check_pressed(ord("A")))
 	{
-		if(mouse_check_button_pressed(mb_left))
+		bypass1 = true
+	}
+	else if (keyboard_check_pressed(ord("D")))
+	{
+		bypass2 = true
+	}
+
+	if((mousex > btn1coll[0] && mousex < (btn1coll[0] + btnsize[0])) && (mousey > btn1coll[1] && mousey < (btn1coll[1] + btnsize[1])) || bypass1)
+	{
+		if(mouse_check_button_pressed(mb_left) || bypass1)
 		{
 			btn1state = 2; 
 			global.branch += 1; 
@@ -39,9 +50,9 @@ if(argument[0])
 	}
 	else{btn1state = 0};
 	
-	if((mousex > btn2coll[0] && mousex < (btn2coll[0] + btnsize[0])) && (mousey > btn2coll[1] && mousey < (btn2coll[1] + btnsize[1])))
+	if((mousex > btn2coll[0] && mousex < (btn2coll[0] + btnsize[0])) && (mousey > btn2coll[1] && mousey < (btn2coll[1] + btnsize[1])) || bypass2)
 	{
-		if(mouse_check_button_pressed(mb_left))
+		if(mouse_check_button_pressed(mb_left) || bypass2)
 		{
 			btn2state = 2; 
 			global.branch *= 10; 
@@ -72,11 +83,16 @@ if(argument[0])
 	}
 	
 	draw_text_ext_color(btn1pos[0], btn1pos[1] - 20, argument[1], 25, btnsize[0], c_white, c_white, c_white, c_white, 1)
+	//help text
+	draw_text_transformed_color(btn1pos[0], btn1pos[1] + 30, "click or press [A] to select", 0.5, 0.5, 0,  c_gray, c_gray, c_gray, c_gray, 1)
+	
 	draw_text_ext_color(btn2pos[0], btn2pos[1] - 20, argument[2], 25, btnsize[0], c_white, c_white, c_white, c_white, 1)
+	//helptext
+	draw_text_transformed_color(btn2pos[0], btn2pos[1] + 30, "click or press [D] to select", 0.5, 0.5, 0,  c_gray, c_gray, c_gray, c_gray, 1)
 	
 	
 }
-else
+else //single button
 {
 	var btnsize = [sprite_get_width(spr_instinctbtn),sprite_get_height(spr_instinctbtn)]
 	var btn1pos = [500, 505];
@@ -84,10 +100,15 @@ else
 	var btn1coll = [btn1pos[0] + (camera_get_view_x(view_camera[0]) - (btnsize[0] /2) ), btn1pos[1] + (camera_get_view_y(view_camera[0]) - (btnsize[1] /2))]
 	var btn1state = 0;
 	
-
-	if((mousex > btn1coll[0] && mousex < (btn1coll[0] + btnsize[0])) && (mousey > btn1coll[1] && mousey < (btn1coll[1] + btnsize[1])))
+	var bypass = false
+	if(keyboard_check_pressed(ord("A")))
 	{
-		if(mouse_check_button_pressed(mb_left))
+		bypass = true
+	}
+	
+	if((mousex > btn1coll[0] && mousex < (btn1coll[0] + btnsize[0])) && (mousey > btn1coll[1] && mousey < (btn1coll[1] + btnsize[1])) || bypass)
+	{
+		if(mouse_check_button_pressed(mb_left) || bypass)
 		{
 			btn1state = 2; 
 			advance_dialog = true; 
@@ -114,6 +135,8 @@ else
 	}
 	
 	draw_text_ext_color(btn1pos[0], btn1pos[1] - 20, argument[1], 25, btnsize[0], c_white, c_white, c_white, c_white, 1)
+	//help text
+	draw_text_transformed_color(btn1pos[0], btn1pos[1] + 30, "click or press [A] to select", 0.5, 0.5, 0,  c_gray, c_gray, c_gray, c_gray, 1)
 	
 }
 

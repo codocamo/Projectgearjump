@@ -123,3 +123,11 @@ start_squat = false;
 start_idle = false;
 on_the_come_down = false;
 wall_touched = false;
+
+gear_change_count = 0
+start_cooldown = [false,false,false]
+
+
+current_gear  = 0 
+
+reboot_help = [false, true]

@@ -25,8 +25,8 @@ var player_velocity = obj_player.velocity[1]
 //paralax scrolling
 
 /////////////////////////////////////LVL BG//////////////////////////////////////////////
-obj_adhoc_scripts.xspeed_lvlbg = -0.2
-obj_adhoc_scripts.xincrementor_lvlbg += obj_adhoc_scripts.xspeed_lvlbg * player_velocitx
+obj_adhoc_scripts.xspeed_lvlbg = -0.0
+obj_adhoc_scripts.xincrementor_lvlbg += player_velocitx / 8//obj_adhoc_scripts.xspeed_lvlbg * player_velocitx
 layer_x(layerid_lvlbg, obj_adhoc_scripts.xincrementor_lvlbg);
 
 
@@ -34,19 +34,24 @@ layer_x(layerid_lvlbg, obj_adhoc_scripts.xincrementor_lvlbg);
 obj_adhoc_scripts.xspeed_stars = [-0.1,-0.05,-0.03,-0.0]
 
 /////////x///////
-obj_adhoc_scripts.xincrementor_stars[0] += obj_adhoc_scripts.xspeed_stars[0] * player_velocitx
+obj_adhoc_scripts.xincrementor_stars[0] += player_velocitx / 3.5//obj_adhoc_scripts.xspeed_stars[0] * player_velocitx
 layer_x(layerid_space_layer0, obj_adhoc_scripts.xincrementor_stars[0]);
 
 
-obj_adhoc_scripts.xincrementor_stars[1] += obj_adhoc_scripts.xspeed_stars[1] * player_velocitx
+obj_adhoc_scripts.xincrementor_stars[1] += player_velocitx /3 //obj_adhoc_scripts.xspeed_stars[1] * player_velocitx
 layer_x(layerid_space_layer1, obj_adhoc_scripts.xincrementor_stars[1]);
 
 
-obj_adhoc_scripts.xincrementor_stars[2] += obj_adhoc_scripts.xspeed_stars[2] * player_velocitx
+obj_adhoc_scripts.xincrementor_stars[2] += player_velocitx / 2.5//obj_adhoc_scripts.xspeed_stars[2] * player_velocitx
 layer_x(layerid_space_layer2, obj_adhoc_scripts.xincrementor_stars[2]);
 
 
-obj_adhoc_scripts.xincrementor_stars[3] += obj_adhoc_scripts.xspeed_stars[3] * player_velocitx
+obj_adhoc_scripts.xincrementor_stars[3] += player_velocitx /2//obj_adhoc_scripts.xspeed_stars[3] * player_velocitx
 layer_x(layerid_space_layer3, obj_adhoc_scripts.xincrementor_stars[3]);
 
 
+/////////////////////////////////////////STARDUST//////////////////////////////////////////
+obj_adhoc_scripts.xspeed_stardust = 0
+var offset  = 1000
+obj_adhoc_scripts.xincrementor_stardust += player_velocitx /1.5//obj_adhoc_scripts.xspeed_stars[3] * player_velocitx
+layer_x(layerid_stardust, obj_adhoc_scripts.xincrementor_stardust + offset);

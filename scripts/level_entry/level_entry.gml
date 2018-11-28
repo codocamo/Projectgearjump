@@ -8,6 +8,7 @@ var characterclampy = player_y_at_trigger + 2500;
 
 
 //last chkpt sets cameramove top true. once true start the camera ofset
+
 if (cameramove)
 {
 	camera_offest_counter +=  5
@@ -36,7 +37,7 @@ else ///normal camera val
 	cameraposy = lerp(cameraposy, y - ((view_hport[0] / 2) + 100) + clamp(camera_offest_counter, 0 , 200), 0.2);
 
 	//shake = shake * 0.12;
-	shake = shake * 0.4;
+	shake = shake * 0.8;
 }
 
 //when clamp is reached kill movement and set alarm and draw level details

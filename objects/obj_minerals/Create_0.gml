@@ -9,3 +9,4 @@ if(!instance_exists(obj_mineralmanager))
 
 collided = false;
 safetyboolean = true;
+

@@ -14,7 +14,7 @@ if((t1 = 3 || t1 = 5) || (t2 = 3 || t2 = 5) || (t3 = 3 ||t3 = 5))
 	player_runspeed = [1, 0];
 	max_velocity = [8,max_velocity[1]];
 	stopjumping = false;
-	if(keyboard_check_pressed(ord("W")))
+	if(keyboard_check_pressed(ord("W")) ||keyboard_check_pressed(vk_space))
 	{
 		
 		
@@ -37,7 +37,7 @@ if((t1 = 3 || t1 = 5) || (t2 = 3 || t2 = 5) || (t3 = 3 ||t3 = 5))
 }
 else
 {
-	if((mid_jump = true && y < (y_at_jump - max_jump_height)) || (stopjumping) || (mid_jump = false) || (keyboard_check_released(ord("W"))))
+	if((mid_jump = true && y < (y_at_jump - max_jump_height)) || (stopjumping) || (mid_jump = false) || (keyboard_check_released(ord("W"))) || (keyboard_check_released(vk_space)))
 	{
 		player_jumpspeed = [0,0];
 		world_gravity = [0,3];

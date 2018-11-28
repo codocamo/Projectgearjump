@@ -11,7 +11,11 @@
 //  show_debug_message(instance_number(obj_minerals))
 
 
+index = 0
+global.mineralsavearraycolection = ["incomming array"]
 
+
+//not indexed at 0
 instance_counter = instance_number(obj_minerals); 
 
 global.mineralcount = [0,instance_counter]
@@ -31,4 +35,3 @@ if(ini_section_exists(room_get_name(room)))
 	}
 }
 ini_close()
-

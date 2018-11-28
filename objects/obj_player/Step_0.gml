@@ -10,27 +10,56 @@ player_bbox_top = sprite_get_bbox_top(sprite_index) - sprite_get_yoffset(sprite_
 player_bbox_width = sprite_get_bbox_left(sprite_index) + sprite_get_bbox_right(sprite_index);
 player_bbox_height = sprite_get_bbox_bottom(sprite_index) + sprite_get_bbox_top(sprite_index);
 
-
+if(!instance_exists(obj_vfxmanager))
+{
+	instance_create_depth(0,0,0, obj_vfxmanager);
+}
 
 ///Movement
 //make switch request
+var cooldown_limit = 5
+var cooldown_reset_time = 30
+var cooldown_timer = 50
 if(keyboard_check_pressed(ord("I")) && gear1limitunlock)
 {
+	
 	gear1switchrequest = true;
 	gear2switchrequest = false;
 	gear3switchrequest = false;
 	
 	
-	shake = 20;
+	shake = 15;
 	
 	
 	obj_soundcontroller.play_switch_snd_1 = true
 	
-	jumplimitunlock = false
-	obj_adhoc_scripts.stopparalax = true
-	alarm[4] = 1
+	obj_vfxmanager.gear_switched = true
+	obj_vfxmanager.switchxy = [x,y]
+	
+	
+	//jumplimitunlock = false
+	//obj_adhoc_scripts.stopparalax = true
+	//alarm[4] = 1
 	//max_velocity = [0, 0];
 	
+	//cooldown
+	if (gear_change_count < cooldown_limit)
+	{
+		gear_change_count += 1
+		alarm[5] = cooldown_reset_time 
+	}
+	else
+	{
+		start_cooldown = [true,true,false];
+		gear1limitunlock = false; 
+		gear2limitunlock = false; 
+		gear3limitunlock = false; 
+		//jumplimitunlock = false; 
+		
+		//alarm[6] = cooldown_timer
+	}
+	
+	current_gear = 1
 }
 
 if(keyboard_check_released(ord("I")))
@@ -44,15 +73,39 @@ else if(keyboard_check_pressed(ord("O")) && gear2limitunlock)
 	gear1switchrequest = false;
 	gear3switchrequest = false;
 	
-	shake = 20;
+	shake = 15;
 	
 	obj_soundcontroller.play_switch_snd_2 = true
 	
-	jumplimitunlock = false
-	obj_adhoc_scripts.stopparalax = true
-	alarm[4] = 1
+	obj_vfxmanager.gear_switched = true
+	obj_vfxmanager.switchxy = [x,y]
+	
+	
+	//jumplimitunlock = false
+	//obj_adhoc_scripts.stopparalax = true
+	//alarm[4] = 1
 	//max_velocity = [0, 0];
-
+	
+	
+	
+	//cooldown
+	if (gear_change_count < cooldown_limit)
+	{
+		gear_change_count += 1
+		alarm[5] = cooldown_reset_time 
+	}
+	else
+	{
+		start_cooldown = [true,true,false];
+		gear1limitunlock = false; 
+		gear2limitunlock = false; 
+		gear3limitunlock = false; 
+		//jumplimitunlock = false; 
+		
+		//alarm[6] = cooldown_timer
+	}
+	
+	current_gear = 2
 }
 if(keyboard_check_released(ord("O")))
 {
@@ -66,15 +119,35 @@ else if(keyboard_check_pressed(ord("P")) && gear3limitunlock)
 	gear2switchrequest = false;
 	gear1switchrequest = false;
 	
-	shake = 20;
+	shake = 15;
 	
 	obj_soundcontroller.play_switch_snd_3 = true
 	
 	
-	jumplimitunlock = false
-	obj_adhoc_scripts.stopparalax = true
-	alarm[4] = 1
+	obj_vfxmanager.gear_switched = true
+	obj_vfxmanager.switchxy = [x,y]
+	
+	//jumplimitunlock = false
+	//obj_adhoc_scripts.stopparalax = true
+	//alarm[4] = 1
 	//max_velocity = [0, 0];
+	
+	
+	//cooldown
+	if (gear_change_count < cooldown_limit)
+	{
+		gear_change_count += 1
+		alarm[5] = cooldown_reset_time 
+	}
+	else
+	{
+		start_cooldown = [true,true]; 
+		gear1limitunlock = false; 
+		gear2limitunlock = false; 
+		gear3limitunlock = false; 
+	}
+	
+	current_gear = 3
 }
 if(keyboard_check_released(ord("P")))
 {
@@ -93,15 +166,16 @@ if(gear1 == true && jumplimitunlock)
 	gear1jump();
 	
 }
-if (gear2 == true && jumplimitunlock)
+else if (gear2 == true && jumplimitunlock)
 {
 	gear2jump();	
 }
-if (gear3 == true && jumplimitunlock)
+else if (gear3 == true && jumplimitunlock)
 {
 	gear3jump();
 	
 }
+
 
 
 //slide code
@@ -125,6 +199,7 @@ if(keyboard_check_pressed(ord("S")) && pkupslidestate[0])
 		canstand = false
 	}
 	
+	obj_soundcontroller.play_slide = true;
 	
 
 }
@@ -148,10 +223,40 @@ if(inslide && canstand && (t1slide != 3 || t2slide != 3 || t3slide != 3))
 
 //var direction_x = (keyboard_check(ord("D")) - keyboard_check(ord("A"))) * player_horizontal_speed; 
 //var direction_y = (keyboard_check(vk_down) - keyboard_check(vk_up)) * player_horizontal_speed; 
+
+//store out the xy value before geting updated for use later 
+
+
 var directionxy = movescript()
 var direction_x = player_horizontal_speed;
 var direction_y = player_vertical_speed;
 
+
+if(start_cooldown[0])
+{
+	directionxy[0] = x
+	directionxy[1] = y
+	image_speed = 0 
+	if start_cooldown[1]
+	{
+		alarm[6] = 50; start_cooldown[1] = false;
+	}
+	
+	gear1switchrequest = false
+	gear2switchrequest = false
+	gear3switchrequest = false
+	
+	current_gear = 0
+}
+
+if (gear1switchrequest = false && gear2switchrequest = false && gear3switchrequest = false)
+{
+	jumplimitunlock = false;
+}
+else if(!inslide)
+{
+	jumplimitunlock = true;
+}
 //if(player_vertical_speed < max_player_vertical_speed)
 //{
 //	player_vertical_speed = player_vertical_speed + world_gravity;
@@ -356,7 +461,6 @@ if(global.branch != -10 && room_get_name(room) == "rm_pre_tutorial" )
 
 
 
-
 level_entry()
 background_movement();
 level_exit()
@@ -401,7 +505,7 @@ else if(mid_jump){start_run_anim = false;goodtoswitch = false}
 
 //show_debug_message("comedown " + string(velocity[1]) +" wall touched "+ string(wall_touched))
 
-if (on_the_come_down && wall_touched)
+if ((on_the_come_down && wall_touched))
 {
 	velocity[0] = 0
 }

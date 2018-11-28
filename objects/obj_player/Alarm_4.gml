@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @was for the squat before jump
 // You can write your code in this editor
 
 jumplimitunlock = true

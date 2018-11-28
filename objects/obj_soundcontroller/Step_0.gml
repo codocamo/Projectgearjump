@@ -98,6 +98,30 @@ if(instance_exists(obj_player))
 		audio_play_sound(snd_jump3, 10, false);
 		play_jump_snd_3 = false;
 	}
+	
+	//-------------------PICKUP SOUND-------------------------------------
+
+	if(instance_exists(obj_minerals) && play_pickup)
+	{
+		audio_play_sound(snd_pickup, 10, false);
+		play_pickup = false;
+	}
+			
+	//-------------------SLIDE POOWERUP SOUND-------------------------------------	
+	if(instance_exists(obj_pkupslide) && play_slidepowerup && !audio_is_playing(snd_slidepwerup))
+	{
+		audio_play_sound(snd_slidepwerup, 10, false);
+		play_slidepowerup = false;
+	}
+	
+	//-------------------SLIDE SOUND-------------------------------------	
+	if(instance_exists(obj_pkupslide) && play_slide && !audio_is_playing(snd_slide))
+	{
+		
+		audio_play_sound(snd_slide, 10, false);
+		play_slide = false;
+	}
+
 
 }
 
@@ -126,7 +150,7 @@ if (instance_exists(obj_startButton) || instance_exists(obj_quitButton) || insta
 			play_spinbtn_click_snd[0] = false;
 		}
 	}
-	if(instance_exists(obj_quitButton))
+	if(instance_exists(obj_quitButton) && !instance_exists(obj_paused))
 	{
 		if(obj_quitButton.btn_pos == 1)
 		{
@@ -257,7 +281,7 @@ if (mute)
 }
 else
 {
-	master_gain = clamp(master_gain, 0.05,0.95 ) + 0.05
+	master_gain = clamp(master_gain, 0.05,0.95 ) + 0.01
 	audio_master_gain(master_gain)
 	//show_debug_message(master_gain)
 }
@@ -267,4 +291,26 @@ if(fade_music)
 {
 	audio_sound_gain(current_level_music,0,2000)
 	fade_music = false
+}
+
+
+if(startpausemusic)
+{
+	audio_pause_sound(current_level_music)
+	//var soundgainto = 
+	if(!audio_is_playing(msc_pausemusic))
+	{
+		audio_play_sound(msc_pausemusic, 0, true)
+		audio_sound_gain(msc_pausemusic, 0.0 , 0)
+		alarm[1] = 100
+	}
+}
+else 
+{
+	if(audio_is_playing(msc_pausemusic))
+	{
+		audio_stop_sound(msc_pausemusic)
+		audio_resume_sound(current_level_music)
+	}
+	
 }

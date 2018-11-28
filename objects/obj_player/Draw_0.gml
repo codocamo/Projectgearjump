@@ -7,7 +7,7 @@
 //}
 //else 
 
-draw_circle_color(x,y,100,c_black,c_black, false)
+
 
 if(instance_exists(obj_chkpt))
 {
@@ -64,11 +64,11 @@ sprite_index = spr_playerdeath;
 if(image_index > image_number - 1){ room_restart();}; //restart the level
 }
 else if(inslide == true){
-if(gear1switchrequest){draw_sprite(spr_playerslide_gear1, 0, x, y); }
-else if (gear2switchrequest){draw_sprite(spr_playerslide_gear2, 0, x, y);}
-else if (gear3switchrequest){draw_sprite(spr_playerslide_gear3, 0, x, y); }
-//else{draw_sprite(spr_playerslide, 0, x, y); }
-sprite_index = spr_playerslide_gear1;
+if(gear1switchrequest){draw_sprite(spr_playerslide_gear1, -1, x, y); }
+else if (gear2switchrequest){draw_sprite(spr_playerslide_gear2, -1, x, y);}
+else if (gear3switchrequest){draw_sprite(spr_playerslide_gear3, -1, x, y); }
+else{draw_sprite(spr_playerslide_gear0, -1, x, y); }
+sprite_index = spr_playerslide_gear2;
 
 }
 else if(start_idle)
@@ -81,9 +81,9 @@ sprite_index = spr_playeridle1_gear1;
 }
 else if(start_squat)
 {
-if(gear1switchrequest){draw_sprite(spr_player_squat, 0, x, y); }
-else if (gear2switchrequest){draw_sprite(spr_player_squat, 1, x, y);}
-else if (gear3switchrequest){draw_sprite(spr_player_squat, 2, x, y); }
+if(gear1switchrequest && obj_vfxmanager.play_switch_vfx ){draw_sprite(spr_player_squat, 0, x, y); }
+else if (gear2switchrequest && obj_vfxmanager.play_switch_vfx ){draw_sprite(spr_player_squat, 1, x, y);}
+else if (gear3switchrequest && obj_vfxmanager.play_switch_vfx ){draw_sprite(spr_player_squat, 2, x, y); }
 //else{draw_sprite(spr_playerrun_gear0, -1, x, y); }
 sprite_index = spr_player_squat;
 }
@@ -98,7 +98,7 @@ else if((mid_jump == true) && (in_tumble == false)){
 if(gear1switchrequest){draw_sprite(spr_playerjump, 1, x, y); }
 else if(gear2switchrequest){draw_sprite(spr_playerjump, 0, x, y); } 
 else if(gear3switchrequest){draw_sprite(spr_playerjump, 2, x, y); }
-//draw_sprite(spr_playerjump, 2, x, y); 
+else {draw_sprite(spr_playerjump_gear0, current_gear, x, y);} 
 sprite_index = spr_playerjump;
 }
 
@@ -117,11 +117,14 @@ sprite_index = spr_playerjump;
 
 //slide and general help text
 
-if(lvlhelptxt && room_get_name(room) == "rm_lvl1_kupler") 
-{
-	draw_set_font(fnt_renner_ingametext)
-	draw_text_ext_transformed_color(x + 10,y - 100, "Explore and find the warp point" ,30, 200, 1, 1, 0, c_yellow,c_yellow,c_yellow,c_yellow, 1 )
-}
+////if(lvlhelptxt && room_get_name(room) == "rm_lvl1_kupler")
+//if(true)
+//{
+//	draw_sprite(spr_inlvltextbox, 0 , x, y - 50)
+//	draw_set_font(fnt_renner_ingametext)
+//	draw_text_ext_transformed_color(x + 50 ,y - 240, "Explore and find the warp point" ,30, 180, 1, 1, 0, c_yellow,c_yellow,c_yellow,c_yellow, 1 )
+//}
+
 //if(pkupslidestate[0] && !inslide && slidehelp)
 //{
 //	draw_set_font(fnt_renner_ingametext_med)

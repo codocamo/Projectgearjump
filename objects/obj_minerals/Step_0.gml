@@ -13,11 +13,16 @@ else if(!safetyboolean)
 	speed = 0;
 	instance_destroy(id)
 	collided = false; 
+	obj_soundcontroller.play_pickup = true
 	
-	ini_open("savedata.ini")
+	//ini_open("savedata.ini")
 	global.mineralcount[0] += 1
-	ini_write_real(room_get_name(room), global.mineralcount[0], id)
-	ini_close()
+	obj_mineralmanager.index+=1
+	global.mineralsavearraycolection[obj_mineralmanager.index] = [room_get_name(room),global.mineralcount[0], id]
+	//show_message(string(global.mineralsavearraycolection))
+	//ini_write_real(room_get_name(room), global.mineralcount[0], id)
+	//ini_close()
+	
 	
 }
 

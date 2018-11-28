@@ -3,7 +3,7 @@
 
 
 
-if(prompt_active)
+/*if(prompt_active)
 {
 	draw_sprite_ext(spr_trashButton, 1, x, y,1, 1,0,c_gray,obj_optionsButton.alpha);
 	 
@@ -39,4 +39,4 @@ if(keyboard_check(vk_enter) && !deed_done && prompt_active)
 {
 	file_delete("savedata.ini")
 	deed_done = true
-}
+}*/

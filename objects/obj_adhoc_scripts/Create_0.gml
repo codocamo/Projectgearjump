@@ -15,4 +15,15 @@ yincrementor_lvlbg= 0
 xspeed_lvlbg = 0
 yspeed_lvlbg = 0
 
+
+yincrementor_glow = 0
+yspeed_glow = 0
+
+
+xincrementor_stardust = 0
+yincrementor_stardust = 0
+xspeed_stardust = 0
+yspeed_stardust = 0
+
+
 stopparalax = false

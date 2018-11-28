@@ -16,7 +16,7 @@ on_the_come_down = false;
 	//world_gravity = [0,3];
 	stopjumping = false;
 	
-	if(keyboard_check(ord("W")))
+	if(keyboard_check(ord("W")) || keyboard_check(vk_space))
 	{
 		
 		

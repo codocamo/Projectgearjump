@@ -3,6 +3,7 @@
 //create the player
 instance_create_depth(13, 368, 100, obj_player);
 
+
 //create check point object
 instance_create_depth(0, 0, 0, obj_chkpt);
 
@@ -27,3 +28,9 @@ start_dialog(0)
 
 //sets the level song
 obj_soundcontroller.level_music_switch = true
+
+//create glitch shader object
+instance_create_depth(0, 0, 500, obj_glitchshadercontrol);
+
+//create pause object
+instance_create_depth(0, 0, 0, obj_paused);

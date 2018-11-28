@@ -70,4 +70,11 @@ ini_open("savedata.ini")
 ini_write_string(global.leveljustcompleted, "time", time)
 ini_write_string(global.leveljustcompleted, "count", mineralcount)
 ini_write_string(global.leveljustcompleted, "rank", rankletter)
+
+for(var i = 1; i <= array_length_1d(global.mineralsavearraycolection) - 1; i++)
+{
+	var savearray = global.mineralsavearraycolection[i];
+	ini_write_string(savearray[0], savearray[1], savearray[2]);
+}
+
 ini_close()

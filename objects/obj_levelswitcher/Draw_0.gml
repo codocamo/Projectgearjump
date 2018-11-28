@@ -11,7 +11,7 @@ if(drawplanet)
 	obj_levelswitcher.planetspr_y = (obj_player.player_y_at_trigger + 2500) + 700
 
 	//just makes the layer
-	planetlayerid = layer_create(1);
+	planetlayerid = layer_create(1, "planetlayer");
 	planetlayerspriteid = layer_sprite_create(planetlayerid, planetspr_x, planetspr_y, spr_jumpdef);
 	
 

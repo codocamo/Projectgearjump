@@ -52,14 +52,6 @@ if (bg_move_once)
 
 if (obj_adhoc_scripts.stopparalax = false)
 {
-	obj_adhoc_scripts.yspeed_lvlbg = -0.0
-	obj_adhoc_scripts.yincrementor_lvlbg += obj_adhoc_scripts.yspeed_lvlbg * player_velocity
-	//layer_y(layerid_lvlbg, (obj_player.y - startdiff_lvlbgy) + obj_adhoc_scripts.yincrementor_lvlbg);
-    
-	var horrizon = (view_hport[0] - 250) - 200
-	layer_y(layerid_lvlbg, (cameraposy + horrizon) + obj_adhoc_scripts.yincrementor_lvlbg);
-    
-	
 	//set the background speed of y 
 	if((room_get_name(room) != "rm_pre_tutorial") && (room_get_name(room) !="rm_tutorial") ){obj_adhoc_scripts.yspeed_stars = [-0.0,-0.0,-0.0,-0.00]}
 	else{obj_adhoc_scripts.yspeed_stars = [-0.4,-0.3,-0.2,-0.1]}
@@ -73,9 +65,35 @@ if (obj_adhoc_scripts.stopparalax = false)
 	obj_adhoc_scripts.yincrementor_stars[3] += obj_adhoc_scripts.yspeed_stars[3] * player_velocity
 	layer_y(layerid_space_layer3, (cameraposy) + obj_adhoc_scripts.yincrementor_stars[3]);
 
-
-	layer_y(layerid_glow, obj_player.y - startdiff_glowy);
-	layer_y(layerid_stardust, obj_player.y - startdiff_stardusty);
+	
+	
+	
+	
+	obj_adhoc_scripts.yspeed_lvlbg = 0.0
+	obj_adhoc_scripts.yspeed_glow = 0.0
+	obj_adhoc_scripts.yincrementor_lvlbg += obj_adhoc_scripts.yspeed_lvlbg * player_velocity
+	obj_adhoc_scripts.yincrementor_glow += obj_adhoc_scripts.yspeed_glow * player_velocity
+	//layer_y(layerid_lvlbg, (obj_player.y - startdiff_lvlbgy) + obj_adhoc_scripts.yincrementor_lvlbg);
+    
+	//set the horrizon of level
+	if(room_get_name(room) =  "rm_lvl1_kupler")
+	{ 
+		var horrizonbase = (view_hport[0] - 250) - 200; 
+		var horrizon = cameraposy + horrizonbase;
+		var glowheight = horrizon-20
+		var stardustheight = horrizon-150
+	}
+	else if (room_get_name(room) = "something"){}
+	else
+	{
+		horrizonbase = 0; 
+		horrizon = (cameraposy + horrizonbase);
+		glowheight = 0
+		stardustheight = obj_player.y - startdiff_stardusty
+	}
+	layer_y(layerid_lvlbg, horrizon + obj_adhoc_scripts.yincrementor_lvlbg);
+	layer_y(layerid_glow, glowheight + obj_adhoc_scripts.yincrementor_glow );
+	layer_y(layerid_stardust, stardustheight);
 
 
 
