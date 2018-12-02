@@ -3,3 +3,5 @@
 
 paused = false;
 screenShot = -1;
+
+canpause = true;

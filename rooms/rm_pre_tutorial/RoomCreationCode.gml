@@ -34,3 +34,4 @@ instance_create_depth(0, 0, 500, obj_glitchshadercontrol);
 
 //create pause object
 instance_create_depth(0, 0, 0, obj_paused);
+obj_paused.canpause = true

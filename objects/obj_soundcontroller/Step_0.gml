@@ -301,7 +301,7 @@ if(startpausemusic)
 	if(!audio_is_playing(msc_pausemusic))
 	{
 		audio_play_sound(msc_pausemusic, 0, true)
-		audio_sound_gain(msc_pausemusic, 0.0 , 0)
+		audio_sound_gain(msc_pausemusic, 0 , 0)
 		alarm[1] = 100
 	}
 }

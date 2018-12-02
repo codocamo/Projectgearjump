@@ -48,10 +48,13 @@ if(btn_pos = 1|| menuopen)
 		
 		if (!instance_exists(obj_muteButton)) {instance_create_depth(mutebtnpos_object[0], mutebtnpos_object[1], -110, obj_muteButton);}
 		obj_muteButton.x = mutebtnpos_object[0]; obj_muteButton.y = mutebtnpos_object[1]
-		if (!instance_exists(obj_controlsButton)) {instance_create_depth(controlsbtnpos_object[0] , controlsbtnpos_object[1], -110, obj_controlsButton);}
-		obj_controlsButton.x = controlsbtnpos_object[0]; obj_controlsButton.y = controlsbtnpos_object[1];
+		
 		if (!instance_exists(obj_quitButton)) {instance_create_depth(quitbutton_object[0] , quitbutton_object[1], -110, obj_quitButton);}
 		obj_quitButton.x = quitbutton_object[0]; obj_quitButton.y = quitbutton_object[1];
+		
+		if (!instance_exists(obj_controlsButton)) {instance_create_depth(controlsbtnpos_object[0] , controlsbtnpos_object[1], -110, obj_controlsButton);}
+		obj_controlsButton.x = controlsbtnpos_object[0]; obj_controlsButton.y = controlsbtnpos_object[1];
+		
 		
 		
 		mutebtnpos_image = [mutebtnx, mutebtny]

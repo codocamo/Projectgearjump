@@ -20,6 +20,13 @@ if(!instance_exists(obj_vfxmanager))
 var cooldown_limit = 5
 var cooldown_reset_time = 30
 var cooldown_timer = 50
+if(room_get_name(room) = "rm_tutorial")
+{
+	var cancooldown = false
+}
+else
+{ var cancooldown = true}
+
 if(keyboard_check_pressed(ord("I")) && gear1limitunlock)
 {
 	
@@ -43,20 +50,23 @@ if(keyboard_check_pressed(ord("I")) && gear1limitunlock)
 	//max_velocity = [0, 0];
 	
 	//cooldown
-	if (gear_change_count < cooldown_limit)
+	if(cancooldown) 
 	{
-		gear_change_count += 1
-		alarm[5] = cooldown_reset_time 
-	}
-	else
-	{
-		start_cooldown = [true,true,false];
-		gear1limitunlock = false; 
-		gear2limitunlock = false; 
-		gear3limitunlock = false; 
+		if (gear_change_count < cooldown_limit)
+		{
+			gear_change_count += 1
+			alarm[5] = cooldown_reset_time 
+		}
+		else
+		{
+			start_cooldown = [true,true,false];
+			gear1limitunlock = false; 
+			gear2limitunlock = false; 
+			gear3limitunlock = false; 
 		//jumplimitunlock = false; 
 		
 		//alarm[6] = cooldown_timer
+		}
 	}
 	
 	current_gear = 1
@@ -89,22 +99,24 @@ else if(keyboard_check_pressed(ord("O")) && gear2limitunlock)
 	
 	
 	//cooldown
-	if (gear_change_count < cooldown_limit)
+	if(cancooldown) 
 	{
-		gear_change_count += 1
-		alarm[5] = cooldown_reset_time 
-	}
-	else
-	{
-		start_cooldown = [true,true,false];
-		gear1limitunlock = false; 
-		gear2limitunlock = false; 
-		gear3limitunlock = false; 
-		//jumplimitunlock = false; 
+		if (gear_change_count < cooldown_limit)
+		{
+			gear_change_count += 1
+			alarm[5] = cooldown_reset_time 
+		}
+		else
+		{
+			start_cooldown = [true,true,false];
+			gear1limitunlock = false; 
+			gear2limitunlock = false; 
+			gear3limitunlock = false; 
+			//jumplimitunlock = false; 
 		
-		//alarm[6] = cooldown_timer
+			//alarm[6] = cooldown_timer
+		}
 	}
-	
 	current_gear = 2
 }
 if(keyboard_check_released(ord("O")))
@@ -134,19 +146,21 @@ else if(keyboard_check_pressed(ord("P")) && gear3limitunlock)
 	
 	
 	//cooldown
-	if (gear_change_count < cooldown_limit)
+	if(cancooldown) 
 	{
-		gear_change_count += 1
-		alarm[5] = cooldown_reset_time 
+		if (gear_change_count < cooldown_limit)
+		{
+			gear_change_count += 1
+			alarm[5] = cooldown_reset_time 
+		}
+		else
+		{
+			start_cooldown = [true,true]; 
+			gear1limitunlock = false; 
+			gear2limitunlock = false; 
+			gear3limitunlock = false; 
+		}
 	}
-	else
-	{
-		start_cooldown = [true,true]; 
-		gear1limitunlock = false; 
-		gear2limitunlock = false; 
-		gear3limitunlock = false; 
-	}
-	
 	current_gear = 3
 }
 if(keyboard_check_released(ord("P")))
@@ -343,7 +357,7 @@ if (velocity[0] > 0) //right
 		velocity = [0, velocity[1]]
 		player_jumpspeed = [0,0];
 		if(!mid_jump && !inslide){start_idle = true} else{start_idle = false}
-		if(on_the_come_down){wall_touched = true}
+		if(on_the_come_down || inslide){wall_touched = true}
 	}
 	else{start_idle = false}
 	
@@ -505,7 +519,7 @@ else if(mid_jump){start_run_anim = false;goodtoswitch = false}
 
 //show_debug_message("comedown " + string(velocity[1]) +" wall touched "+ string(wall_touched))
 
-if ((on_the_come_down && wall_touched))
+if (wall_touched)
 {
 	velocity[0] = 0
 }

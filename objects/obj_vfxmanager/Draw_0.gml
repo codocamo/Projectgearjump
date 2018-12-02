@@ -92,7 +92,7 @@ draw_text_ext_transformed_color(text_box_top_x + text_box_top_offset[0] ,text_bo
 text_box_top_alpha = lerp(text_box_top_alpha, text_box_top_lerpto, 0.3)
 
 if(stop_all_text)
-{text_box_bottom_lerpto = 0}
+{text_box_top_lerpto = 0}
 else if(obj_player.lvlhelptxt && room_get_name(room) == "rm_lvl1_kupler")
 {	
 	text_box_top_text = "Explore and find the warp point"
@@ -144,8 +144,9 @@ if(instance_exists(obj_minerals))
 	draw_set_font(fnt_renner_ingametext)
 	draw_text_ext_transformed_color(mineral_indicator_x - 53,mineral_indicator_y + 35, string(global.mineralcount[0])+"/"+ string(global.mineralcount[1]) ,30, 180, 1, 1, 0, textcolour,textcolour,textcolour,textcolour, mineral_indicator_alpha )
 
-	
-	if (mineral_indicator_txt != global.mineralcount[0])
+	if(stop_all_text)
+	{mineral_indicator_lerpto = 0}
+	else if (mineral_indicator_txt != global.mineralcount[0])
 	{
 		mineral_indicator_lerpto = 1
 		mineral_indicator_txt = global.mineralcount[0]

@@ -13,6 +13,7 @@ if (cameramove)
 {
 	camera_offest_counter +=  5
 	
+	//cameraposy = lerp(cameraposy, y - ((view_hport[0] / 2) - 200) /*+ clamp(camera_offest_counter, 0 , 200)*/, 0.1);
 	cameraposy = (y - ((view_hport[0] / 2) + 100)) + clamp(camera_offest_counter, 0 , 200);
 	cameraposx = x - 200;
 	shake = shake * 0;
@@ -34,7 +35,7 @@ else ///normal camera val
 	}
 	else 
 	{cameraposx = x-200}
-	cameraposy = lerp(cameraposy, y - ((view_hport[0] / 2) + 100) + clamp(camera_offest_counter, 0 , 200), 0.2);
+	cameraposy = lerp(cameraposy, y - ((view_hport[0] / 2) + 100) /*+ clamp(camera_offest_counter, 0 , 200)*/, 0.2);
 
 	//shake = shake * 0.12;
 	shake = shake * 0.8;
@@ -46,6 +47,7 @@ if(cameramove && y >= characterclampy)
 	player_runspeed = [0, 0];
 	world_gravity = [0,0];
 	velocity = [0, 0];
+	jumplimitunlock = false
 	
 	if(doonce)
 	{
@@ -58,7 +60,7 @@ if(cameramove && y >= characterclampy)
 	
 }
 else if(advancetonextlvl && y >= characterclampy)
-{
+{jumplimitunlock = true
 	player_runspeed = [max_velocity[0], 0];
 	world_gravity = [0,max_velocity[1]];
 }

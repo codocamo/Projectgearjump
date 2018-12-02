@@ -358,8 +358,8 @@
                     "visible": true,
                     "vspeed": 0,
                     "vtiled": true,
-                    "x": 500,
-                    "y": 716
+                    "x": 0,
+                    "y": 1200
                 },
                 {
                     "__type": "GMRBackgroundLayer_Model:#YoYoStudio.MVCFormat",

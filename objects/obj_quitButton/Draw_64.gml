@@ -2,7 +2,13 @@
 // You can write your code in this editor
 
 
-if(instance_exists(obj_paused))
+if(room_get_name(room) = "rm_endoflevel" || room_get_name(room) = "rm_thankyouforplaying")
+{
+	var imagex = x
+	var imagey = y
+	alpha = 1
+}
+else if(instance_exists(obj_paused))
 {
 	var imagex = obj_optionsButton.quitbutton_image[0]
 	var imagey = obj_optionsButton.quitbutton_image[1]

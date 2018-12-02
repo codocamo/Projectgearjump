@@ -58,7 +58,7 @@ else if(argument[0] == "rm_tutorial_branch_1")
 	add_dialog("","","",false, true);
 	add_dialog("","","",false, true);
 	add_dialog("Excellent!","","",false, true);
-	add_dialog("Last one; press [P].","","",false, true);
+	add_dialog("Last one, press [P].","","",false, true);
 	add_dialog("[P] activates Jump Gear 3.","","",false, true);
 	add_dialog("","","",false, true);
 	add_dialog("","","",false, true);

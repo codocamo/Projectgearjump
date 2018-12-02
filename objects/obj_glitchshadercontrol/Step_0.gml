@@ -19,8 +19,8 @@ if(instance_exists(obj_player))
 
 intensity = max(0, intensity - decrease);
 
-if(keyboard_check_pressed(ord("Q")))
+/*if(keyboard_check_pressed(ord("Q")))
 {
 	intensity  = 1
-}
+}*/
 
