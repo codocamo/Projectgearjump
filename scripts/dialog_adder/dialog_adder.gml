@@ -63,6 +63,9 @@ else if(argument[0] == "rm_tutorial_branch_1")
 	add_dialog("","","",false, true);
 	add_dialog("","","",false, true);
 	add_dialog("Well thats that!","","",false, true);
+	add_dialog("Oh!","","",false, true)
+	add_dialog("Don't switch gears too much.","","",false, true)
+	add_dialog("I don't know what happens if you do.","","",false, true)
 	add_dialog("...Goodbye","","",false, false, true);
 	//add_dialog("Why, Why must you be here to!", ,"", false, false);
 }
