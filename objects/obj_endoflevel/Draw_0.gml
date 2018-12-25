@@ -1,20 +1,43 @@
 /// @description Insert description here
 // You can write your code in this editor
 var info_row = 290;
-var info_row_x_start = 150;
+var info_row_x_start = 125;
 var button_bar = 430
-
+var camwidth = camera_get_view_width(view_camera[0]) 
 
 switch(global.leveljustcompleted)
 {
 	case "rm_lvl1_kupler": {
+		
 		draw_set_font(fnt_gnomon_oottitle_big); 
 		draw_set_halign(fa_center); 
-		draw_text_ext_transformed_color(1024/2,50, "OORT CLOUD BODY" ,100, 1024, 1, 1, 0, c_dkgray,c_dkgray,c_dkgray,c_dkgray, 1 );
-		draw_text_ext_transformed_color(1024/2,150, "concluded" ,100, 1024, 0.5, 0.5, 0, c_dkgray,c_dkgray,c_dkgray,c_dkgray, 1 );
+		draw_text_ext_transformed_color(camwidth/2,50, "OORT CLOUD BODY" ,100, camwidth, 1, 1, 0, c_dkgray,c_dkgray,c_dkgray,c_dkgray, 1 );
+		draw_text_ext_transformed_color(camwidth/2,150, "concluded" ,100, camwidth, 0.5, 0.5, 0, c_dkgray,c_dkgray,c_dkgray,c_dkgray, 1 );
+	
+		var colour = c_red
+		var alpha1 = 1
+		var alpha2 = 0.2
+		if (global.levelexit = "B")
+		{
+			colour = c_red
+			alpha1 = 0.2
+		    alpha2 = 1
+		}
+		
+		draw_set_font(fnt_renner_ingametext_med); 
+		draw_set_halign(fa_center); 
+		var camwidthhalf = (camwidth/2) - 50
+		draw_text_ext_transformed_color(camwidthhalf,225, "Exit:" ,20, camwidth, 1, 1, 0, c_red,c_red,c_red,c_red, 1 );
+		draw_text_ext_transformed_color(camwidthhalf + 75,225, "A" ,20, camwidth, 1, 1, 0, colour,colour,colour,colour, alpha1 );
+		draw_text_ext_transformed_color(camwidthhalf + 125 ,225, "B" ,20, camwidth, 1, 1, 0, colour,colour,colour,colour, alpha2 );
+	
+	
 	} 
 		break;
-	default:  draw_set_font(fnt_avayx); draw_text_ext_transformed_color(0,0, "level name not found" ,20, 200, 1, 1, 0, c_yellow,c_yellow,c_yellow,c_yellow, 1 ); break;
+	default:  draw_set_font(fnt_gnomon_oottitle_big); draw_text_ext_transformed_color(0,0, "level name not found" ,20, 200, 1, 1, 0, c_yellow,c_yellow,c_yellow,c_yellow, 1 ); break;
+	
+	
+
 }
 
 

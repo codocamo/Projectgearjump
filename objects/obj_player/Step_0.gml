@@ -407,6 +407,24 @@ if (velocity[0] > 0) //right
 		jumplimitunlock = false;
 		
 		global.leveljustcompleted = room_get_name(room);
+		global.levelexit = "A";
+		endoflevel = true;
+		if(alarm3set){alarm[3] = 50; alarm3set = false;}
+		obj_soundcontroller.fade_music = true;
+	}
+	else if(t1 = 8 || t2 = 8 || t3 = 8)
+	{
+		x = ((bbox_right & ~31) - 1) - player_bbox_right;
+		velocity = [0, 0]
+		world_gravity = [0,0]
+		player_jumpspeed = [0,0];
+		gear1limitunlock = false;
+		gear2limitunlock = false;
+		gear3limitunlock = false;
+		jumplimitunlock = false;
+		
+		global.leveljustcompleted = room_get_name(room);
+		global.levelexit = "B";
 		endoflevel = true;
 		if(alarm3set){alarm[3] = 50; alarm3set = false;}
 		obj_soundcontroller.fade_music = true;

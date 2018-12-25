@@ -19,9 +19,10 @@ if(drawplanet)
 	drawplanet = false;
 }
 
-
-layer_sprite_x(planetlayerspriteid,planetspr_x)
-
+if(planetlayerspriteid != "none")
+{
+	layer_sprite_x(planetlayerspriteid,planetspr_x)
+}
 
 
 if(waitforinput)
