@@ -4,7 +4,8 @@
 if(instance_exists(obj_paused))
 {
 	//btn_pos = 3
-	active = true
+	prompt_active = true
+	
 }
 else
 {

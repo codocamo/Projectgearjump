@@ -102,5 +102,6 @@ else
 	//if (instance_exists(obj_muteButton)) {instance_destroy(obj_muteButton);}
 	
 	if (instance_exists(obj_trashButton)) {obj_trashButton.prompt_active = false}
+	if (instance_exists(obj_quitButton)) {obj_quitButton.prompt_active = false}
 }
 

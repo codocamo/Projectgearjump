@@ -131,3 +131,9 @@ start_cooldown = [false,false,false]
 current_gear  = 0 
 
 reboot_help = [false, true]
+
+
+DissolveAmount = 1;
+col1 = make_color_rgb(0.8*255,0,0);
+col2 = make_color_rgb(255,0.55*255,0);
+DissolveSettings(mask1,0,col1,col2,0.1);

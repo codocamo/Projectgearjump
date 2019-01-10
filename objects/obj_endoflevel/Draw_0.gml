@@ -7,6 +7,7 @@ var camwidth = camera_get_view_width(view_camera[0])
 
 switch(global.leveljustcompleted)
 {
+	//draws the enbd level details
 	case "rm_lvl1_kupler": {
 		
 		draw_set_font(fnt_gnomon_oottitle_big); 

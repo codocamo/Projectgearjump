@@ -27,7 +27,7 @@ else
 if(room_get_name(room) != "rm_startmenu")
 {
 
-	if(active)
+	if(prompt_active)
 	{
 		draw_sprite_ext(spr_startButtonDown, -1, imagex, imagey,1,1,0,c_gray,alpha);
 	 
@@ -38,6 +38,10 @@ if(room_get_name(room) != "rm_startmenu")
 		draw_text_ext_transformed_color(imagex, imagey-80 ,string_hash_to_newline("Exit to menu?"), 40, camera_get_view_width(view_camera[0]),1.2,1.2,0, c_yellow, c_yellow, c_yellow, c_yellow, alpha); 
 		draw_text_ext_transformed_color(imagex, imagey ,string_hash_to_newline("Yes:  Slam [enter]#No:  Just let me fade"), 45, camera_get_view_width(view_camera[0]),1.2,1.2,0, c_yellow, c_yellow, c_yellow, c_yellow, alpha);
 	
+		if(keyboard_check_pressed(vk_enter))
+		{
+			room_goto(rm_startmenu)
+		}
 
 	}
 	else if(btn_pos = 0){draw_sprite_ext(spr_quitButtonUp, -1, imagex, imagey,0.7, 0.7,0,c_white,alpha); doonce = true;}

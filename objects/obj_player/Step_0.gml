@@ -245,7 +245,11 @@ var directionxy = movescript()
 var direction_x = player_horizontal_speed;
 var direction_y = player_vertical_speed;
 
-
+if(player_dying)
+{
+	directionxy[0] = x
+	directionxy[1] = y
+}
 if(start_cooldown[0])
 {
 	directionxy[0] = x
@@ -465,6 +469,8 @@ else //left
 	if(t1 = 2 || t2 = 2)
 	{
 		player_dying = true;
+		
+		
 	}
 }
 

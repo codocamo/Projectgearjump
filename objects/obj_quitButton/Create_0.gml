@@ -10,4 +10,4 @@ doonce = true
 
 alpha = 0
 
-active = false
+prompt_active = false

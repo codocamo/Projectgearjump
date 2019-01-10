@@ -7,8 +7,6 @@
 //}
 //else 
 
-
-
 if(instance_exists(obj_chkpt))
 {
 	if(fullburn)
@@ -59,9 +57,8 @@ if(instance_exists(obj_chkpt))
 
 
 if(player_dying == true){
-draw_sprite(spr_playerdeath, -1, x, y);
-sprite_index = spr_playerdeath;
-if(image_index > image_number - 1){ room_restart();}; //restart the level
+	if (!instance_exists(obj_playerdeathanim)){
+	instance_create_depth(x,y,0,obj_playerdeathanim)}
 }
 else if(inslide == true){
 if(gear1switchrequest){draw_sprite(spr_playerslide_gear1, -1, x, y); }
@@ -101,6 +98,12 @@ else if(gear3switchrequest){draw_sprite(spr_playerjump, 2, x, y); }
 else {draw_sprite(spr_playerjump_gear0, current_gear, x, y);} 
 sprite_index = spr_playerjump;
 }
+
+
+
+
+
+
 
 
 
