@@ -8,7 +8,7 @@ if(keyboard_check_pressed(ord("W")) ||keyboard_check_pressed(vk_space))
 		
 		show_debug_message(string(t1) +" "+ string(t2) +" "+ string(t3))}
 		
-if((t1 = 3 || t1 = 5) || (t2 = 3 || t2 = 5) || (t3 = 3 ||t3 = 5))
+if((t1 = 3 || (t1 = 5&& !infaze)) || (t2 = 3 || (t2 = 5&& !infaze)) || (t3 = 3 ||(t3 = 5&& !infaze)))
 {
 	on_the_come_down = false;
 	wall_touched = false;

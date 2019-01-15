@@ -3,7 +3,7 @@ var t2 = tilemap_get_at_pixel(tile_map, bbox_left + (floor(player_bbox_width / 2
 var t3 = tilemap_get_at_pixel(tile_map, bbox_right, bbox_bottom + 1) & tile_index_mask;
 
 //0 is no tile 
-if((t1 = 3 || t1 = 5) || (t2 = 3 || t2 = 5) || (t3 = 3 ||t3 = 5)) //if grounded
+if((t1 = 3 || (t1 = 5 && !infaze)) || (t2 = 3 || (t2 = 5&& !infaze)) || (t3 = 3 ||(t3 = 5&& !infaze))) //if grounded
 {
 	
 //defaults go here

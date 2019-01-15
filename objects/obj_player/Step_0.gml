@@ -233,7 +233,34 @@ if(inslide && canstand && (t1slide != 3 || t2slide != 3 || t3slide != 3))
 	}
 }
 
+if(keyboard_check_pressed(ord("A")) && pkupfazestate[0])
+{
+	infaze = true;
+	
 
+	
+
+	if(cansolid == true)
+	{
+		alarm[7] = 20;
+		cansolid = false
+	}
+	
+	obj_soundcontroller.play_slide = true;
+	
+
+}
+if(cansolid && infaze)
+{
+	infaze = false
+	fazehelp = false;
+	
+	pkupfazestate[1] -=1; 
+	if(pkupfazestate[1] <= 0)
+	{
+		pkupfazestate[0] = false
+	}
+}
 
 //var direction_x = (keyboard_check(ord("D")) - keyboard_check(ord("A"))) * player_horizontal_speed; 
 //var direction_y = (keyboard_check(vk_down) - keyboard_check(vk_up)) * player_horizontal_speed; 
@@ -303,7 +330,7 @@ if (velocity[1] > 0) //downwards
 		player_dying = true;
 		
 	}
-	else if(t1 = 5 || t2 = 5 || t3 = 5)
+	else if((t1 = 5 || t2 = 5 || t3 = 5) && !infaze)
 	{
 		y = ((bbox_bottom & ~31) - 1) - player_bbox_bottom; //poop up
 		velocity = [velocity[0], 0]
@@ -345,8 +372,7 @@ else //upwards
 		stopjumping = true;
 		//world_gravity = 1.50;
 	}
-	
-	if(t1 = 5 || t2 = 5 || t3 = 5)
+	else if((t1 = 5 || t2 = 5 || t3 = 5) && !infaze)
 	{
 		y = ((bbox_top + 32) & ~31) - player_bbox_top; //poop up
 		velocity = [velocity[0], 0]
@@ -378,9 +404,7 @@ if (velocity[0] > 0) //right
 		if(!mid_jump && !inslide){start_idle = true} else{start_idle = false}
 		if(on_the_come_down || inslide){wall_touched = true}
 	}
-	else{start_idle = false}
-	
-	if(t1 = 5 || t2 = 5 || t3 = 5)
+	else if((t1 = 5 || t2 = 5 || t3 = 5) && !infaze)
 	{
 		x = ((bbox_right & ~31) - 1) - player_bbox_right;
 		velocity = [0, velocity[1]]
@@ -389,6 +413,8 @@ if (velocity[0] > 0) //right
 		if(on_the_come_down || inslide){wall_touched = true}
 	}
 	else{start_idle = false}
+	
+	
 	
 	if(t1 = 2 || t2 = 2 || t3 = 2)
 	{
@@ -489,7 +515,7 @@ else //left
 	{
 		x = ((bbox_left + 32) & ~31) - player_bbox_left;
 	}
-	if(t1 = 4 || t2 = 4 )
+	if(t1 = 5 || t2 = 5 )
 	{
 		y = ((bbox_bottom & ~31) - 1) - player_bbox_left; //poop up
 		velocity = [velocity[0], 0]
@@ -544,7 +570,8 @@ var t1a = tilemap_get_at_pixel(tile_map, bbox_left, bbox_bottom + 10) & tile_ind
 var t2a = tilemap_get_at_pixel(tile_map, bbox_left + (floor(player_bbox_width / 2)) , bbox_bottom + 10) & tile_index_mask;
 var t3a = tilemap_get_at_pixel(tile_map, bbox_right, bbox_bottom + 10) & tile_index_mask;
 
-if((mid_jump) &&((t1a != 0 && t1a != 1) || (t2a != 0 && t2a != 1) || (t3a != 0 && t3a != 1)))
+//if((mid_jump) &&((t1a != 0 && t1a != 1) || (t2a != 0 && t2a != 1) || (t3a != 0 && t3a != 1)))
+if((mid_jump) &&((t1a = 3 || (t1a = 5 && !infaze)) || (t2a = 3 || (t2a = 5&&!infaze)) || (t3a = 3 || (t3a = 5&&!infaze))))
 {
 	//stuff for adding in the squat after jump
 	/*if(keyboard_check(ord("W")))
