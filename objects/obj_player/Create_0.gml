@@ -98,6 +98,11 @@ inslide = false;
 canstand = true;
 slidehelp = true;
 
+pkupfazestate = [false,0];
+infaze = false;
+cansolid = true;
+fazehelp = true;
+
 endoflevel = false
 prelimendoflevel = false
 
@@ -137,3 +142,7 @@ DissolveAmount = 1;
 col1 = make_color_rgb(0.8*255,0,0);
 col2 = make_color_rgb(255,0.55*255,0);
 DissolveSettings(mask1,0,col1,col2,0.1);
+
+
+
+respawnpos_xy = [13,368]

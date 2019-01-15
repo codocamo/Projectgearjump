@@ -13,9 +13,10 @@ DissolveShader(sprite_index,image_index,x,y,DissolveAmount);
 if(DissolveAmount < 0.01){ 
 	//room_restart();
 	obj_glitchshadercontrol.intensity = 0
-	obj_player.x = 13
-	obj_player.y = 368
-	obj_player.player_dying = false
+	death_cleanup()
+	//obj_player.x = obj_player.respawnpos_xy[0]
+	//obj_player.y = obj_player.respawnpos_xy[1]
+	//obj_player.player_dying = false
 	instance_destroy()
 	
 }; //restart the level
@@ -27,5 +28,3 @@ else
 {
 	obj_glitchshadercontrol.intensity += 0.1
 }
-
-show_debug_message(DissolveAmount)

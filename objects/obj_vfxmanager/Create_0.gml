@@ -31,6 +31,7 @@ mineral_indicator_y = 0
 mineral_indicator_alpha = 0
 mineral_indicator_lerpto = 0
 
-
+faze_indicator_alpha = 0
+faze_indicator_lerpto = 0
 
 stop_all_text = false

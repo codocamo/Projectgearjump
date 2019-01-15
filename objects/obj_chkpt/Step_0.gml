@@ -28,12 +28,23 @@ if(room_get_name(room) == "rm_pre_tutorial")
 	}
 } 
 
-
 if(room_get_name(room) == "rm_lvl1_kupler")
 {
 
 	switch(chkpt)
 	{
 		case 1: obj_player.lvlhelptxt = false; break;
+	}
+} 
+
+
+if(room_get_name(room) == "rm_lvl2_kupler")
+{
+
+	switch(chkpt)
+	{
+		//case 1: obj_player.lvlhelptxt = false; break;
+		case 2: obj_player.respawnpos_xy = [1680,1220]break;
+		case 3: obj_player.respawnpos_xy = [5300,1220]break;
 	}
 } 

@@ -12,8 +12,8 @@ else
 
 	if(room_get_name(room) = "rm_startmenu")
 	{
-		//room_goto(rm_lvl1_kupler)
-		room_goto(rm_quitButton)
+		room_goto(rm_lvl2_kupler)
+		//room_goto(rm_quitButton)
 		//game_end()
 	}
 	else 

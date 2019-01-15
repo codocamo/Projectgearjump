@@ -26,7 +26,7 @@ else {play_switch_vfx = false}
 
 
 
-////UI slide icon and info!
+////UI slide icon and txtbox below!
 slide_indicator_x = obj_player.x + 40
 slide_indicator_y = lerp(slide_indicator_y, obj_player.y - 15, 0.6)
 switch(obj_player.current_gear)
@@ -35,19 +35,20 @@ switch(obj_player.current_gear)
 	//case 2: var slideindicatorimg = spr_pkupslideindicator_gear2; var textcolour = make_color_rgb(136,203,255); break;
 	//case 3: var slideindicatorimg = spr_pkupslideindicator_gear3; var textcolour = make_color_rgb(2,239,228); break;
 	//default: case 0: var slideindicatorimg = spr_pkupslideindicator_gear0; var textcolour = c_white; break;
-	case 1: var slideindicatorimg = spr_pkupslideindicator_gear1; var textcolour = make_color_rgb(227,225,240); break;
-	case 2: var slideindicatorimg = spr_pkupslideindicator_gear2; var textcolour = make_color_rgb(249,231,255); break;
-	case 3: var slideindicatorimg = spr_pkupslideindicator_gear3; var textcolour = make_color_rgb(224,249,255); break;
-	default: case 0: var slideindicatorimg = spr_pkupslideindicator_gear0; var textcolour = c_white; break;
+	case 1: var indicatorimg = spr_pkupslideindicator_gear1; var textcolour = make_color_rgb(227,225,240); break;
+	case 2: var indicatorimg = spr_pkupslideindicator_gear2; var textcolour = make_color_rgb(249,231,255); break;
+	case 3: var indicatorimg = spr_pkupslideindicator_gear3; var textcolour = make_color_rgb(224,249,255); break;
+	default: var indicatorimg = spr_pkupslideindicator_gear0; var textcolour = c_white; break;
 
 }
 
-show_debug_message(obj_player.current_gear)
-draw_sprite_ext(slideindicatorimg, clamp(obj_player.pkupslidestate[1], 0, 3), slide_indicator_x, slide_indicator_y, 1,1, 0, c_white, slide_indicator_alpha)
+
+draw_sprite_ext(indicatorimg, clamp(obj_player.pkupslidestate[1], 0, 3), slide_indicator_x, slide_indicator_y, 1,1, 0, c_white, slide_indicator_alpha)
 slide_indicator_alpha  = lerp(slide_indicator_alpha, slide_indicator_lerpto, 0.3)
 
 
 draw_sprite_ext(spr_inlvltextbox_below, obj_player.current_gear, slide_indicator_x, slide_indicator_y, 1,1, 0, c_white, text_box_bottom_alpha)
+
 draw_set_font(fnt_renner_ingametext_med)
 draw_text_ext_transformed_color(slide_indicator_x - text_box_bottom_offset[0],slide_indicator_y + text_box_bottom_offset[1], text_box_bottom_text ,30, 100, 1, 1, 0, textcolour,textcolour,textcolour,textcolour, text_box_bottom_alpha )
 text_box_bottom_alpha  = lerp(text_box_bottom_alpha, text_box_bottom_lerpto, 0.3)
@@ -133,11 +134,11 @@ else
 
 
 
-////mineral counter 
+////mineral counter
+mineral_indicator_x = obj_player.x - 40
+mineral_indicator_y = lerp(mineral_indicator_y, obj_player.y - 5, 0.4)
 if(instance_exists(obj_minerals))
 {
-	mineral_indicator_x = obj_player.x - 40
-	mineral_indicator_y = lerp(mineral_indicator_y, obj_player.y - 5, 0.4)
 	draw_sprite_ext(spr_mineraltextbox, obj_player.current_gear , mineral_indicator_x, mineral_indicator_y, 1, 1,0,c_white, mineral_indicator_alpha)
 	mineral_indicator_alpha = lerp(mineral_indicator_alpha, mineral_indicator_lerpto, 0.2)
 
@@ -156,3 +157,17 @@ if(instance_exists(obj_minerals))
 	}
 	
 }
+
+
+draw_sprite_ext(indicatorimg, clamp(obj_player.pkupfazestate[1], 0, 3), mineral_indicator_x, mineral_indicator_y, -1,1, 0, c_white, faze_indicator_alpha)
+faze_indicator_alpha  = lerp(faze_indicator_alpha, faze_indicator_lerpto, 0.3)
+
+
+if(stop_all_text)
+{faze_indicator_lerpto = 0}
+else if (obj_player.pkupfazestate[0])
+{
+		faze_indicator_lerpto = 1
+}
+else {faze_indicator_lerpto = 0}
+

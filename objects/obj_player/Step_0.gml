@@ -303,10 +303,18 @@ if (velocity[1] > 0) //downwards
 		player_dying = true;
 		
 	}
+	else if(t1 = 5 || t2 = 5 || t3 = 5)
+	{
+		y = ((bbox_bottom & ~31) - 1) - player_bbox_bottom; //poop up
+		velocity = [velocity[0], 0]
+		
+	}
 	else
 	{
 		on_the_come_down = true
 	}
+	
+	
 	
 	if((instance_exists(obj_chkpt)) && (t1 = 1 || t2 = 1 || t3 = 1))
 	{
@@ -338,6 +346,13 @@ else //upwards
 		//world_gravity = 1.50;
 	}
 	
+	if(t1 = 5 || t2 = 5 || t3 = 5)
+	{
+		y = ((bbox_top + 32) & ~31) - player_bbox_top; //poop up
+		velocity = [velocity[0], 0]
+		stopjumping = true;
+	}
+	
 	if(t1 = 2 || t2 = 2 || t3 = 2)
 	{
 		player_dying = true;
@@ -365,6 +380,15 @@ if (velocity[0] > 0) //right
 	}
 	else{start_idle = false}
 	
+	if(t1 = 5 || t2 = 5 || t3 = 5)
+	{
+		x = ((bbox_right & ~31) - 1) - player_bbox_right;
+		velocity = [0, velocity[1]]
+		player_jumpspeed = [0,0];
+		if(!mid_jump && !inslide){start_idle = true} else{start_idle = false}
+		if(on_the_come_down || inslide){wall_touched = true}
+	}
+	else{start_idle = false}
 	
 	if(t1 = 2 || t2 = 2 || t3 = 2)
 	{
@@ -465,6 +489,12 @@ else //left
 	{
 		x = ((bbox_left + 32) & ~31) - player_bbox_left;
 	}
+	if(t1 = 4 || t2 = 4 )
+	{
+		y = ((bbox_bottom & ~31) - 1) - player_bbox_left; //poop up
+		velocity = [velocity[0], 0]
+		
+	}
 	
 	if(t1 = 2 || t2 = 2)
 	{
@@ -547,3 +577,4 @@ if (wall_touched)
 {
 	velocity[0] = 0
 }
+

@@ -27,3 +27,5 @@ yspeed_stardust = 0
 
 
 stopparalax = false
+
+
