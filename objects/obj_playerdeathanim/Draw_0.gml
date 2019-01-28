@@ -9,6 +9,9 @@ x = lerp(x, currentx - 100, 0.05)
 y = lerp(y, currenty - 100, 0.05)
 DissolveShader(sprite_index,image_index,x,y,DissolveAmount);
 
+obj_player.gear1limitunlock = false
+obj_player.gear2limitunlock = false
+obj_player.gear3limitunlock = false
 
 if(DissolveAmount < 0.01){ 
 	//room_restart();
@@ -26,5 +29,7 @@ else if(DissolveAmount < 0.02)
 }
 else
 {
-	obj_glitchshadercontrol.intensity += 0.1
+	obj_glitchshadercontrol.intensity += 0.02
 }
+
+

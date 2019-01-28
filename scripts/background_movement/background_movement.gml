@@ -76,7 +76,7 @@ if (obj_adhoc_scripts.stopparalax = false)
 	//layer_y(layerid_lvlbg, (obj_player.y - startdiff_lvlbgy) + obj_adhoc_scripts.yincrementor_lvlbg);
     
 	//set the horrizon of level
-	if(room_get_name(room) =  "rm_lvl1_kupler")
+	if(room_get_name(room) =  "rm_lvl1_kupler" || room_get_name(room) =  "rm_lvl2_kupler")
 	{ 
 		var horrizonbase = (view_hport[0] - 250) - 200; 
 		var horrizon = cameraposy + horrizonbase;

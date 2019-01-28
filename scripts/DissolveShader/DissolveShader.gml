@@ -33,4 +33,3 @@ draw_sprite(argument0,argument1,argument2,argument3);
 //draw_sprite_ext(argument0,argument1,argument2,argument3,argument5,argument6,argument7,argument8,argument9);
 
 shader_reset();
-

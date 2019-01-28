@@ -26,7 +26,7 @@ BktGlitch_set_channel_dispersion(0.1);
 BktGlitch_set_rng_seed(seed);
 
 //BktGlitch_set_intensity(0.05 + ballHit); //adding additional intensity when the ball bounces!
-BktGlitch_set_intensity(0.015+intensity); //adding additional intensity when the ball bounces!
+BktGlitch_set_intensity(0.025+intensity); //adding additional intensity when the ball bounces!
 
 
 //drawing the application surface

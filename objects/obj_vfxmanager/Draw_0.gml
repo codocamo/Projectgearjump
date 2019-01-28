@@ -78,7 +78,7 @@ else if (obj_player.inslide && obj_player.slidehelp)
 }
 else if(obj_player.pkupfazestate[0] && !obj_player.infaze && obj_player.fazehelp)
 {
-	text_box_bottom_text = "Press [D]"
+	text_box_bottom_text = "Press [A]"
 	text_box_bottom_lerpto = 1
 	text_box_bottom_offset[0] = 7
 	text_box_bottom_offset[1] = 105

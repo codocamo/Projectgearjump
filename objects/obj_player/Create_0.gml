@@ -130,7 +130,7 @@ on_the_come_down = false;
 wall_touched = false;
 
 gear_change_count = 0
-start_cooldown = [false,false,false]
+start_cooldown = [false,false]
 
 
 current_gear  = 0 
@@ -145,4 +145,9 @@ DissolveSettings(mask1,0,col1,col2,0.1);
 
 
 
-respawnpos_xy = [13,368]
+respawnpos_xy = [-1,-1]
+checkpointsprite = [0,0]
+
+var startpos = level_start_pos()
+x = startpos[0]
+y = startpos[1]

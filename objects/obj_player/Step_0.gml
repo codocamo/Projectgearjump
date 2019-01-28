@@ -59,7 +59,7 @@ if(keyboard_check_pressed(ord("I")) && gear1limitunlock)
 		}
 		else
 		{
-			start_cooldown = [true,true,false];
+			start_cooldown = [true,true];
 			gear1limitunlock = false; 
 			gear2limitunlock = false; 
 			gear3limitunlock = false; 
@@ -108,7 +108,7 @@ else if(keyboard_check_pressed(ord("O")) && gear2limitunlock)
 		}
 		else
 		{
-			start_cooldown = [true,true,false];
+			start_cooldown = [true,true];
 			gear1limitunlock = false; 
 			gear2limitunlock = false; 
 			gear3limitunlock = false; 
@@ -233,6 +233,10 @@ if(inslide && canstand && (t1slide != 3 || t2slide != 3 || t3slide != 3))
 	}
 }
 
+//faze code
+var t1faze = tilemap_get_at_pixel(tile_map, bbox_right, bbox_top) & tile_index_mask; //will give you index of tile within tile sheet
+var t2faze = tilemap_get_at_pixel(tile_map, bbox_right , bbox_top + (floor(player_bbox_height / 2))) & tile_index_mask;
+var t3faze = tilemap_get_at_pixel(tile_map, bbox_right, bbox_bottom) & tile_index_mask;
 if(keyboard_check_pressed(ord("A")) && pkupfazestate[0])
 {
 	infaze = true;
@@ -250,7 +254,7 @@ if(keyboard_check_pressed(ord("A")) && pkupfazestate[0])
 	
 
 }
-if(cansolid && infaze)
+if(cansolid && infaze && (t1faze != 5 || t2faze != 5 || t3faze != 5) && (t1faze != 2 || t2faze != 2 || t3faze != 2))
 {
 	infaze = false
 	fazehelp = false;
@@ -325,7 +329,7 @@ if (velocity[1] > 0) //downwards
 		velocity = [velocity[0], 0]
 		
 	}
-	else if(t1 = 2 || t2 = 2 || t3 = 2)
+	else if((t1 = 2 || t2 = 2 || t3 = 2)&& !infaze)
 	{
 		player_dying = true;
 		
@@ -348,6 +352,8 @@ if (velocity[1] > 0) //downwards
 		//object_helptext.help_check = true;
 		//object_helptext.help_chkpt = object_helptext.help_chkpt + 1;
 		obj_chkpt.check = true;
+		//respawnpos_xy=[x,y];
+		//checkpointsprite = [sprite_index,image_index];
 		//if(obj_chkpt.chkpt != obj_chkpt.chkpt) {obj_chkpt.chkpt = obj_chkpt.chkpt + 1;}
 		
 	}
@@ -379,7 +385,7 @@ else //upwards
 		stopjumping = true;
 	}
 	
-	if(t1 = 2 || t2 = 2 || t3 = 2)
+	if((t1 = 2 || t2 = 2 || t3 = 2)&& !infaze)
 	{
 		player_dying = true;
 	}
@@ -416,7 +422,7 @@ if (velocity[0] > 0) //right
 	
 	
 	
-	if(t1 = 2 || t2 = 2 || t3 = 2)
+	if((t1 = 2 || t2 = 2 || t3 = 2)&& !infaze)
 	{
 		player_dying = true;
 	}
@@ -426,6 +432,8 @@ if (velocity[0] > 0) //right
 		//object_helptext.help_check = true;
 		//object_helptext.help_chkpt = object_helptext.help_chkpt + 1;
 		obj_chkpt.check = true;
+		//respawnpos_xy=[x,y];
+		//checkpointsprite = [sprite_index,image_index];
 		//if(obj_chkpt.chkpt != obj_chkpt.chkpt) {obj_chkpt.chkpt = obj_chkpt.chkpt + 1;}
 		
 	}

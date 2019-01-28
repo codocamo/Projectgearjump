@@ -8,3 +8,5 @@ col2 = make_color_rgb(255,0.55*255,0);
 DissolveSettings(mask1,0,col1,col2,0.1);
 currentx = x
 currenty = y
+
+

@@ -56,47 +56,51 @@ if(instance_exists(obj_chkpt))
 }
 
 
-if(player_dying == true){
+if(player_dying == true)
+{
 	if (!instance_exists(obj_playerdeathanim)){
 	instance_create_depth(x,y,0,obj_playerdeathanim)}
 }
-else if(inslide == true){
-if(gear1switchrequest){draw_sprite(spr_playerslide_gear1, -1, x, y); }
-else if (gear2switchrequest){draw_sprite(spr_playerslide_gear2, -1, x, y);}
-else if (gear3switchrequest){draw_sprite(spr_playerslide_gear3, -1, x, y); }
-else{draw_sprite(spr_playerslide_gear0, -1, x, y); }
-sprite_index = spr_playerslide_gear2;
-
+else if(inslide == true)
+{
+	if(infaze){draw_sprite(spr_playerslide_faze, -1, x, y);sprite_index = spr_playerslide_gear1; }
+	else if(gear1switchrequest){draw_sprite(spr_playerslide_gear1, -1, x, y);sprite_index = spr_playerslide_gear1; }
+	else if (gear2switchrequest){draw_sprite(spr_playerslide_gear2, -1, x, y);sprite_index = spr_playerslide_gear2;}
+	else if (gear3switchrequest){draw_sprite(spr_playerslide_gear3, -1, x, y);sprite_index = spr_playerslide_gear3; }
+	else{draw_sprite(spr_playerslide_gear0, -1, x, y); sprite_index = spr_playerslide_gear0;}
 }
 else if(start_idle)
 {
-if(gear1switchrequest){draw_sprite(spr_playeridle1_gear1, -1, x, y); }
-else if (gear2switchrequest){draw_sprite(spr_playeridle1_gear2, -1, x, y);}
-else if (gear3switchrequest){draw_sprite(spr_playeridle1_gear3, -1, x, y); }
-else{draw_sprite(spr_playeridle1_gear0, -1, x, y); }
-sprite_index = spr_playeridle1_gear1;
+	if(infaze){draw_sprite(spr_playeridle1_faze, -1, x, y);sprite_index = spr_playeridle1_faze; }
+	else if(gear1switchrequest){draw_sprite(spr_playeridle1_gear1, -1, x, y); sprite_index = spr_playeridle1_gear1;}
+	else if (gear2switchrequest){draw_sprite(spr_playeridle1_gear2, -1, x, y); sprite_index = spr_playeridle1_gear2;}
+	else if (gear3switchrequest){draw_sprite(spr_playeridle1_gear3, -1, x, y); sprite_index = spr_playeridle1_gear3;}
+	else{draw_sprite(spr_playeridle1_gear0, -1, x, y); sprite_index = spr_playeridle1_gear0;}
 }
 else if(start_squat)
 {
-if(gear1switchrequest && obj_vfxmanager.play_switch_vfx ){draw_sprite(spr_player_squat, 0, x, y); }
-else if (gear2switchrequest && obj_vfxmanager.play_switch_vfx ){draw_sprite(spr_player_squat, 1, x, y);}
-else if (gear3switchrequest && obj_vfxmanager.play_switch_vfx ){draw_sprite(spr_player_squat, 2, x, y); }
-//else{draw_sprite(spr_playerrun_gear0, -1, x, y); }
-sprite_index = spr_player_squat;
+	if(gear1switchrequest && obj_vfxmanager.play_switch_vfx ){draw_sprite(spr_player_squat, 0, x, y); }
+	else if (gear2switchrequest && obj_vfxmanager.play_switch_vfx ){draw_sprite(spr_player_squat, 1, x, y);}
+	else if (gear3switchrequest && obj_vfxmanager.play_switch_vfx ){draw_sprite(spr_player_squat, 2, x, y); }
+	//else{draw_sprite(spr_playerrun_gear0, -1, x, y); }
+	sprite_index = spr_player_squat;
 }
-else if((start_run_anim == true) && (in_tumble == false)){
-if(gear1switchrequest){draw_sprite(spr_playerrun_gear1, -1, x, y); }
-else if (gear2switchrequest){draw_sprite(spr_playerrun_gear2, -1, x, y);}
-else if (gear3switchrequest){draw_sprite(spr_playerrun_gear3, -1, x, y); }
-else{draw_sprite(spr_playerrun_gear0, -1, x, y); }
-sprite_index = spr_playerrun_gear1;
+else if((start_run_anim == true) && (in_tumble == false))
+{
+	//if(gear1switchrequest){sprite_index = spr_playerrun_gear1; bktglitch_draw_sprite(sprite_index, -1, x, y, 0.0); }
+	if(infaze){draw_sprite(spr_playerrun_faze, -1, x, y);sprite_index = spr_playerrun_faze; }
+	else if(gear1switchrequest){draw_sprite(spr_playerrun_gear1, -1, x, y); sprite_index = spr_playerrun_gear1;}
+	else if (gear2switchrequest){draw_sprite(spr_playerrun_gear2, -1, x, y);sprite_index = spr_playerrun_gear2;}
+	else if (gear3switchrequest){draw_sprite(spr_playerrun_gear3, -1, x, y); sprite_index = spr_playerrun_gear3;}
+	else{draw_sprite(spr_playerrun_gear0, -1, x, y); sprite_index = spr_playerrun_gear0;}
 }
-else if((mid_jump == true) && (in_tumble == false)){
-if(gear1switchrequest){draw_sprite(spr_playerjump, 1, x, y); }
-else if(gear2switchrequest){draw_sprite(spr_playerjump, 0, x, y); } 
-else if(gear3switchrequest){draw_sprite(spr_playerjump, 2, x, y); }
-else {draw_sprite(spr_playerjump_gear0, current_gear, x, y);} 
-sprite_index = spr_playerjump;
+else if((mid_jump == true) && (in_tumble == false))
+{
+	if (infaze){draw_sprite(spr_playerjump_faze, current_gear, x, y);sprite_index = spr_playerjump_faze; }
+	else if(gear1switchrequest){draw_sprite(spr_playerjump, 1, x, y); sprite_index = spr_playerjump;}
+	else if(gear2switchrequest){draw_sprite(spr_playerjump, 0, x, y); sprite_index = spr_playerjump;} 
+	else if(gear3switchrequest){draw_sprite(spr_playerjump, 2, x, y); sprite_index = spr_playerjump;}
+	else {draw_sprite(spr_playerjump_gear0, current_gear, x, y);sprite_index = spr_playerjump_gear0;} 
 }
 
 
@@ -104,8 +108,8 @@ sprite_index = spr_playerjump;
 
 
 
-
-
+draw_sprite_ext(checkpointsprite[0], checkpointsprite[1], respawnpos_xy[0], respawnpos_xy[1], 1, 1 ,0, c_gray, 0.8)
+show_debug_message(obj_chkpt.chkpt)
 
 
 //draw_sprite(spr_pkupslideindicator, 0, x+15, y-60)

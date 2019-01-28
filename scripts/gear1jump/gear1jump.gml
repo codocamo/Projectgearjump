@@ -3,10 +3,7 @@ var t2 = tilemap_get_at_pixel(tile_map, bbox_left + (floor(player_bbox_width / 2
 var t3 = tilemap_get_at_pixel(tile_map, bbox_right, bbox_bottom + 1) & tile_index_mask;
 
 
-if(keyboard_check_pressed(ord("W")) ||keyboard_check_pressed(vk_space))
-	{
-		
-		show_debug_message(string(t1) +" "+ string(t2) +" "+ string(t3))}
+
 		
 if((t1 = 3 || (t1 = 5&& !infaze)) || (t2 = 3 || (t2 = 5&& !infaze)) || (t3 = 3 ||(t3 = 5&& !infaze)))
 {
