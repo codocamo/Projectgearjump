@@ -4,7 +4,7 @@
 whiteflash = false;
 goto[0] = false;
 unlockedlevellist[0] = "rm_endoflevel"
-unlockedlevellist[1] = "rm_lvl1_kupler" //should always be in the array, sheilds from breaking HTML5
+unlockedlevellist[1] = "rm_lvl2_kupler" //should always be in the array, sheilds from breaking HTML5
 
 
 switch(unlockedlevellist[goto[1]])

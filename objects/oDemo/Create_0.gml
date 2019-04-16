@@ -12,5 +12,5 @@ DissolveSettings(mask1,0,col1,col2,0.1);
 //Other examples modified using instance creation code in the room editor
 
 
-_uniTime  = shader_get_uniform(shdFuzz, "u_time");
+_uniTime  = shader_get_uniform(shdVCR, "u_time");
 time = 0

@@ -15,7 +15,7 @@ draw_text(x,y+32,string_hash_to_newline(string(DissolveAmount)));
 
 time += 1 / room_speed;
 
-shader_set(shdGlitchST)
+shader_set(shdVCR)
 shader_set_uniform_f(_uniTime, time);
 draw_self()
 shader_reset()

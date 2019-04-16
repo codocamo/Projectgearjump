@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+//if branch +2 go to tutorial (depricated maybe)
 if(global.branch = -2 && room_get_name(room) == "rm_pre_tutorial" && obj_player.playerlooped)
 {
 	
@@ -11,6 +11,7 @@ if(global.branch = -2 && room_get_name(room) == "rm_pre_tutorial" && obj_player.
 	room_goto(rm_tutorial);
 	
 }
+//if branch *10 go to fallin lvl 1 (depricated maybe)
 else if(global.branch = -10 && room_get_name(room) == "rm_pre_tutorial" && obj_player.playerout)
 {
 	room_goto(rm_fallinlvl1);

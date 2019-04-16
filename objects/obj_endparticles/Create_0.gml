@@ -10,18 +10,21 @@ part_system_depth(ps, -1);
 //Creating Particle Types
 //Effect1
 global.pt_Effect1 = part_type_create();
-part_type_shape(global.pt_Effect1, pt_shape_disk);
-//part_type_sprite(global.pt_Effect1, spr_pt_shape_disk, 0, 0, 0);
-part_type_size(global.pt_Effect1, 0.25, 0.25, 0, 0);
+part_type_shape(global.pt_Effect1, pt_shape_flare);
+//part_type_sprite(global.pt_Effect1, spr_pt_shape_flare, 0, 0, 0);
+part_type_size(global.pt_Effect1, 0, 0.10, 0, 0.50);
 part_type_scale(global.pt_Effect1, 1, 1);
-part_type_orientation(global.pt_Effect1, 0, 0, 0, 0, 0);
+part_type_orientation(global.pt_Effect1, 90, 90, 0, 0, 0);
 part_type_color3(global.pt_Effect1, 16777215, 16777215, 16777215);
-part_type_alpha3(global.pt_Effect1, 0, 1, 0);
+part_type_alpha3(global.pt_Effect1, 1, 1, 1);
 part_type_blend(global.pt_Effect1, 0);
-part_type_life(global.pt_Effect1, 200,200);
-part_type_speed(global.pt_Effect1, 0.50, 0.50, 0, 0);
-part_type_direction(global.pt_Effect1, 90, 90, 0, 0);
+part_type_life(global.pt_Effect1, 10, 3);
+part_type_speed(global.pt_Effect1, 10, 10, 0, 0);
+part_type_direction(global.pt_Effect1, 0, 360, 0, 130);
 part_type_gravity(global.pt_Effect1, 0, 0);
+
+
+
 
 //Creating Emitters
 global.pe_Effect1 = part_emitter_create(ps);
@@ -30,8 +33,9 @@ global.pe_Effect1 = part_emitter_create(ps);
 var xp, yp;
 xp = x;
 yp = y;
-part_emitter_region(ps, global.pe_Effect1, xp-34, xp+34, yp-500, yp+500, ps_shape_rectangle, ps_distr_linear);
-//part_emitter_stream(ps, global.pe_Effect1, global.pt_Effect1, 3);
+part_emitter_region(ps, global.pe_Effect1, xp-5, xp+400, yp-500, yp+500, ps_shape_rectangle, ps_distr_linear);
+part_emitter_stream(ps, global.pe_Effect1, global.pt_Effect1, 5);
+
 
 //Destroying Emitters
 //part_emitter_destroy(ps, global.pe_Effect1);
@@ -39,4 +43,4 @@ part_emitter_region(ps, global.pe_Effect1, xp-34, xp+34, yp-500, yp+500, ps_shap
 
 
 
-startstreaming = false;
+//startstreaming = false;

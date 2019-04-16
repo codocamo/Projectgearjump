@@ -10,10 +10,10 @@ xspeed_stars = [0,0,0,0]
 yspeed_stars = [0,0,0,0]
 
 
-xincrementor_lvlbg= 0
-yincrementor_lvlbg= 0
-xspeed_lvlbg = 0
-yspeed_lvlbg = 0
+xincrementor_lvlbg= [0,0,0]
+yincrementor_lvlbg= [0, 0,0]
+xspeed_lvlbg = [0,0,0]
+yspeed_lvlbg = [0,0,0]
 
 
 yincrementor_glow = 0

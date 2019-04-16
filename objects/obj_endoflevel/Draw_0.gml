@@ -35,7 +35,7 @@ switch(global.leveljustcompleted)
 	
 	} 
 		break;
-	default:  draw_set_font(fnt_gnomon_oottitle_big); draw_text_ext_transformed_color(0,0, "level name not found" ,20, 200, 1, 1, 0, c_yellow,c_yellow,c_yellow,c_yellow, 1 ); break;
+	default:  draw_set_font(fnt_gnomon_oottitle_big); draw_set_halign(fa_center); draw_text_ext_transformed_color(camwidth/2,50, "level name not found", 100, camwidth, 1, 1, 0, c_blue,c_blue,c_blue,c_blue, 1 );details_exist = false; break;
 	
 	
 
@@ -59,12 +59,6 @@ draw_set_font(fnt_renner_ingametext_med);
 draw_set_halign(fa_left); 
 draw_text_ext_transformed_color(info_row_x_start,info_row, time ,100, 300, 1, 1, 0, c_red,c_red,c_red,c_red, 1 );
 		
-//Mineral information
-var totalminerals
-var mineralcount = "Minerals: " + string(global.mineralcount[0]) + "/" + string(global.mineralcount[1])
-draw_set_font(fnt_renner_ingametext_med); 
-draw_set_halign(fa_left); 
-draw_text_ext_transformed_color(info_row_x_start + 265,info_row, mineralcount ,100, 300, 1, 1, 0, c_red,c_red,c_red,c_red, 1 );
 
 //rank information
 levelranker();
@@ -88,19 +82,27 @@ draw_text_ext_transformed_color(info_row_x_start + 630,info_row, rankword ,100, 
 //btnbar
 draw_sprite_ext(spr_btnbar,0, 0,button_bar,1,1,0,c_white,1)
 
-
-//save out info
-ini_open("savedata.ini");
-ini_write_string(global.leveljustcompleted, "time", time);
-ini_write_string(global.leveljustcompleted, "count", mineralcount);
-ini_write_string(global.leveljustcompleted, "rank", rankletter);
-
-for(var i = 1; i <= array_length_1d(global.mineralsavearraycolection) - 1; i++)
+if(details_exist)
 {
-	var savearray = global.mineralsavearraycolection[i];
-	ini_write_real(savearray[0], savearray[1], savearray[2]);
+	//Mineral information
+	var totalminerals
+	var mineralcount = "Minerals: " + string(global.mineralcount[0]) + "/" + string(global.mineralcount[1])
+	draw_set_font(fnt_renner_ingametext_med); 
+	draw_set_halign(fa_left); 
+	draw_text_ext_transformed_color(info_row_x_start + 265,info_row, mineralcount ,100, 300, 1, 1, 0, c_red,c_red,c_red,c_red, 1 );
+
+	//save out info
+	ini_open("savedata.ini");
+	ini_write_string(global.leveljustcompleted, "time", time);
+	ini_write_string(global.leveljustcompleted, "count", mineralcount);
+	ini_write_string(global.leveljustcompleted, "rank", rankletter);
+
+	for(var i = 1; i <= array_length_1d(global.mineralsavearraycolection) - 1; i++)
+	{
+		var savearray = global.mineralsavearraycolection[i];
+		ini_write_real(savearray[0], savearray[1], savearray[2]);
+	}
+
+
+	ini_close();
 }
-
-
-ini_close();
-

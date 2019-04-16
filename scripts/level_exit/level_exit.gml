@@ -1,16 +1,13 @@
-if ( instance_exists(obj_endcard)&& instance_exists(obj_endparticles) && instance_exists(obj_vfxmanager))
-{
 
 	if(endingcounter >= 1)
 	{
-		obj_endcard.visible=true
-		with(obj_endparticles){startstreaming = true;}
+		
+		if (!instance_exists(obj_endcard))
+		{
+			instance_create_depth(obj_player.x + (26*32) /*+ (28*32)*/, obj_player.y, 10,obj_endcard)
+		}
+		
 	
-	}
-	else
-	{
-		obj_endcard.visible = false
-		with(obj_endparticles){startstreaming = false;}
 	}
 
 	if(endingcounter >= 2)
@@ -31,9 +28,10 @@ if ( instance_exists(obj_endcard)&& instance_exists(obj_endparticles) && instanc
 	
 	if (endingcounter = 4)
 	{
-		part_type_speed(global.pt_Effect1, 1.50, 1.50, 0, 0);
-	    part_type_direction(global.pt_Effect1, 0, 360, 0, 0);
-		with(obj_endparticles){startstreaming = true;}
+		part_type_life(global.pt_Effect1, 10, 10);
+		part_type_speed(global.pt_Effect1, 50, 50, 0, 0);
+		part_type_direction(global.pt_Effect1, 360, 360, 0, 130);
+		
+		with(obj_endparticles){part_emitter_stream(ps, global.pe_Effect1, global.pt_Effect1, 5);}
 	}
 
-}

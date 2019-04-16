@@ -1,5 +1,7 @@
 //////////////////LAYER ID//////////////////////////
 var layerid_lvlbg = layer_get_id("Backgrounds_bg") 
+var layerid_lvlbg_2 = layer_get_id("Backgrounds_bg_2") 
+var layerid_lvlbg_3 = layer_get_id("Backgrounds_bg_3") 
 var layerid_glow = layer_get_id("Backgrounds_glow") 
 var layerid_stardust = layer_get_id("Backgrounds_stardust") 
 var layerid_space = layer_get_id("Background_space") 
@@ -9,6 +11,8 @@ var layerid_space_layer2 = layer_get_id("Background_space_3")
 var layerid_space_layer3 = layer_get_id("Background_space_4")
 /////////////////////////LAYER Y////////////////////
 var layerid_lvlbgy = layer_get_y(layerid_lvlbg)
+var layerid_lvlbgy_2 = layer_get_y(layerid_lvlbg_2)
+var layerid_lvlbgy_3 = layer_get_y(layerid_lvlbg_3)
 var layerid_glowy = layer_get_y(layerid_glow)
 var layerid_stardusty = layer_get_y(layerid_stardust)
 var layerid_spacey = layer_get_y(layerid_space)
@@ -18,6 +22,8 @@ var layerid_spacey_layer2 = layer_get_y(layerid_space_layer2)
 var layerid_spacey_layer3 = layer_get_y(layerid_space_layer3)
 ///////////////////////LAYER X///////////////////
 var layerid_lvlbgx = layer_get_x(layerid_lvlbg)
+var layerid_lvlbgx_3 = layer_get_x(layerid_lvlbg_2)
+var layerid_lvlbgx_3 = layer_get_x(layerid_lvlbg_2)
 var layerid_glowx = layer_get_x(layerid_glow)
 var layerid_stardustx = layer_get_x(layerid_stardust)
 var layerid_spacex = layer_get_x(layerid_space)
@@ -69,19 +75,25 @@ if (obj_adhoc_scripts.stopparalax = false)
 	
 	
 	
-	obj_adhoc_scripts.yspeed_lvlbg = 0.0
-	obj_adhoc_scripts.yspeed_glow = 0.0
-	obj_adhoc_scripts.yincrementor_lvlbg += obj_adhoc_scripts.yspeed_lvlbg * player_velocity
-	obj_adhoc_scripts.yincrementor_glow += obj_adhoc_scripts.yspeed_glow * player_velocity
+	
+	//gets the players ofset from the floor
+	var y_offset = (obj_player.startpos[1] - obj_player.y) * 0.1
+	
+	//no need for these incrementers anymore
+	/*
+	obj_adhoc_scripts.yincrementor_lvlbg[0] += player_velocity * -1.01
+	obj_adhoc_scripts.yincrementor_lvlbg[1] += player_velocity * 0
+	obj_adhoc_scripts.yincrementor_lvlbg[2] += player_velocity * 1.01
+	obj_adhoc_scripts.yincrementor_glow += obj_adhoc_scripts.yspeed_glow * player_velocity*/
 	//layer_y(layerid_lvlbg, (obj_player.y - startdiff_lvlbgy) + obj_adhoc_scripts.yincrementor_lvlbg);
     
 	//set the horrizon of level
 	if(room_get_name(room) =  "rm_lvl1_kupler" || room_get_name(room) =  "rm_lvl2_kupler")
 	{ 
-		var horrizonbase = (view_hport[0] - 250) - 200; 
+		var horrizonbase = (view_hport[0] - 250) - 80; 
 		var horrizon = cameraposy + horrizonbase;
-		var glowheight = horrizon-20
-		var stardustheight = horrizon-150
+		var glowheight = horrizon-250
+		var stardustheight = horrizon-100
 	}
 	else if (room_get_name(room) = "something"){}
 	else
@@ -91,8 +103,13 @@ if (obj_adhoc_scripts.stopparalax = false)
 		glowheight = 0
 		stardustheight = obj_player.y - startdiff_stardusty
 	}
-	layer_y(layerid_lvlbg, horrizon + obj_adhoc_scripts.yincrementor_lvlbg);
-	layer_y(layerid_glow, glowheight + obj_adhoc_scripts.yincrementor_glow );
+	
+	var bg_start_y = horrizon + 30 // (horrizon + obj_adhoc_scripts.yincrementor_lvlbg[0])+ 30
+	var bg3_start_y = horrizon - 30 // (horrizon + obj_adhoc_scripts.yincrementor_lvlbg[0])+ 30
+	layer_y(layerid_lvlbg, lerp(bg_start_y ,bg_start_y + y_offset  , 0.5)) ;
+	layer_y(layerid_lvlbg_2, (horrizon /*+ obj_adhoc_scripts.yincrementor_lvlbg[1]*/));
+	layer_y(layerid_lvlbg_3, lerp(bg3_start_y ,bg3_start_y - y_offset  , 0.5)) ;//(horrizon + obj_adhoc_scripts.yincrementor_lvlbg[2]) - 70);
+	layer_y(layerid_glow, glowheight /*+ obj_adhoc_scripts.yincrementor_glow*/ );
 	layer_y(layerid_stardust, stardustheight);
 
 

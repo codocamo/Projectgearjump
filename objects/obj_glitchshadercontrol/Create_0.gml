@@ -18,3 +18,9 @@ intensity = 0; //every time the ball bounces, we'll change the effect intensity
 seed = random(1); //we'll also change the RNG seed every time
 
 decrease = 0.5
+
+
+
+
+_uniTime  = shader_get_uniform(shdVCR, "u_time");
+time = 0

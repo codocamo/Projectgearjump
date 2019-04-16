@@ -1,8 +1,6 @@
-var mineralcount = "Minerals: " + string(global.mineralcount[0]) + "/" + string(global.mineralcount[1])
-
 if(global.leveljustcompleted = "rm_lvl1_kupler")
 {
-	if false//((global.secondsminuteshours[1] < 1) && (global.mineralcount[0] == global.mineralcount[1]))
+	if((global.secondsminuteshours[1] < 1) && (global.mineralcount[0] == global.mineralcount[1]))
 	{
 		global.rank[0] = "S";
 		global.rank[1] = "SUPERB";
@@ -10,7 +8,7 @@ if(global.leveljustcompleted = "rm_lvl1_kupler")
 		global.rank[3] =  620
 		global.rank[4] =  50
 	}
-	else if false//(global.secondsminuteshours[1] < 1 && (global.mineralcount[0] > (global.mineralcount[1]/2)))
+	else if(global.secondsminuteshours[1] < 1 && (global.mineralcount[0] > (global.mineralcount[1]/2)))
 	{
 		global.rank[0] = "A";
 		global.rank[1] = "ADEQUATE";
@@ -18,7 +16,7 @@ if(global.leveljustcompleted = "rm_lvl1_kupler")
 		global.rank[3] =  650
 		global.rank[4] =  70
 	}
-	else if false//(global.secondsminuteshours[1] < 1 && (global.mineralcount[0] < (global.mineralcount[1]/2)))
+	else if(global.secondsminuteshours[1] < 1 && (global.mineralcount[0] < (global.mineralcount[1]/2)))
 	{
 		global.rank[0] = "B";
 		global.rank[1] = "BASIC";
@@ -26,7 +24,7 @@ if(global.leveljustcompleted = "rm_lvl1_kupler")
 		global.rank[3] =  620
 		global.rank[4] =  50
 	}
-	else if false//(global.secondsminuteshours[1] < 3)
+	else if(global.secondsminuteshours[1] < 3)
 	{
 		global.rank[0] = "C";
 		global.rank[1] = "CASUAL";
@@ -42,4 +40,12 @@ if(global.leveljustcompleted = "rm_lvl1_kupler")
 		global.rank[3] =  645
 		global.rank[4] =  40
 	}
+}
+else
+{
+	global.rank[0] = "N";
+	global.rank[1] = "Not found"
+	global.rank[2] = make_color_rgb(245 , 197 , 197);
+	global.rank[3] =  645
+	global.rank[4] =  40
 }

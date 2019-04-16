@@ -22,3 +22,17 @@ obj_player.player_dying = false
 obj_player.gear1limitunlock = true
 obj_player.gear2limitunlock = true
 obj_player.gear3limitunlock = true
+
+obj_player.start_run_anim = true
+
+
+with(obj_pkupfaze)
+{
+	active = false;
+}
+
+
+with(obj_pkupslide)
+{
+	active = false
+}

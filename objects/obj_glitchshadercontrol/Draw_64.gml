@@ -34,3 +34,20 @@ draw_surface(application_surface, 0, 0);
 
 //done using the shader
 shader_reset();
+
+
+
+
+
+///////////////////////////////////
+
+if(instance_exists(obj_player) && obj_player.infaze)
+{
+	time += 1 / room_speed;
+
+	shader_set(shdVCR)
+	shader_set_uniform_f(_uniTime, time);
+	draw_surface(application_surface, 0, 0);
+
+	shader_reset();
+}

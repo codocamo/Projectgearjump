@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "04995fa9-1a26-48c9-8ed0-08fb75817086",
+            "Value": {
+                "id": "6839df19-b60c-4e87-95fb-01c6aea9997f",
+                "resourcePath": "sprites\\spr_kuplertileset3\\spr_kuplertileset3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "054a9ac3-9cae-4337-8596-bd21316fae8e",
             "Value": {
                 "id": "9da865c9-826d-499b-b68c-b106bb949e54",
@@ -239,18 +247,10 @@
             }
         },
         {
-            "Key": "14683b27-ba44-4a93-8c8d-712a5d1c854b",
-            "Value": {
-                "id": "156c3f99-9d43-4b45-b92f-b677665d6884",
-                "resourcePath": "tilesets\\ts_kupler\\ts_kupler.yy",
-                "resourceType": "GMTileSet"
-            }
-        },
-        {
             "Key": "16031566-df4d-468c-9af1-4f93e1928d35",
             "Value": {
                 "id": "e27e7173-45cf-4a69-805c-55c7b8c26a34",
-                "resourcePath": "sprites\\spr_kuplerbg\\spr_kuplerbg.yy",
+                "resourcePath": "sprites\\spr_kuplerbg_test\\spr_kuplerbg_test.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -275,14 +275,6 @@
             "Value": {
                 "id": "eb722f94-dd3f-4288-8ede-0defcc08435b",
                 "resourcePath": "sprites\\spr_gear2jumphelp\\spr_gear2jumphelp.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "184db6ce-133d-484c-9836-b380d996a7c9",
-            "Value": {
-                "id": "49459004-f215-43ef-93ad-b5c628c631ab",
-                "resourcePath": "sprites\\spr_checkpoint\\spr_checkpoint.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -580,6 +572,14 @@
                 "id": "5b51329a-a20c-4609-b08a-21cd1e2e36d0",
                 "resourcePath": "objects\\obj_ornamentmanager\\obj_ornamentmanager.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3560a50e-d686-4612-9b48-ad57715e8aad",
+            "Value": {
+                "id": "454d7e7b-fcd7-4b57-bdb2-86d6a4107060",
+                "resourcePath": "scripts\\shdGlitchST_draw_sprite\\shdGlitchST_draw_sprite.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1071,6 +1071,14 @@
             }
         },
         {
+            "Key": "74e3a589-f255-46c4-90f5-2055db79e16a",
+            "Value": {
+                "id": "e41241dd-5bd4-42f0-88f0-11c1aee927a4",
+                "resourcePath": "tilesets\\ts_kupler3\\ts_kupler3.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "754de371-cf79-41ac-8956-3777292aae9a",
             "Value": {
                 "id": "1cf9cb4c-98c9-440b-9cab-5f65963b5fd4",
@@ -1220,6 +1228,14 @@
                 "id": "021b7d01-8f19-4361-abda-f4c29117bc24",
                 "resourcePath": "scripts\\bktglitch_draw_sprite\\bktglitch_draw_sprite.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "843ffc8d-8b3f-4a0b-a243-017048361b8a",
+            "Value": {
+                "id": "92f25b04-7ac2-49ee-a826-87b2abd84f1d",
+                "resourcePath": "sprites\\spr_checkpoint\\spr_checkpoint.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1415,6 +1431,14 @@
             }
         },
         {
+            "Key": "9b59c2a1-4123-4bcd-9f90-cd9fcf4b94b9",
+            "Value": {
+                "id": "68cc93b9-f220-4f97-b3fb-9e5ad441cd98",
+                "resourcePath": "sprites\\spr_endlayer1\\spr_endlayer1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9bc713c7-96e1-4bcb-95be-90c1dde287a5",
             "Value": {
                 "id": "48d136d8-dee9-4bf5-81b2-a1fe879511d8",
@@ -1436,6 +1460,14 @@
                 "id": "5dc21a6f-5000-49da-a06e-326c2a8ec8bb",
                 "resourcePath": "shaders\\shdGlitchST\\shdGlitchST.yy",
                 "resourceType": "GMShader"
+            }
+        },
+        {
+            "Key": "9ecb2e50-3053-4896-81de-5e4e14fa9f33",
+            "Value": {
+                "id": "869c7c6e-d1cb-4faf-8a06-c307406d2d7b",
+                "resourcePath": "scripts\\shdGlitchST_setup\\shdGlitchST_setup.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1735,6 +1767,14 @@
             }
         },
         {
+            "Key": "b5797e16-8f04-4fc8-8676-c1a0ab45b3da",
+            "Value": {
+                "id": "6bfa7142-65f4-45e6-90c3-a99af509a0b4",
+                "resourcePath": "sprites\\spr_kuplerbg_2\\spr_kuplerbg_2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b7cd44ce-1949-4c57-86c9-663768d3b798",
             "Value": {
                 "id": "ae080939-832f-411f-98d1-97651ff2c423",
@@ -1754,7 +1794,7 @@
             "Key": "b8f137f5-5eae-461d-947e-ee8c6d9d5119",
             "Value": {
                 "id": "39a188b1-a7c9-466c-9cfc-d0ff87851ea5",
-                "resourcePath": "shaders\\shdFuzz\\shdFuzz.yy",
+                "resourcePath": "shaders\\shdVCR\\shdVCR.yy",
                 "resourceType": "GMShader"
             }
         },
@@ -1999,6 +2039,14 @@
             }
         },
         {
+            "Key": "d45a9364-8e86-4a94-9307-25bc5805e3f8",
+            "Value": {
+                "id": "ccbfb015-32d7-47c8-8de0-ec9f586efbec",
+                "resourcePath": "sprites\\spr_kuplerbg_3\\spr_kuplerbg_3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d47d9c3f-9293-4a1d-be23-a10494664068",
             "Value": {
                 "id": "ba684067-6879-48c9-95ab-33bc6485cfd3",
@@ -2018,7 +2066,7 @@
             "Key": "d5c1756f-0c2b-48a5-9f6b-a740240ee027",
             "Value": {
                 "id": "75aeedad-ef5d-458f-a63d-ad457b704090",
-                "resourcePath": "sprites\\spr_kuplertileset\\spr_kuplertileset.yy",
+                "resourcePath": "sprites\\spr_kuplertileset_test\\spr_kuplertileset_test.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2303,6 +2351,14 @@
             }
         },
         {
+            "Key": "f2eff732-d559-4053-a905-ea9dcb3826bb",
+            "Value": {
+                "id": "16bedd88-0d3d-40e2-8dfe-67abd90972dc",
+                "resourcePath": "sprites\\spr_kuplerbg\\spr_kuplerbg.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f3f4834c-4e4a-475e-9978-66e3a98561b1",
             "Value": {
                 "id": "3e24366f-e595-4ec6-b207-b7d87c4a6b6f",
@@ -2509,7 +2565,9 @@
         "7365e92e-7235-4c46-adc6-8b46187c019b",
         "1d261a86-0e05-4274-b7b7-ad57fbc00bf1",
         "855a8dc2-1cc3-4fe2-a610-a4940a402eb3",
-        "83cdf87c-caef-4537-8642-363958d535c0"
+        "83cdf87c-caef-4537-8642-363958d535c0",
+        "3560a50e-d686-4612-9b48-ad57715e8aad",
+        "9ecb2e50-3053-4896-81de-5e4e14fa9f33"
     ],
     "tutorial": ""
 }

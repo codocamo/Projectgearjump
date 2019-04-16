@@ -148,6 +148,11 @@ DissolveSettings(mask1,0,col1,col2,0.1);
 respawnpos_xy = [-1,-1]
 checkpointsprite = [0,0]
 
-var startpos = level_start_pos()
+startpos = level_start_pos()
 x = startpos[0]
 y = startpos[1]
+
+
+
+
+shdGlitchST_setup()

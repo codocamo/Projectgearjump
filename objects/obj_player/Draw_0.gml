@@ -71,7 +71,7 @@ else if(inslide == true)
 }
 else if(start_idle)
 {
-	if(infaze){draw_sprite(spr_playeridle1_faze, -1, x, y);sprite_index = spr_playeridle1_faze; }
+	if(infaze){sprite_index = spr_playeridle1_faze; shdGlitchST_draw_sprite(sprite_index, -1, x, y); }
 	else if(gear1switchrequest){draw_sprite(spr_playeridle1_gear1, -1, x, y); sprite_index = spr_playeridle1_gear1;}
 	else if (gear2switchrequest){draw_sprite(spr_playeridle1_gear2, -1, x, y); sprite_index = spr_playeridle1_gear2;}
 	else if (gear3switchrequest){draw_sprite(spr_playeridle1_gear3, -1, x, y); sprite_index = spr_playeridle1_gear3;}
@@ -87,8 +87,8 @@ else if(start_squat)
 }
 else if((start_run_anim == true) && (in_tumble == false))
 {
-	//if(gear1switchrequest){sprite_index = spr_playerrun_gear1; bktglitch_draw_sprite(sprite_index, -1, x, y, 0.0); }
-	if(infaze){draw_sprite(spr_playerrun_faze, -1, x, y);sprite_index = spr_playerrun_faze; }
+	//if(gear1switchrequest){sprite_index = spr_playerrun_gear1; shdGlitchST_draw_sprite(sprite_index, -1, x, y); }
+	if(infaze){sprite_index = spr_playerrun_faze; shdGlitchST_draw_sprite(sprite_index, -1, x, y); }
 	else if(gear1switchrequest){draw_sprite(spr_playerrun_gear1, -1, x, y); sprite_index = spr_playerrun_gear1;}
 	else if (gear2switchrequest){draw_sprite(spr_playerrun_gear2, -1, x, y);sprite_index = spr_playerrun_gear2;}
 	else if (gear3switchrequest){draw_sprite(spr_playerrun_gear3, -1, x, y); sprite_index = spr_playerrun_gear3;}
@@ -96,7 +96,7 @@ else if((start_run_anim == true) && (in_tumble == false))
 }
 else if((mid_jump == true) && (in_tumble == false))
 {
-	if (infaze){draw_sprite(spr_playerjump_faze, current_gear, x, y);sprite_index = spr_playerjump_faze; }
+	if (infaze){sprite_index = spr_playerjump_faze; shdGlitchST_draw_sprite(sprite_index, -1, x, y); }
 	else if(gear1switchrequest){draw_sprite(spr_playerjump, 1, x, y); sprite_index = spr_playerjump;}
 	else if(gear2switchrequest){draw_sprite(spr_playerjump, 0, x, y); sprite_index = spr_playerjump;} 
 	else if(gear3switchrequest){draw_sprite(spr_playerjump, 2, x, y); sprite_index = spr_playerjump;}
