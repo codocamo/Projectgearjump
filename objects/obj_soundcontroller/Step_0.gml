@@ -7,7 +7,7 @@ if(level_music_switch)
 	//audio_master_gain(1)
 	switch(room_get_name(room))
 	{
-		case "rm_lvl1_kupler": audio_stop_all(); current_level_music = msc_lvl1kupler; audio_sound_gain(current_level_music,msc_default_gain,1); music_playing = audio_play_sound(current_level_music, 1000, true); break;
+		case "rm_lvl1_kupler": audio_stop_all(); current_level_music = msc_lvl1kupler; audio_sound_gain(snd_atmos_1,1,1); music_playing = audio_play_sound(snd_atmos_1, 1000, true); alarm[0] = 150; break;
 		//case "rm_tutorial": current_level_music = msc_pretutorial; audio_play_sound(current_level_music, 1000, true); break;
 		case "rm_pre_tutorial": audio_stop_all(); current_level_music = msc_pretutorial; audio_sound_gain(current_level_music,msc_default_gain,1); music_playing = audio_play_sound(current_level_music, 1000, true); break;
 		case "rm_startmenu": audio_stop_all(); current_level_music = msc_titletheme; audio_sound_gain(current_level_music,msc_default_gain,1); music_playing = audio_play_sound(current_level_music, 1000, false); break;
@@ -18,6 +18,33 @@ if(level_music_switch)
 }
 lvl_music_looper();
 
+if(deathsilence[0])
+{
+	if (alarm_get(alarm[0]) > 0)
+	{
+		alarm[0] = -1
+	}
+	audio_pause_sound(current_level_music);
+	if(!audio_is_playing(snd_atmos_1))
+	{
+		music_playing = audio_play_sound(snd_atmos_1, 100, true);
+		
+	}
+	audio_sound_gain(snd_atmos_1,1,0);
+	
+	deathsilence[0] = false
+}
+else if(deathsilence[1])
+{
+	audio_stop_sound(snd_atmos_1);
+	//if(!audio_is_playing(current_level_music))
+	//{
+		music_playing = audio_play_sound(current_level_music, 100, true)
+		
+	//}
+	audio_sound_gain(current_level_music,msc_default_gain,0);
+	deathsilence[1] = false
+}
 
 if(instance_exists(obj_player))
 {
@@ -74,6 +101,7 @@ if(instance_exists(obj_player))
 	
 	
 	//-------------------JUMP SOUND-------------------------------------
+	
 	if (stop_jump_snd)
 	{
 		
@@ -84,18 +112,19 @@ if(instance_exists(obj_player))
 	}
 	if(play_jump_snd_1 && !audio_is_playing(snd_jump1) && !obj_player.stopjumping)
 	{
-		audio_play_sound(snd_jump1, 10, false);
+		
+		audio_sound_pitch(audio_play_sound(snd_jump1, 10, false), random_range(0.9, 1.1));
 		play_jump_snd_1 = false;
 	}
 	else if(play_jump_snd_2 && !audio_is_playing(snd_jump2) && !obj_player.stopjumping)
 	{
 		
-		audio_play_sound(snd_jump2, 10, false);
+		audio_sound_pitch(audio_play_sound(snd_jump2, 10, false),random_range(0.9, 1.1));
 		play_jump_snd_2 = false;
 	}
 	else if(play_jump_snd_3 && !audio_is_playing(snd_jump3) && !obj_player.stopjumping)
 	{
-		audio_play_sound(snd_jump3, 10, false);
+		audio_sound_pitch(audio_play_sound(snd_jump3, 10, false), random_range(0.9, 1.1));
 		play_jump_snd_3 = false;
 	}
 	

@@ -11,13 +11,14 @@ if(global.branch = -2 && room_get_name(room) == "rm_pre_tutorial" && obj_player.
 	room_goto(rm_tutorial);
 	
 }
-//if branch *10 go to fallin lvl 1 (depricated maybe)
-else if(global.branch = -10 && room_get_name(room) == "rm_pre_tutorial" && obj_player.playerout)
+//if branch = null go to fallin lvl 1 (depricated maybe)
+else if(global.branch = "null" && room_get_name(room) == "rm_pre_tutorial" && obj_player.playerout)
 {
 	room_goto(rm_fallinlvl1);
 }
 else if (goto[0])
 {
+	
 	whiteflash = true;
 	if(alarm0set){alarm[0] = 10; alarm0set = false;}
 }
@@ -28,20 +29,43 @@ else if (goto[0])
 if(grablevels)
 {
 	ini_open("levelmanager.ini")
-	while(ini_section_exists("level_" + string(leveliterator)))
+	
+	while(ini_section_exists("planet_"+string(planetiterator)+"_level_" + string(leveliterator)))
 	{
-		var unlocked = ini_read_string("level_" + string(leveliterator),"unlocked","ini_level_error");
-		if(unlocked)
+		var unlocked = ini_read_string("planet_"+string(planetiterator)+"_level_" + string(leveliterator),"unlocked",false);
+		if(unlocked = "true")
 		{
-			unlockedlevellist[leveliterator] = ini_read_string("level_" + string(leveliterator),"name","ini_level_error");
-		}
+			unlockedlevellist[leveliterator] = ini_read_string("planet_"+string(planetiterator)+"_level_" + string(leveliterator),"name","ini_level_error");
+			leveliterator++;
 		
-		leveliterator++;	
+			
+			//check if the next one exists before hitting the while loop(so we can stay in the loop)
+			if(!ini_section_exists("planet_"+string(planetiterator)+"_level_" + string(leveliterator)))
+			{
+				if(array_length_1d(unlockedlevellist) > 1)
+				{
+					unlockedplanetllist[planetiterator] = unlockedlevellist
+				}
+				leveliterator = 1
+				planetiterator++
+				unlockedlevellist = []
+				
+			}
+		}
+		else
+		{
+			if(array_length_1d(unlockedlevellist) > 1)
+			{
+				unlockedplanetllist[planetiterator] = unlockedlevellist
+			}
+			unlockedlevellist = []
+			leveliterator = 1
+			planetiterator++
+		}
+	
 	}
 	ini_close();
 	
 	grablevels = false;
 	leveliterator = 1;
-	
-	//show_message(unlockedlevellist[1])
 }

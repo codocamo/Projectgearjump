@@ -107,9 +107,11 @@ text_box_top_alpha = lerp(text_box_top_alpha, text_box_top_lerpto, 0.3)
 
 if(stop_all_text)
 {text_box_top_lerpto = 0}
-else if(obj_player.lvlhelptxt && room_get_name(room) == "rm_lvl1_kupler")
+else if(obj_player.lvlhelptxt)//&& room_get_name(room) == "rm_lvl1_kupler"
 {	
-	text_box_top_text = "Explore and find the warp point"
+	//text_box_top_text = "Explore and find the warp point"
+	
+	//text_box_top_text is set in obj_dialogcontroller
 	text_box_top_lerpto = 1
 	text_box_top_offset[0] = 50
 	text_box_top_offset[1] = 190
@@ -150,7 +152,7 @@ else
 ////mineral counter
 mineral_indicator_x = obj_player.x - 40
 mineral_indicator_y = lerp(mineral_indicator_y, obj_player.y - 5, 0.4)
-if(instance_exists(obj_minerals))
+if(minerals_exists)
 {
 	draw_sprite_ext(spr_mineraltextbox, obj_player.current_gear , mineral_indicator_x, mineral_indicator_y, 1, 1,0,c_white, mineral_indicator_alpha)
 	mineral_indicator_alpha = lerp(mineral_indicator_alpha, mineral_indicator_lerpto, 0.2)
@@ -172,6 +174,7 @@ if(instance_exists(obj_minerals))
 }
 
 
+//faze indicator
 draw_sprite_ext(indicatorimg, clamp(obj_player.pkupfazestate[1], 0, 3), mineral_indicator_x, mineral_indicator_y, -1,1, 0, c_white, faze_indicator_alpha)
 faze_indicator_alpha  = lerp(faze_indicator_alpha, faze_indicator_lerpto, 0.3)
 

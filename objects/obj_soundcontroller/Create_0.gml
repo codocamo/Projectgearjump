@@ -45,3 +45,8 @@ play_slide = false
 current_level_music = "none"
 
 startpausemusic = false;
+
+alarm0set = false
+
+
+deathsilence = [false,false]

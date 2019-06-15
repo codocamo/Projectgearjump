@@ -1,8 +1,7 @@
 //create the player
-instance_create_depth(200, 1327, 910, obj_player);
+//instance_create_depth(200, 1200, 910, obj_player);
+instance_create_depth(0, 0, 450, obj_player);
 
-//set branch
-global.branch = 0;
 
 //create the check point object
 instance_create_depth(0, 0, 0, obj_chkpt);
@@ -18,6 +17,10 @@ instance_create_depth(0, 0, 0, obj_adhoc_scripts);
 obj_soundcontroller.level_music_switch = true
 
 
+//set the branch of dialog
+global.branch = 1
+//add the dialog for the level
+dialog_adder(global.level_just_unlocked + "_" + room_get_name(room) + "_branch_" + string(global.branch));
 
 
 //create glitch shader object

@@ -4,5 +4,5 @@
 
 room_goto(rm_pre_tutorial)
 
-obj_soundcontroller.alarm[0] = 20;
+
 

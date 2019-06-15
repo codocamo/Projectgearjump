@@ -15,7 +15,7 @@ instance_create_depth(0, 0, 0, obj_adhoc_scripts);
 //set branch
 global.branch = 1
 //add the dialog for the level
-dialog_adder(room_get_name(room) + "_branch_" + string(global.branch));
+dialog_adder(global.level_just_unlocked + "_" + room_get_name(room) + "_branch_" + string(global.branch));
 //start the dialog
 start_dialog(0)
 

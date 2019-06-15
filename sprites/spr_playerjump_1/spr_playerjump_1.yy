@@ -13,6 +13,7 @@
     "bboxmode": 2,
     "colkind": 0,
     "coltolerance": 0,
+    "edgeFiltering": false,
     "frames": [
         {
             "id": "23041b4d-6c03-4d4c-84c9-8f3355ab4b12",
@@ -120,8 +121,10 @@
         }
     ],
     "origin": 4,
+    "originLocked": false,
     "playbackSpeed": 5,
     "playbackSpeedType": 0,
+    "premultiplyAlpha": false,
     "sepmasks": true,
     "swatchColours": null,
     "swfPrecision": 2.525,

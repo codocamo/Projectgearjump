@@ -15,3 +15,22 @@ if(drawleveldetails)
 	}
 }
 
+if((animateleft || animateright) && !drawleveldetails)
+{
+	draw_sprite_ext(spr_flashdarken, 1, 0,0, 1, 1, 0, c_white, leveldetailsmaskalpha)
+	if(leveldetailsmaskalpha < 1)
+	{
+		leveldetailsmaskalpha += 0.1
+	}
+	else {secondphase = true ;}
+}
+else
+{
+	draw_sprite_ext(spr_flashdarken, 1, 0,0, 1, 1, 0, c_white, leveldetailsmaskalpha)
+	if (leveldetailsmaskalpha > 0)
+	{
+		
+		leveldetailsmaskalpha -= 0.1
+	}
+	
+}

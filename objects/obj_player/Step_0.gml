@@ -234,15 +234,16 @@ if(inslide && canstand && (t1slide != 3 || t2slide != 3 || t3slide != 3))
 }
 
 //faze code
-var t1faze = tilemap_get_at_pixel(tile_map, bbox_right, bbox_top) & tile_index_mask; //will give you index of tile within tile sheet
-var t2faze = tilemap_get_at_pixel(tile_map, bbox_right , bbox_top + (floor(player_bbox_height / 2))) & tile_index_mask;
-var t3faze = tilemap_get_at_pixel(tile_map, bbox_right, bbox_bottom) & tile_index_mask;
+var t1fazeright = tilemap_get_at_pixel(tile_map, bbox_right, bbox_top) & tile_index_mask; //will give you index of tile within tile sheet
+var t2fazeright = tilemap_get_at_pixel(tile_map, bbox_right , bbox_top + (floor(player_bbox_height / 2))) & tile_index_mask;
+var t3fazeright = tilemap_get_at_pixel(tile_map, bbox_right, bbox_bottom) & tile_index_mask;
+
+var t1fazeleft = tilemap_get_at_pixel(tile_map, bbox_left, bbox_top) & tile_index_mask;
+var t2fazeleft = tilemap_get_at_pixel(tile_map, bbox_left , bbox_top + (floor(player_bbox_height / 2))) & tile_index_mask;
+var t3fazeleft = tilemap_get_at_pixel(tile_map, bbox_left, bbox_bottom) & tile_index_mask;
 if(keyboard_check_pressed(ord("A")) && pkupfazestate[0])
 {
 	infaze = true;
-	
-
-	
 
 	if(cansolid == true)
 	{
@@ -254,7 +255,7 @@ if(keyboard_check_pressed(ord("A")) && pkupfazestate[0])
 	
 
 }
-if(cansolid && infaze && (t1faze != 5 || t2faze != 5 || t3faze != 5) && (t1faze != 2 || t2faze != 2 || t3faze != 2))
+if(cansolid && infaze && (t1fazeright != 5 || t2fazeright != 5 || t3fazeright != 5) && (t1fazeright != 2 || t2fazeright != 2 || t3fazeright != 2) && (t1fazeleft != 5 || t2fazeleft != 5 || t3fazeleft != 5) && (t1fazeleft != 2 || t2fazeleft != 2 || t3fazeleft != 2))
 {
 	infaze = false
 	fazehelp = false;
@@ -327,6 +328,7 @@ if (velocity[1] > 0) //downwards
 	{
 		y = ((bbox_bottom & ~31) - 1) - player_bbox_bottom; //poop up
 		velocity = [velocity[0], 0]
+	
 		
 	}
 	else if((t1 = 2 || t2 = 2 || t3 = 2)&& !infaze)
@@ -338,6 +340,7 @@ if (velocity[1] > 0) //downwards
 	{
 		y = ((bbox_bottom & ~31) - 1) - player_bbox_bottom; //poop up
 		velocity = [velocity[0], 0]
+		
 		
 	}
 	else
@@ -448,7 +451,7 @@ if (velocity[0] > 0) //right
 		if(global.branch = -10 && room_get_name(room) == "rm_pre_tutorial")
 		{loop_lvl[0] = false;}
 		else {loop_lvl[0] = true;}
-		
+		//show_debug_message("loop level?: " + string(loop_lvl[0])+ " branch number: " + string(global.branch))
 		room_loop();
 		tile_4_locked = true;
 	}
@@ -487,6 +490,23 @@ if (velocity[0] > 0) //right
 		
 		global.leveljustcompleted = room_get_name(room);
 		global.levelexit = "B";
+		endoflevel = true;
+		if(alarm3set){alarm[3] = 50; alarm3set = false;}
+		obj_soundcontroller.fade_music = true;
+	}
+	else if(t1 = 9 || t2 = 9 || t3 = 9)
+	{
+		x = ((bbox_right & ~31) - 1) - player_bbox_right;
+		velocity = [0, 0]
+		world_gravity = [0,0]
+		player_jumpspeed = [0,0];
+		gear1limitunlock = false;
+		gear2limitunlock = false;
+		gear3limitunlock = false;
+		jumplimitunlock = false;
+		
+		global.leveljustcompleted = room_get_name(room);
+		global.levelexit = "C";
 		endoflevel = true;
 		if(alarm3set){alarm[3] = 50; alarm3set = false;}
 		obj_soundcontroller.fade_music = true;
@@ -550,7 +570,7 @@ else //left
 
 
 //sets level boundrys
-if(global.branch != -10 && room_get_name(room) == "rm_pre_tutorial" )
+if(global.branch != "null" && room_get_name(room) == "rm_pre_tutorial" )
 {
 	if(bbox_right + 1 >= 1074)
 	{
@@ -597,9 +617,10 @@ if((mid_jump) &&((t1a = 3 || (t1a = 5 && !infaze)) || (t2a = 3 || (t2a = 5&&!inf
 		mid_jump = false
 		max_velocity = [0,max_velocity[1]];
 	}*/
-	
+
 	start_run_anim = true;	
 	goodtoswitch = true;
+	mid_jump = false;
 	
 	
 }

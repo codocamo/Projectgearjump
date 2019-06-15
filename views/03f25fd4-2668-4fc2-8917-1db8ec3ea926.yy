@@ -6,9 +6,7 @@
     "children": [
         "10818b37-861d-4f8d-a9f9-dac50a6a19d6",
         "d35f4c3b-2dea-4e17-af7c-cc73486cb66f",
-        "312da10e-48e1-42c6-a512-f2d5bef89d03",
-        "e808e2bc-e902-4e7b-8e0f-03c581dc0c7f",
-        "f8f0d07e-aa62-4b7d-9794-5639bb6c5910"
+        "0051a4b4-75af-492c-bf82-cb960036215b"
     ],
     "filterType": "GMRoom",
     "folderName": "LevelRooms",

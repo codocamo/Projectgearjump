@@ -110,7 +110,7 @@ prelimendoflevel = false
 
 endingcounter = 0;
 
-lvlhelptxt = true;
+lvlhelptxt = false;
 
 
 bg_move_once = true; 
@@ -156,3 +156,7 @@ y = startpos[1]
 
 
 shdGlitchST_setup()
+
+
+
+global.isdemo = true;

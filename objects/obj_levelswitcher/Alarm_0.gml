@@ -3,16 +3,23 @@
 
 whiteflash = false;
 goto[0] = false;
-unlockedlevellist[0] = "rm_endoflevel"
-unlockedlevellist[1] = "rm_lvl2_kupler" //should always be in the array, sheilds from breaking HTML5
 
 
-switch(unlockedlevellist[goto[1]])
+if(room_get_name(room) != "rm_pre_tutorial" && room_get_name(room) != "rm_tutorial")
 {
-	case "rm_lvl1_kupler": room_goto(rm_lvl1_kupler); break;
-	case "rm_endoflevel": room_goto(rm_endoflevel); break;
+	room_goto(rm_endoflevel);
+}
+else
+{
+	var levels = unlockedplanetllist[planetiterator]
+	
+	switch(levels[leveliterator])
+	{
+		case "rm_lvl1_kupler": room_goto(rm_lvl1_kupler); break;
+		default: room_goto(rm_endoflevel); break;
+	
+	}
 }
 obj_soundcontroller.level_music_switch = true;
-
 
 

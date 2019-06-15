@@ -35,3 +35,5 @@ faze_indicator_alpha = 0
 faze_indicator_lerpto = 0
 
 stop_all_text = false
+
+minerals_exists = false

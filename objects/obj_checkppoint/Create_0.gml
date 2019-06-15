@@ -3,3 +3,7 @@
 
 toggle = true
 active = false
+
+
+bluechkptstore = 0
+bluechkpt_ftrstore = 1

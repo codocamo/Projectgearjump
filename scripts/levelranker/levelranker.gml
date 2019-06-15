@@ -1,4 +1,4 @@
-if(global.leveljustcompleted = "rm_lvl1_kupler")
+if(global.leveljustcompleted = "example")
 {
 	if((global.secondsminuteshours[1] < 1) && (global.mineralcount[0] == global.mineralcount[1]))
 	{

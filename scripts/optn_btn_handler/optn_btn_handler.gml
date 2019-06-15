@@ -1,7 +1,7 @@
 ////@param choice?
 var dialog_done = argument[3];
 
-var move_level = false;
+var move_level = false
 
 var mousex = mouse_x 
 var mousey = mouse_y
@@ -40,7 +40,8 @@ if(argument[0]) //double button
 			btn1state = 2; 
 			global.branch += 1; 
 			advance_dialog = true;
-			dialog_adder(room_get_name(room) + "_branch_" + string(global.branch));
+			dialog_adder(global.level_just_unlocked + "_" + room_get_name(room) + "_branch_" + string(global.branch));
+
 			//instance_destroy()
 			start_dialog(0);
 			obj_soundcontroller.play_instinctbtn_click_snd = true
@@ -57,7 +58,8 @@ if(argument[0]) //double button
 			btn2state = 2; 
 			global.branch *= 10; 
 			advance_dialog = true;
-			dialog_adder(room_get_name(room) + "_branch_" + string(global.branch));
+			dialog_adder(global.level_just_unlocked + "_" + room_get_name(room) + "_branch_" + string(global.branch));
+
 			//instance_destroy()
 			start_dialog(0);
 			obj_soundcontroller.play_instinctbtn_click_snd = true
@@ -144,6 +146,9 @@ else //single button
 
 if(move_level)
 {
+	
 	global.branch *= -1
+	//global.branch = "null"
+	
 	//show_message("do the thing" + string(global.branch))
 }

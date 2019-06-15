@@ -10,6 +10,7 @@ instance_create_depth(0, 0, 0, obj_chkpt);
 
 //create level switcher object
 instance_create_depth(0, 0, 0, obj_levelswitcher);
+obj_levelswitcher.grablevels = true;
 
 //create the adhoc script object to run all adhoc scripts
 instance_create_depth(0, 0, 0, obj_adhoc_scripts);
@@ -22,7 +23,9 @@ instance_create_depth(0, 0, 0, obj_adhoc_scripts);
 //set branch
 global.branch = 1
 //add the dialog for the level
-dialog_adder(room_get_name(room) + "_branch_" + string(global.branch));
+dialog_adder(global.level_just_unlocked + "_" + room_get_name(room) + "_branch_" + string(global.branch));
+var lol = global.level_just_unlocked + "_" + room_get_name(room) + "_branch_" + string(global.branch)
+
 //start the dialog
 start_dialog(0)
 

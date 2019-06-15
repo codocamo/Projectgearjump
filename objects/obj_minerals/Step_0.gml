@@ -26,3 +26,7 @@ else if(!safetyboolean)
 	
 }
 
+if(instance_exists(obj_vfxmanager) && !obj_vfxmanager.minerals_exists)
+{
+	obj_vfxmanager.minerals_exists = true;
+}

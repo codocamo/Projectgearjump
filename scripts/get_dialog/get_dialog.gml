@@ -10,6 +10,7 @@ if(fetch)
 	dialog_done = false;
 	var dialog_data = dialog_lines[dialog_line];
 	
+	
 	dialog_text_1 = dialog_data[0];
 	dialog_text_2 = dialog_data[1];
 	dialog_text_3 = dialog_data[2];
@@ -38,4 +39,5 @@ else
 	dialog_output_3 = dialog_text_3;
 	dialog_branch = dialog_option;
 	dialog_done = dialog_for_level_done;
+	
 }

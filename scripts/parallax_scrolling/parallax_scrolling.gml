@@ -46,6 +46,7 @@ layer_x(layerid_lvlbg_3, obj_adhoc_scripts.xincrementor_lvlbg[2]);
 
 /////////////////////////////////////////STARS//////////////////////////////////////////
 obj_adhoc_scripts.xspeed_stars = [-0.1,-0.05,-0.03,-0.0]
+if((room_get_name(room) = "rm_pre_tutorial") || (room_get_name(room) ="rm_tutorial") ){player_velocitx = (player_velocitx * 0.5)*-1}
 
 /////////x///////
 obj_adhoc_scripts.xincrementor_stars[0] += player_velocitx * 1.15 // / 3.5//obj_adhoc_scripts.xspeed_stars[0] * player_velocitx

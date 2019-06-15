@@ -29,3 +29,4 @@ yspeed_stardust = 0
 stopparalax = false
 
 
+move_level = false

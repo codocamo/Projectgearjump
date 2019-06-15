@@ -1,15 +1,16 @@
-var t1 = tilemap_get_at_pixel(tile_map, bbox_left, bbox_bottom + 1) & tile_index_mask; //will give you index of tile within tile sheet
+var t0 = tilemap_get_at_pixel(tile_map, bbox_left - (floor(player_bbox_width / 2)), bbox_bottom + 1) & tile_index_mask; //will give you index of tile within tile sheet
+var t1 = tilemap_get_at_pixel(tile_map, bbox_left , bbox_bottom + 1) & tile_index_mask;
 var t2 = tilemap_get_at_pixel(tile_map, bbox_left + (floor(player_bbox_width / 2)) , bbox_bottom+1) & tile_index_mask;
 var t3 = tilemap_get_at_pixel(tile_map, bbox_right, bbox_bottom + 1) & tile_index_mask;
 
 //0 is no tile 
-if((t1 = 3 || (t1 = 5 && !infaze)) || (t2 = 3 || (t2 = 5&& !infaze)) || (t3 = 3 ||(t3 = 5&& !infaze))) //if grounded
+if((t0 = 3 || (t0 = 5 && !infaze)) || (t1 = 3 || (t1 = 5 && !infaze)) || (t2 = 3 || (t2 = 5&& !infaze)) || (t3 = 3 ||(t3 = 5&& !infaze))) //if grounded
 {
 	
 //defaults go here
 on_the_come_down = false;
 	wall_touched = false;
-	mid_jump = false;
+	//mid_jump = false;
 	player_runspeed = [1, 0];
 	max_velocity = [8,max_velocity[1]];
 	world_gravity = [0,2.5];

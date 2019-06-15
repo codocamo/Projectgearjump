@@ -8,14 +8,14 @@ global.dialog_line = 0;
 
 
 //**************************PRE TUTORIAL DIALOG********************* 
-if(argument[0] == "rm_pre_tutorial_branch_1")
+if(argument[0] == "rm_lvl1_kupler_rm_pre_tutorial_branch_1")
 {
 	add_dialog("So Neil, You got issued a jump suit.","Continue...","",false, true); 
 	add_dialog("How lucky!","Continue...","",false, true);
 	add_dialog("Let's make sure you know how to use it.","Continue...","I don't think we need to do that.",true, false);
 	//add_dialog("Why, Why must you be here to!", "", false, false);
 }
-else if(argument[0] == "rm_pre_tutorial_branch_2")
+else if(argument[0] == "rm_lvl1_kupler_rm_pre_tutorial_branch_2")
 {
 	add_dialog("........","Continue...","",false, true);
 	add_dialog("I'm trying to talk to Neil here.","I know!","",false, true);
@@ -27,7 +27,7 @@ else if(argument[0] == "rm_pre_tutorial_branch_2")
 	add_dialog("Just don't interrupt us while I explain!","Okay","",false, false, true);
 	//add_dialog("Why, Why must you be here to!", "", false, false);
 }
-else if(argument[0] == "rm_pre_tutorial_branch_10")
+else if(argument[0] == "rm_lvl1_kupler_rm_pre_tutorial_branch_10")
 {
 	add_dialog("I'm trying to talk to Neil here.","I know!","",false, true);
 	add_dialog("Well must you always butt in when I speak?","I'm just moving the convo along.","",false, true);
@@ -38,7 +38,7 @@ else if(argument[0] == "rm_pre_tutorial_branch_10")
 
 
 //**************************TUTORIAL DIALOG*********************
-else if(argument[0] == "rm_tutorial_branch_1")
+else if(argument[0] == "rm_lvl1_kupler_rm_tutorial_branch_1")
 {
 	add_dialog("So! back to you, Neil.","","",false, true); 
 	add_dialog("Your suit can do a couple of things...","","",false, true);
@@ -72,13 +72,19 @@ else if(argument[0] == "rm_tutorial_branch_1")
 
 
 //**************************LVL1 DIALOG*********************
-else if(argument[0] == "rm_lvl1_kupler_branch_1")
+else if(argument[0] == "rm_lvl1_kupler_rm_lvl1_kupler_branch_1")
 {
-	add_dialog("Explore and find the warp point.","","",false, false, true);
+	add_dialog("Explore!","","",false, true, false);
+	add_dialog("Find the warp point.","","",false, true, false);
+	add_dialog("Off you pop\n~OG","","",false, true, false);
+}
+else if(argument[0] == "rm_lvl2_kupler_rm_pre_tutorial_branch_1")
+{
+	add_dialog("Boobies", "Boobies!.", "", false, false, true);
 }
 else 
 {
-	add_dialog("correct dialog was not found", "", "", false, false);
+	add_dialog("correct dialog was not found", "fall in.", "", false, false, true);
 }
 
 

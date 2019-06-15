@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(!fetch)
+if(!fetch && (room_get_name(room) = "rm_pre_tutorial" || room_get_name(room) ="rm_tutorial")) //Global var used to making sure these outputs only appear in the expanse because the levels can use this
 {
 	draw_set_font(fnt_didactgothic_consciencetxt);
 	
@@ -24,4 +24,9 @@ if(!fetch)
 		optn_btn_handler(dialog_branch, dialog_output_2, dialog_output_3, dialog_done);
 	}
 
+}
+else if(!fetch)//if not in expanse then send the dialoug directly to the player/vfxmanager to manage
+{
+	obj_vfxmanager.text_box_top_text = dialog_output_1
+	
 }

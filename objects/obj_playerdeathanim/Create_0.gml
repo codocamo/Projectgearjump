@@ -10,3 +10,4 @@ currentx = x
 currenty = y
 
 
+obj_soundcontroller.deathsilence[0] = true

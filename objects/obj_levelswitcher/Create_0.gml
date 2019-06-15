@@ -7,8 +7,10 @@ drawleveldetails = false;
 
 
 unlockedlevellist = [];
+unlockedplanetllist = [];
 grablevels = false;
 leveliterator = 1;
+planetiterator = 1;
 
 switchanimation = false;
 drawplanet = false;
@@ -25,3 +27,9 @@ animateup = false;
 animatedown = false;
 firstphase = false;
 secondphase = false;
+animateright = false;
+animateleft = false;
+
+
+leveldetailsmaskalpha = 0
+planetangle = 0;

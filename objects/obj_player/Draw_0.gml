@@ -7,6 +7,8 @@
 //}
 //else 
 
+//gpu_set_blendmode(bm_add)
+
 if(instance_exists(obj_chkpt))
 {
 	if(fullburn)
@@ -97,20 +99,21 @@ else if((start_run_anim == true) && (in_tumble == false))
 else if((mid_jump == true) && (in_tumble == false))
 {
 	if (infaze){sprite_index = spr_playerjump_faze; shdGlitchST_draw_sprite(sprite_index, -1, x, y); }
-	else if(gear1switchrequest){draw_sprite(spr_playerjump, 1, x, y); sprite_index = spr_playerjump;}
-	else if(gear2switchrequest){draw_sprite(spr_playerjump, 0, x, y); sprite_index = spr_playerjump;} 
-	else if(gear3switchrequest){draw_sprite(spr_playerjump, 2, x, y); sprite_index = spr_playerjump;}
+	else if(gear1switchrequest){draw_sprite(spr_playerjump, 1, x, y); image_index = 1; sprite_index = spr_playerjump;}
+	else if(gear2switchrequest){draw_sprite(spr_playerjump, 0, x, y); image_index = 0; sprite_index = spr_playerjump;} 
+	else if(gear3switchrequest){draw_sprite(spr_playerjump, 2, x, y); image_index = 2; sprite_index = spr_playerjump;}
 	else {draw_sprite(spr_playerjump_gear0, current_gear, x, y);sprite_index = spr_playerjump_gear0;} 
 }
 
 
+//gpu_set_blendmode(bm_normal)
 
 
-
-
-draw_sprite_ext(checkpointsprite[0], checkpointsprite[1], respawnpos_xy[0], respawnpos_xy[1], 1, 1 ,0, c_gray, 0.8)
-show_debug_message(obj_chkpt.chkpt)
-
+if(respawnpos_xy[0] > 0 && respawnpos_xy[1] > 0)
+{
+	draw_sprite_ext(checkpointsprite[0], checkpointsprite[1], respawnpos_xy[0], respawnpos_xy[1], 1, 1 ,0, c_gray, 0.8)
+	
+}
 
 //draw_sprite(spr_pkupslideindicator, 0, x+15, y-60)
 

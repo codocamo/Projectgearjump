@@ -8,13 +8,18 @@ var characterclampy = player_y_at_trigger + 2500;
 
 
 //last chkpt sets cameramove top true. once true start the camera ofset
+cameraposy = lerp(cameraposy, y - ((view_hport[0] / 2) + 100) /*+ clamp(camera_offest_counter, 0 , 200)*/, 0.2);
 
 if (cameramove)
 {
-	camera_offest_counter +=  5
+	camera_offest_counter +=  1
+	//camera_offest_counter +=  5
 	
 	//cameraposy = lerp(cameraposy, y - ((view_hport[0] / 2) - 200) /*+ clamp(camera_offest_counter, 0 , 200)*/, 0.1);
-	cameraposy = (y - ((view_hport[0] / 2) + 100)) + clamp(camera_offest_counter, 0 , 200);
+	//cameraposy = (y - ((view_hport[0] / 2) + 100)) + clamp(camera_offest_counter, 0 , 200);
+	
+	
+	cameraposy = cameraposy + clamp(camera_offest_counter, 0 , 60);
 	cameraposx = x - 200;
 	shake = shake * 0;
 	
@@ -35,7 +40,7 @@ else ///normal camera val
 	}
 	else 
 	{cameraposx = x-200}
-	cameraposy = lerp(cameraposy, y - ((view_hport[0] / 2) + 100) /*+ clamp(camera_offest_counter, 0 , 200)*/, 0.2);
+	//cameraposy = lerp(cameraposy, y - ((view_hport[0] / 2) + 100) /*+ clamp(camera_offest_counter, 0 , 200)*/, 0.2);
 
 	//shake = shake * 0.12;
 	shake = shake * 0.8;
@@ -53,14 +58,15 @@ if(cameramove && y >= characterclampy)
 	{
 		//alarm[1] = 250;
 		doonce = false;
-		obj_levelswitcher.grablevels = true;
+		//obj_levelswitcher.grablevels = true;
 		obj_levelswitcher.drawleveldetails = true;
 		obj_levelswitcher.waitforinput = true;
 	}
 	
 }
 else if(advancetonextlvl && y >= characterclampy)
-{jumplimitunlock = true
+{
+	jumplimitunlock = true
 	player_runspeed = [max_velocity[0], 0];
 	world_gravity = [0,max_velocity[1]];
 }

@@ -1,10 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 //room_goto_next()
-switch(global.leveljustcompleted)
+
+
+if(global.isdemo)
 {
-	case "rm_lvl1_kupler": room_goto(rm_thankyouforplaying); break;
-	default:  room_goto(rm_startmenu); break;
+	room_goto(rm_thankyouforplaying);
 }
-
-
+else
+{
+	room_goto(rm_pre_tutorial);
+}

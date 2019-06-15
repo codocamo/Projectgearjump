@@ -22,8 +22,8 @@ var layerid_spacey_layer2 = layer_get_y(layerid_space_layer2)
 var layerid_spacey_layer3 = layer_get_y(layerid_space_layer3)
 ///////////////////////LAYER X///////////////////
 var layerid_lvlbgx = layer_get_x(layerid_lvlbg)
-var layerid_lvlbgx_3 = layer_get_x(layerid_lvlbg_2)
-var layerid_lvlbgx_3 = layer_get_x(layerid_lvlbg_2)
+var layerid_lvlbgx_2 = layer_get_x(layerid_lvlbg_2)
+var layerid_lvlbgx_3 = layer_get_x(layerid_lvlbg_3)
 var layerid_glowx = layer_get_x(layerid_glow)
 var layerid_stardustx = layer_get_x(layerid_stardust)
 var layerid_spacex = layer_get_x(layerid_space)
@@ -34,7 +34,12 @@ var layerid_spacex_layer3 = layer_get_x(layerid_space_layer3)
 
 if (obj_levelswitcher.animatedown){var player_velocity = obj_player.max_velocity[1]}
 else if (obj_levelswitcher.animateup){var player_velocity = obj_player.max_velocity[1] * -1}
+else if (obj_levelswitcher.animateright){var player_velocity = obj_player.max_velocity[0]}
+else if (obj_levelswitcher.animateleft){var player_velocity = obj_player.max_velocity[0] * -1}
 else{var player_velocity = obj_player.velocity[1]}
+
+
+
 var player_velocitx = obj_player.velocity[0]
 
 
@@ -58,18 +63,42 @@ if (bg_move_once)
 
 if (obj_adhoc_scripts.stopparalax = false)
 {
-	//set the background speed of y 
-	if((room_get_name(room) != "rm_pre_tutorial") && (room_get_name(room) !="rm_tutorial") ){obj_adhoc_scripts.yspeed_stars = [-0.0,-0.0,-0.0,-0.00]}
-	else{obj_adhoc_scripts.yspeed_stars = [-0.4,-0.3,-0.2,-0.1]}
+	//if is just used for the level select, else also stabalizes stars in a level
+	if (obj_levelswitcher.animateright || obj_levelswitcher.animateleft)
+	{
+		
+		if (obj_levelswitcher.animateright){var player_velocity = obj_player.max_velocity[1]}
+		else if (obj_levelswitcher.animateleft){var player_velocity = obj_player.max_velocity[1]* -1}
 	
-	obj_adhoc_scripts.yincrementor_stars[0] += obj_adhoc_scripts.yspeed_stars[0] * player_velocity
-	layer_y(layerid_space_layer0, (cameraposy) + obj_adhoc_scripts.yincrementor_stars[0]);
-	obj_adhoc_scripts.yincrementor_stars[1] += obj_adhoc_scripts.yspeed_stars[1] * player_velocity
-	layer_y(layerid_space_layer1, (cameraposy) + obj_adhoc_scripts.yincrementor_stars[1]);
-	obj_adhoc_scripts.yincrementor_stars[2] += obj_adhoc_scripts.yspeed_stars[2] * player_velocity
-	layer_y(layerid_space_layer2, (cameraposy) + obj_adhoc_scripts.yincrementor_stars[2]);
-	obj_adhoc_scripts.yincrementor_stars[3] += obj_adhoc_scripts.yspeed_stars[3] * player_velocity
-	layer_y(layerid_space_layer3, (cameraposy) + obj_adhoc_scripts.yincrementor_stars[3]);
+		if((room_get_name(room) != "rm_pre_tutorial") && (room_get_name(room) !="rm_tutorial") ){obj_adhoc_scripts.xspeed_stars = [-0.0,-0.0,-0.0,-0.00]}
+		else{obj_adhoc_scripts.xspeed_stars = [-0.4,-0.3,-0.2,-0.1]}
+	
+		obj_adhoc_scripts.xincrementor_stars[0] += obj_adhoc_scripts.xspeed_stars[0] * player_velocity
+		layer_x(layerid_space_layer0, (cameraposx) + obj_adhoc_scripts.xincrementor_stars[0]);
+		obj_adhoc_scripts.xincrementor_stars[1] += obj_adhoc_scripts.xspeed_stars[1] * player_velocity
+		layer_x(layerid_space_layer1, (cameraposx) + obj_adhoc_scripts.xincrementor_stars[1]);
+		obj_adhoc_scripts.xincrementor_stars[2] += obj_adhoc_scripts.xspeed_stars[2] * player_velocity
+		layer_x(layerid_space_layer2, (cameraposx) + obj_adhoc_scripts.xincrementor_stars[2]);
+		obj_adhoc_scripts.xincrementor_stars[3] += obj_adhoc_scripts.xspeed_stars[3] * player_velocity
+		layer_x(layerid_space_layer3, (cameraposx) + obj_adhoc_scripts.xincrementor_stars[3]);
+	}
+	else
+	{
+		if (obj_levelswitcher.animatedown){var player_velocity = obj_player.max_velocity[1]} //max_velocity[0] is not enough [1] is perfect
+		else if (obj_levelswitcher.animateup){var player_velocity = obj_player.max_velocity[1] * -1}
+	//set the background speed of y 
+		if((room_get_name(room) != "rm_pre_tutorial") && (room_get_name(room) !="rm_tutorial") ){obj_adhoc_scripts.yspeed_stars = [-0.0,-0.0,-0.0,-0.00]}
+		else{obj_adhoc_scripts.yspeed_stars = [-0.4,-0.3,-0.2,-0.1]}
+	
+		obj_adhoc_scripts.yincrementor_stars[0] += obj_adhoc_scripts.yspeed_stars[0] * player_velocity
+		layer_y(layerid_space_layer0, (cameraposy) + obj_adhoc_scripts.yincrementor_stars[0]);
+		obj_adhoc_scripts.yincrementor_stars[1] += obj_adhoc_scripts.yspeed_stars[1] * player_velocity
+		layer_y(layerid_space_layer1, (cameraposy) + obj_adhoc_scripts.yincrementor_stars[1]);
+		obj_adhoc_scripts.yincrementor_stars[2] += obj_adhoc_scripts.yspeed_stars[2] * player_velocity
+		layer_y(layerid_space_layer2, (cameraposy) + obj_adhoc_scripts.yincrementor_stars[2]);
+		obj_adhoc_scripts.yincrementor_stars[3] += obj_adhoc_scripts.yspeed_stars[3] * player_velocity
+		layer_y(layerid_space_layer3, (cameraposy) + obj_adhoc_scripts.yincrementor_stars[3]);
+	}
 
 	
 	
@@ -128,10 +157,24 @@ if(obj_player.loop_lvl[1] > 0)
 	var xmodulo_lvlbg = obj_player.loop_lvl[1] % sprite_get_width(spr_kuplerbg)
 	var xdivide_lvlbg = obj_player.loop_lvl[1] / sprite_get_width(spr_kuplerbg)
 	
-	obj_adhoc_scripts.xincrementor_lvlbg = ((obj_player.x - xmodulo_lvlbg) + xdivide_lvlbg) + layerid_lvlbgx;
-	layer_x(layerid_lvlbg, obj_adhoc_scripts.xincrementor_lvlbg);
+	var xmodulo_lvlbg_2 = obj_player.loop_lvl[1] % sprite_get_width(spr_kuplerbg_2)
+	var xdivide_lvlbg_2 = obj_player.loop_lvl[1] / sprite_get_width(spr_kuplerbg_2)
+	
+	var xmodulo_lvlbg_3 = obj_player.loop_lvl[1] % sprite_get_width(spr_kuplerbg_3)
+	var xdivide_lvlbg_3 = obj_player.loop_lvl[1] / sprite_get_width(spr_kuplerbg_3)
+	
+	obj_adhoc_scripts.xincrementor_lvlbg[0] = ((obj_player.x - xmodulo_lvlbg) + xdivide_lvlbg) + layerid_lvlbgx;
+	layer_x(layerid_lvlbg, obj_adhoc_scripts.xincrementor_lvlbg[0]);
 	
 	
+	
+	obj_adhoc_scripts.xincrementor_lvlbg[1] = ((obj_player.x - xmodulo_lvlbg_2) + xdivide_lvlbg_2) + layerid_lvlbgx_2;
+	layer_x(layerid_lvlbg_2, obj_adhoc_scripts.xincrementor_lvlbg[1]);
+	
+	
+	
+	obj_adhoc_scripts.xincrementor_lvlbg[2] = ((obj_player.x - xmodulo_lvlbg_3) + xdivide_lvlbg_3) + layerid_lvlbgx_3;
+	layer_x(layerid_lvlbg_3, obj_adhoc_scripts.xincrementor_lvlbg[2]);
 	
 	
 	//////////////////////////////////STAR LAYERS////////////////////////////////////////////////
