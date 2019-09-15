@@ -24,7 +24,7 @@ else if(argument[0] == "rm_lvl1_kupler_rm_pre_tutorial_branch_2")
 	add_dialog("-_-","???","",false, true);
 	add_dialog("...Okay","*silence*","",false, true);
 	add_dialog("Let's begin the refresher course on the suit.","*silence*","",false, true);
-	add_dialog("Just don't interrupt us while I explain!","Okay","",false, false, true);
+	add_dialog("Just don't interrupt us while I explain!","Okay, i'll disappear for now","",true, false);
 	//add_dialog("Why, Why must you be here to!", "", false, false);
 }
 else if(argument[0] == "rm_lvl1_kupler_rm_pre_tutorial_branch_10")
@@ -38,7 +38,7 @@ else if(argument[0] == "rm_lvl1_kupler_rm_pre_tutorial_branch_10")
 
 
 //**************************TUTORIAL DIALOG*********************
-else if(argument[0] == "rm_lvl1_kupler_rm_tutorial_branch_1")
+else if(argument[0] == "rm_lvl1_kupler_rm_pre_tutorial_branch_3" || argument[0] == "rm_lvl1_kupler_rm_pre_tutorial_branch_20")
 {
 	add_dialog("So! back to you, Neil.","","",false, true); 
 	add_dialog("Your suit can do a couple of things...","","",false, true);
@@ -47,27 +47,29 @@ else if(argument[0] == "rm_lvl1_kupler_rm_tutorial_branch_1")
 	add_dialog("............","","",false, true);
 	add_dialog("Just listen up, Neil.","","",false, true);
 	add_dialog("I have a few definitions to teach you...","","",false, true);
-	add_dialog("...but before we start, be good and please press [I].","","",false, true);
 	add_dialog("[I] activates Jump Gear 1.","","",false, true);
-	add_dialog("","","",false, true);
-	add_dialog("","","",false, true);
+	add_dialog("Be good and please press [I].","null","tut_null_1",false, true);
+	add_dialog("","null","null",false, true);
+
 	add_dialog("Good!","","",false, true);
 	add_dialog("Here comes the next one.","","",false, true);
-	add_dialog("Be a darling and press [O].","","",false, true);
 	add_dialog("[O] activates Jump Gear 2.","","",false, true);
-	add_dialog("","","",false, true);
-	add_dialog("","","",false, true);
+	add_dialog("Be a darling and press [O].","null","tut_null_2",false, true);
+
+	add_dialog("","null","null",false, true);
 	add_dialog("Excellent!","","",false, true);
-	add_dialog("Last one, press [P].","","",false, true);
 	add_dialog("[P] activates Jump Gear 3.","","",false, true);
-	add_dialog("","","",false, true);
-	add_dialog("","","",false, true);
+	add_dialog("This is the last one, press [P].","null","tut_null_3",false, true);
+
+	add_dialog("","null","null",false, true);
 	add_dialog("Well thats that!","","",false, true);
 	add_dialog("Oh!","","",false, true)
 	add_dialog("Don't switch gears too much.","","",false, true)
 	add_dialog("I don't know what happens if you do.","","",false, true)
-	add_dialog("...Goodbye","","",false, false, true);
-	//add_dialog("Why, Why must you be here to!", ,"", false, false);
+	add_dialog("...Goodbye","null","tut_null_4",false, true);
+	add_dialog("","null","null",false, false, true);
+	
+	
 }
 
 

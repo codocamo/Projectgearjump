@@ -19,7 +19,7 @@ if(!fetch && (room_get_name(room) = "rm_pre_tutorial" || room_get_name(room) ="r
 		alarm[0] = 8
 	}
 	
-	if (drawbuttons && (dialog_output_2 != "" || dialog_output_3 != ""))
+	if (drawbuttons && (dialog_output_2 != "null" && dialog_output_3 != "null"))
 	{
 		optn_btn_handler(dialog_branch, dialog_output_2, dialog_output_3, dialog_done);
 	}

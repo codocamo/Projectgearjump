@@ -194,18 +194,23 @@ if(obj_player.loop_lvl[1] > 0)
 	var xdivide_space_layer3 = obj_player.loop_lvl[1] / sprite_get_width(spr_starslay4)
 	
 
-
-	obj_adhoc_scripts.xincrementor_stars[0] = ((obj_player.x - xmodulo_space_layer0) + xdivide_space_layer0) + layerid_spacex_layer0
+	var offset = 32/2 //i dont know why but adding this offset works it seems to be block size devided by 2
+	obj_adhoc_scripts.xincrementor_stars[0] = (((obj_player.x - offset) - xmodulo_space_layer0) + xdivide_space_layer0) + layerid_spacex_layer0
 	layer_x(layerid_space_layer0, obj_adhoc_scripts.xincrementor_stars[0]);
 
-	obj_adhoc_scripts.xincrementor_stars[1] = ((obj_player.x - xmodulo_space_layer1) + xdivide_space_layer1) + layerid_spacex_layer1
+
+	obj_adhoc_scripts.xincrementor_stars[1] = (((obj_player.x- offset) - xmodulo_space_layer1) + xdivide_space_layer1) + layerid_spacex_layer1
 	layer_x(layerid_space_layer1, obj_adhoc_scripts.xincrementor_stars[1]);
 	
-	obj_adhoc_scripts.xincrementor_stars[2] = ((obj_player.x - xmodulo_space_layer2) + xdivide_space_layer2) + layerid_spacex_layer2
+	obj_adhoc_scripts.xincrementor_stars[2] = (((obj_player.x- offset) - xmodulo_space_layer2) + xdivide_space_layer2) + layerid_spacex_layer2
 	layer_x(layerid_space_layer2, obj_adhoc_scripts.xincrementor_stars[2]);
 	
-	obj_adhoc_scripts.xincrementor_stars[3] = ((obj_player.x - xmodulo_space_layer3) + xdivide_space_layer3) + layerid_spacex_layer3
+	obj_adhoc_scripts.xincrementor_stars[3] = (((obj_player.x- offset) - xmodulo_space_layer3) + xdivide_space_layer3) + layerid_spacex_layer3
 	layer_x(layerid_space_layer3, obj_adhoc_scripts.xincrementor_stars[3]);
+	
+	
+	
+	
 	
 	obj_player.loop_lvl[1] = -1
 }

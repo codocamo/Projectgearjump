@@ -27,9 +27,10 @@ else
 		if(dialog_continue)
 		{
 			dialog_line += 1
-			fetch = true;
+			
 		}
-		else{instance_destroy()}
+		fetch = true
+		if(dialog_for_level_done){instance_destroy()}
 		advance_dialog = false
 	}
 	

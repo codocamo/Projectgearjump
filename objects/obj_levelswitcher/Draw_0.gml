@@ -43,7 +43,7 @@ if(waitforinput)
 	var planets =  unlockedplanetllist
 	var levels = planets[planetiterator] 
 	
-	if(keyboard_check_pressed(vk_down))
+	if(keyboard_check_pressed(vk_down) && !global.isdemo)
 	{
 		//goto[1] = goto[1] + 1;
 		planetiterator++
@@ -57,8 +57,9 @@ if(waitforinput)
 		firstphase= true;
 		waitforinput = false;
 	}
-	else if(keyboard_check_pressed(vk_up))
+	else if(keyboard_check_pressed(vk_up)  && !global.isdemo)
 	{
+		
 		//goto[1] = goto[1] - 1;
 		planetiterator--
 		if(planetiterator < 1)
@@ -70,7 +71,7 @@ if(waitforinput)
 		firstphase= true;
 		waitforinput = false;
 	}
-	else if(keyboard_check_pressed(vk_right))
+	else if(keyboard_check_pressed(vk_right)  && !global.isdemo)
 	{
 		//goto[1] = goto[1] + 1;
 		leveliterator++
@@ -84,7 +85,7 @@ if(waitforinput)
 		firstphase= true;
 		waitforinput = false;
 	}
-	else if(keyboard_check_pressed(vk_left))
+	else if(keyboard_check_pressed(vk_left)  && !global.isdemo)
 	{
 		//goto[1] = goto[1] + 1;
 		leveliterator--

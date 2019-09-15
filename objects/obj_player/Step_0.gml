@@ -446,19 +446,23 @@ if (velocity[0] > 0) //right
 		obj_chkpt.check = false;
 	}
 	
-	if(t1 = 4 || t2 = 4 || t3 = 4)
+	if((t1 = 4 || t2 = 4 || t3 = 4) && !tile_4_locked)
 	{
-		if(global.branch = -10 && room_get_name(room) == "rm_pre_tutorial")
+		if(room_loop_boolean()/*global.branch = -10 && room_get_name(room) == "rm_pre_tutorial"*/)
 		{loop_lvl[0] = false;}
 		else {loop_lvl[0] = true;}
-		//show_debug_message("loop level?: " + string(loop_lvl[0])+ " branch number: " + string(global.branch))
+		
 		room_loop();
 		tile_4_locked = true;
+		//show_debug_message("Locked " + string(tile_4_locked)  + " tile " + string(t1))
 	}
-	else
+	else if(t1 != 4 || t2 != 4 || t3 != 4)
 	{
 		tile_4_locked = false;
+		//show_debug_message("Not Locked "+ string(tile_4_locked) + " tile " + string(t1)  )
+		
 	}
+	
 	
 	if(t1 = 6 || t2 = 6 || t3 = 6)
 	{
@@ -570,6 +574,7 @@ else //left
 
 
 //sets level boundrys
+/*
 if(global.branch != "null" && room_get_name(room) == "rm_pre_tutorial" )
 {
 	if(bbox_right + 1 >= 1074)
@@ -580,7 +585,7 @@ if(global.branch != "null" && room_get_name(room) == "rm_pre_tutorial" )
 	else{playerout = false}
 }
 //else if(bbox_right + 1  >= room_width)
-
+*/
 
 
 level_entry()

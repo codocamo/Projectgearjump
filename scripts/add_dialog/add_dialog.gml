@@ -3,7 +3,7 @@
 //// @param dialog_text_1
 //// @param dialog_text_2
 //// @param dialog_text_3
-//// @param dialog_option?
+//// @param advance_branch?
 //// @param dialog_continues?
 //// @param dialog_for_level_done?
 

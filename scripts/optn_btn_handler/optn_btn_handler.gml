@@ -9,8 +9,9 @@ var mousey = mouse_y
 draw_set_font(fnt_gravity);
 draw_set_halign(fa_center);
 
+var advance_branch = argument[0];
 
-if(argument[0]) //double button
+if(argument[1] != "" && argument[2] !="") //double button
 {
 	var btnsize = [sprite_get_width(spr_instinctbtn),sprite_get_height(spr_instinctbtn)]
 	var btn1pos = [260, 505];
@@ -113,15 +114,26 @@ else //single button
 		if(mouse_check_button_pressed(mb_left) || bypass)
 		{
 			btn1state = 2; 
-			advance_dialog = true; 
 			alarmon = false; 
 			drawbuttons = false;
-			
+			advance_dialog = true; 
+			if(advance_branch)
+			{
+				global.branch += 1; 
+				dialog_adder(global.level_just_unlocked + "_" + room_get_name(room) + "_branch_" + string(global.branch));
+				start_dialog(0);
+			}
+			else
+			{
+				
+			}
 			if(dialog_done)
 			{
 				move_level = true
 			}
 			obj_soundcontroller.play_instinctbtn_click_snd = true
+			
+			
 			
 		}
 		else{btn1state = 1}

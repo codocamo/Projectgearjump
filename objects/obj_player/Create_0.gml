@@ -153,10 +153,13 @@ x = startpos[0]
 y = startpos[1]
 
 
-
+branch_store = 0;
 
 shdGlitchST_setup()
 
 
 
 global.isdemo = true;
+
+
+tut_position = true

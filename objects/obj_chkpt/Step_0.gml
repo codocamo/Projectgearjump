@@ -5,9 +5,11 @@ if(check && chkpt < chkpt_ftr )
 	chkpt = chkpt_ftr;
 	if(instance_exists(obj_dialogcontroller))
 	{
-		if(room_get_name(room) == "rm_tutorial" ){obj_dialogcontroller.advance_dialog = true;}
+		//if(room_get_name(room) == "rm_pre_tutorial" ){obj_dialogcontroller.advance_dialog = true;}
+		//if(room_get_name(room) == "rm_tutorial" ){obj_dialogcontroller.advance_dialog = true;}
 	}
 	lvlhelptext()
+	obj_chkpt.doonce = true
 }
 else if(!check && chkpt == chkpt_ftr)
 {
@@ -16,7 +18,7 @@ else if(!check && chkpt == chkpt_ftr)
 }
 
 
-if(room_get_name(room) == "rm_pre_tutorial")
+if(room_get_name(room) == "000rm_pre_tutorial")//old pre tutorial
 {
 
 	switch(chkpt)
