@@ -82,7 +82,7 @@ else if(argument[0] == "rm_lvl1_kupler_rm_lvl1_kupler_branch_1")
 }
 else if(argument[0] == "rm_lvl2_kupler_rm_pre_tutorial_branch_1")
 {
-	add_dialog("Boobies", "Boobies!.", "", false, false, true);
+	add_dialog("RM_LVL_2", "Dialog.", "", false, false, true);
 }
 else 
 {

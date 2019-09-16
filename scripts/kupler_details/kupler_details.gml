@@ -48,5 +48,12 @@ draw_text_ext_color((width/4) + 120, (row_height*3) - 75,string_hash_to_newline(
 
 draw_set_halign(fa_center);
 draw_set_font(fnt_renner_ingametext_med); 
-draw_text_ext_color(camera_get_view_width(view_camera[0])/2, 620-row_top_padding,string_hash_to_newline("([UP]/[DOWN] keys = select a level)  ([W] key = start)"), 25, camera_get_view_width(view_camera[0]), c_yellow, c_yellow, c_yellow, c_yellow, 1); 
- 
+if(global.isdemo)
+{
+	draw_text_ext_color(camera_get_view_width(view_camera[0])/2, 620-row_top_padding,string_hash_to_newline("([W] key = start)"), 25, camera_get_view_width(view_camera[0]), c_yellow, c_yellow, c_yellow, c_yellow, 1); 
+
+}
+else
+{	
+	draw_text_ext_color(camera_get_view_width(view_camera[0])/2, 620-row_top_padding,string_hash_to_newline("([UP]/[DOWN] keys = select a level)  ([W] key = start)"), 25, camera_get_view_width(view_camera[0]), c_yellow, c_yellow, c_yellow, c_yellow, 1); 
+}

@@ -3,7 +3,10 @@
 
 
 //ini_section_exists()
-file_delete("levelmanager.ini")
+if(global.isdemo)
+{
+	file_delete("levelmanager.ini")
+}
 if(!file_exists("levelmanager.ini"))
 {
 	ini_open("levelmanager.ini")

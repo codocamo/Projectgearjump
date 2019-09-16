@@ -10,10 +10,12 @@ if(check && chkpt < chkpt_ftr )
 	}
 	lvlhelptext()
 	obj_chkpt.doonce = true
+	//show_message("in check")
 }
 else if(!check && chkpt == chkpt_ftr)
 {
 	chkpt_ftr = chkpt_ftr + 1;
+	//show_message("out check")
 	
 }
 

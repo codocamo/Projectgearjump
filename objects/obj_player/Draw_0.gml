@@ -18,31 +18,33 @@ if(instance_exists(obj_chkpt))
 		else if (gear3){draw_sprite(spr_playerfullburn_gear3, -1, x - 50, y - 80); }
 		else{draw_sprite(spr_playerfullburn_gear0, -1, x - 50, y - 80); }
 		
-		sprite_index = spr_playerfullburn_gear1;
+		//sprite_index = spr_playerfullburn_gear1;
 		image_speed = 1.5
 	
 	}
 	else if(burn)
 	{
+		
 		if(gear1){draw_sprite(spr_playerburn_gear1, -1, x - 100, y - 100); }
 		else if (gear2){draw_sprite(spr_playerburn_gear2, -1, x - 100, y - 100);}
 		else if (gear3){draw_sprite(spr_playerburn_gear3, -1, x - 100, y - 100); }
 		else{draw_sprite(spr_playerburn_gear0, -1, x - 100, y - 100); }
 		
 		
-		sprite_index = spr_playerburn_gear1;
+		//sprite_index = spr_playerburn_gear1;
 		image_speed = 2
 	
 	}
 	else if(tumble)
 	{
-		in_tumble = true;
+		
+		in_tumble = true
 		jumplimitunlock = false;
 		//makes sure animtion starts at frame 0
-		if(sprite_get_name(sprite_index) != "spr_playertumble_gear1" && sprite_get_name(sprite_index) != "spr_playertumble_gear2" && sprite_get_name(sprite_index) != "spr_playertumble_gear3" && sprite_get_name(sprite_index) != "spr_playertumble_gear0")
-		{
-		image_index = 0
-		}
+		//if(sprite_get_name(sprite_index) != "spr_playertumble_gear1" && sprite_get_name(sprite_index) != "spr_playertumble_gear2" && sprite_get_name(sprite_index) != "spr_playertumble_gear3" && sprite_get_name(sprite_index) != "spr_playertumble_gear0")
+		//{
+		//image_index = 0
+	//	}
 		
 		//uses apropriate tumble animation
 		if(gear1){draw_sprite(spr_playertumble_gear1, -1, x, y); }
@@ -50,8 +52,9 @@ if(instance_exists(obj_chkpt))
 		else if (gear3){draw_sprite(spr_playertumble_gear3, -1, x, y); }
 		else{draw_sprite(spr_playertumble_gear0, -1, x, y); }
 	
-		sprite_index = spr_playertumble_gear1;
+		//sprite_index = spr_playertumble_gear1;
 		image_speed = 1.5
+		//show_debug_message("hello")
 		
 
 	}
@@ -62,6 +65,7 @@ if(player_dying == true)
 {
 	if (!instance_exists(obj_playerdeathanim)){
 	instance_create_depth(x,y,0,obj_playerdeathanim)}
+	obj_vfxmanager.stop_all_text = false
 }
 else if(inslide == true)
 {
@@ -89,6 +93,7 @@ else if(start_squat)
 }
 else if((start_run_anim == true) && (in_tumble == false))
 {
+	//if( alarm[8] < 0) {alarm[8]  = 20}
 	//if(gear1switchrequest){sprite_index = spr_playerrun_gear1; shdGlitchST_draw_sprite(sprite_index, -1, x, y); }
 	if(infaze){sprite_index = spr_playerrun_faze; shdGlitchST_draw_sprite(sprite_index, -1, x, y); }
 	else if(gear1switchrequest){draw_sprite(spr_playerrun_gear1, -1, x, y); sprite_index = spr_playerrun_gear1;}

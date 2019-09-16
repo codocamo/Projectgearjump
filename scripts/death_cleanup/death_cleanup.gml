@@ -1,4 +1,6 @@
 
+
+
 obj_player.pkupslidestate[0] = false
 obj_player.pkupslidestate[1] = 0
 
@@ -46,3 +48,5 @@ obj_player.x = obj_player.respawnpos_xy[0]
 obj_player.y = obj_player.respawnpos_xy[1]
 
 obj_soundcontroller.deathsilence[1] = true
+
+obj_vfxmanager.stop_all_text = false

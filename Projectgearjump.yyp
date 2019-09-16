@@ -114,7 +114,7 @@
             "Key": "085e0f58-aa40-4639-8bf8-3f228ef0578b",
             "Value": {
                 "id": "2c36f465-1473-4ac5-8127-37d285c3e46b",
-                "resourcePath": "sprites\\spr_menuLogo_old\\spr_menuLogo_old.yy",
+                "resourcePath": "sprites\\spr_menuLogo\\spr_menuLogo.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1738,7 +1738,7 @@
             "Key": "ac71306c-49e0-4fe9-8402-28e05863f8d8",
             "Value": {
                 "id": "e9c76f52-9246-453a-bb23-8bbf176613c0",
-                "resourcePath": "sprites\\spr_menuLogo\\spr_menuLogo.yy",
+                "resourcePath": "sprites\\spr_menuLogo_nodemo\\spr_menuLogo_nodemo.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2180,14 +2180,6 @@
                 "id": "91445821-0d54-4643-a67e-f2a2356004c1",
                 "resourcePath": "views\\d5230333-968f-4ed6-ab3a-dbd17f3e294f.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "d5c1756f-0c2b-48a5-9f6b-a740240ee027",
-            "Value": {
-                "id": "75aeedad-ef5d-458f-a63d-ad457b704090",
-                "resourcePath": "sprites\\spr_kuplertileset_test\\spr_kuplertileset_test.yy",
-                "resourceType": "GMSprite"
             }
         },
         {

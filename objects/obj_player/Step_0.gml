@@ -335,6 +335,7 @@ if (velocity[1] > 0) //downwards
 	{
 		player_dying = true;
 		
+		
 	}
 	else if((t1 = 5 || t2 = 5 || t3 = 5) && !infaze)
 	{

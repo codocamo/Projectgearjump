@@ -153,19 +153,20 @@ if(details_exist)
 
 	ini_close();
 	
-	
-	ini_open("levelmanager.ini");
-	var is_level_unlocked = ini_read_string(global.unlock_level_list[? global.leveljustcompleted], "unlocked", "not found")
-	
-	if(is_level_unlocked = "false")
+	if(!global.isdemo)
 	{
-		ini_write_string(global.unlock_level_list[? global.leveljustcompleted], "unlocked", "true")
-		global.level_just_unlocked = ini_read_string(global.unlock_level_list[? global.leveljustcompleted], "name", "Latest planet name not found")
-		ini_write_string("misc", "last_unlocked", global.level_just_unlocked)
-	}
-	else{global.level_just_unlocked = "go to default"}
-	ini_close();
+		ini_open("levelmanager.ini");
+		var is_level_unlocked = ini_read_string(global.unlock_level_list[? global.leveljustcompleted], "unlocked", "not found")
 	
+		if(is_level_unlocked = "false")
+		{
+			ini_write_string(global.unlock_level_list[? global.leveljustcompleted], "unlocked", "true")
+			global.level_just_unlocked = ini_read_string(global.unlock_level_list[? global.leveljustcompleted], "name", "Latest planet name not found")
+			ini_write_string("misc", "last_unlocked", global.level_just_unlocked)
+		}
+		else{global.level_just_unlocked = "go to default"}
+		ini_close();
+	}
 	details_exist = false
 
 }
